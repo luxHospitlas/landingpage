@@ -4,10 +4,17 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+html {
+  max-width: 100vw;
+  height: auto;
+  overflow: auto;
+}
 
 body{
   background: #fff;
- opacity: 1;
+  transition: unset;
+  overflow-x: hidden;
+    width: 100%;
 }
 @font-face {
   font-family: 'Parkinsans';

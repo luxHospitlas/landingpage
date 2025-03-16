@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from './components/header/header';
 import FooterComponent from "./components/footer/footer";
+import MobileStickyFooter from './components/mobilsticky';
 
 import "./globals.css";
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <MobileStickyFooter />
         <FooterComponent />
       </body>
     </html>
