@@ -9,13 +9,16 @@ import Second from './components/second/second';
 import HospitalLocation from './components/HospitalLocation/hospitallocations';
 import HospitalComparison from './components/Treatmenttable/Hospitalcomparison';
 import Accreditations from './components/Accreditions/accreditions';
+import DoctorCard from './components/topdoctors/ourdoctors';
 export default function Home() {
   return (
     <>
     <Hero />
     <Second />
     <HospitalLocation />
+    <DoctorCard />
     <HospitalComparison />
+    <DoctorCard />
     <Accreditations />
     <VideoSection />
     <PatientTalks />
