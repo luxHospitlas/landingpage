@@ -7,7 +7,7 @@
 
 body{
   background: #fff;
-  font-display: swap;
+ opacity: 1;
 }
 @font-face {
   font-family: 'Parkinsans';
