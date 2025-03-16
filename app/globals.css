@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body{
+  background: #fff;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('/fonts/Parkinsans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('/fonts/Parkinsans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('/fonts/Parkinsans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('/fonts/Parkinsans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('/fonts/Parkinsans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p, a, button {
+  font-family: 'Parkinsans', sans-serif;
+}
+p, span{
+  font-family: 'Parkinsans', sans-serif; 
+}
+ul, tbody, th, table{
+  font-family: 'Parkinsans', sans-serif;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+  animation-delay: 1s;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.fade-up{
+ 
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+  }
+  
+
+  .service_description, .service_title, .header_cta_type_one, .arrowimg{
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp 1s ease-in-out forwards;
+  }
+  .service_description {
+    animation-delay: 1s;
+  }
+  .service_title{
+    animation-delay: 0.5s;
+  }
+  .header_cta_type_one{
+    animation-delay: 2.5s;
+  }
+  .arrowimg{
+    animation-delay: 1s;
+  }
+  /* 
+  .hero-text{
+    animation-delay: 1.5s;
+  }
+  .hero_image{
+    animation-delay: 1s;
+  } */
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
