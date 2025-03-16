@@ -110,11 +110,12 @@ ul, tbody, th, table{
     }
   }
   
-  .doctor_card {
-    width: 55%;
-}
+ 
 @media (max-width:476px) {
   .dbutton{
     font-size: 10px;
   }
+  .doctor_card {
+    width: 55%;
+}
 }
