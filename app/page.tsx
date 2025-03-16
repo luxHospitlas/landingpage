@@ -18,7 +18,6 @@ export default function Home() {
     <HospitalLocation />
     <DoctorCard />
     <HospitalComparison />
-    <DoctorCard />
     <Accreditations />
     <VideoSection />
     <PatientTalks />
