@@ -21,7 +21,7 @@ const DoctorCard = () => {
             ref={ref}
               src="https://test.luxhospitals.com/wp-content/uploads/2025/03/dr-card.webp"
               alt="Dr. Samhitha Reddy"
-              className={`max-w-[250px] h-auto mb-[-10px] ${inView ? "opacity-100" : 'opacity-0'}`}
+              className={`dimg max-w-[250px] h-auto mb-[-10px] ${inView ? "opacity-100" : 'opacity-0'}`}
             />
           </div>
           <div className="p-4">
@@ -62,7 +62,7 @@ const DoctorCard = () => {
             ref={ref}
               src="https://test.luxhospitals.com/wp-content/uploads/2025/03/dr-card.webp"
               alt="Dr. Samhitha Reddy"
-              className={`max-w-[250px] h-auto mb-[-10px] ${inView ? "opacity-100" : 'opacity-0'}`}
+              className={`dimg max-w-[250px] h-auto mb-[-10px] ${inView ? "opacity-100" : 'opacity-0'}`}
             />
           </div>
           <div className="p-4">

@@ -74,7 +74,7 @@ ul, tbody, th, table{
   }
   
 
-  .service_description, .service_title, .header_cta_type_one, .arrowimg{
+  .service_description, .service_title, .header_cta_type_one, .arrowimg .dimg{
     opacity: 0;
     transform: translateY(10px);
     animation: fadeUp 1s ease-in-out forwards;
