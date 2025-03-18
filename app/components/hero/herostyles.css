@@ -2,7 +2,7 @@
     width: 90%;
     margin: auto;
     background: linear-gradient(180deg, #984F9E 0%, #AB5FB1 100%);
-    border-radius: 14px;
+    border-radius: 6px;
 }
 .hero_title{
     width: 100%;
@@ -53,7 +53,7 @@
     }
     .right_hero{
         width: 100%;
-        padding: 20px;
+        padding: 0 0 0 10px;
     }
     .hero_image{
         width: 100%;
@@ -65,6 +65,8 @@
 }
 @media (max-width:475px) {
     .hero_title {
+        text-align: left;
+        padding-left: 10px;
         font-size: 1.5rem;
         margin-top: 0;
         margin-bottom: 0;
@@ -84,7 +86,7 @@
 }
 .hero_section{
 
-    border-radius: 20px;
+    border-radius: 6px;
 }
 }
 .hero-title, .hero-text, .hero_image {

@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #984F9E;
-    border-radius: 20px;
+    background: hsl(295, 33%, 46%);
+    border-radius: 6px;
     box-shadow: 0 4px 10px #14142b0a;
 }
 .luxgpt_para{
@@ -27,24 +27,30 @@
 @media (max-width:768px) {
     .Luxgpt_section{
         width: 90%;
-        height: 750px;
-        min-height: 750px;
+        height: fit-content;
+        min-height: fit-content;
         flex-direction: column;
         padding: 20px;
-    align-items: center;
-    justify-content: space-between;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
     }
     .luxgpt_para{
         width: 100%;
         font-size: 14px;
+        text-align: left;
     }
     .text_luxgot{
         font-size: 22px;
+        text-align: left;
     }
     .gpt_image{
-        height: 300px;
-        width: 300px;
-        min-width: 300px;
+        height: 100px;
+        width: 100px;
+        min-width: 100px;
+        position: absolute;
+       top: 10px;
+       right: 10px;
         margin: auto;
     }
     .left_Container{
@@ -52,5 +58,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .second_box{
+        height: unset;
     }
 }

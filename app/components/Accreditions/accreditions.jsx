@@ -14,7 +14,7 @@ const Accreditations = () => {
 <section
 ref={ref}
 className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
-    <h2 className="text-center font-500 text-3xl">Accreditations</h2>
+    <h2 className="text-center font-500 text-3xl fonts_title">Accreditations</h2>
     <div className="for_nabh">
         <div className="lrboxes">
         <div className="flex justify-center p-6">

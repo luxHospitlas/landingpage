@@ -50,7 +50,7 @@ export default function HospitalLocation() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-4 flex gap-4">
+          <div className="mt-4 flex gap-4 sm:flex-col mobilectas">
             <button className="flex items-center gap-2 bg-purple-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-purple-700">
               <FaMapMarkerAlt /> Get Direction
             </button>

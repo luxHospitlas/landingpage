@@ -20,7 +20,7 @@
     background-color: #fff;
     box-shadow: 0 4px 10px #14142b0a;
     padding: 34px;
-    border-radius: 20px;
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
   }

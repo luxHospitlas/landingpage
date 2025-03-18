@@ -49,7 +49,7 @@ export default function Second() {
                 <div key={index}
                 
                 className="sessioncards rounded-xl overflow-hidden shadow-lg">
-                    <div className="relative w-full h-45">
+                    <div className="relative w-full h-30">
                     
                 <Image
                 ref={ref}

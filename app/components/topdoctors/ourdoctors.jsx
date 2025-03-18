@@ -44,7 +44,7 @@ const DoctorCard = () => {
         
         {/* Description Section */}
         <div className="max-w-md text-gray-600 text-sm leading-relaxed text-left md:text-center">
-          <p>
+          <p className="extra_fonts">
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum. 
@@ -85,7 +85,7 @@ const DoctorCard = () => {
         
         {/* Description Section */}
         <div className="max-w-md text-gray-600 text-sm leading-relaxed text-left md:text-center">
-          <p>
+          <p className="extra_fonts">
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum. 

@@ -2,11 +2,13 @@ import Image from "next/image";
 
 const MobileStickyFooter = () => {
   return (
-    <section className="fixed bottom-0 left-0 w-full max-w-full md:hidden bg-white shadow-md z-50 overflow-hidden">
+    <section className="fixed bottom-0 left-0 w-full max-w-full md:hidden bg-white shadow-md z-50 overflow-hidden" style={{
+      background:'transparent'
+    }}>
 
       <div className="w-full flex justify-between items-stretch">
         {/* WhatsApp CTA */}
-        <div className="flex-1 bg-purple-600 text-center py-3 ">
+        <div className="flex-1 bg-purple-600 text-center py-3 btm_buttton">
           <a href="https://wa.me/your-number" className="flex flex-col items-center text-white text-[12px] text-sm font-500" style={{
             rowGap:'5px'
           }}>
@@ -16,7 +18,7 @@ const MobileStickyFooter = () => {
         </div>
 
         {/* Book Appointment CTA */}
-        <div className="flex-1 bg-purple-600 text-center py-3">
+        <div className="flex-1 bg-purple-600 text-center py-3 btm_buttton">
           <a href="your-booking-link" className="flex flex-col items-center text-white text-[12px] font-500"style={{
             rowGap:'5px'
           }}>
@@ -26,7 +28,7 @@ const MobileStickyFooter = () => {
         </div>
 
         {/* Online Consultation CTA */}
-        <div className="flex-1 bg-purple-600 text-center py-3">
+        <div className="flex-1 bg-purple-600 text-center py-3 btm_buttton">
           <a href="your-online-consultation-link" className="flex flex-col  text-white items-center text-[12px] text-sm font-500"style={{
             rowGap:'5px'
           }}>
