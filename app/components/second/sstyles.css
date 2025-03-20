@@ -10,7 +10,7 @@
     min-height: 235px;
     display: flex;
     flex-direction: column;    
-    justify-content: start;
+    justify-content: space-between;
     border-radius: 6px;
 }
 .sessioncards:nth-child(1){
@@ -38,7 +38,8 @@
 
 @media (max-width:475px) {
     .content_Card{
-        margin: 1%;
+        margin: 0;
+        padding: 10px;
     }
     .service_description{
         font-size: 10px;

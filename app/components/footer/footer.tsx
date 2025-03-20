@@ -43,21 +43,7 @@ const FooterComponent = () => {
 
        
         <div className="inner_second_footer">
-          
-          <div className="column c_two">
-            <h3 className="font-semibold mb-2">For Patients</h3>
-            <ul>
-              {data.forpatients.map((item, index) => (
-                <li key={index} className="for_patients">
-                  <Link href={item.url}>
-                    <span className="text-gray-700 hover:text-blue-500 cursor-pointer">
-                      {item.text}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+      
 
         
           <div className="column c_three">
@@ -76,19 +62,7 @@ const FooterComponent = () => {
           </div>
 
           
-          <div className="column c_four">
-            <h3 className="font-semibold mb-2">Follow Us</h3>
-            <div className="column c_social_footer">
-              {data.followus.map((item, index) => (
-                <div key={index} className={`socials_div flex ${inView ? "fade-in" : "opacity-0"}`}>
-                  <Link href={item.url}>
-                    <Image src={item.img} alt={item.text} width={24} height={24} />
-                  </Link>
-                  <p>{item.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>
