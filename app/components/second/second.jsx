@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
-import React from 'react';
 import './sstyles.css';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
 export default function Second() {
@@ -49,7 +49,7 @@ export default function Second() {
                 <div key={index}
                 
                 className="sessioncards rounded-xl overflow-hidden shadow-lg">
-                    <div className="relative w-full h-30">
+                    <div className="relative w-full h-40">
                     
                 <Image
                 ref={ref}
@@ -64,10 +64,10 @@ export default function Second() {
             
 
                     </div>
-                    <div className="p-4 flex content_Card">
+                    <div className=" flex content_Card items-center justify-center gap-2">
                         <div>
                             <h2 className="service_title font-semibold">{service.title}</h2>
-                            <p className="service_description text-gray-600">{service.description}</p>
+                            
                         </div>
                         <div>
                             <Image className='arrowimg' src={service.arrow} alt="arrow-buttons" width={55} height={55}/>

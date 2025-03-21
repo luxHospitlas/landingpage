@@ -55,3 +55,15 @@
         width: 100%;
     }
 }
+@media (max-width:380px) {
+    .leftl-lright{
+        width: 100%;
+        height: 440px;
+        
+    }
+}
+@media (max-width:350px) {
+    .leftl-lright{
+        height: 470px;
+    }
+}

@@ -26,13 +26,13 @@ export default function HospitalLocation() {
       <div
       ref={ref}
       className="p-6 lg:w-2/3">
-          <h3 className= {` text-lg font-500 text-gray-900 mb-6 ${inView ? "fade-in": "opcacity-0"}`}>
+          <h3 className= {` text-lg font-500 text-gray-900 mb-3 ${inView ? "fade-in": "opcacity-0"}`}>
             LUX Hospitals - Colorectal | Surgical GI | Urology | Gynecology |
             Plastic Surgery | ENT | Orthopaedics
           </h3>
 
           {/* Google Review */}
-          <p className="text-gray-500 mt-2 mb-6">Google review</p>
+          <p className="text-gray-500 mt-2 mb-3">Google review</p>
           <div className="flex items-center">
             <span className="text-lg font-bold">4.5</span>
             <div className="flex text-yellow-500 ml-2">
@@ -50,7 +50,7 @@ export default function HospitalLocation() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-4 flex gap-4 sm:flex-col mobilectas">
+          <div className="mt-4 flex gap-4  mobilectas">
             <button className="flex items-center gap-2 bg-purple-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-purple-700">
               <FaMapMarkerAlt /> Get Direction
             </button>
