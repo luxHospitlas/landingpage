@@ -1,3 +1,8 @@
+
+.object-contain{
+    width: 150px;
+    height: 150px;
+}
 .lrboxes{
     width: 40%;
 }
@@ -41,6 +46,10 @@
     }
     .font_small{
         font-size: 12px;
+    }
+    .object-contain{
+        width: 150px;
+        height: 88px;
     }
 }
 .for_nabh{

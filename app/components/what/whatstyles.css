@@ -1,11 +1,12 @@
 .whatare{
-    width: 85%;
-    margin: 40px auto;
-    background: #fff;
+    width: 100%;
+    /* margin: 0px auto; */
+    background: #fff;;
 }
 @media (max-width:768px) {
     .whatare{
         width: 90%;
+        padding-left: 20px;
     }
     .whatarepara{
         font-size: 14px;

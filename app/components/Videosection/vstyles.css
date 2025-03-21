@@ -40,7 +40,7 @@
     color: #ffffff;
     text-align: center;
     padding: 2rem;
-    width: fit-content;
+    width: 95%;
     background-color: rgba(0, 0, 0, 0.04); /* semi-transparent white */
 border-radius: 20px;
 backdrop-filter: blur(10px); 

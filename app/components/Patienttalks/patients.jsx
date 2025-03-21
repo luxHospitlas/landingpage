@@ -27,7 +27,7 @@ export default function PatientTalks() {
       ref={ref} 
       className={`py-12 text-center transition-opacity duration-500 patient_section ${inView ? "opacity-100" : "opacity-0"}`}
     >
-      <h2 className="text-2xl sm:1xl font-500 text-gray-900">Patients Love Us</h2>
+      <h2 className="text-2xl sm:1xl font-bold text-gray-900">Patients Love Us</h2>
 
       <div className="relative mt-6 ">
       <button

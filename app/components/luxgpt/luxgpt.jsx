@@ -31,7 +31,7 @@ export default function Luxgpt () {
             placeholder="Top Most Doctors..."
             className="bg-transparent text-gray-700 focus:outline-none"
           />
-          <button className="bg-purple-500 hover:bg-purple-700 text-white p-2 rounded-full">
+          <button className="bg-purple-500 hover:bg-purple-700 text-white p-2 rounded-full h-10 w-10">
             ➜
           </button>
         </div>
@@ -40,11 +40,11 @@ export default function Luxgpt () {
       
       <div className="md:w-1/3 mt-6 md:mt-0 second_box">
         <Image
-          src="/your-image.png"
+          src="https://test.luxhospitals.com/wp-content/uploads/2025/03/luxgpt-image.webp"
           alt="LUXGPT Chat"
-          className="w-full rounded-xl shadow-lg gpt_image"
+          className="w-full h-[320px] rounded-xl shadow-lg object-cover gpt_image"
           width={500}
-          height={350}
+          height={320} // Updated height
         />
       </div>
     </section>

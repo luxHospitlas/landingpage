@@ -11,30 +11,30 @@ export default function Second() {
     });
     const services = [
         {
-            image: "/book an appointment.png",
+            image: "/get consultation.png",
             title: "Book Doctor Appointment",
-            description: "Connect Within 60 Seconds. Connect Within 60 Seconds.",
+            // description: "Connect Within 60 Seconds. Connect Within 60 Seconds.",
             bgColor: "bg-green-200",
             arrow: "/Arrow.svg"
         },
         {
             image: "/get consultation.png",
             title: "Request Online Consultation",
-            description: "Confirmed Appointments. Confirmed Appointments.",
+            // description: "Confirmed Appointments. Confirmed Appointments.",
             bgColor: "bg-yellow-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/secondopinion.png",
-            title: "Get Expert Second Opinion",
-            description: "Essentials At Your Doorstep. Essentials At Your Doorstep.",
+            image: "/get consultation.png",
+            title: "Expert Second Opinion",
+            // description: "Essentials At Your Doorstep. Essentials At Your Doorstep.",
             bgColor: "bg-pink-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/health insurance.png",
+            image: "/get consultation.png",
             title: "Insurance and Estimation",
-            description: "Simple Pickup At Your Home. Simple Pickup At Your Home.",
+            // description: "Simple Pickup At Your Home. Simple Pickup At Your Home.",
             bgColor: "bg-blue-200",
             arrow: "/Arrow.svg"
         }
@@ -65,12 +65,12 @@ export default function Second() {
 
                     </div>
                     <div className="p-4 flex content_Card">
-                        <div>
+                        <div className="service-data">
                             <h2 className="service_title font-semibold">{service.title}</h2>
-                            <p className="service_description text-gray-600">{service.description}</p>
+                            {/* <p className="service_description text-gray-600">{service.description}</p> */}
                         </div>
                         <div>
-                            <Image className='arrowimg' src={service.arrow} alt="arrow-buttons" width={55} height={55}/>
+                            <Image className='arrowimg' src={service.arrow} alt="arrow-buttons" width={40} height={40}/>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ export default function HospitalLocation() {
     <section
     ref={ref}
     className= {`flex flex-col items-center hospital_location_section ${inView ? "fade-in" : "opacity-0"}`}>
-      <h2 className="text-2xl font-500 text-center text-indigo-900">
+      <h2 className="text-2xl font-bold text-center text-indigo-900">
         Our Hospital Location
       </h2>
       <div 
@@ -23,9 +23,9 @@ export default function HospitalLocation() {
     
       </div>
       <div className="leftl-lright">
-      <div
-      ref={ref}
-      className="p-6 lg:w-2/3">
+        <div
+          ref={ref}
+          className="p-6 lg:w-2/3">
           <h3 className= {` text-lg font-500 text-gray-900 mb-6 ${inView ? "fade-in": "opcacity-0"}`}>
             LUX Hospitals - Colorectal | Surgical GI | Urology | Gynecology |
             Plastic Surgery | ENT | Orthopaedics

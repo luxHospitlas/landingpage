@@ -60,7 +60,7 @@ const FooterComponent = () => {
           </div>
 
         
-          <div className="column c_three">
+          {/* <div className="column c_three">
             <h3 className="font-semibold mb-2">Center of Excellence</h3>
             <ul>
               {data.centerofexcellence.map((item, index) => (
@@ -73,10 +73,10 @@ const FooterComponent = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           
-          <div className="column c_four">
+          {/* <div className="column c_four">
             <h3 className="font-semibold mb-2">Follow Us</h3>
             <div className="column c_social_footer">
               {data.followus.map((item, index) => (
@@ -88,7 +88,7 @@ const FooterComponent = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

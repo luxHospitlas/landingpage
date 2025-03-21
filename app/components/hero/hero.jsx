@@ -25,9 +25,12 @@ export default function Hero () {
         <section
     
         className= "hero_section">
-        <h1
-        
-     className="fade-up hero_title hero-title font-500">{heroContent.title}</h1>  
+            <h1 
+                className="fade-up hero_title hero-title font-500 px-[5px]" 
+                >
+                {heroContent.title}
+            </h1>
+  
            <div className='hero_content flex flex-wrap'>
             <div className="left_hero">                 
                 <Image  src={heroContent.heroImage} alt="Lazy loaded"  className="logo-fade hero_image"  fill />                 

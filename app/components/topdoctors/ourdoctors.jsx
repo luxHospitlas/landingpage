@@ -10,7 +10,7 @@ const DoctorCard = () => {
       <section className="w-[90%]" style={{
         margin:'auto'
       }}>
-        <h2 className="text-2xl font-500 text-center text-indigo-900 mb-4">Our top doctors</h2>
+        <h2 className="text-2xl font-bold text-center text-indigo-900 mb-4">Our Top Doctors</h2>
           <div 
       ref={ref} 
       className={`flex flex-no-wrap justify-center items-center gap-8 mb-8 ${inView ? "opacity-100" : 'opacity-0'}`}>
@@ -25,8 +25,8 @@ const DoctorCard = () => {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-lg font-bold text-indigo-900">Dr Samhitha Reddy</h3>
-            <p className="text-sm text-gray-600 mt-1">Gynacologist</p>
+            <h3 className="text-[14px] text-lg font-bold text-indigo-900">Dr Samhitha Reddy</h3>
+            <p className="text-[12px] text-sm text-gray-600 mt-1">Gynacologist</p>
             <div className="flex items-center justify-center mt-2">
               <img
               ref={ref} 
@@ -66,8 +66,8 @@ const DoctorCard = () => {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-lg font-bold text-indigo-900">Dr Samhitha Reddy</h3>
-            <p className="text-sm text-gray-600 mt-1">Gynacologist</p>
+            <h3 className="text-[14px] text-lg font-bold text-indigo-900">Dr Samhitha Reddy</h3>
+            <p className="text-[12px] text-sm text-gray-600 mt-1">Gynacologist</p>
             <div className="flex items-center justify-center mt-2">
               <img
               ref={ref}
