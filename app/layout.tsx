@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import Header from './components/header/header';
 import ClientLayout from './ClientLayout';  // Import ClientLayout
 import ClientHead from './ClientHead';  // Import the new ClientHead component
@@ -17,20 +16,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Preload Fonts for Faster Rendering */}
-        <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        {/* Preload CSS Non-Blocking */}
+        
         <link rel="preload" href="/globals.css" as="style" />
         <link rel="stylesheet" href="/globals.css" media="print" />
-        {/* Async Google Analytics or External Scripts (if needed) */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID" strategy="afterInteractive" />
-
-        {/* Include ClientHead to manage onLoad event */}
+       
         <ClientHead />
       </head>
       <body>
         <Header />
-        <ClientLayout>{children}</ClientLayout> {/* Use ClientLayout here */}
+        <ClientLayout>{children}</ClientLayout> 
       </body>
     </html>
   );
