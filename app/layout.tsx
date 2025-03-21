@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
+import Script from "next/script";
+
+// Lazy-load non-critical components (Footer & Mobile Footer)
+const FooterComponent = dynamic(() => import("./components/footer/footer"), { ssr: false });
+const MobileStickyFooter = dynamic(() => import("./components/mobilsticky"), { ssr: false });
+
+// Static import for Header (since it's needed immediately)
 import Header from './components/header/header';
-import FooterComponent from "./components/footer/footer";
-import MobileStickyFooter from './components/mobilsticky';
 
 import "./globals.css";
-
 
 export const metadata: Metadata = {
   title: "Lux LP",
@@ -13,14 +18,27 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body
-        className=""
-      >
+      <head>
+        {/* Preload Fonts for Faster Rendering */}
+        <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+
+        {/* Preload CSS Non-Blocking */}
+        <link rel="preload" href="/globals.css" as="style" />
+        <link
+  rel="stylesheet"
+  href="/globals.css"
+  media="print"
+  onLoad={(e) => (e.currentTarget.media = "all")}
+/>
+
+
+        {/* Async Google Analytics or External Scripts (if needed) */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID" strategy="afterInteractive" />
+      </head>
+      <body>
         <Header />
         {children}
         <MobileStickyFooter />
