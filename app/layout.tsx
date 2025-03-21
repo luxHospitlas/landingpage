@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
 import Script from "next/script";
-
-// Lazy-load non-critical components (Footer & Mobile Footer)
-const FooterComponent = dynamic(() => import("./components/footer/footer"), { ssr: false });
-const MobileStickyFooter = dynamic(() => import("./components/mobilsticky"), { ssr: false });
-
-// Static import for Header (since it's needed immediately)
 import Header from './components/header/header';
+import ClientLayout from './ClientLayout';  // Import ClientLayout
 
 import "./globals.css";
 
@@ -28,21 +22,18 @@ export default function RootLayout({
         {/* Preload CSS Non-Blocking */}
         <link rel="preload" href="/globals.css" as="style" />
         <link
-  rel="stylesheet"
-  href="/globals.css"
-  media="print"
-  onLoad={(e) => (e.currentTarget.media = "all")}
-/>
-
+          rel="stylesheet"
+          href="/globals.css"
+          media="print"
+          onLoad={(e) => (e.currentTarget.media = "all")}
+        />
 
         {/* Async Google Analytics or External Scripts (if needed) */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID" strategy="afterInteractive" />
       </head>
       <body>
         <Header />
-        {children}
-        <MobileStickyFooter />
-        <FooterComponent />
+        <ClientLayout>{children}</ClientLayout> {/* Use ClientLayout here */}
       </body>
     </html>
   );
