@@ -1,20 +1,9 @@
-"use client";
 
-
-import { useEffect } from "react";
 import Link from "next/link";
+import "/headerstyles.css";
 
 export default function Header() {
-    useEffect(() => {
-        // Create a <link> element
-        const link = document.createElement("link");
-        link.rel = "stylesheet";
-        link.href = "/headerstyles.css";  // Path to your CSS file
-        link.onload = () => console.log("Header CSS Loaded");
-    
-        // Append it to the document head
-        document.head.appendChild(link);
-      }, []);
+   
 
     // const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
