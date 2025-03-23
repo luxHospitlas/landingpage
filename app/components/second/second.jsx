@@ -11,28 +11,28 @@ export default function Second() {
     });
     const services = [
         {
-            image: "/book an appointment.png",
+            image: "/Book an appointment.avif",
             title: "Book Doctor Appointment",
             description: "Connect Within 60 Seconds. Connect Within 60 Seconds.",
             bgColor: "bg-green-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/get consultation.png",
+            image: "/Get consultation.avif",
             title: "Request Online Consultation",
             description: "Confirmed Appointments. Confirmed Appointments.",
             bgColor: "bg-yellow-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/secondopinion.png",
+            image: "/secondopinion.avif",
             title: "Get Expert Second Opinion",
             description: "Essentials At Your Doorstep. Essentials At Your Doorstep.",
             bgColor: "bg-pink-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/health insurance.png",
+            image: "/Health insurence.avif",
             title: "Insurance and Estimation",
             description: "Simple Pickup At Your Home. Simple Pickup At Your Home.",
             bgColor: "bg-blue-200",

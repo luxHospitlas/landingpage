@@ -1,6 +1,9 @@
 .patient_section{
     width: 90%;
-    margin: 60px auto 0;
+    margin: 10px auto 0;
+}
+.patienttalk_headin{
+    font-size: 30px;
 }
 
 .video_box{

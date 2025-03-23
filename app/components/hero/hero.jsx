@@ -11,7 +11,7 @@ export default function Hero () {
 
     const heroContent = {
         title: 'Best Piles Treatment in Hyderabad',
-        heroImage : '/happy patient.svg',
+        heroImage : '/happy patient.avif',
         descList : [
             'Piles are swollen blood vessels in the rectum.',
             'Piles are very common but not something.',

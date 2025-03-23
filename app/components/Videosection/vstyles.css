@@ -14,6 +14,9 @@
       height: 350px; 
       min-height: 350px; 
     }
+    .video-overlay-content{
+      width: 90%;
+    }
     .video-overlay-content p{
         font-size: 12px !important;
       }
@@ -49,4 +52,15 @@ backdrop-filter: blur(10px);
     font-size: 14px;
     color: #ffffff;
   }
+
+  @media (max-width: 640px) {
+    .video-overlay-content {
+        width: 95%;  /* Increase width on mobile */
+        padding: 1.5rem; /* Reduce padding slightly for small screens */
+    }
+    .video-overlay-content p{
+      font-size: 10px !important;
+    }
+
+}
   

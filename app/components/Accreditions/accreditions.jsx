@@ -14,7 +14,7 @@ const Accreditations = () => {
 <section
 ref={ref}
 className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
-    <h2 className="text-center font-500 text-3xl fonts_title">Accreditations</h2>
+    <h2 className="text-center font-bold text-3xl fonts_title">Accreditations</h2>
     <div className="for_nabh">
         <div className="lrboxes">
         <div className="flex justify-center p-6">
@@ -31,8 +31,7 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
         <div className="lrboxes_right">
         <div className="bg-blue-300 p-6 right_b-lg text-center">
           <p className="text-gray-700 font-medium font_small">
-            Lorem ipsum dolor sit amet consectetur. At ac vitae semper volutpat in
-            neque vel vitae ut. Lorem ipsum dolor sit amet consectetur.
+            Lux Hospitals is NABH certified, ensuring top-tier patient safety, quality care, and world-class hygiene standards.
           </p>
         </div>
         </div>
@@ -41,8 +40,8 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
         <div className="lrboxes_ISO_left">
         <div className="bg-green-300 p-6 mt-6 border_radi text-center">
         <p className="text-gray-700 font-medium font_small">
-          Lorem ipsum dolor sit amet consectetur. At ac vitae semper volutpat in
-          neque vel vitae ut. Lorem ipsum dolor sit amet consectetur.
+          ISO 9001:2015 certified, ensuring excellence in quality management, patient care, and hospital operations.
+
         </p>
       </div>
         </div>

@@ -31,7 +31,7 @@ export default function Luxgpt () {
             placeholder="Top Most Doctors..."
             className="bg-transparent text-gray-700 focus:outline-none"
           />
-          <button className="bg-purple-500 hover:bg-purple-700 text-white p-2 rounded-full">
+          <button className="bg-purple-500 hover:bg-purple-700 text-white p-2 rounded-full w-10 h-10">
             ➜
           </button>
         </div>

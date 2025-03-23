@@ -12,7 +12,7 @@ export default function HospitalComparison() {
     <section
     ref={ref}
     className= {`w-[90%] mx-auto my-10 ${inView ? "fade-in" : "opacity-0"}`}>
-      <h2 className="text-center text_twentytwo md:text-1xl font-500 text-gray-800">
+      <h2 className="text-center text-3xl font-bold text-gray-800 ">
         Best Piles Treatment At Lux Hospitals
       </h2>
 

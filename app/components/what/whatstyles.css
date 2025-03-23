@@ -1,6 +1,6 @@
 .whatare{
-    width: 85%;
-    margin: 40px auto;
+    width: 100%;
+    margin: 40px 10px;
     background: #fff;
 }
 @media (max-width:768px) {
@@ -8,6 +8,6 @@
         width: 90%;
     }
     .whatarepara{
-        font-size: 14px;
+        font-size: 12px;
     }
 }

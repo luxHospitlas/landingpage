@@ -28,7 +28,7 @@ export default function Header() {
 
           
             <div className="header__cta">
-                <Link href="#" className="header_cta_type_one">+91123456789</Link>
+                <Link href="tel: 07969084448" className="header_cta_type_one">07969084448</Link>
             </div>
         </header>
     );
