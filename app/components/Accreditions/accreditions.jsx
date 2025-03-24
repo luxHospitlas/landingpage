@@ -23,7 +23,7 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
              alt="NABH Certified"
              width={200}
              height={200}
-             className="object-contain"
+             className="image_certi object-contain"
              priority
            />
          </div>
@@ -45,14 +45,14 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
         </p>
       </div>
         </div>
-        <div className="lrboxes_ISO">
+        <div className="lrboxes_ISO mt-6">
         <div className="flex justify-center p-4">
           <Image
             src="/ISO.svg"
             alt="ISO Certified"
             width={150}
             height={150}
-            className="object-contain"
+            className="image_certi object-contain"
             priority
           />
         </div>
