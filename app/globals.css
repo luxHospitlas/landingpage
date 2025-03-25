@@ -218,3 +218,6 @@ ul, tbody, th, table{
 }
   
 }
+button, a{
+  cursor: pointer;
+}
