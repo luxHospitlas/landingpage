@@ -1,19 +1,13 @@
 'use client';
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import './patistyles.css';
 
 export default function PatientTalks() {
   const scrollRef = useRef(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
-
-  const scrollLeft = () => {
-    scrollRef.current?.scrollBy({ left: -300, behavior: "smooth" });
-  };
-
-  const scrollRight = () => {
-    scrollRef.current?.scrollBy({ left: 300, behavior: "smooth" });
-  };
 
   const testimonials = [
     { id: 1, videoUrl: "/bg-video.mp4", name: "Sumetha" },
@@ -22,54 +16,41 @@ export default function PatientTalks() {
     { id: 4, videoUrl: "/bg-video.mp4", name: "Sumetha" },
   ];
 
+  const scrollToSlide = (index) => {
+    setActiveIndex(index);
+    scrollRef.current?.scrollTo({
+      left: index * 320,  // Adjust width as per your .video_box width
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section 
       ref={ref} 
-      className={` text-center transition-opacity duration-500 patient_section ${inView ? "opacity-100" : "opacity-0"}`}
+      className={`text-center transition-opacity duration-500 patient_section ${inView ? "opacity-100" : "opacity-0"}`}
     >
       <h2 className="text-3xl sm:1xl font-bold text-gray-900 patienttalk_heading">Patients Love Us</h2>
 
-      <div className="relative mt-6 ">
-      <button
-  onClick={scrollLeft}
-  className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-md p-2 rounded-full z-10 left_button"
-  aria-label="Scroll Left"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="16"
-    height="16"
-    fill="none"
-    viewBox="0 0 16 16"
-  >
-    <path stroke="currentColor" d="M10.5 2.5 5 8l5.5 5.5" />
-  </svg>
-</button>
-
+      <div className="relative mt-6">
         <div
           ref={scrollRef}
-          className="flex space-x-4 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide  videos_boxex"
+          className="flex space-x-4 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide videos_boxex"
         >
-          {testimonials.map((testimonial) => (
+          {testimonials.map((testimonial, index) => (
             <VideoCard key={testimonial.id} testimonial={testimonial} />
           ))}
         </div>
 
-        <button
-  onClick={scrollRight}
-  className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-md p-2 rounded-full z-10 right_button"
-  aria-label="Scroll Right"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="16"
-    height="16"
-    fill="none"
-    viewBox="0 0 16 16"
-  >
-    <path stroke="currentColor" d="M5.5 2.5 11 8l-5.5 5.5" />
-  </svg>
-</button>
+        {/* Navigation Dots */}
+        <div className="flex justify-center mt-4">
+          {testimonials.map((_, index) => (
+            <span
+              key={index}
+              className={`dot ${activeIndex === index ? 'active' : ''}`}
+              onClick={() => scrollToSlide(index)}
+            ></span>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -84,19 +65,12 @@ const VideoCard = ({ testimonial }) => {
       className="snap-center w-64 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden shadow-lg video_box"
     >
       {inView ? (
-        <video
-          src={testimonial.videoUrl}
-       
-  muted 
-  loop 
-          className=" object-cover w-full h-[240px]"
-        />
+        <video src={testimonial.videoUrl} muted loop className="object-cover w-full h-[240px]" />
       ) : (
         <div className="w-full h-40 bg-gray-300 flex items-center justify-center">
           <p className="text-gray-500">Loading...</p>
         </div>
       )}
-
       <div className="p-4 text-center">
         <p className="text-gray-900 font-bold">{testimonial.name}</p>
       </div>

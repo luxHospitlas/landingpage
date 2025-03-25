@@ -28,7 +28,7 @@ export default function Luxgpt () {
         <div className="mt-6 flex items-center justify-center md:justify-start space-x-2 bg-white rounded-full px-4 py-2 w-fit">
           <input
             type="text"
-            placeholder="Top Most Doctors..."
+            placeholder="Enter your enquiry here ..."
             className="bg-transparent text-gray-700 focus:outline-none"
           />
           <button className="bg-purple-500 hover:bg-purple-700 text-white p-2 rounded-full w-10 h-10">

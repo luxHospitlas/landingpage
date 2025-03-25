@@ -203,3 +203,18 @@ ul, tbody, th, table{
   margin-left: 10px;
 }
 }
+@media (max-width:350px) {
+  .left_doctor{
+    width: 150px;
+  }
+  .doctor_name {
+    font-size: 10px;
+  }
+  .designation {
+    font-size: 10px;
+  }
+  .w-24 {
+    width: calc(var(--spacing)* 18);
+}
+  
+}

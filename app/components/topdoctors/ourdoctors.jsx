@@ -47,7 +47,7 @@ const DoctorCard = () => {
           <p className="extra_fonts">
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Excepteur sint occaecat cupidatat non proident, 
-            {/* sunt in culpa qui officia deserunt mollit anim id est laborum.  */}
+            sunt in culpa qui officia deserunt mollit anim id est laborum. 
             {/* Sunt in culpa qui officia deserunt mollit anim id est laborum. */}
             <span className="hidden_class">
             sunt in culpa qui officia deserunt mollit anim id est laborum. 
@@ -93,7 +93,7 @@ const DoctorCard = () => {
           <p className="extra_fonts right_align">
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Excepteur sint occaecat cupidatat non proident, 
-            {/* sunt in culpa qui officia deserunt mollit anim id est laborum.  */}
+            sunt in culpa qui officia deserunt mollit anim id est laborum. 
             {/* Sunt in culpa qui officia deserunt mollit anim id est laborum. */}
             <span className="hidden_class">
             sunt in culpa qui officia deserunt mollit anim id est laborum. 

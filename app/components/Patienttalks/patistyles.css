@@ -16,7 +16,8 @@
 .videos_boxex{
     height: 320px;
     min-height: 320px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-right: 5px;
 }
 .videos_boxex::-webkit-scrollbar{
     display: none;
@@ -32,4 +33,17 @@
 }
 .left_button{
     cursor: pointer;
+}
+/* Navigation Dots */
+.dot {
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dot.active {
+    background-color: black;
 }

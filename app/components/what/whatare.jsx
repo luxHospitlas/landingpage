@@ -24,7 +24,7 @@ export default function Whatare() {
       
       <div className="space-y-4">
         <div>
-        <ul className="list-disc list-outside pl-5 text-[#6B46C1] font-medium mb-0">
+        <ul className="list-disc list-outside pl-5 font-medium mb-0">
           <li>Laser Hemorrhoidoplasty (LHP)</li>
         </ul>
           <p className="text-gray-700 mb-2 px-4 leading-[2em] whatarepara">
@@ -35,7 +35,7 @@ export default function Whatare() {
         </div>
         
         <div>
-        <ul className="list-disc list-outside pl-5 text-[#6B46C1] font-medium mb-0">
+        <ul className="list-disc list-outside pl-5 font-medium mb-0">
           <li>Doppler-Guided Hemorrhoidal Artery Ligation (DGHAL)</li>
         </ul>
           <p className="text-gray-700 mb-2 px-4 leading-[2em] whatarepara">
@@ -45,7 +45,7 @@ export default function Whatare() {
         </div>
         
         <div>
-        <ul className="list-disc list-outside pl-5 text-[#6B46C1] font-medium mb-0">
+        <ul className="list-disc list-outside pl-5 font-medium mb-0">
           <li>Hemorrhoidal Artery Ligation with Recto-Anal Repair (HAL-RAR)</li>
         </ul>
           <p className="text-gray-700 mb-2 px-4 leading-[2em] whatarepara">

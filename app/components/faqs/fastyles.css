@@ -30,9 +30,9 @@
   }
   
   /* Opened Accordion */
-  .accordion.active {
+  /* .accordion.active {
     border: 1px solid #994F9F;
-  }
+  } */
   
   /* Accordion Header */
   .accordion_head {

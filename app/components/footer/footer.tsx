@@ -14,10 +14,11 @@ const data = {
     { text: 'Blogs', url: '#' }
   ],
   centerofexcellence: [
-    { text: 'Cardiology', url: '#' },
-    { text: 'Orthopedics', url: '#' },
-    { text: 'Gastroenterology', url: '#' },
-    { text: 'Oncology', url: '#' }
+    { text: 'Proctology', url: '#' },
+    { text: 'Laparoscopic surgeries', url: '#' },
+    { text: 'Urology', url: '#' },
+    { text: 'Gynecology', url: '#' },
+    { text: 'Plastic and Cosmetic Surgeries', url: '#' }
   ],
   followus: [
     { text: 'Facebook', url: '#', img: '/youtube logo.png' },
