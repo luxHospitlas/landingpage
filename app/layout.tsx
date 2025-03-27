@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Header from './components/header/header';
-import FooterComponent from "./components/footer/footer";
-import MobileStickyFooter from './components/mobilsticky';
+import ClientLayout from './ClientLayout';  // Import ClientLayout
+import ClientHead from './ClientHead';  // Import the new ClientHead component
 
 import "./globals.css";
-
 
 export const metadata: Metadata = {
   title: "Lux LP",
@@ -13,18 +12,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body
-        className=""
-      >
+      <head>
+        
+        <link rel="preload" href="/globals.css" as="style" />
+        <link rel="stylesheet" href="/globals.css" media="print" />
+       
+        <ClientHead />
+      </head>
+      <body>
         <Header />
-        {children}
-        <MobileStickyFooter />
-        <FooterComponent />
+        <ClientLayout>{children}</ClientLayout> 
       </body>
     </html>
   );

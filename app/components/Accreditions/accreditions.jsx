@@ -21,9 +21,9 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
            <Image
              src="/TRAIL.svg"
              alt="NABH Certified"
-             width={150}
-             height={150}
-             className="object-contain"
+             width={200}
+             height={200}
+             className="image_certi object-contain"
              priority
            />
          </div>
@@ -31,8 +31,7 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
         <div className="lrboxes_right">
         <div className="bg-[#92BDF6] p-6 right_b-lg text-center">
           <p className="text-gray-700 font-medium font_small">
-          Lux Hospitals is NABH certified, ensuring top-tier patient safety, quality care, and world-class hygiene standards.
-
+          Lux Hospitals is NABH certified, a mark of excellence in patient safety and care. We follow stringent healthcare protocols and maintain world-class hygiene standards.
           </p>
         </div>
         </div>
@@ -41,18 +40,19 @@ className={`accreditions ${inView ? "fade-in" : "opacity-0"}`}>
         <div className="lrboxes_ISO_left">
         <div className="bg-[#A3DAC2] p-6 mt-6 border_radi text-center">
         <p className="text-gray-700 font-medium font_small">
-        ISO 9001:2015 certified, ensuring excellence in quality management, patient care, and hospital operations.
+        We are ISO 9001:2015 certified, ensuring the highest standards in quality management and patient care. This certification reflects our commitment to efficient processes and continuous improvement in healthcare services.
+
         </p>
       </div>
         </div>
-        <div className="lrboxes_ISO">
-        <div className="flex justify-center p-4 pt-[33px]">
+        <div className="lrboxes_ISO mt-6">
+        <div className="flex justify-center p-4">
           <Image
             src="/ISO.svg"
             alt="ISO Certified"
             width={150}
             height={150}
-            className="object-contain"
+            className="image_certi object-contain"
             priority
           />
         </div>

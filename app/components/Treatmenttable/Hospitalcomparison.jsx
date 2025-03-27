@@ -1,7 +1,7 @@
 "use client";
 import { useInView } from "react-intersection-observer";
 import React from "react";
-// import './tablestyles.css';
+import './tablestyles.css';
 
 export default function HospitalComparison() {
     const { ref, inView } = useInView({
@@ -12,7 +12,7 @@ export default function HospitalComparison() {
     <section
     ref={ref}
     className= {`w-[90%] mx-auto my-10 ${inView ? "fade-in" : "opacity-0"}`}>
-      <h2 className="text-center text_twentytwo md:text-1xl font-bold text-gray-800">
+      <h2 className="text-center text-3xl font-bold text-gray-800 ">
         Best Piles Treatment At Lux Hospitals
       </h2>
 
@@ -38,7 +38,11 @@ export default function HospitalComparison() {
           </thead>
           <tbody>
             <tr className="border">
-            <td className="table_head font-semibold text-purple-600 text-center py-[10px]">Cost</td>
+              <td className="table_head font-semibold text-purple-600" style={{
+                background: "#92BDF680",
+                textAlign: 'center'
+
+              }}>Cost</td>
               <td className="table_head text-center " style={{
                 background: "#D2ADAD80"
 
@@ -49,7 +53,13 @@ export default function HospitalComparison() {
               }}>FIXED</td>
             </tr>
             <tr className="border">
-              <td className="table_head font-semibold text-purple-600 text-center py-[10px]">Sterilization</td>
+              <td className="table_head font-semibold text-purple-600"
+              style={{
+                background: "#92BDF680",
+                textAlign: 'center'
+
+              }}
+              >Sterilization</td>
               <td className="table_head text-center" style={{
                 background: "#D2ADAD80"
 
@@ -60,7 +70,13 @@ export default function HospitalComparison() {
               }}>PLASMA STERILIZATION</td>
             </tr>
             <tr className="border">
-              <td className="table_head font-semibold text-purple-600 text-center py-[10px] border-b border-gray-300">Insurance</td>
+              <td className="table_head font-semibold text-purple-600"
+              style={{
+                background: "#92BDF680",
+                textAlign: 'center'
+
+              }}
+              >Insurance</td>
               <td className="table_head text-center" style={{
                 background: "#D2ADAD80"
 

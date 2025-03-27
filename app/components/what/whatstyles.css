@@ -1,7 +1,7 @@
 .whatare{
     width: 100%;
-    /* margin: 0px auto; */
-    background: #fff;;
+    margin: 40px 10px;
+    background: #fff;
 }
 @media (max-width:768px) {
     .whatare{
@@ -9,6 +9,6 @@
         padding-left: 20px;
     }
     .whatarepara{
-        font-size: 14px;
+        font-size: 12px;
     }
 }

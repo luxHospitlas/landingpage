@@ -1,16 +1,17 @@
 
 import Link from "next/link";
-// import { useInView } from "react-intersection-observer";
 import "./headerstyles.css";
 
 export default function Header() {
+   
+
     // const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
     return (
         <header className="header">
             
             <div className="header__logos" >
-                <a href="#"><img className="logo-fade header__logo" src="/lux logo final .png" alt="logo"  width={140} height={60}/></a>
+                <a href="#"><img className="logo-fade header__logo" src="/lux logo final.avif" alt="logo"  width={140} height={60}/></a>
     <a href="#"><img className="logo-fade header__logotwo" src="/ISO.svg" alt="logo" /></a>
     <a href="#"><img className="logo-fade header__logothree" src="/TRAIL.svg" alt="logo" /></a>
             </div>
@@ -27,7 +28,7 @@ export default function Header() {
 
           
             <div className="header__cta">
-                <Link href="#" className="header_cta_type_one">+91123456789</Link>
+                <Link href="tel: 07969084448" className="header_cta_type_one">07969084448</Link>
             </div>
         </header>
     );

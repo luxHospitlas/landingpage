@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
-import React from 'react';
 import './sstyles.css';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
 export default function Second() {
@@ -11,28 +11,28 @@ export default function Second() {
     });
     const services = [
         {
-            image: "/get consultation.png",
+            image: "/Book an appointment.avif",
             title: "Book Doctor Appointment",
             // description: "Connect Within 60 Seconds. Connect Within 60 Seconds.",
             bgColor: "bg-green-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/get consultation.png",
+            image: "/Get consultation.avif",
             title: "Request Online Consultation",
             // description: "Confirmed Appointments. Confirmed Appointments.",
             bgColor: "bg-yellow-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/get consultation.png",
-            title: "Expert Second Opinion",
-            // description: "Essentials At Your Doorstep. Essentials At Your Doorstep.",
+            image: "/secondopinion.avif",
+            title: "Get Expert Second Opinion",
+            description: "Essentials At Your Doorstep. Essentials At Your Doorstep.",
             bgColor: "bg-pink-200",
             arrow: "/Arrow.svg"
         },
         {
-            image: "/get consultation.png",
+            image: "/Health insurence.avif",
             title: "Insurance and Estimation",
             // description: "Simple Pickup At Your Home. Simple Pickup At Your Home.",
             bgColor: "bg-blue-200",
@@ -49,7 +49,7 @@ export default function Second() {
                 <div key={index}
                 
                 className="sessioncards rounded-xl overflow-hidden shadow-lg">
-                    <div className="relative w-full h-30">
+                    <div className="relative w-full h-40">
                     
                 <Image
                 ref={ref}
@@ -64,10 +64,10 @@ export default function Second() {
             
 
                     </div>
-                    <div className="p-4 flex content_Card">
-                        <div className="service-data">
+                    <div className=" flex content_Card items-center justify-center gap-2">
+                        <div>
                             <h2 className="service_title font-semibold">{service.title}</h2>
-                            {/* <p className="service_description text-gray-600">{service.description}</p> */}
+                            
                         </div>
                         <div>
                             <Image className='arrowimg' src={service.arrow} alt="arrow-buttons" width={40} height={40}/>

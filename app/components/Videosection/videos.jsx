@@ -16,10 +16,12 @@ export default function VideoSection() {
       </video>
 
       <div className="video-overlay-content">
-        <p>Designed for comfort, with spacious rooms and HEPA air filters.<br></br>
-Premium amenities for a stress-free and hotel like stay.<br></br>
-Ensuring top-tier infection control and patient care with plasma sterilisation 
-and NABH protocols</p>
+      <ul className="list-disc list-outside text-white-700 space-y-2 text-left">
+        <li>Designed for comfort, with spacious rooms and HEPA air filters.</li>
+        <li>Premium amenities for a stress-free and hotel-like stay.</li>
+        <li>Ensuring top-tier infection control and patient care with plasma sterilisation and NABH protocols.</li>
+      </ul>
+
       </div>
     </section>
   );

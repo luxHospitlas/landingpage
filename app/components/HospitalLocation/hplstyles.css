@@ -24,6 +24,9 @@
     width: 50%;
     height: 400px;
     min-height: 400px;
+    display: flex
+    ;
+            align-items: center;
 }
 @media (max-width:768px) {
     .location_card{
@@ -47,6 +50,8 @@
         width: 100%;
         height: 410px;
         min-height: 410px;
+        display: flex;
+    align-items: center;
     }
     .address_info{
         font-size: 14px;
@@ -59,5 +64,17 @@
         .location_card{
             height: 800px;
         }
+    }
+}
+@media (max-width:380px) {
+    .leftl-lright{
+        width: 100%;
+        height: 440px;
+        
+    }
+}
+@media (max-width:350px) {
+    .leftl-lright{
+        height: 470px;
     }
 }
