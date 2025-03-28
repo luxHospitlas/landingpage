@@ -7,6 +7,9 @@
     min-height: 550px;
     overflow: hidden; 
   }
+  .list_text li{
+    font-size:22px;
+  }
   
 
   @media (max-width: 768px) {
@@ -43,7 +46,7 @@
     color: #ffffff;
     text-align: center;
     padding: 2rem;
-    width: 95%;
+    width: 56%;
     background-color: rgba(0, 0, 0, 0.04); /* semi-transparent white */
 border-radius: 20px;
 backdrop-filter: blur(10px); 
@@ -60,6 +63,9 @@ backdrop-filter: blur(10px);
     }
     .video-overlay-content p{
       font-size: 10px !important;
+    }
+    .list_text li{
+      font-size:12px;
     }
 
 }

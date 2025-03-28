@@ -20,12 +20,18 @@ const data = {
     { text: 'Gynecology', url: '#' },
     { text: 'Plastic and Cosmetic Surgeries', url: '#' }
   ],
-  followus: [
-    { text: 'Facebook', url: '#', img: '/youtube logo.png' },
-    { text: 'Instagram', url: '#', img: '/youtube logo.png' },
-    { text: 'LinkedIn', url: '#', img: '/youtube logo.png' },
-    { text: 'YouTube', url: '#', img: '/youtube logo.png' }
-  ]
+  // followus: [
+  //   { text: 'Facebook', url: '#', img: '/youtube logo.png' },
+  //   { text: 'Instagram', url: '#', img: '/youtube logo.png' },
+  //   { text: 'LinkedIn', url: '#', img: '/youtube logo.png' },
+  //   { text: 'YouTube', url: '#', img: '/youtube logo.png' }
+  // ]
+  contactus: {
+    address: "Lux hospitals - Plot No. 116, Lumbini Enclave Hitech city main road, Gachibowli, Near IKEA, Hyderabad, 500081.",
+    phone: "07969084444",
+    email: "care@luxhospitals.com",
+    website: "www.luxhospitals.com",
+  }
 };
 
 const FooterComponent = () => {
@@ -44,10 +50,7 @@ const FooterComponent = () => {
 
        
         <div className="inner_second_footer">
-      
-
-        
-          {/* <div className="column c_three">
+          <div className="column c_three">
             <h3 className="font-semibold mb-2">Center of Excellence</h3>
             <ul>
               {data.centerofexcellence.map((item, index) => (
@@ -60,8 +63,15 @@ const FooterComponent = () => {
                 </li>
               ))}
             </ul>
-          </div> */}
-
+          </div>
+           {/* Contact Us Section */}
+           <div className="column c_four">
+            <h3 className="font-semibold mb-2">Contact Us</h3>
+            <p className="text-gray-700 mb-[10px]">{data.contactus.address}</p>
+            <p className="text-gray-700 mb-[10px]">📞 {data.contactus.phone}</p>
+            <p className="text-gray-700 mb-[10px]">✉️ <Link href={`mailto:${data.contactus.email}`} className="hover:text-blue-500">{data.contactus.email}</Link></p>
+            <p className="text-gray-700 mb-[10px]">🌐 <Link href={`https://luxhospitals.com/`} className="hover:text-blue-500">{data.contactus.website}</Link></p>
+          </div>
           
         
         </div>
