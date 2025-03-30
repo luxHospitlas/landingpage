@@ -20,30 +20,23 @@ export default function HospitalLocation() {
       className="border-grey-100 location_card shadow-lg"
       > 
       <div className="leftl-right">
-        <img src="/your-image.jpg" alt="Description" className="w-full h-auto" />
+        <img src="/location lux.png" alt="Description" className="w-full h-auto" />
       </div>
       <div className="leftl-lright">
       <div
       ref={ref}
-      className="p-6 lg:w-2/3">
-          <h3 className= {` text-lg font-500 text-gray-900 mb-3 ${inView ? "fade-in": "opcacity-0"}`}>
+      className="p-6 lg:w-[83%]">
+          <h3 className= {`gmb_title text-lg font-500 text-gray-900 mb-3 ${inView ? "fade-in": "opcacity-0"}`}>
             LUX Hospitals - Colorectal | Surgical GI | Urology | Gynecology |
             Plastic Surgery | ENT | Orthopaedics
           </h3>
 
           {/* Google Review */}
-          <div className="flex items-center text-gray-500 mt-2 mb-3">
+          <div className="google_reviews flex text-gray-500 mt-2 mb-3">
             {/* Google Icon and Text */}
             <div className="flex items-center gap-2">
               <img src="/google icon.avif" alt="Google" className="w-6 h-6" />
-              <p>Google review</p>
-            </div>
-            
-            {/* Review Count */}
-            <span className="font-medium ml-3">100</span>
-          </div>
-
-          <div className="flex items-center">
+              <div className="flex items-center">
             <span className="text-lg font-bold">4.5</span>
             <div className="flex text-yellow-500 ml-2">
               {[...Array(5)].map((_, index) => (
@@ -51,17 +44,35 @@ export default function HospitalLocation() {
               ))}
             </div>
           </div>
+            </div>
+            
+            {/* Review Count */}
+            <span className="font-medium review_count">634 Google Reviews</span>
+          </div>
+
+          {/* <div className="flex items-center">
+            <span className="text-lg font-bold">4.5</span>
+            <div className="flex text-yellow-500 ml-2">
+              {[...Array(5)].map((_, index) => (
+                <FaStar key={index} />
+              ))}
+            </div>
+          </div> */}
 
           {/* Address Info */}
+          {/* <p className="mt-3 text-gray-700 flex items-start address_info">
+            <FaMapMarkerAlt className="mr-2 text-gray-600" /> Plot no: 116, Lumbini Enclave Hitech city main road,
+             Landmark:, near IKEA, Gachibowli, Hyderabad, Telangana 500081
+          </p> */}
           <p className="mt-3 text-gray-700 flex items-start address_info">
-            <FaMapMarkerAlt className="mr-2 text-gray-600" /> Lorem ipsum dolor
-            sit amet consectetur. Aliquet morbi amet nec diam. Vel massa commodo
-            viverra.
+            {/* <img src="/google map icon.webp" alt="Location" className="mr-1 w-5 h-5 " />  */}
+            Plot no: 116, Lumbini Enclave Hitech city main road, Landmark: near IKEA, 
+            Gachibowli, Hyderabad, Telangana 500081
           </p>
 
           {/* Buttons */}
           <div className="mt-4 flex gap-4 w-full mobilectas">
-            <button className="flex items-center justify-center gap-2 bg-[#915097] text-white px-4 py-2 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-[#7e4483] flex-1">
+            <button className="review_button flex items-center justify-center gap-2 bg-[#915097] text-white px-4 py-2 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-[#7e4483] flex-1">
               <FaMapMarkerAlt /> Get Direction
             </button>
             <button className="border px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1">

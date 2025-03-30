@@ -12,7 +12,7 @@ export default function VideoSection() {
   return (
     <section ref={ref} className= {` videos_section ${inView ? "fade-in" : "opacity-0"}`}>
       <video autoPlay muted loop playsInline className="bg-video">
-        <source src="/luxvideo.mp4" type="video/mp4" />
+        <source src="/luxhospitalvideo.mp4" type="video/mp4" />
         Your browser doesn't support HTML5 videos.
       </video>
 

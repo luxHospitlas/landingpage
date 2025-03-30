@@ -16,22 +16,25 @@
 }
 .leftl-right{
     width: 50%;
-    height: 450px;
-    min-height: 400px;
-    background: oklch(.885 .062 18.334);
+    /* height: 370px; */
+    /* min-height: 370px; */
+    /* background: oklch(.885 .062 18.334); */
 }
 .leftl-lright{
     width: 50%;
-    height: 400px;
-    min-height: 400px;
-    display: flex
-    ;
-            align-items: center;
+    /* height: 400px; */
+    /* min-height: 400px; */
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+.review_count{
+    margin-left: 10px;
 }
 @media (max-width:768px) {
     .location_card{
         width: 100%;
-        height: 750px;
+        /* height: 750px; */
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -42,14 +45,14 @@
     } 
     .leftl-right{
         width: 100%;
-        height: 300px;
-        min-height: 300px;
+        /* height: 270px; */
+        /* min-height: 270px; */
         background: oklch(.885 .062 18.334);
     }
     .leftl-lright{
         width: 100%;
-        height: 410px;
-        min-height: 410px;
+        /* height: 410px; */
+        /* min-height: 410px; */
         display: flex;
     align-items: center;
     }
@@ -62,19 +65,43 @@
     }
     @media (max-width: 350px){
         .location_card{
-            height: 800px;
+            /* height: 800px; */
         }
     }
 }
-@media (max-width:380px) {
+@media (max-width:450px) {
     .leftl-lright{
         width: 100%;
-        height: 440px;
+        /* height: 440px; */
         
+    }
+}
+@media (max-width:380px) {
+    .leftl-right {
+        /* height: 270px;
+        min-height: 270px; */
+    }
+    .google_reviews{
+        display: flex;
+        flex-direction: column;
+    }
+    .review_count{
+        margin-left: 0px;
     }
 }
 @media (max-width:350px) {
     .leftl-lright{
-        height: 470px;
+        /* height: 470px; */
     }
 }
+/* @media (min-width: 1024px) and (max-width: 1024px){
+    .review_button{
+        font-size: 12px;
+    }
+    .address_info{
+        font-size: 12px;
+    }
+    .gmb_title{
+        font-size: 14px;
+    }
+} */

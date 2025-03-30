@@ -19,7 +19,7 @@ export default function Second() {
         },
         {
             image: "/Get consultation.avif",
-            title: "Request Online Consultation",
+            title: " Online Consultation",
             // description: "Confirmed Appointments. Confirmed Appointments.",
             bgColor: "bg-yellow-200",
             arrow: "/Arrow.svg"
