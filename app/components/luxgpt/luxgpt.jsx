@@ -40,11 +40,11 @@ export default function Luxgpt () {
       
       <div className="md:w-1/3 mt-6 md:mt-0 second_box">
         <Image
-          src="/your-image.png"
+          src="/luxgpt.png"
           alt="LUXGPT Chat"
-          className="w-full rounded-xl shadow-lg gpt_image"
+          className="w-[300px] h-[320px] rounded-xl shadow-lg object-fill gpt_image"
           width={500}
-          height={350}
+          height={320} // Updated height
         />
       </div>
     </section>

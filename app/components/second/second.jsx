@@ -13,14 +13,14 @@ export default function Second() {
         {
             image: "/Book an appointment.avif",
             title: "Book Doctor Appointment",
-            description: "Connect Within 60 Seconds. Connect Within 60 Seconds.",
+            // description: "Connect Within 60 Seconds. Connect Within 60 Seconds.",
             bgColor: "bg-green-200",
             arrow: "/Arrow.svg"
         },
         {
             image: "/Get consultation.avif",
-            title: "Request Online Consultation",
-            description: "Confirmed Appointments. Confirmed Appointments.",
+            title: " Online Consultation",
+            // description: "Confirmed Appointments. Confirmed Appointments.",
             bgColor: "bg-yellow-200",
             arrow: "/Arrow.svg"
         },
@@ -34,7 +34,7 @@ export default function Second() {
         {
             image: "/Health insurence.avif",
             title: "Insurance and Estimation",
-            description: "Simple Pickup At Your Home. Simple Pickup At Your Home.",
+            // description: "Simple Pickup At Your Home. Simple Pickup At Your Home.",
             bgColor: "bg-blue-200",
             arrow: "/Arrow.svg"
         }
@@ -70,7 +70,7 @@ export default function Second() {
                             
                         </div>
                         <div>
-                            <Image className='arrowimg' src={service.arrow} alt="arrow-buttons" width={55} height={55}/>
+                            <Image className='arrowimg' src={service.arrow} alt="arrow-buttons" width={40} height={40}/>
                         </div>
                     </div>
                 </div>

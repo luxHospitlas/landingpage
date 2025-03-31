@@ -10,10 +10,13 @@ export default function PatientTalks() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   const testimonials = [
-    { id: 1, videoUrl: "/bg-video.mp4", name: "Sumetha" },
-    { id: 2, videoUrl: "/bg-video.mp4", name: "Sumetha" },
-    { id: 3, videoUrl: "/bg-video.mp4", name: "Sumetha" },
-    { id: 4, videoUrl: "/bg-video.mp4", name: "Sumetha" },
+    { id: 1, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-1.webp", name: "Sumetha" },
+    { id: 2, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-2.webp", name: "Sumetha" },
+    { id: 3, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-3.webp", name: "Sumetha" },
+    { id: 4, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-4.webp", name: "Sumetha" },
+    { id: 5, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-5.webp", name: "Sumetha" },
+    { id: 6, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-6.webp", name: "Sumetha" },
+
   ];
 
   const scrollToSlide = (index) => {
@@ -65,7 +68,7 @@ const VideoCard = ({ testimonial }) => {
       className="snap-center w-64 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden shadow-lg video_box"
     >
       {inView ? (
-        <video src={testimonial.videoUrl} muted loop className="object-cover w-full h-[240px]" />
+        <img src={testimonial.imageUrl} alt="Testimonial" className="object-cover w-full h-[240px]" />
       ) : (
         <div className="w-full h-40 bg-gray-300 flex items-center justify-center">
           <p className="text-gray-500">Loading...</p>

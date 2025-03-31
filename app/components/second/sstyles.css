@@ -33,7 +33,11 @@
     font-size: 12px;
 }
 .content_Card {
+    justify-content: space-between;
     margin: 5%;
+}
+.service-data{
+    align-content: center;
 }
 
 @media (max-width:475px) {
@@ -47,5 +51,10 @@
     .service_title{
         font-size: 12px;
         margin-bottom: 6px;
+    }
+    .sessioncards{
+        /* weight: 190px; */
+        height: 190px;
+        min-height: 190px;
     }
 }

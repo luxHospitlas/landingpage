@@ -15,7 +15,7 @@
     width: 80%;
 }
 .text_luxgot{
-    font-size: 32px;
+    font-size: 25px;
 }
 .second_box{
     height: 300px;
@@ -43,6 +43,7 @@
     .text_luxgot{
         font-size: 25px;
         text-align: left;
+
     }
     .gpt_image{
         height: 100px;
