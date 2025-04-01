@@ -35,9 +35,9 @@ export default function HospitalLocation() {
           <div className="google_reviews flex text-gray-500 mt-2 mb-3">
             {/* Google Icon and Text */}
             <div className="flex items-center gap-2">
-              <img src="/google icon.avif" alt="Google" className="w-6 h-6" />
+              {/* <img src="/google icon.avif" alt="Google" className="w-6 h-6" /> */}
               <div className="flex items-center">
-            <span className="text-lg font-bold">4.5</span>
+            <span className="text-lg font-bold">4.5</span>  
             <div className="flex text-yellow-500 ml-2">
               {[...Array(5)].map((_, index) => (
                 <FaStar key={index} />
@@ -75,7 +75,8 @@ export default function HospitalLocation() {
             <button className="review_button flex items-center justify-center gap-2 bg-[#915097] text-white px-4 py-2 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-[#7e4483] flex-1">
               <FaMapMarkerAlt /> Get Direction
             </button>
-            <button className="border px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1">
+            <button className="border flex gap-2 px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1 justify-center">
+            <img src="/google icon.avif" alt="Google Icon" className="w-7 h-7" />
               Reviews
             </button>
           </div>
