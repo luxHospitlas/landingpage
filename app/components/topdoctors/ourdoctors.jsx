@@ -15,7 +15,7 @@ const DoctorCard = () => {
       <div className="doctors_container">
       <div className="doctors_card_contanier w-full h-auto flex items-center doctors_row_two transition-transform duration-300 hover:-translate-y-1 ">
           <div className="left_doctor">
-          <div className=" doctor_card bg-white rounded-3xl shadow-md w-72 text-center">
+          <div className=" doctor_card bg-white  shadow-md w-72 text-center">
             <div className="bg-blue-100 flex items-center justify-center rounded-t-3xl p-3 inner_doctor">
               <img
               ref={ref}
@@ -27,7 +27,7 @@ const DoctorCard = () => {
             <div className="p-4 content_cars">
               <h3 className="text-lg font-bold text-indigo-900 doctor_name">Dr Samhitha Reddy</h3>
               <p className="text-sm text-gray-600 mt-1 designation">MBBS.</p>
-              <p className="text-sm text-gray-600 mt-1 designation">Proctologist</p>
+              <p className="text-sm text-gray-600 mt-1 designation">Proctologist, piles Specialist</p>
               <p className="text-sm text-gray-600 mt-1 designation">Experience: 8 yeasrs</p>
               {/* <div className="flex items-center justify-center mt-2">
                 <img
@@ -75,7 +75,7 @@ const DoctorCard = () => {
             <div className="p-4 content_cars">
               <h3 className="text-lg font-bold text-indigo-900 doctor_name">Dr Samhitha Reddy</h3>
               <p className="text-sm text-gray-600 mt-1 designation">MBBS.</p>
-              <p className="text-sm text-gray-600 mt-1 designation">Proctologist</p>
+              <p className="text-sm text-gray-600 mt-1 designation">Proctologist, piles Specialist</p>
               <p className="text-sm text-gray-600 mt-1 designation">Experience: 8 yeasrs</p>
               {/* <div className="flex items-center justify-center mt-2">
                 <img
