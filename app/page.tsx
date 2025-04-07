@@ -1,5 +1,6 @@
+"use client";
 import dynamic from 'next/dynamic';
-
+import { usePathname } from 'next/navigation'
 // Static imports (always needed immediately)
 import Hero from './components/hero/hero';
 import Second from './components/second/second';
@@ -16,9 +17,21 @@ const Whatare = dynamic(() => import('./components/what/whatare'));
 const Faqs = dynamic(() => import('./components/faqs/faq'));
 
 export default function Home() {
+  const pathname = usePathname();
+
+  let heroHeading = "Default Heading";
+  let heroParagraph = "Default paragraph content.";
+
+  if(pathname.includes('piles')) {
+    heroHeading = "Get Relief from Piles Today";
+    heroParagraph = "Lux Hospitals offers advanced treatment with quick recovery.";
+  } else if(pathname.includes('fistula')) {
+    heroHeading = "Fistula Treatment at Lux Hospitals";
+    heroParagraph = "Safe, expert-led care for lasting relief.";
+  }
   return (
     <>
-      <Hero />
+      <Hero  heading={heroHeading} paragraph={heroParagraph} />
       <Second />
       <HospitalLocation />
       <DoctorCard />

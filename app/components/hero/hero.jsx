@@ -3,14 +3,10 @@ import './herostyles.css';
 // import { useInView } from "react-intersection-observer";
 import Image from 'next/image';
 import React from 'react';  
-export default function Hero () {
-    // const { ref, inView } = useInView({
-    //     triggerOnce: true, 
-    //     threshold: 0.1, 
-    // });
+export default function Hero ({ heading, paragraph }) {
+   
 
     const heroContent = {
-        title: 'Best Piles Treatment in Hyderabad',
         heroImage : '/happy patient.avif',
         descList : [
             'Piles are swollen blood vessels in the rectum.',
@@ -28,7 +24,7 @@ export default function Hero () {
             <h1 
                 className="fade-up hero_title hero-title font-500 px-[5px]" 
                 >
-                {heroContent.title}
+                {heading}
             </h1>
   
            <div className='hero_content flex flex-wrap'>
@@ -36,7 +32,7 @@ export default function Hero () {
                 <Image  src={heroContent.heroImage} alt="Lazy loaded"  className="logo-fade hero_image"  fill />                 
             </div>
             <div className="right_hero">
-            
+                <p>{paragraph}</p>
                 <ul className='list_items_hero' lazyload="true" >
                 {heroContent.descList.map((desc, index) => (
                     <li className='list_item_hero hero-text' key={index}>{desc}</li>
