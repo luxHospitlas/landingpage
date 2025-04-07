@@ -19,6 +19,34 @@ export default function RootLayout({
         
         <link rel="preload" href="/globals.css" as="style" />
         <link rel="stylesheet" href="/globals.css" media="print" />
+        <link
+  rel="preload"
+  href="/fonts/Parkinsans-Bold.ttf"
+  as="font"
+  type="font/woff2"
+  crossOrigin="anonymous"
+/>
+<link
+  rel="preload"
+  href="/fonts/Parkinsans-Medium.ttf"
+  as="font"
+  type="font/woff2"
+  crossOrigin="anonymous"
+/>
+<link
+  rel="preload"
+  href="/fonts/Parkinsans-Regular.ttf"
+  as="font"
+  type="font/woff2"
+  crossOrigin="anonymous"
+/>
+<link
+  rel="preload"
+  href="/fonts/Parkinsans-SemiBold.ttf"
+  as="font"
+  type="font/woff2"
+  crossOrigin="anonymous"
+/>
        
         <ClientHead />
       </head>

@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import './footerstyles.css';
-import { useInView } from "react-intersection-observer";
+
 
 const data = {
   description: 'Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam. Vel massa commodo viverra.Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam',
@@ -35,15 +35,15 @@ const data = {
 };
 
 const FooterComponent = () => {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
+
 
   return (
-    <section className="footer bg-white" ref={ref}>
+    <section className="footer bg-white" >
       <div className="inner_footer">
        
         <div className="column c_one">
           <Link href="#" className="footer_logo" >
-            <Image src={data.logo} alt="Logo" width={200} height={60}  className={`logo-fade ${inView ? "fade-in" : "opacity-0"}`}/>
+            <Image src={data.logo} alt="Logo" width={200} height={60}  className={`logo-fade `}/>
           </Link>
           <p className="text-gray-600 mt-2 footer_description">{data.description}</p>
         </div>
