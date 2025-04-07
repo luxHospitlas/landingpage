@@ -135,16 +135,8 @@
     transform: translateY(10px);
     animation: fadeInUp 1s ease-in-out forwards;
   }
-  
-  .header__logo {
-    animation-delay: 0.5s;
-  }
-  .header__logothree{
-    animation-delay: 1s;
-  }
-  .header__logotwo{
-    animation-delay: 1.5s;
-  }
+
+
   
   
   @keyframes fadeInUp {

@@ -90,9 +90,7 @@ ul, tbody, th, table{
   .service_title{
     animation-delay: 0.5s;
   }
-  .header_cta_type_one{
-    animation-delay: 2.5s;
-  }
+ 
   .arrowimg{
     animation-delay: 1s;
   }
@@ -154,10 +152,7 @@ ul, tbody, th, table{
   text-align: left;
   font-size: 18px;
 }
-.doctors_row_two{
 
-  /* flex-direction: row-reverse; */
-}
 .right_align{
   text-align: left;
   padding: 5px;
