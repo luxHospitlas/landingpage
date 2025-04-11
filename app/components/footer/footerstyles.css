@@ -1,115 +1,115 @@
-.inner_footer{
-    width: 95%;
-    height: auto;
-    margin: 0 auto;
-    padding: 60px;
-    background: #e9dcea;
-    border-radius: 6px;
+.inner_footer {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  padding: 60px;
+  background: #e9dcea;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+}
+.c_one {
+  width: 35%;
+}
+.footer_logo img {
+  margin-bottom: 20px;
+}
+.inner_second_footer {
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.socials_div {
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.excellence_list {
+  margin-bottom: 14px;
+}
+.for_patients {
+  margin-bottom: 14px;
+}
+.footer {
+  height: 380px;
+  min-height: 400px;
+}
+@media (max-width: 768px) {
+  .footer {
+    height: 100vh;
+    min-height: 100%;
+  }
+  .inner_footer {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .c_one {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    gap: 70px;
-}
-.c_one{
-    width: 35%;
-}
-.footer_logo img{
-    margin-bottom: 20px;
-}
-.inner_second_footer{
-    width: 65%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-}
-.socials_div{
-    gap: 12px;
-    margin-bottom: 14px;
-}
-.excellence_list{
-    margin-bottom: 14px;
-}
-.for_patients{
-    margin-bottom: 14px;
-}
-.footer{
-    height: 380px;
-    min-height: 400px;
-}
-@media (max-width:768px) {
-    .footer{
-        height: 100vh;
-        min-height: 100%;
-    }
-    .inner_footer{
-        flex-direction: column;
-        padding: 30px;
-    }
-    .c_one{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer_logo img{
-        margin: auto;
-    }
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_logo img {
+    margin: auto;
+  }
 
-    .inner_second_footer{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    .inner_footer{
-        gap: 40px;
-    }
-    .footer_description{
-        text-align: center;
-    }
+  .inner_second_footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .inner_footer {
+    gap: 40px;
+  }
+  .footer_description {
+    text-align: center;
+  }
 }
-p{
-    color: #000;
+p {
+  color: #000;
 }
 /* Contact Us Section */
 .c_four {
-    width: 30%;
+  width: 30%;
 }
 
 .contact_details {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .contact_details p {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 16px;
-    color: #000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #000;
 }
 
 .contact_details a {
-    text-decoration: none;
-    color: #000;
-    transition: color 0.3s ease-in-out;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in-out;
 }
 
 .contact_details a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 /* Responsive Contact Section */
 @media (max-width: 768px) {
-    .c_four {
-        width: 100%;
-        text-align: left;
-        row-gap: 5px;;
-    }
+  .c_four {
+    width: 100%;
+    text-align: left;
+    row-gap: 5px;
+  }
 
-    .contact_details p {
-        justify-content: center;
-        
-    }
+  .contact_details p {
+    justify-content: center;
+  }
 }
