@@ -1,139 +1,96 @@
+// NO "use client" here
+import dynamic from "next/dynamic";
+
 import Hero from "../components/hero/hero";
+import Second from "../components/second/second";
+import HospitalLocation from "../components/HospitalLocation/hospitallocations";
+const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
+const HospitalComparison = dynamic(() =>
+  import("../components/Treatmenttable/Hospitalcomparison")
+);
+const Accreditations = dynamic(() =>
+  import("../components/Accreditions/accreditions")
+);
+const VideoSection = dynamic(() => import("../components/Videosection/videos"));
+const PatientTalks = dynamic(() =>
+  import("../components/Patienttalks/patients")
+);
+const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
+const Whatare = dynamic(() => import("../components/what/whatare"));
+import Faqs from "../components/faqs/faq"; // still a client component
 
 const contentMap = {
-  "best-piles-lady-doctor-in-hyderabad": {
-    heading: "Best Piles Lady Doctor in Hyderabad",
-    point: "Expert Piles Treatment by Dr. Samhitha Reddy",
-    tablehead: "Types of Piles Treatments",
-    insurance:
-      "Check if piles treatment is covered under your health insurance policy for a hassle-free procedure.",
-    getEstimate:
-      "The price of piles treatment depends on severity, type of procedure, hospital charges, and post-treatment care.",
-    whatAreH: "What Is Piles Treatment?",
-    whatAreP:
-      "Piles, also known as hemorrhoids, are swollen veins in the rectum or anus that cause pain, itching, bleeding, and discomfort. At Lux Hospitals, expert doctor Dr. Samhitha Reddy provides advanced treatment options, including laser surgery, stapler hemorrhoidectomy, and minimally invasive procedures for effective and long-term relief.",
-    whatHead: "Types of Piles Treatments",
-    treatments: [
+  "external-hemorrhoids-doctor": {
+    heading: "External Hemorrhoids Doctor",
+    descList: [
+      "Top External Hemorrhoids Doctor",
+      "30-min procedure, same-day discharge",
+      "All Cashless Insurance accepted",
+      "Zero-interest EMI available",
+      " Advanced Laser & Minimally Invasive Treatment",
+    ],
+    locationsectionheading:
+      "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
+    doctors: [
       {
-        title: "Laser Treatment",
-        description: "Minimally invasive, less pain, faster recovery.",
-      },
-      {
-        title: "Stapler Hemorrhoidectomy",
-        description: "Removes excess tissue and repositions hemorrhoids.",
-      },
-      {
-        title: "Open Hemorrhoidectomy",
-        description: "Recommended for severe cases, involves surgical removal.",
-      },
-      {
-        title: "Doppler-Guided Ligation",
-        description: "Cuts off blood supply to hemorrhoids for shrinkage.",
+        name: "Dr. Samhitha Reddy",
+        designation: "Piles Specialist",
+        designationtwo: "piles Specialist",
+        image: "/doctors/samhitha-reddy.webp",
       },
     ],
+    tableContent: [
+      {
+        theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
+      },
+    ],
+    whatAreH: "What Are External Hemorrhoids?",
+    whatAreP:
+      "External hemorrhoids are swollen veins located under the skin around the anus...",
+    whatHead:
+      "Top 3 Advanced Treatments for External Hemorrhoids at Lux Hospitals:",
+    treatments: [
+      {
+        title: "Laser Hemorrhoidoplasty (LHP",
+        description: "A minimally invasive procedure using laser energy...",
+      },
+      // ... other treatments
+    ],
+    fheading: "FAQs on External Hemorrhoids",
     faqs: [
       {
-        faqTitle: "What are the symptoms of piles?",
+        faqTitle: "What causes external hemorrhoids?",
         faqAnswer:
-          "Pain, itching, swelling, and bleeding during bowel movements are common symptoms.",
+          "External hemorrhoids develop due to excessive straining, prolonged sitting, chronic constipation, obesity, and pregnancy.",
+      },
+
+      {
+        faqTitle: "Is surgery necessary for external hemorrhoids?",
+        faqAnswer:
+          "Surgery is only needed for severe cases. Minimally invasive options like laser treatment are highly effective.",
       },
       {
-        faqTitle: "Can piles be treated without surgery?",
+        faqTitle: "When should I see a doctor for external hemorrhoids?",
         faqAnswer:
-          "Yes, early piles can be treated non-surgically. Severe cases may require surgery for effective relief from pain, bleeding, and complications.",
+          "If you experience persistent pain, bleeding, or swelling, consult an external hemorrhoids doctor for expert treatment.",
       },
       {
-        faqTitle: "How long does it take to recover from piles surgery?",
+        faqTitle: "Does insurance cover external hemorrhoid treatment?",
         faqAnswer:
-          "Laser piles surgery allows recovery within 2–5 days, while traditional surgery may take 2–3 weeks.",
+          "Most health insurance plans cover external hemorrhoid procedures. Check with your provider for details.",
       },
       {
-        faqTitle:
-          "Where can I find the best lady doctor for piles treatment in Hyderabad?",
+        faqTitle: "Why choose Lux Hospitals for external hemorrhoid treatment?",
         faqAnswer:
-          "Dr. Samhitha Reddy at Lux Hospitals is an expert in painless piles treatment.",
+          "Lux Hospitals offer advanced treatments, expert specialists, and personalized care for effective recovery.",
       },
       {
-        faqTitle: "How much does piles treatment cost in Hyderabad?",
+        faqTitle: "Whom should I consult for external hemorrhoids treatment?",
         faqAnswer:
-          "The cost ranges from ₹20,000 – ₹80,000, depending on the treatment type and hospital facilities.",
-      },
-      {
-        faqTitle: "Is piles treatment covered by insurance?",
-        faqAnswer:
-          "Yes, most health insurance plans cover piles treatment. Contact Lux Hospitals for claim assistance.",
+          "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan.",
       },
     ],
   },
-
-  "top-piles-female-doctor-in-hyderabad": {
-    heading: "Top Piles Female Doctor in Hyderabad",
-    point: "Expert Piles Treatment by Dr. Samhitha Reddy",
-    tablehead: "Types of Piles Treatments",
-    insurance:
-      "Check if piles treatment is covered under your health insurance policy for a hassle-free procedure.",
-    getEstimate:
-      "The price of piles treatment depends on severity, type of procedure, hospital charges, and post-treatment care.",
-    whatAreH: "What Is Piles Treatment?",
-    whatAreP:
-      "Piles, or hemorrhoids, are swollen veins in the rectum or anus, causing pain, itching, bleeding, and discomfort. At Lux Hospitals, top specialist Dr. Samhitha Reddy provides advanced treatments like laser surgery, stapler hemorrhoidectomy, and minimally invasive procedures for long-lasting relief.",
-    whatHead: "Types of Piles Treatments",
-    treatments: [
-      {
-        title: "Laser Treatment",
-        description: "Minimally invasive, faster recovery, and less pain.",
-      },
-      {
-        title: "Stapler Hemorrhoidectomy",
-        description: "Removes excess tissue and repositions hemorrhoids.",
-      },
-      {
-        title: "Open Hemorrhoidectomy",
-        description: "Suitable for severe cases, involves surgical removal.",
-      },
-      {
-        title: "Doppler-Guided Ligation",
-        description: "Cuts off blood supply to hemorrhoids for shrinkage.",
-      },
-    ],
-    faqs: [
-      {
-        faqTitle: "What are the symptoms of piles?",
-        faqAnswer:
-          "Pain, itching, swelling, and bleeding during bowel movements are common symptoms.",
-      },
-      {
-        faqTitle: "Can piles be treated without surgery?",
-        faqAnswer:
-          "Early piles can be managed with medications and lifestyle changes. Severe cases may require surgery.",
-      },
-      {
-        faqTitle: "How long is the recovery after piles surgery?",
-        faqAnswer:
-          "Laser treatment allows recovery in 2–5 days, while traditional surgery may take 2–3 weeks.",
-      },
-      {
-        faqTitle:
-          "Who is the top female doctor for piles treatment in Hyderabad?",
-        faqAnswer:
-          "Dr. Samhitha Reddy at Lux Hospitals specializes in painless piles treatment.",
-      },
-      {
-        faqTitle: "What is the cost of piles treatment in Hyderabad?",
-        faqAnswer:
-          "The cost varies from ₹20,000 – ₹80,000, based on the procedure and hospital facilities.",
-      },
-      {
-        faqTitle: "Is piles treatment covered by insurance?",
-        faqAnswer:
-          "Yes, most health insurance plans cover it. Contact Lux Hospitals for assistance with claims.",
-      },
-    ],
-  },
-
-  //... Add other objects similarly corrected (omitted here for brevity)
-
-  // Default fallback content
   piles: {
     heading: "Get Relief from Piles Today",
     paragraph: "Lux Hospitals offers advanced treatment with quick recovery.",
@@ -150,7 +107,30 @@ export default function ConditionPage({ params }) {
 
   return (
     <>
-      <Hero heading={content.heading} />
+      <Hero heading={content.heading} descList={content.descList} />
+      <Second />
+      <HospitalLocation
+        locationsectionheading={content.locationsectionheading}
+      />
+      <DoctorCard
+        designation={content.doctors?.[0]?.designation}
+        designationtwo={content.doctors?.[0]?.designationtwo}
+      />
+      <HospitalComparison theading={content.tableContent?.[0]?.theading} />
+      <Accreditations />
+      <VideoSection />
+      <PatientTalks />
+      <Luxgpt />
+      <Whatare />
+      {content.faqs && (
+        <Faqs
+          fheading={content.fheading}
+          faqs={content.faqs.map((faq) => ({
+            faqquestion: faq.faqTitle,
+            faqanswer: faq.faqAnswer,
+          }))}
+        />
+      )}
     </>
   );
 }
