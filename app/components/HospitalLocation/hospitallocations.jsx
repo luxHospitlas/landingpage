@@ -2,20 +2,10 @@
 import React from "react";
 import { FaMapMarkerAlt, FaStar } from "react-icons/fa";
 import "./hplstyles.css";
-import { useInView } from "react-intersection-observer";
 
 export default function HospitalLocation({ locationsectionheading }) {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
   return (
-    <section
-      ref={ref}
-      className={`flex flex-col items-center hospital_location_section ${
-        inView ? "fade-in" : "opacity-0"
-      }`}
-    >
+    <section className="flex flex-col items-center hospital_location_section">
       <h2 className="text-3xl font-bold text-center text-indigo-900">
         Our Hospital Location
       </h2>
@@ -28,12 +18,8 @@ export default function HospitalLocation({ locationsectionheading }) {
           />
         </div>
         <div className="leftl-lright">
-          <div ref={ref} className="p-6 lg:w-[83%]">
-            <h3
-              className={`gmb_title text-lg font-500 text-gray-900 mb-3 ${
-                inView ? "fade-in" : "opcacity-0"
-              }`}
-            >
+          <div className="p-6 lg:w-[83%]">
+            <h3 className="gmb_title text-lg font-500 text-gray-900 mb-3">
               {locationsectionheading}
             </h3>
 
@@ -41,7 +27,6 @@ export default function HospitalLocation({ locationsectionheading }) {
             <div className="google_reviews flex text-gray-500 mt-2 mb-3">
               {/* Google Icon and Text */}
               <div className="flex items-center gap-2">
-                {/* <img src="/google icon.avif" alt="Google" className="w-6 h-6" /> */}
                 <div className="flex items-center">
                   <span className="text-lg font-bold">4.5</span>
                   <div className="flex text-yellow-500 ml-2">
@@ -58,22 +43,8 @@ export default function HospitalLocation({ locationsectionheading }) {
               </span>
             </div>
 
-            {/* <div className="flex items-center">
-            <span className="text-lg font-bold">4.5</span>
-            <div className="flex text-yellow-500 ml-2">
-              {[...Array(5)].map((_, index) => (
-                <FaStar key={index} />
-              ))}
-            </div>
-          </div> */}
-
             {/* Address Info */}
-            {/* <p className="mt-3 text-gray-700 flex items-start address_info">
-            <FaMapMarkerAlt className="mr-2 text-gray-600" /> Plot no: 116, Lumbini Enclave Hitech city main road,
-             Landmark:, near IKEA, Gachibowli, Hyderabad, Telangana 500081
-          </p> */}
             <p className="mt-3 text-gray-700 flex items-start address_info">
-              {/* <img src="/google map icon.webp" alt="Location" className="mr-1 w-5 h-5 " />  */}
               Plot no: 116, Lumbini Enclave Hitech city main road, Landmark:
               near IKEA, Gachibowli, Hyderabad, Telangana 500081
             </p>

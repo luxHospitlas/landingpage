@@ -1,26 +1,16 @@
 "use client";
-import { useInView } from "react-intersection-observer";
+
 import React from "react";
 import "./tablestyles.css";
 
 export default function HospitalComparison({ theading }) {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
   return (
-    <section
-      ref={ref}
-      className={`w-[96%] mx-auto my-10 ${inView ? "fade-in" : "opacity-0"}`}
-    >
+    <section className={`w-[96%] mx-auto my-10 fade-in `}>
       <h2 className="text-center text-3xl font-bold text-gray-800 ">
         {theading}
       </h2>
 
-      <div
-        ref={ref}
-        className={`overflow-x-auto mt-6 ${inView ? "fade-in" : "opacity-0"}`}
-      >
+      <div className={`overflow-x-auto mt-6 fade-in `}>
         <table className="w-full border-collapse border rounded-lg overflow-hidden">
           <thead>
             <tr className="bg-green-300 text-gray-800">

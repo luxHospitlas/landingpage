@@ -4,16 +4,18 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-html {
-  overflow: scroll;
-}
-
 body {
+  background: #fff;
+  transition: smooth;
+
+  width: 100%;
+}
+/* body {
   background: #fff;
   transition: unset;
   overflow-x: hidden;
   width: 100%;
-}
+} */
 /* GT Walsheim Pro - Regular (400) */
 @font-face {
   font-family: "GTWalsheimPro";

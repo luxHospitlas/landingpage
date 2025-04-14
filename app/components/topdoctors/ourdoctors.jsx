@@ -1,8 +1,6 @@
 "use client";
-import { useInView } from "react-intersection-observer";
 
 const DoctorCard = ({ designation, designationtwo }) => {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
   return (
     <section
       className="w-[90%]"
@@ -20,12 +18,9 @@ const DoctorCard = ({ designation, designationtwo }) => {
             <div className=" doctor_card bg-white  shadow-md w-72 text-center">
               <div className="bg-blue-100 flex items-center justify-center rounded-t-3xl p-3 inner_doctor">
                 <img
-                  ref={ref}
                   src="/doctor.avif"
                   alt="Dr. Samhitha Reddy"
-                  className={` max-w-[250px] h-auto mb-[-10px] ${
-                    inView ? "opacity-100" : "opacity-0"
-                  }`}
+                  className={` max-w-[250px] h-auto mb-[-10px] opacity-100 `}
                 />
               </div>
               <div className="p-4 content_cars">
@@ -76,12 +71,9 @@ const DoctorCard = ({ designation, designationtwo }) => {
             <div className=" doctor_card bg-white rounded-3xl shadow-md w-72 text-center">
               <div className="bg-blue-100 flex items-center justify-center rounded-t-3xl p-3 inner_doctor">
                 <img
-                  ref={ref}
                   src="/doctor.avif"
                   alt="Dr. Samhitha Reddy"
-                  className={` max-w-[250px] h-auto mb-[-10px] ${
-                    inView ? "opacity-100" : "opacity-0"
-                  }`}
+                  className={` max-w-[250px] h-auto mb-[-10px] opacity-100 `}
                 />
               </div>
               <div className="p-4 content_cars">

@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { useInView } from "react-intersection-observer";
 import "./fastyles.css";
 
 type FAQ = {
@@ -14,7 +13,6 @@ type Props = {
 };
 
 export default function Faqs({ fheading, faqs }: Props) {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleAccordion = (index: number) => {
@@ -22,59 +20,47 @@ export default function Faqs({ fheading, faqs }: Props) {
   };
 
   return (
-    <section className="faqs_section" ref={ref}>
-      {inView && (
-        <>
-          <h2 className="text-3xl text-[#252B61] mt-4 mb-8 text-center font-bold faq_title">
-            {fheading || "FAQ’s (Frequently Asked Questions)"}
-          </h2>
+    <section className="faqs_section">
+      <h2 className="text-3xl text-[#252B61] mt-4 mb-8 text-center font-bold faq_title">
+        {fheading || "FAQ’s (Frequently Asked Questions)"}
+      </h2>
+      <div className="faq_wrapper inner_section">
+        {faqs.map((faq, index) => (
           <div
-            className={`faq_wrapper inner_section ${
-              inView ? "fade-in" : "opacity-0"
-            }`}
+            key={index}
+            className={`accordion ${activeIndex === index ? "active" : ""}`}
+            onClick={() => toggleAccordion(index)}
           >
-            {faqs.map((faq, index) => (
-              <div
-                key={index}
-                className={`accordion ${activeIndex === index ? "active" : ""}`}
-                onClick={() => toggleAccordion(index)}
-              >
-                <div className="accordion_head">
-                  <span>{faq.faqquestion}</span>
-                  <p
-                    className={`icon ${activeIndex === index ? "rotate" : ""}`}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="none"
-                      viewBox="0 0 16 16"
-                    >
-                      <path stroke="currentColor" d="M13.5 5.5 8 11 2.5 5.5" />
-                    </svg>
-                  </p>
-                </div>
-
-                <div
-                  className="accordion_content"
-                  style={{
-                    maxHeight: activeIndex === index ? "200px" : "0px",
-                    opacity: activeIndex === index ? 1 : 0,
-                    transform:
-                      activeIndex === index
-                        ? "translateY(0)"
-                        : "translateY(-10px)",
-                    transition: "all 0.3s ease",
-                  }}
+            <div className="accordion_head">
+              <span>{faq.faqquestion}</span>
+              <p className={`icon ${activeIndex === index ? "rotate" : ""}`}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="none"
+                  viewBox="0 0 16 16"
                 >
-                  <p className="faq_answer">{faq.faqanswer}</p>
-                </div>
-              </div>
-            ))}
+                  <path stroke="currentColor" d="M13.5 5.5 8 11 2.5 5.5" />
+                </svg>
+              </p>
+            </div>
+
+            <div
+              className="accordion_content"
+              style={{
+                maxHeight: activeIndex === index ? "200px" : "0px",
+                opacity: activeIndex === index ? 1 : 0,
+                transform:
+                  activeIndex === index ? "translateY(0)" : "translateY(-10px)",
+                transition: "all 0.3s ease",
+              }}
+            >
+              <p className="faq_answer">{faq.faqanswer}</p>
+            </div>
           </div>
-        </>
-      )}
+        ))}
+      </div>
     </section>
   );
 }

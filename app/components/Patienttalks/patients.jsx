@@ -1,38 +1,63 @@
-'use client';
+"use client";
 import { useRef, useState } from "react";
-import { useInView } from "react-intersection-observer";
-import './patistyles.css';
+import "./patistyles.css";
 
 export default function PatientTalks() {
   const scrollRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
-
   const testimonials = [
-    { id: 1, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-1.webp", name: "Sumetha" },
-    { id: 2, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-2.webp", name: "Sumetha" },
-    { id: 3, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-3.webp", name: "Sumetha" },
-    { id: 4, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-4.webp", name: "Sumetha" },
-    { id: 5, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-5.webp", name: "Sumetha" },
-    { id: 6, imageUrl: "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-6.webp", name: "Sumetha" },
-
+    {
+      id: 1,
+      imageUrl:
+        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-1.webp",
+      name: "Sumetha",
+    },
+    {
+      id: 2,
+      imageUrl:
+        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-2.webp",
+      name: "Sumetha",
+    },
+    {
+      id: 3,
+      imageUrl:
+        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-3.webp",
+      name: "Sumetha",
+    },
+    {
+      id: 4,
+      imageUrl:
+        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-4.webp",
+      name: "Sumetha",
+    },
+    {
+      id: 5,
+      imageUrl:
+        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-5.webp",
+      name: "Sumetha",
+    },
+    {
+      id: 6,
+      imageUrl:
+        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-6.webp",
+      name: "Sumetha",
+    },
   ];
 
   const scrollToSlide = (index) => {
     setActiveIndex(index);
     scrollRef.current?.scrollTo({
-      left: index * 320,  // Adjust width as per your .video_box width
+      left: index * 320, // Adjust width as per your .video_box width
       behavior: "smooth",
     });
   };
 
   return (
-    <section 
-      ref={ref} 
-      className={`text-center transition-opacity duration-500 patient_section ${inView ? "opacity-100" : "opacity-0"}`}
-    >
-      <h2 className="text-3xl sm:1xl font-bold text-gray-900 patienttalk_heading">Patients Love Us</h2>
+    <section className="text-center patient_section">
+      <h2 className="text-3xl sm:1xl font-bold text-gray-900 patienttalk_heading">
+        Patients Love Us
+      </h2>
 
       <div className="relative mt-6">
         <div
@@ -49,7 +74,7 @@ export default function PatientTalks() {
           {testimonials.map((_, index) => (
             <span
               key={index}
-              className={`dot ${activeIndex === index ? 'active' : ''}`}
+              className={`dot ${activeIndex === index ? "active" : ""}`}
               onClick={() => scrollToSlide(index)}
             ></span>
           ))}
@@ -60,20 +85,13 @@ export default function PatientTalks() {
 }
 
 const VideoCard = ({ testimonial }) => {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
   return (
-    <div
-      ref={ref}
-      className="snap-center w-64 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden shadow-lg video_box"
-    >
-      {inView ? (
-        <img src={testimonial.imageUrl} alt="Testimonial" className="object-cover w-full h-[240px]" />
-      ) : (
-        <div className="w-full h-40 bg-gray-300 flex items-center justify-center">
-          <p className="text-gray-500">Loading...</p>
-        </div>
-      )}
+    <div className="snap-center w-64 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden shadow-lg video_box">
+      <img
+        src={testimonial.imageUrl}
+        alt="Testimonial"
+        className="object-cover w-full h-[240px]"
+      />
       <div className="p-4 text-center">
         <p className="text-gray-900 font-bold">{testimonial.name}</p>
       </div>

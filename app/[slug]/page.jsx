@@ -16,8 +16,9 @@ const PatientTalks = dynamic(() =>
   import("../components/Patienttalks/patients")
 );
 const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
-const Whatare = dynamic(() => import("../components/what/whatare"));
+
 import Faqs from "../components/faqs/faq"; // still a client component
+import { title } from "process";
 
 const contentMap = {
   "external-hemorrhoids-doctor": {
@@ -46,15 +47,30 @@ const contentMap = {
     ],
     whatAreH: "What Are External Hemorrhoids?",
     whatAreP:
-      "External hemorrhoids are swollen veins located under the skin around the anus...",
+      "External hemorrhoids are swollen veins located under the skin around the anus",
     whatHead:
       "Top 3 Advanced Treatments for External Hemorrhoids at Lux Hospitals:",
     treatments: [
       {
         title: "Laser Hemorrhoidoplasty (LHP",
-        description: "A minimally invasive procedure using laser energy...",
+        description: "A minimally invasive procedure using laser energy",
       },
-      // ... other treatments
+      {
+        title: "Laser Hemorrhoidoplasty (LHP",
+        description: "A minimally invasive procedure using laser energy",
+      },
+      {
+        title: "Laser Hemorrhoidoplasty (LHP",
+        description: "A minimally invasive procedure using laser energy",
+      },
+      {
+        title: "Laser Hemorrhoidoplasty (LHP",
+        description: "A minimally invasive procedure using laser energy",
+      },
+      {
+        title: "Laser Hemorrhoidoplasty (LHP",
+        description: "A minimally invasive procedure using laser energy",
+      },
     ],
     fheading: "FAQs on External Hemorrhoids",
     faqs: [
@@ -121,7 +137,13 @@ export default function ConditionPage({ params }) {
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
-      <Whatare />
+      {/* render the whatare section here */}
+      <Whatare
+        whatAreH={content.whatAreH}
+        whatAreP={content.whatAreP}
+        whatHead={content.whatHead}
+        treatments={content.treatments}
+      />
       {content.faqs && (
         <Faqs
           fheading={content.fheading}
@@ -134,3 +156,30 @@ export default function ConditionPage({ params }) {
     </>
   );
 }
+
+// Whatare Component
+const Whatare = ({ whatAreH, whatAreP, whatHead, treatments }) => {
+  return (
+    <section className="logo-fade lg:px-20 text-[#252B61] whatare">
+      {/* Heading */}
+      <h2 className="text-xl md:text-2xl font-bold mb-4">{whatAreH}</h2>
+      <p className="text-gray-700 mb-6 leading-[2em] whatarepara">{whatAreP}</p>
+
+      {/* Treatments Section */}
+      <h3 className="text-lg md:text-xl font-bold mb-6">{whatHead}</h3>
+      {/* Render treatments */}
+      <div className="space-y-4">
+        {treatments.map((treatment, index) => (
+          <div key={index}>
+            <ul className="list-disc list-outside pl-5 font-medium mb-0">
+              <li>{treatment.title}</li>
+            </ul>
+            <p className="text-gray-700 mb-2 px-4 leading-[2em] whatarepara">
+              {treatment.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};

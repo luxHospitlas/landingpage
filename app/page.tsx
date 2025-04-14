@@ -21,7 +21,7 @@ const PatientTalks = dynamic(
   () => import("./components/Patienttalks/patients")
 );
 const Luxgpt = dynamic(() => import("./components/luxgpt/luxgpt"));
-const Whatare = dynamic(() => import("./components/what/whatare"));
+
 // const Faqs = dynamic(() => import("./components/faqs/faq"));
 
 export default function Home() {
@@ -69,7 +69,7 @@ export default function Home() {
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
-      <Whatare />
+ 
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}
         faqanswer={"answer"}
