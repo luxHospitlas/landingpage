@@ -107,7 +107,7 @@ const contentMap = {
       },
     ],
   },
-  piles: {
+ "piles": {
     heading: "Get Relief from Piles Today",
     paragraph: "Lux Hospitals offers advanced treatment with quick recovery.",
   },
