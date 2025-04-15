@@ -107,9 +107,24 @@ const contentMap = {
         faqAnswer:
           "If you experience persistent pain, bleeding, or swelling, consult an external hemorrhoids doctor for expert treatment.",
       },
+      {
+        faqTitle: "Does insurance cover external hemorrhoid treatment?",
+        faqAnswer:
+          "Most health insurance plans cover external hemorrhoid procedures. Check with your provider for details.",
+      },
+      {
+        faqTitle: "Why choose Lux Hospitals for external hemorrhoid treatment?",
+        faqAnswer:
+          "Lux Hospitals offer advanced treatments, expert specialists, and personalized care for effective recovery.",
+      },
+      {
+        faqTitle: "Whom should I consult for external hemorrhoids treatment?",
+        faqAnswer:
+          "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan.",
+      },
     ],
   },
-  "piles-hospital-near-me": {
+ "piles": {
     heading: "Get Relief from Piles Today",
     paragraph: "Lux Hospitals offers advanced treatment with quick recovery.",
   },
