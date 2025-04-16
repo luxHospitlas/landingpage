@@ -7,11 +7,12 @@ export default function VideoSection() {
   return (
     <section className={` videos_section fade-in `}>
       <video autoPlay muted loop playsInline className="bg-video">
-        <source src="/luxhospitalvideo.mp4" type="video/mp4" />
+        <source className="desktop_videosection" src="/lux page center page.mp4" type="video/mp4" />
+        <source className="mobile_videosection" src="/lux page center mobile version.mp4" type="video/mp4" />
         Your browser doesn't support HTML5 videos.
       </video>
 
-      <div className="video-overlay-content">
+      {/* <div className="video-overlay-content">
         <ul className="list_text list-outside text-white-700 space-y-2 text-left">
           <li>✔ Designed for comfort</li>
           <li>✔ Spacious rooms</li>
@@ -24,7 +25,7 @@ export default function VideoSection() {
           </li>
           <li>✔ NABH protocols</li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 }

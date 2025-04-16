@@ -8,7 +8,7 @@ const DoctorCard = ({ designation, designationtwo }) => {
         margin: "auto",
       }}
     >
-      <h2 className="text-3xl font-bold text-center text-indigo-900 mb-4">
+      <h2 className="text-xl font-bold text-center text-indigo-900 mb-4">
         Our top doctors
       </h2>
 
@@ -27,7 +27,7 @@ const DoctorCard = ({ designation, designationtwo }) => {
                 <h3 className="text-lg font-bold text-indigo-900 doctor_name">
                   Dr Samhitha Reddy
                 </h3>
-                <p className="text-sm text-gray-600 mt-1 designation">MBBS.</p>
+                <p className="text-sm text-gray-600 mt-1 designation"> MBBS, MS, FMAS, FISCP, DMAS</p>
                 <p className="text-sm text-gray-600 mt-1 designation">
                   {designation}
                 </p>
@@ -80,7 +80,7 @@ const DoctorCard = ({ designation, designationtwo }) => {
                 <h3 className="text-lg font-bold text-indigo-900 doctor_name">
                   Dr Samhitha Reddy
                 </h3>
-                <p className="text-sm text-gray-600 mt-1 designation">MBBS.</p>
+                <p className="text-sm text-gray-600 mt-1 designation"> MBBS, MS, FMAS, FISCP, DMAS</p>
                 <p className="text-sm text-gray-600 mt-1 designation">
                   {designationtwo}
                 </p>

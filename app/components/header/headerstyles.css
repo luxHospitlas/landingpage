@@ -32,6 +32,7 @@
   background: #99509f;
   color: #fff;
 }
+
 @media (max-width: 768px) {
   .header__menu {
     display: none;
@@ -39,6 +40,8 @@
   .header__logos {
     width: 60%;
   }
+ 
+ 
 }
 @media (max-width: 475px) {
   .header {
@@ -141,4 +144,39 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+/* Add this CSS to your main CSS file or in a separate CSS file and import it into your component */
+/* @media (min-width:768px) {
+  .header_cta_type_one span{
+   display: none;
+  }
+}
+@media (max-width:768px) {
+  .header_cta_type_one{
+    display: none;
+  }
+} */
+
+.phone_number {
+  display: inline;
+}
+
+.call_now {
+  display: none;
+}
+
+@media (max-width: 470px) {
+  .phone_number {
+    display: none;
+  }
+
+  .call_now {
+    display: inline;
+  }
+}
+@media (max-width:350px) {
+  .call_now{
+    font-size: 10px;
+  }
+  
 }

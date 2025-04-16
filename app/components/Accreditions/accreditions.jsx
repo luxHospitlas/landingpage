@@ -6,7 +6,7 @@ const Accreditations = () => {
   return (
     <>
       <section className="accreditions">
-        <h2 className="text-center font-bold text-3xl fonts_title">
+        <h2 className="text-center font-bold text-xl fonts_title">
           Accreditations
         </h2>
         <div className="for_nabh">
@@ -46,7 +46,7 @@ const Accreditations = () => {
           <div className="lrboxes_ISO mt-6">
             <div className="flex justify-center p-4">
               <Image
-                src="/ISO.svg"
+                src="/iso-gold-logo-NEW-2.png"
                 alt="ISO Certified"
                 width={150}
                 height={150}

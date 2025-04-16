@@ -34,7 +34,7 @@
 .list_items_hero {
   display: flex;
   gap: 20px;
-  margin: 10px 0;
+  margin: 5px 0;
   flex-direction: column;
 }
 .hero_image {
@@ -74,11 +74,11 @@
     margin-bottom: 0;
   }
   .list_items_hero {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 10px;
     gap: 10px;
   }
   .list_item_hero {
-    font-size: 14px;
+    font-size: 12px;
   }
   .hero_section {
     padding: 4px 0 0 0;
@@ -90,7 +90,7 @@
     border-radius: 6px;
   }
   .list_items_hero {
-    margin: 10px 0;
+    margin: 5px 0;
   }
 }
 .hero-title,

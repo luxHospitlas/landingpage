@@ -13,7 +13,7 @@ export default function Second() {
     },
     {
       image: "/Get consultation.avif",
-      title: "Online Consultation",
+      title: "Cost Estimation",
       bgColor: "bg-yellow-200",
       arrow: "/Arrow.svg",
     },
@@ -26,7 +26,7 @@ export default function Second() {
     },
     {
       image: "/Health insurence.avif",
-      title: "Insurance and Estimation",
+      title: "Insurance Coverage",
       bgColor: "bg-blue-200",
       arrow: "/Arrow.svg",
     },
@@ -45,7 +45,7 @@ export default function Second() {
               alt={service.title}
               layout="fill"
               objectFit="cover"
-              className="rounded-t-lg"
+              className="image_div_sessioncard rounded-t-lg"
             />
           </div>
           <div className="flex content_Card items-center justify-center gap-2">

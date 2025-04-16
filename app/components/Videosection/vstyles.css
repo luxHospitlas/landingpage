@@ -10,6 +10,12 @@
   .list_text li{
     font-size:22px;
   }
+  .mobile_videosection{
+    display: none;
+  }
+  .desktop_videosection{
+    display: block;
+  }
   
 
   @media (max-width: 768px) {
@@ -22,6 +28,12 @@
     }
     .video-overlay-content p{
         font-size: 12px !important;
+      }
+      .mobile_videosection{
+        display: block;
+      }
+      .desktop_videosection{
+        display: none;
       }
   }
   
