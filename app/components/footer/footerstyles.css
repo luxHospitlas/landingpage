@@ -37,12 +37,13 @@
 }
 @media (max-width: 768px) {
   .footer {
-    height: 100vh;
+    height: 100%;
     min-height: 100%;
   }
   .inner_footer {
     flex-direction: column;
     padding: 30px;
+    margin-bottom: 30px;
   }
   .c_one {
     width: 100%;

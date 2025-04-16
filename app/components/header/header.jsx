@@ -12,7 +12,7 @@ export default function Header() {
             
             <div className="header__logos" >
                 <a href="#"><img className="logo-fade header__logo" src="/lux logo final.avif" alt="logo"  width={140} height={60}/></a>
-    <a href="#"><img className="logo-fade header__logotwo" src="/ISO.svg" alt="logo" /></a>
+    <a href="#"><img className="logo-fade header__logotwo" src="https://luxhospitals.com/wp-content/uploads/2025/04/iso-gold-logo-NEW.png" alt="logo" /></a>
     <a href="#"><img className="logo-fade header__logothree" src="/TRAIL.svg" alt="logo" /></a>
             </div>
 
@@ -28,7 +28,7 @@ export default function Header() {
 
           
             <div className="header__cta">
-                <Link href="tel: 07969084448" className="header_cta_type_one">07969084448</Link>
+                <Link href="tel: 07969084448" className="header_cta_type_one"><span className="phone_number ">07969084448</span> <span className="call_now">Call Now</span></Link>
             </div>
         </header>
     );

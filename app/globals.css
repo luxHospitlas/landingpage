@@ -171,7 +171,7 @@ table {
     display: none;
   }
   .dbutton {
-    font-size: 7px;
+    font-size: 9px;
   }
   .left_doctor {
     width: 180px;
@@ -261,4 +261,20 @@ a {
 }
 .doctor_card {
   border-radius: 25px 0px 0px 25px;
+}
+.doctors_heading{
+  font-size: 30px;
+}
+@media (max-width:470px) {
+  .dbutton{
+    padding: 5px 10px;
+  } 
+  .doctors_heading{
+    font-size: 20px;
+  }
+}
+@media (max-width:370px) {
+  .dbutton{
+    margin-top: 10px;
+  } 
 }

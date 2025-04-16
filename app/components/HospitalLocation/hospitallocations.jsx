@@ -6,7 +6,7 @@ import "./hplstyles.css";
 export default function HospitalLocation({ locationsectionheading }) {
   return (
     <section className="flex flex-col items-center hospital_location_section">
-      <h2 className="text-3xl font-bold text-center text-indigo-900">
+      <h2 className="Location_heading font-bold text-center text-indigo-900">
         Our Hospital Location
       </h2>
       <div className="border-grey-100 location_card shadow-lg">

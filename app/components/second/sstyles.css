@@ -13,6 +13,15 @@
     justify-content: space-between;
     border-radius: 6px;
 }
+.image_div_sessioncard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .image_div_sessioncard:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); */
+  }
 .sessioncards:nth-child(1){
     background: #A3DAC2;
 }

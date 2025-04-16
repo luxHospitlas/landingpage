@@ -10,37 +10,43 @@ export default function PatientTalks() {
     {
       id: 1,
       imageUrl:
-        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-1.webp",
+        "https://luxhospitals.com/wp-content/uploads/2025/04/2.webp",
       name: "Sumetha",
     },
     {
       id: 2,
       imageUrl:
-        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-2.webp",
+        "https://luxhospitals.com/wp-content/uploads/2025/04/3-1.webp",
       name: "Sumetha",
     },
     {
       id: 3,
       imageUrl:
-        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-3.webp",
+        "https://luxhospitals.com/wp-content/uploads/2025/04/4.webp",
       name: "Sumetha",
     },
     {
       id: 4,
       imageUrl:
-        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-4.webp",
+        "https://luxhospitals.com/wp-content/uploads/2025/04/6.webp",
       name: "Sumetha",
     },
     {
       id: 5,
       imageUrl:
-        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-5.webp",
+        "https://luxhospitals.com/wp-content/uploads/2025/04/5.webp",
       name: "Sumetha",
     },
     {
       id: 6,
       imageUrl:
-        "https://test.luxhospitals.com/wp-content/uploads/2025/03/patient-6.webp",
+        "https://luxhospitals.com/wp-content/uploads/2025/04/1.webp",
+      name: "Sumetha",
+    },
+    {
+      id: 7,
+      imageUrl:
+        "https://luxhospitals.com/wp-content/uploads/2025/04/7.webps",
       name: "Sumetha",
     },
   ];
@@ -55,7 +61,7 @@ export default function PatientTalks() {
 
   return (
     <section className="text-center patient_section">
-      <h2 className="text-3xl sm:1xl font-bold text-gray-900 patienttalk_heading">
+      <h2 className="text-xl sm:1xl font-bold text-indigo-900 patienttalk_heading">
         Patients Love Us
       </h2>
 
@@ -90,11 +96,11 @@ const VideoCard = ({ testimonial }) => {
       <img
         src={testimonial.imageUrl}
         alt="Testimonial"
-        className="object-cover w-full h-[240px]"
+        className="object-cover w-full h-full"
       />
-      <div className="p-4 text-center">
+      {/* <div className="p-4 text-center">
         <p className="text-gray-900 font-bold">{testimonial.name}</p>
-      </div>
+      </div> */}
     </div>
   );
 };

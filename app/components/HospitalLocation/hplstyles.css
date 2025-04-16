@@ -20,6 +20,15 @@
     /* min-height: 370px; */
     /* background: oklch(.885 .062 18.334); */
 }
+.leftl-right {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .leftl-right:hover {
+    transform: scale(1.03);
+    /* box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); */
+  }
 .leftl-lright{
     width: 50%;
     /* height: 400px; */
@@ -105,3 +114,12 @@
         font-size: 14px;
     }
 } */
+ .Location_heading{
+    font-size: 28px;
+ }
+ @media (max-width:450px){
+    .Location_heading{
+        font-size: 20px;
+    }
+    
+ }
