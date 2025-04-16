@@ -6,7 +6,7 @@ const Accreditations = () => {
   return (
     <>
       <section className="accreditions">
-        <h2 className="text-center font-bold text-xl fonts_title">
+        <h2 className="Accreditations_heading text-center font-bold text-xl fonts_title text-indigo-900">
           Accreditations
         </h2>
         <div className="for_nabh">

@@ -9,9 +9,10 @@ export default function Luxgpt() {
         <div className="md:w-1/2 text-center md:text-left left_Container">
           <h2 className="text_luxgot font-500">
             <span className="text-yellow-400">LUXGPT</span> : Your One <br />
-            <span className="text-white">Message Away Companion</span>
+            <span className="gpttext_span_mobile text-white">Message Away<br></br> Companion</span>
+            <span className="gpttext_span_desktop text-white">Message Away Companion</span>
           </h2>
-          <p className="mt-4 text-lg leading-relaxed luxgpt_para">
+          <p className="mt-7 text-lg leading-relaxed luxgpt_para">
             Healthcare, Simplified—Everything You Need In One Place. From
             Sharing Medical Reports To Getting Answers About Insurance Or Doctor
             Consultations, Just Send A Quick Text Or Voice Note For Instant

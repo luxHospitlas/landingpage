@@ -8,7 +8,7 @@ const DoctorCard = ({ designation, designationtwo }) => {
         margin: "auto",
       }}
     >
-      <h2 className="text-xl font-bold text-center text-indigo-900 mb-4">
+      <h2 className="doctors_heading text-xl font-bold text-center text-indigo-900 mb-4">
         Our top doctors
       </h2>
 

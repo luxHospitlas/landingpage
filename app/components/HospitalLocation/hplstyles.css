@@ -114,3 +114,12 @@
         font-size: 14px;
     }
 } */
+ .Location_heading{
+    font-size: 28px;
+ }
+ @media (max-width:450px){
+    .Location_heading{
+        font-size: 20px;
+    }
+    
+ }
