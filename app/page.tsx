@@ -28,7 +28,7 @@ export default function Home() {
   // const pathname = usePathname();
 
   // Fallback hero text based on pathname
-  let heroHeading = "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
+  const heroHeading = "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
 
 
 
