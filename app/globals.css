@@ -278,3 +278,18 @@ a {
     margin-top: 10px;
   } 
 }
+/* content section stylings */
+.whatare{
+  width: 100%;
+  margin: 40px 5px;
+  background: #fff;
+}
+@media (max-width:768px) {
+  .whatare{
+      width: 90%;
+      padding-left: 5px;
+  }
+  .whatarepara{
+      font-size: 12px;
+  }
+}

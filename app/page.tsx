@@ -25,20 +25,20 @@ const Luxgpt = dynamic(() => import("./components/luxgpt/luxgpt"));
 // const Faqs = dynamic(() => import("./components/faqs/faq"));
 
 export default function Home() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
   // Fallback hero text based on pathname
-  let heroHeading = "Lux Hospitals - Advanced Laser & Daycare Surgery";
+  let heroHeading = "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
 
 
 
-  if (pathname.includes("piles")) {
-    heroHeading = "Get Relief from Piles Today";
+  // if (pathname.includes("piles")) {
+  //   heroHeading = "Get Relief from Piles Today";
    
-  } else if (pathname.includes("fistula")) {
-    heroHeading = "Fistula Treatment at Lux Hospitals";
+  // } else if (pathname.includes("fistula")) {
+  //   heroHeading = "Fistula Treatment at Lux Hospitals";
  
-  }
+  // }
 
   // Dummy content
   const defaultDescList = [
@@ -61,7 +61,7 @@ export default function Home() {
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <DoctorCard
         designation="Piles Specialist"
-        designationtwo="piles Specialist"
+        designationtwo="Piles Specialist"
       />
 
       <HospitalComparison theading={"hospital"} />

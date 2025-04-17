@@ -61,7 +61,7 @@ const contentMap = {
       {
         name: "Dr. Samhitha Reddy",
         designation: "Piles Specialist",
-        designationtwo: "piles Specialist",
+        designationtwo: "Piles Specialist",
         image: "/doctors/samhitha-reddy.webp",
       },
     ],
@@ -72,22 +72,22 @@ const contentMap = {
     ],
     whatAreH: "What Are External Hemorrhoids?",
     whatAreP:
-      "External hemorrhoids are swollen veins located under the skin around the anus",
+      "External hemorrhoids are swollen veins located under the skin around the anus, causing pain, itching, and discomfort. They may form due to prolonged sitting, straining during bowel movements, or chronic constipation.",
     whatHead:
       "Top 3 Advanced Treatments for External Hemorrhoids at Lux Hospitals:",
     treatments: [
       {
         title: "Laser Hemorrhoidoplasty (LHP)",
-        description: "A minimally invasive procedure using laser energy",
+        description: "A minimally invasive procedure using laser energy to shrink external hemorrhoids, ensuring quicker recovery and minimal pain.",
       },
       {
-        title: "Radiofrequency Ablation",
-        description: "Uses heat to shrink hemorrhoidal tissue",
+        title: "Doppler-Guided Hemorrhoidal Artery Ligation (DGHAL)",
+        description: "A non-surgical method that ties off hemorrhoidal arteries, cutting blood supply to external hemorrhoids and reducing discomfort.",
       },
       {
-        title: "Rubber Band Ligation",
+        title: "Hemorrhoidal Artery Ligation with Recto-Anal Repair (HAL-RAR)",
         description:
-          "Non-surgical treatment that cuts off blood supply to hemorrhoids",
+          "A combination of artery ligation and rectal tissue repair, effective for advanced cases while minimizing post-operative pain.",
       },
     ],
     fheading: "FAQs on External Hemorrhoids",

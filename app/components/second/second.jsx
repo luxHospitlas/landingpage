@@ -7,7 +7,7 @@ export default function Second() {
   const services = [
     {
       image: "/Book an appointment.avif",
-      title: "Book Doctor Appointment",
+      title: "Book Doctors Appointment",
       bgColor: "bg-green-200",
       arrow: "/Arrow.svg",
     },
@@ -19,7 +19,7 @@ export default function Second() {
     },
     {
       image: "/secondopinion.avif",
-      title: "Get Expert Second Opinion",
+      title: "Get Second Opinion",
       description: "Essentials At Your Doorstep.",
       bgColor: "bg-pink-200",
       arrow: "/Arrow.svg",
@@ -57,8 +57,8 @@ export default function Second() {
                 className="arrowimg"
                 src={service.arrow}
                 alt="arrow-buttons"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
               />
             </div>
           </div>

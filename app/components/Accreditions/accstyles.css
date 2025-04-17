@@ -39,6 +39,9 @@
     font-size: 30px;
 }
 @media (max-width:476px) {
+    .for_nabh{
+        margin-top: 0;
+    }
     .right_b-lg{
         border-radius: 20px 0 0 20px;
         padding: 20px;
@@ -57,12 +60,18 @@
     .Accreditations_heading{
         font-size: 20px;
     }
+
 }
 @media (max-width:350px) {
     .image_certi{
         width: 80px;
     }
 }
-.for_nabh{
-    margin-top: 24px;
+
+
+@media (min-width:768px) {
+    .for_nabh{
+        margin-top: 20px;
+    }
+    
 }

@@ -9,7 +9,7 @@ const DoctorCard = ({ designation, designationtwo }) => {
       }}
     >
       <h2 className="doctors_heading text-xl font-bold text-center text-indigo-900 mb-4">
-        Our top doctors
+        Our Top Doctors
       </h2>
 
       <div className="doctors_container">
