@@ -7,8 +7,8 @@ export default function Luxgpt() {
     <>
       <section className="Luxgpt_section">
         <div className="md:w-1/2 text-center md:text-left left_Container">
-          <h2 className="text_luxgot font-500">
-            <span className="text-yellow-400">LUXGPT</span> : Your One <br />
+          <h2 className="text_luxgot font-500 text-white">
+            <span className="text-yellow-400 ">LUXGPT</span> : Your One <br />
             <span className="gpttext_span_mobile text-white">Message Away<br></br> Companion</span>
             <span className="gpttext_span_desktop text-white">Message Away Companion</span>
           </h2>
@@ -33,9 +33,9 @@ export default function Luxgpt() {
 
         <div className="md:w-1/3 mt-6 md:mt-0 second_box">
           <Image
-            src="/luxgpt.png"
+            src="/Ask me Anything (3).png"
             alt="LUXGPT Chat"
-            className="w-[300px] h-[320px] rounded-xl shadow-lg object-fill gpt_image"
+            className="w-[300px] h-[320px] rounded-xl object-fill gpt_image"
             width={500}
             height={320} // Updated height
           />

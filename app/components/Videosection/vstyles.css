@@ -1,11 +1,13 @@
 
 .videos_section {
     position: relative;
-    width: 100%;
+    width: 96%;
     height: 600px;
     margin: 50px auto;
     min-height: 550px;
     overflow: hidden; 
+    border-radius: 10px;
+    /* border: 1px solid #ccc; Optional: Add a border for better visibility */
   }
   .list_text li{
     font-size:22px;

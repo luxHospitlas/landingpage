@@ -6,8 +6,8 @@ import React from "react";
 export default function Second() {
   const services = [
     {
-      image: "/Book an appointment.avif",
-      title: "Book Doctors Appointment",
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
+      title: "Book an Appointment",
       bgColor: "bg-green-200",
       arrow: "/Arrow.svg",
     },
@@ -18,14 +18,14 @@ export default function Second() {
       arrow: "/Arrow.svg",
     },
     {
-      image: "/secondopinion.avif",
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
       title: "Get Second Opinion",
       description: "Essentials At Your Doorstep.",
       bgColor: "bg-pink-200",
       arrow: "/Arrow.svg",
     },
     {
-      image: "/Health insurence.avif",
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       bgColor: "bg-blue-200",
       arrow: "/Arrow.svg",

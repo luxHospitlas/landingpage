@@ -21,7 +21,7 @@ import Faqs from "../components/faqs/faq";
 // Define Whatare component before using it
 const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
   return (
-    <section className="logo-fade lg:px-20 text-[#252B61] whatare">
+    <section className="logo-fade  text-[#252B61] whatare">
       {/* Heading */}
       <h2 className="text-xl md:text-2xl font-bold mb-4">{whatAreH}</h2>
       <p className="text-gray-700 mb-6 leading-[2em] whatarepara">{whatAreP}</p>
