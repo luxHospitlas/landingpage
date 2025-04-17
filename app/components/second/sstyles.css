@@ -63,7 +63,7 @@
     }
     .sessioncards{
         /* weight: 190px; */
-        height: 190px;
-        min-height: 190px;
+        height: 180px;
+        min-height: 180px;
     }
 }

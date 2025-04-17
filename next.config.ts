@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "test.luxhospitals.com",
       },
+      {
+        protocol: "https",
+        hostname: "luxhospitals.com",
+      },
     ],
   },
 };

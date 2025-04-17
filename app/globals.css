@@ -280,13 +280,14 @@ a {
 }
 /* content section stylings */
 .whatare{
-  width: 100%;
+  width: 96%;
   margin: 40px 5px;
   background: #fff;
+  margin: auto;
 }
 @media (max-width:768px) {
   .whatare{
-      width: 90%;
+      width: 98%;
       padding-left: 5px;
   }
   .whatarepara{
