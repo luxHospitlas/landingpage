@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { usePathname } from "next/navigation";
+
 
 // Static imports
 import Hero from "./components/hero/hero";
