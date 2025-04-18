@@ -29,6 +29,19 @@
     display: flex;
     align-items: center;
 }
+.for_nabh{
+    background-color: #92BDF6;
+    width: 96%;
+    margin: auto;
+    border-radius: 16px;
+}
+.for_ISO{
+    background-color: #A3DAC2;
+    width: 96%;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 15px;
+}
 .lrboxes_right{
     width: 60%;
 }
