@@ -46,7 +46,7 @@ const Accreditations = () => {
           <div className="lrboxes_ISO">
             <div className="flex justify-center p-4">
               <Image
-                src="/iso-gold-logo-NEW-2.png"
+                src="/gold-iso.avif"
                 alt="ISO Certified"
                 width={150}
                 height={150}
