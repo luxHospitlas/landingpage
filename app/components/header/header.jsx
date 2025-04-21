@@ -11,7 +11,7 @@ export default function Header() {
         <header className="header">
             
             <div className="header__logos" >
-                <a href="#"><img className="logo-fade header__logo" src="/lux logo final.avif" alt="logo"  width={140} height={60}/></a>
+                <a href="#"><img className="logo-fade header__logo" src="/logolux.avif" alt="logo"  width={140} height={60}/></a>
     <a href="#"><img className="logo-fade header__logotwo" src="https://luxhospitals.com/wp-content/uploads/2025/04/iso-gold-logo-NEW.png" alt="logo" /></a>
     <a href="#"><img className="logo-fade header__logothree" src="/TRAIL.svg" alt="logo" /></a>
             </div>
@@ -20,9 +20,9 @@ export default function Header() {
             <nav className="header__menu">
                 <ul>
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="#">About</Link></li>
-                    <li><Link href="#">Services</Link></li>
-                    <li><Link href="#">Contact</Link></li>
+                    <li><Link href="#doctors">Doctors</Link></li>
+                    <li><Link href="#reviews">Reviews</Link></li>
+                    <li><Link href="#contact">Contact</Link></li>
                 </ul>
             </nav>
 

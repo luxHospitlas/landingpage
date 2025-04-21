@@ -51,17 +51,28 @@ export default function HospitalLocation({ locationsectionheading }) {
 
             {/* Buttons */}
             <div className="mt-4 flex gap-4 w-full mobilectas">
-              <button className="review_button flex items-center justify-center gap-2 bg-[#915097] text-white px-4 py-2 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-[#7e4483] flex-1">
+            <a
+                href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="review_button flex items-center justify-center gap-2 bg-[#915097] text-white px-4 py-2 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-[#7e4483] flex-1"
+              >
                 <FaMapMarkerAlt /> Get Direction
-              </button>
-              <button className="border flex gap-2 px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1 justify-center">
+              </a>
+
+              <a
+                href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border flex gap-2 px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1 justify-center"
+              >
                 <img
                   src="/google icon.avif"
                   alt="Google Icon"
                   className="w-7 h-7"
                 />
                 Reviews
-              </button>
+              </a>
             </div>
           </div>
         </div>
