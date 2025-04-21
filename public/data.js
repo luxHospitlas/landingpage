@@ -4,7 +4,7 @@ export const proctologyDoctorsData = [{
     qualification: "MBBS, MS, FMAS, FISCP, DMAS",
     designation: "Piles Specialist",
     experience: "Experieance:8 years",
-    description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.sunt in culpa qui officia deserunt mollit anim id est laborum. Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
 
   }, {
     url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -12,6 +12,6 @@ export const proctologyDoctorsData = [{
     qualification: "MBBS, MS, FMAS, FISCP, DMAS",
     designation: "Piles Specialist",
     experience: "Experieance:9 years",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Et harum quidem rerum facilis est et expedita distinctio.",
+    description: "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
     // image: "/doctors/samhitha-reddy.webp",
   }]
