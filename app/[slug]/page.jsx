@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import Hero from "../components/hero/hero";
 import Second from "../components/second/second";
 import HospitalLocation from "../components/HospitalLocation/hospitallocations";
+import FooterComponent from "../components/footer/footer";
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
 const HospitalComparison = dynamic(() =>
   import("../components/Treatmenttable/Hospitalcomparison")
@@ -17,6 +18,7 @@ const PatientTalks = dynamic(() =>
 );
 const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 import Faqs from "../components/faqs/faq";
+import { proctologyDoctorsData } from "../../public/data";
 
 // Define Whatare component before using it
 const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
@@ -53,18 +55,11 @@ const contentMap = {
       "30-min procedure, same-day discharge",
       "All Cashless Insurance accepted",
       "Zero-interest EMI available",
-      " Advanced Laser & Minimally Invasive Treatment",
+      "Advanced Laser & Minimally Invasive Treatment",
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Piles Specialist",
-        designationtwo: "Piles Specialist",
-        image: "/doctors/samhitha-reddy.webp",
-      },
-    ],
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
@@ -123,6 +118,11 @@ const contentMap = {
           "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan.",
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care from the best external hemorrhoids doctor for a pain-free, advanced treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "piles-laser-treatment-cost-in-hyderabad": {
     heading: "Piles Laser Treatment Cost in Hyderabad",
@@ -135,14 +135,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Treatment | Laser Therapy | Affordable Piles Care | Advanced Minimally Invasive Solutions",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Piles Specialist",
-        designationtwo: "Piles Specialist",
-        image: "/doctors/samhitha-reddy.webp"
-      }
-    ],
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -204,14 +197,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Treatment | Laser Therapy | Hemorrhoids Care | Minimally Invasive Experts",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Piles Specialist",
-        designationtwo: "Piles Specialist",
-        image: "/doctors/samhitha-reddy.webp"
-      }
-    ],
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -283,14 +269,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Surgery | Laser Hemorrhoid Surgery | Painless Piles Removal | Advanced Piles Treatment",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Piles Specialist",
-        designationtwo: "Piles Specialist",
-        image: "/doctors/samhitha-reddy.webp"
-      }
-    ],
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -363,14 +342,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Surgeon | Hemorrhoids Surgeon | Advanced Piles Care | Laser Surgery Experts",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Piles Specialist",
-        designationtwo: "Piles Specialist",
-        image: "/doctors/samhitha-reddy.webp"
-      }
-    ],
+    doctors:proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -442,14 +414,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Hemorrhoids Specialist",
-        designationtwo: "Hemorrhoids Specialist",
-        image: "/doctors/samhitha-reddy.webp"
-      }
-    ],
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -521,14 +486,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Surgery | Piles Experts | Advanced Care | Hemorrhoids Treatment",
-    doctors: [
-      {
-        name: "Dr. Samhitha Reddy",
-        designation: "Piles Specialist",
-        designationtwo: "Piles Specialist",
-        image: "/doctors/samhitha-reddy.webp"
-      }
-    ],
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -600,6 +558,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Treatment | Advanced Care | Laser Surgery | Hemorrhoids Specialists",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -671,6 +630,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Top Hemorrhoids Clinic | Piles Experts | Advanced Care | Laser Treatment Specialists",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -742,6 +702,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Doctor | Piles Specialist | Advanced Care | Laser Treatment Expert",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -813,6 +774,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Hospital | Piles Experts | Advanced Care | Laser Treatment Specialists",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -884,6 +846,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Operation | Expert Piles Surgery | Advanced Care | Laser Treatment Specialists",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -955,6 +918,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Specialist | Piles Experts | Advanced Care | Laser Treatment Specialists",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatments at Lux Hospitals"
@@ -1026,6 +990,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Top Hemorrhoids Surgeon | Expert Piles Surgeon | Advanced Care | Laser Treatment Specialist",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatments at Lux Hospitals"
@@ -1097,6 +1062,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Laser Surgery | Expert Piles Surgeons | Advanced Care | Affordable Treatment",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatments at Lux Hospitals"
@@ -1173,6 +1139,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Treatment | Expert Piles Specialists | Advanced Care | Laser Treatment Options",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -1244,6 +1211,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Internal Hemorrhoids Surgery | Expert Piles Surgeons | Advanced Care | Laser Treatment",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -1315,6 +1283,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Internal Hemorrhoids Treatment | Expert Piles Specialists | Advanced Care | Laser Treatment Options",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
@@ -1386,6 +1355,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Piles Clinic | Hemorrhoids Experts | Advanced Care | Laser Treatment Specialists",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -1457,6 +1427,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Doctor | Hemorrhoids Specialist | Laser Piles Treatment | Advanced Proctology Care",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -1528,6 +1499,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Hospital | Hemorrhoids Specialists | Laser Treatment Experts | Advanced Piles Care",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -1599,6 +1571,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Operation | Piles Specialists | Laser Surgery Experts | Advanced Piles Care",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -1670,6 +1643,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Specialist | Hemorrhoids Expert | Advanced Piles Clinic | Laser Treatment Center",
+    doctors: proctologyDoctorsData,
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals"
@@ -1730,15 +1704,15 @@ const contentMap = {
       }
     ]
   },
-  
 
 
 
 
 
 
- 
- "piles": {
+
+
+  "piles": {
     heading: "Get Relief from Piles Today",
     paragraph: "Lux Hospitals offers advanced treatment with quick recovery.",
   },
@@ -1762,36 +1736,70 @@ export default function ConditionPage({ params }) {
           locationsectionheading={content.locationsectionheading}
         />
       )}
-      {content.doctors?.[0] && (
-        <DoctorCard
-          designation={content.doctors[0].designation}
-          designationtwo={content.doctors[0].designationtwo}
-        />
-      )}
-      {content.tableContent?.[0] && (
-        <HospitalComparison theading={content.tableContent[0].theading} />
-      )}
-      <Accreditations />
+      {content.doctors &&
+      <section
+        className="w-[90%]"
+        style={{
+          margin: "auto",
+        }}
+      >
+        <h2 className="doctors_heading text-xl font-bold text-center text-indigo-900 mb-4">
+          Our Top Doctors
+        </h2>
+        <div className="doctors_container">
+           {content.doctors.map((cardData, ind) =>
+            <div key={ind}>
+              <DoctorCard
+                url={cardData.url}
+                name={cardData.name}
+                qualification={cardData.qualification}
+                designation={cardData.designation}
+                experience={cardData.experience}
+                description={cardData.description}
+
+              />
+            </div>
+          )}
+        </div>
+      </section >
+          }
+      {
+        content.tableContent?.[0] && (
+          <HospitalComparison theading={content.tableContent[0].theading} />
+        )
+      }
+      < Accreditations />
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
-      {content.whatAreH && (
-        <Whatare
-          whatAreH={content.whatAreH}
-          whatAreP={content.whatAreP}
-          whatHead={content.whatHead}
-          treatments={content.treatments || []}
-        />
-      )}
-      {content.faqs && (
-        <Faqs
-          fheading={content.fheading}
-          faqs={content.faqs.map((faq) => ({
-            faqquestion: faq.faqTitle,
-            faqanswer: faq.faqAnswer,
-          }))}
-        />
-      )}
+      {
+        content.whatAreH && (
+          <Whatare
+            whatAreH={content.whatAreH}
+            whatAreP={content.whatAreP}
+            whatHead={content.whatHead}
+            treatments={content.treatments || []}
+          />
+        )
+      }
+      {
+        content.faqs && (
+          <Faqs
+            fheading={content.fheading}
+            faqs={content.faqs.map((faq) => ({
+              faqquestion: faq.faqTitle,
+              faqanswer: faq.faqAnswer,
+            }))}
+          />
+        )
+      }
+      {
+        content.footerComponent && (
+          <FooterComponent
+            footerdesc={content.footerComponent.footerdesc}
+            footernumber={content.footerComponent.footernumber}
+          />)
+      }
     </>
   );
 }

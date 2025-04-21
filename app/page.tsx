@@ -7,6 +7,7 @@ import dynamic from "next/dynamic";
 import Hero from "./components/hero/hero";
 import Second from "./components/second/second";
 import HospitalLocation from "./components/HospitalLocation/hospitallocations";
+import FooterComponent from "./components/footer/footer";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("./components/topdoctors/ourdoctors"));
@@ -21,6 +22,7 @@ const PatientTalks = dynamic(
   () => import("./components/Patienttalks/patients")
 );
 const Luxgpt = dynamic(() => import("./components/luxgpt/luxgpt"));
+// const Footer = dynamic(() => import("./components/footer/footer"));
 
 // const Faqs = dynamic(() => import("./components/faqs/faq"));
 
@@ -34,10 +36,10 @@ export default function Home() {
 
   // if (pathname.includes("piles")) {
   //   heroHeading = "Get Relief from Piles Today";
-   
+
   // } else if (pathname.includes("fistula")) {
   //   heroHeading = "Fistula Treatment at Lux Hospitals";
- 
+
   // }
 
   // Dummy content
@@ -59,17 +61,44 @@ export default function Home() {
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
-      <DoctorCard
-        designation="Piles Specialist"
-        designationtwo="Piles Specialist"
-      />
+      <section
+        className="w-[90%]"
+        style={{
+          margin: "auto",
+        }}
+      >
+        <h2 className="doctors_heading text-xl font-bold text-center text-indigo-900 mb-4">
+          Our Top Doctors
+        </h2>
+        <div className="doctors_container">
+          <DoctorCard
+            url="/doctor.avif"
+            name="Dr. Samhitha Reddy"
+            qualification="MBBS, MS, FMAS, FISCP, DMAS"
+            designation="Piles Specialist"
+            experience="Experieance:8 years"
+            description="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.sunt in culpa qui officia deserunt mollit anim id est laborum. Sunt in culpa qui officia deserunt mollit anim id est laborum."
+          />
+          <DoctorCard url="/doctor.avif"
+            name="Dr. Abhishake Katha"
+            qualification="MBBS, MS, FMAS, FISCP"
+            designation="Piles Specialist"
+            experience="Experieance:9 years"
+            description="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.sunt in culpa qui officia deserunt mollit anim id est laborum. Sunt in culpa qui officia deserunt mollit anim id est laborum."
+          />
 
+        </div>
+      </section>
       <HospitalComparison theading={"hospital"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
- 
+      <FooterComponent 
+         footerdesc="Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam. Vel massa commodo viverra." 
+         footernumber="Call Us Now for Consultation"
+      />
+
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}
         faqanswer={"answer"}

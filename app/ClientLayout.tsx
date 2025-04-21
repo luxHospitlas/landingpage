@@ -10,7 +10,6 @@ const ClientLayout = ({ children }: { children: React.ReactNode }) => {
     <>
       {children}
       <MobileStickyFooter />
-      <FooterComponent />
     </>
   );
 };
