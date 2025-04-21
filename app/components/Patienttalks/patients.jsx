@@ -60,7 +60,7 @@ export default function PatientTalks() {
   };
 
   return (
-    <section className="text-center patient_section">
+    <section id="reviews" className="text-center patient_section">
       <h2 className="text-xl sm:1xl font-bold text-indigo-900 patienttalk_heading">
         Patients Love Us
       </h2>

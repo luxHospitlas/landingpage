@@ -38,7 +38,7 @@ const FooterComponent = ({footerdesc,footernumber}) => {
 
 
   return (
-    <section className="footer bg-white" >
+    <section id="contact" className="footer bg-white" >
       <div className="inner_footer">
        
         <div className="column c_one">
@@ -67,8 +67,8 @@ const FooterComponent = ({footerdesc,footernumber}) => {
            {/* Contact Us Section */}
            <div className="column c_four">
             <h3 className="font-semibold mb-2">Contact Us</h3>
-            <p className="text-gray-700 mb-[10px]">{data.contactus.address}</p>
-            <p className="text-gray-700 mb-[10px]">📞 {footernumber}</p>
+            <p className="text-gray-700 mb-[10px]"><Link href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7" className="hover:text-blue-500">{data.contactus.address}</Link></p>
+            <p className="text-gray-700 mb-[10px]">📞 <Link href={`tel:${footernumber}`} className="hover:text-blue-500">{footernumber}</Link></p>
             <p className="text-gray-700 mb-[10px]">✉️ <Link href={`mailto:${data.contactus.email}`} className="hover:text-blue-500">{data.contactus.email}</Link></p>
             <p className="text-gray-700 mb-[10px]">🌐 <Link href={`https://luxhospitals.com/`} className="hover:text-blue-500">{data.contactus.website}</Link></p>
           </div>

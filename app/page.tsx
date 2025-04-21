@@ -95,8 +95,8 @@ export default function Home() {
       <PatientTalks />
       <Luxgpt />
       <FooterComponent 
-         footerdesc="Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam. Vel massa commodo viverra." 
-         footernumber="Call Us Now for Consultation"
+         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!" 
+         footernumber="07969084448"
       />
 
       {/* <Faqs  fheading={"heading"}

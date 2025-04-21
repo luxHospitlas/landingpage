@@ -11,7 +11,7 @@ const DoctorCard = ({
   return (
   
     
-      <div className="doctors_card_contanier w-full h-auto flex items-center doctors_row_two transition-transform duration-300 hover:-translate-y-1 ">
+      <div id="doctors" className="doctors_card_contanier w-full h-auto flex items-center doctors_row_two transition-transform duration-300 hover:-translate-y-1 ">
         <div className="left_doctor">
           <div className=" doctor_card bg-white  shadow-md w-72 text-center">
             <div className="bg-blue-100 flex items-center justify-center rounded-t-3xl p-3 inner_doctor">

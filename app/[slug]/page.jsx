@@ -185,6 +185,11 @@ const contentMap = {
           "Yes, in some cases, if the piles are advanced, the cost may vary slightly depending on the additional procedures required. Contact us today to get a personalized quotation and learn more about your treatment options."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Affordable and effective laser piles treatment with expert care. Book your consultation today!",
+        footernumber: "07969084448",
+      }
   },
   "best-piles-laser-treatment-in-hyderabad": {
     heading: "Best Piles Laser Treatment in Hyderabad",
@@ -257,6 +262,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, our leading Piles Specialist, has expertise in performing advanced laser procedures for long-term relief."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get fast, painless piles relief with the best laser treatment in Hyderabad. Book now!",
+        footernumber: "07969084448",
+      }
   },
   "best-piles-laser-surgery-in-hyderabad": {
     heading: "Best Piles Laser Surgery in Hyderabad",
@@ -329,7 +339,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, our experienced Piles Surgery Specialist, performs the procedure with precision and care."
       },
     ],
-    // footerCTA: "Get advanced piles laser surgery in Hyderabad for fast, pain-free recovery today! 📞 07969084448"
+    footerComponent: 
+      {
+        footerdesc: "Get advanced piles laser surgery in Hyderabad for fast, pain-free recovery today!",
+        footernumber: "07969084448",
+      }
   },
   "top-piles-surgeon-in-hyderabad": {
     heading: "Top Piles Surgeon in Hyderabad",
@@ -402,6 +416,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, our leading Piles Surgeon at Lux Hospitals, is known for her expertise in advanced laser and surgical treatments."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get treated by the top piles surgeon in Hyderabad with advanced laser surgery today!",
+        footernumber: "07969084448",
+      }
   },
   "best-external-hemorrhoids-doctors-in-hyderabad": {
     heading: "Best External Hemorrhoids Doctors in Hyderabad",
@@ -474,6 +493,11 @@ const contentMap = {
           "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care from the best external hemorrhoids doctor for a pain-free, advanced treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "best-hemorrhoids-laser-surgery-in-hyderabad": {
     heading: "Best Hemorrhoids Laser Surgery in Hyderabad",
@@ -546,6 +570,11 @@ const contentMap = {
           "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert external hemorrhoids surgery at Lux Hospitals for safe, effective, and lasting relief!",
+        footernumber: "07969084448",
+      }
   },
   "best-hemorrhoids-laser-treatment-in-hyderabad": {
     heading: "Best Hemorrhoids Laser Treatment in Hyderabad",
@@ -618,6 +647,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, one of the top specialists at Lux Hospitals with 8 years of experience, will guide you with the best treatment approach."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Book an appointment today for expert external hemorrhoids treatment and lasting relief!",
+        footernumber: "07969084448",
+      }
   },
   "top-hemorrhoids-clinic-in-hyderabad": {
     heading: "Top Hemorrhoids Clinic in Hyderabad",
@@ -690,6 +724,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, our leading hemorrhoids Specialist at Lux Hospitals, specializes in advanced laser and non-surgical treatments. Visit us for expert care and lasting relief."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care at the top hemorrhoids clinic in Hyderabad for painless, advanced treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "best-hemorrhoids-doctor-in-hyderabad": {
     heading: "Best Hemorrhoids Doctor in Hyderabad",
@@ -762,6 +801,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, our leading hemorrhoids Specialist at Lux Hospitals, specializes in advanced laser and non-surgical treatments. Visit us for expert care and lasting relief."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care from the best hemorrhoids doctor in Hyderabad for painless, advanced treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "best-hemorrhoids-hospital-in-hyderabad": {
     heading: "Best Hemorrhoids Hospital in Hyderabad",
@@ -834,6 +878,11 @@ const contentMap = {
           "Yes, most health insurance plans cover hemorrhoid treatments at Lux Hospitals. Check with your provider for specific details."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care at the best hemorrhoids hospital in Hyderabad for painless, advanced treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "best-hemorrhoids-operation-in-hyderabad": {
     heading: "Best Hemorrhoids Operation in Hyderabad",
@@ -906,6 +955,11 @@ const contentMap = {
           "Dr. Samhitha Reddy, our leading hemorrhoids Specialist at Lux Hospitals, specializes in advanced laser and non-surgical treatments. Visit us for expert care and lasting relief."
       },
     ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care for hemorrhoids surgery at Lux Hospitals today!",
+        footernumber: "07969084448",
+      }
   },
   "hemorrhoids-specialist-in-hyderabad": {
     heading: "Hemorrhoids Specialist in Hyderabad",
@@ -977,7 +1031,12 @@ const contentMap = {
         faqAnswer:
           "Yes, most insurance plans cover hemorrhoid treatments. Please confirm with your provider for specific details."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care from the leading hemorrhoids specialist in Hyderabad for advanced, pain-free treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "top-hemorrhoids-surgeon-in-hyderabad": {
     heading: "Top Hemorrhoids Surgeon in Hyderabad",
@@ -1049,7 +1108,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy, our leading Piles Specialist at Lux Hospitals, specializes in advanced laser and non-surgical treatments. Visit us for expert care and lasting relief."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care from the top hemorrhoids surgeon in Hyderabad for a pain-free, advanced treatment today!",
+        footernumber: "07969084448",
+      }
   },
   "hemorrhoids-laser-surgery-cost-in-hyderabad": {
     heading: "Hemorrhoids Laser Surgery Cost in Hyderabad",
@@ -1126,7 +1190,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy, our leading Piles Specialist at Lux Hospitals, specializes in advanced laser and non-surgical treatments. Visit us for expert care and lasting relief."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Get affordable, expert care with hemorrhoids laser surgery at Lux Hospitals for a pain-free recovery today!",
+        footernumber: "07969084448",
+      }
   },
   "hemorrhoids-treatment-in-hyderabad": {
     heading: "Hemorrhoids Treatment in Hyderabad",
@@ -1198,7 +1267,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy, our leading Piles Specialist at Lux Hospitals, specializes in advanced laser and non-surgical treatments. Visit us for expert care and lasting relief."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care for hemorrhoids at Lux Hospitals for advanced treatment and a pain-free recovery today!",
+        footernumber: "07969084448",
+      }
   },
   "best-internal-hemorrhoids-surgery-in-hyderabad": {
     heading: "Best Internal Hemorrhoids Surgery in Hyderabad",
@@ -1270,7 +1344,12 @@ const contentMap = {
         faqAnswer:
           "Lux Hospitals offers advanced laser and minimally invasive treatments, with skilled specialists ensuring effective, long-lasting relief from internal hemorrhoids with minimal downtime."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care for internal hemorrhoids surgery at Lux Hospitals for lasting relief and a quick recovery today!",
+        footernumber: "07969084448",
+      }
   },
   "best-internal-hemorrhoids-treatment-in-hyderabad": {
     heading: "Best Internal Hemorrhoids Treatment in Hyderabad",
@@ -1342,7 +1421,12 @@ const contentMap = {
         faqAnswer:
           "Lux Hospitals offers personalized care, advanced treatments, and expert specialists to ensure effective, lasting relief from internal hemorrhoids with minimal discomfort."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Get expert care for internal hemorrhoids treatment at Lux Hospitals for fast recovery and lasting relief today!",
+        footernumber: "07969084448",
+      }
   },
   "top-piles-clinic-in-hyderabad": {
     heading: "Top Piles Clinic in Hyderabad",
@@ -1414,7 +1498,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy, the leading Piles Specialist at Lux Hospitals, is known for her expertise in advanced laser treatments and personalized care."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Book your consultation at the top piles clinic in Hyderabad for fast, painless relief today!",
+        footernumber: "07969084448",
+      }
   },
   "best-piles-doctor-in-hyderabad": {
     heading: "Best Piles Doctor in Hyderabad",
@@ -1486,7 +1575,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy is the leading piles doctor at Lux Hospitals, known for her expertise in laser procedures and compassionate patient care."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Consult the best piles doctor in Hyderabad today for painless and advanced treatment!",
+        footernumber: "07969084448",
+      }
   },
   "best-piles-hospital-in-hyderabad": {
     heading: "Best Piles Hospital in Hyderabad",
@@ -1558,7 +1652,13 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy is the leading piles specialist, known for expertise in laser and non-surgical treatments."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!",
+        footernumber: "07969084448",
+      }
+
   },
   "best-piles-operation-in-hyderabad": {
     heading: "Best Piles Operation in Hyderabad",
@@ -1630,7 +1730,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy, our expert Piles Surgeon, performs all advanced procedures with utmost care and precision."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Book your piles operation at Lux Hospitals and experience painless recovery with expert care!",
+        footernumber: "07969084448",
+      }
   },
   "piles-specialist-in-hyderabad": {
     heading: "Piles Specialist in Hyderabad",
@@ -1702,7 +1807,12 @@ const contentMap = {
         faqAnswer:
           "Dr. Samhitha Reddy, our expert Piles Surgeon, performs all advanced procedures with utmost care and precision."
       }
-    ]
+    ],
+    footerComponent: 
+      {
+        footerdesc: "Book a consultation with the best piles specialist in Hyderabad for pain-free and expert care today!",
+        footernumber: "07969084448",
+      }
   },
 
 
