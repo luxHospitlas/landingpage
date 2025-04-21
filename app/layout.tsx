@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Header from './components/header/header';
-import ClientLayout from './ClientLayout';  // Import ClientLayout
-import ClientHead from './ClientHead';  // Import the new ClientHead component
+import Header from "./components/header/header";
+import ClientLayout from "./ClientLayout";
+import ClientHead from "./ClientHead";
+import Script from "next/script";
 
 import "./globals.css";
 
@@ -16,43 +17,65 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        
         <link rel="preload" href="/globals.css" as="style" />
         <link rel="stylesheet" href="/globals.css" media="print" />
         <link
-  rel="preload"
-  href="/fonts/Parkinsans-Bold.ttf"
-  as="font"
-  type="font/woff2"
-  crossOrigin="anonymous"
-/>
-<link
-  rel="preload"
-  href="/fonts/Parkinsans-Medium.ttf"
-  as="font"
-  type="font/woff2"
-  crossOrigin="anonymous"
-/>
-<link
-  rel="preload"
-  href="/fonts/Parkinsans-Regular.ttf"
-  as="font"
-  type="font/woff2"
-  crossOrigin="anonymous"
-/>
-<link
-  rel="preload"
-  href="/fonts/Parkinsans-SemiBold.ttf"
-  as="font"
-  type="font/woff2"
-  crossOrigin="anonymous"
-/>
-       
+          rel="preload"
+          href="/fonts/Parkinsans-Bold.ttf"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Parkinsans-Medium.ttf"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Parkinsans-Regular.ttf"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Parkinsans-SemiBold.ttf"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <Script id="gtm-head" strategy="afterInteractive">
+          {`
+        
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCVF3CJ5');
+
+
+          `}
+        </Script>
         <ClientHead />
       </head>
       <body>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KCVF3CJ5"
+            height="0"
+            width="0"
+            style={{
+              display: 'none',
+              visibility:"hidden"            
+            }}
+          ></iframe>
+        </noscript>
+
         <Header />
-        <ClientLayout>{children}</ClientLayout> 
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
