@@ -33,7 +33,7 @@ const MobileStickyFooter = () => {
             rowGap:'5px'
           }}>
             <Image src="/telemedicine.svg" alt="Online Consultation" width={24} height={24} />
-            <span className="font-600">Online Consult</span>
+            <span className="font-600">Google Maps</span>
           </a>
         </div>
       </div>

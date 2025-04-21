@@ -34,7 +34,7 @@ const data = {
   }
 };
 
-const FooterComponent = () => {
+const FooterComponent = ({footerdesc,footernumber}) => {
 
 
   return (
@@ -45,7 +45,7 @@ const FooterComponent = () => {
           <Link href="#" className="footer_logo" >
             <Image src={data.logo} alt="Logo" width={200} height={60}  className={`logo-fade `}/>
           </Link>
-          <p className="text-gray-600 mt-2 footer_description">{data.description}</p>
+          <p className="text-gray-600 mt-2 footer_description">{footerdesc}</p>
         </div>
 
        
@@ -68,7 +68,7 @@ const FooterComponent = () => {
            <div className="column c_four">
             <h3 className="font-semibold mb-2">Contact Us</h3>
             <p className="text-gray-700 mb-[10px]">{data.contactus.address}</p>
-            <p className="text-gray-700 mb-[10px]">📞 {data.contactus.phone}</p>
+            <p className="text-gray-700 mb-[10px]">📞 {footernumber}</p>
             <p className="text-gray-700 mb-[10px]">✉️ <Link href={`mailto:${data.contactus.email}`} className="hover:text-blue-500">{data.contactus.email}</Link></p>
             <p className="text-gray-700 mb-[10px]">🌐 <Link href={`https://luxhospitals.com/`} className="hover:text-blue-500">{data.contactus.website}</Link></p>
           </div>
