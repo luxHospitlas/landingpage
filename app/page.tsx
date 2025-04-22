@@ -32,15 +32,6 @@ export default function Home() {
 
 
 
-  // if (pathname.includes("piles")) {
-  //   heroHeading = "Get Relief from Piles Today";
-   
-  // } else if (pathname.includes("fistula")) {
-  //   heroHeading = "Fistula Treatment at Lux Hospitals";
- 
-  // }
-
-  // Dummy content
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
     "Same-day discharge & 30-minute procedures",
