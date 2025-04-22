@@ -7,8 +7,8 @@ export default function VideoSection() {
   return (
     <section className={` videos_section fade-in `}>
       <video autoPlay muted loop playsInline className="bg-video">
-        <source className="desktop_videosection" src="/desktop video lux.mp4" type="video/mp4" />
-        <source className="mobile_videosection" src="/mobile video lux.mp4" type="video/mp4" />
+        <source className="desktop_videosection" src="/deskvideolux.mp4" type="video/mp4" />
+        <source className="mobile_videosection" src="/mobilevideolux.mp4" type="video/mp4" />
         Your browser doesn't support HTML5 videos.
       </video>
 
