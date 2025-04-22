@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 
-
 // Static imports
 import Hero from "./components/hero/hero";
 import Second from "./components/second/second";
@@ -30,10 +29,18 @@ export default function Home() {
   // const pathname = usePathname();
 
   // Fallback hero text based on pathname
-  const heroHeading = "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
+  const heroHeading =
+    "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
 
+  // if (pathname.includes("piles")) {
+  //   heroHeading = "Get Relief from Piles Today";
 
+  // } else if (pathname.includes("fistula")) {
+  //   heroHeading = "Fistula Treatment at Lux Hospitals";
 
+  // }
+
+  // Dummy content
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
     "Same-day discharge & 30-minute procedures",
@@ -44,8 +51,6 @@ export default function Home() {
 
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
-
-
 
   return (
     <>
@@ -70,14 +75,14 @@ export default function Home() {
             experience="Experieance:8 years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
           />
-          <DoctorCard url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
+          <DoctorCard
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
             name="Dr. Abhishake Katha"
             qualification="MBBS, MS, FMAS, FISCP"
             designation="Piles Specialist"
             experience="Experieance:9 years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
           />
-
         </div>
       </section>
       <HospitalComparison theading={"hospital"} />
@@ -85,9 +90,9 @@ export default function Home() {
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
-      <FooterComponent 
-         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!" 
-         footernumber="07969084448"
+      <FooterComponent
+        footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
+        footernumber="07969084448"
       />
 
       {/* <Faqs  fheading={"heading"}

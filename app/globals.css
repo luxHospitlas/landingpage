@@ -163,7 +163,7 @@ table {
   text-align: left;
   padding: 5px;
 }
-.hidden_class{
+.hidden_class {
   display: block;
 }
 @media (max-width: 470px) {
@@ -265,37 +265,37 @@ a {
 .doctor_card {
   border-radius: 25px 0px 0px 25px;
 }
-.doctors_heading{
+.doctors_heading {
   font-size: 30px;
 }
-@media (max-width:470px) {
-  .dbutton{
+@media (max-width: 470px) {
+  .dbutton {
     padding: 5px 10px;
-  } 
-  .doctors_heading{
+  }
+  .doctors_heading {
     font-size: 20px;
   }
 }
-@media (max-width:370px) {
-  .dbutton{
+@media (max-width: 370px) {
+  .dbutton {
     margin-top: 10px;
-  } 
+  }
 }
 
 /* content section stylings */
-.whatare{
+.whatare {
   width: 96%;
   margin: 40px 5px;
   background: #fff;
   margin: auto;
 }
-@media (max-width:768px) {
-  .whatare{
-      width: 98%;
-      padding-left: 5px;
+@media (max-width: 768px) {
+  .whatare {
+    width: 98%;
+    padding-left: 5px;
   }
-  .whatarepara{
-      font-size: 12px;
+  .whatarepara {
+    font-size: 12px;
   }
 }
 
@@ -303,7 +303,8 @@ a {
   display: grid;
 }
 
-@media (min-width: 1024px) { /* Desktop view */
+@media (min-width: 1024px) {
+  /* Desktop view */
   .stickey_footer_container {
     position: fixed;
     right: 0; /* Distance from the right edge */
@@ -313,54 +314,53 @@ a {
     z-index: 1000;
     width: auto;
   }
-  .stickey_whatsapp{
+  .stickey_whatsapp {
     border-radius: 10px 0px 0px 0px;
     padding: 8px 8px 8px 8px;
-    background-color: #D5B8D8;
+    background-color: #d5b8d8;
   }
-  .stickey_appointment{
+  .stickey_appointment {
     border: none;
     border-radius: 0px;
     padding: 8px 8px 8px 8px;
-    background-color: #CBA7CE;
+    background-color: #cba7ce;
     margin-top: -1px;
   }
-  .stickey_maps{
+  .stickey_maps {
     border: none;
     border-radius: 0px 0px 0px 10px;
     padding: 8px 8px 8px 8px;
-    background-color: #C195C4;
+    background-color: #c195c4;
     margin-top: -1px;
   }
   .stickey_whatsapp svg {
     width: 30px;
     height: 30px;
-    fill: #252B61;
+    fill: #252b61;
   }
   .stickey_appointment svg {
     width: 30px;
     height: 30px;
-    fill: #252B61;
+    fill: #252b61;
   }
   .stickey_maps svg {
     width: 30px;
     height: 30px;
-    fill: #252B61;
+    fill: #252b61;
   }
   .stickey_whatsapp span {
-    color: #252B61;
+    color: #252b61;
   }
   .stickey_appointment span {
-    color: #252B61;
+    color: #252b61;
   }
   .stickey_maps span {
-    color: #252B61;
+    color: #252b61;
   }
-  
 }
-@media (max-width:768px) {
-  .stickey_footer_container{
-      display:flex;
+@media (max-width: 768px) {
+  .stickey_footer_container {
+    display: flex;
   }
   .stickey_whatsapp svg {
     width: 30px;
@@ -377,5 +377,83 @@ a {
     height: 30px;
     fill: #fff;
   }
-  
+}
+.stickey_footer_container {
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  /* Desktop view */
+  .stickey_footer_container {
+    position: fixed;
+    right: 0; /* Distance from the right edge */
+    top: 50%;
+    transform: translateY(-50%);
+    display: grid;
+    z-index: 1000;
+    width: auto;
+  }
+  .stickey_whatsapp {
+    border-radius: 10px 0px 0px 0px;
+    padding: 8px 8px 8px 8px;
+    background-color: #d5b8d8;
+  }
+  .stickey_appointment {
+    border: none;
+    border-radius: 0px;
+    padding: 8px 8px 8px 8px;
+    background-color: #cba7ce;
+    margin-top: -1px;
+  }
+  .stickey_maps {
+    border: none;
+    border-radius: 0px 0px 0px 10px;
+    padding: 8px 8px 8px 8px;
+    background-color: #c195c4;
+    margin-top: -1px;
+  }
+  .stickey_whatsapp svg {
+    width: 30px;
+    height: 30px;
+    fill: #252b61;
+  }
+  .stickey_appointment svg {
+    width: 30px;
+    height: 30px;
+    fill: #252b61;
+  }
+  .stickey_maps svg {
+    width: 30px;
+    height: 30px;
+    fill: #252b61;
+  }
+  .stickey_whatsapp span {
+    color: #252b61;
+  }
+  .stickey_appointment span {
+    color: #252b61;
+  }
+  .stickey_maps span {
+    color: #252b61;
+  }
+}
+@media (max-width: 768px) {
+  .stickey_footer_container {
+    display: flex;
+  }
+  .stickey_whatsapp svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+  }
+  .stickey_appointment svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+  }
+  .stickey_maps svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+  }
 }

@@ -1,54 +1,52 @@
 "use client";
-import Image from 'next/image';
-import Link from 'next/link';
-import './footerstyles.css';
-
+import Image from "next/image";
+import Link from "next/link";
+import "./footerstyles.css";
 
 const data = {
-  description: 'Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam. Vel massa commodo viverra.Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam',
-  logo: '/lux logo final .png',
+  description:
+    "Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam. Vel massa commodo viverra.Lorem ipsum dolor sit amet consectetur. Aliquet morbi amet nec diam",
+  logo: "/lux logo final .png",
   forpatients: [
-    { text: 'About Us', url: '#' },
-    { text: 'FAQs', url: '#' },
-    { text: 'Contact Us', url: '#' },
-    { text: 'Blogs', url: '#' }
+    { text: "About Us", url: "#" },
+    { text: "FAQs", url: "#" },
+    { text: "Contact Us", url: "#" },
+    { text: "Blogs", url: "#" },
   ],
   centerofexcellence: [
-    { text: 'Proctology', url: '#' },
-    { text: 'Laparoscopic surgeries', url: '#' },
-    { text: 'Urology', url: '#' },
-    { text: 'Gynecology', url: '#' },
-    { text: 'Plastic and Cosmetic Surgeries', url: '#' }
+    { text: "Proctology", url: "#" },
+    { text: "Laparoscopic surgeries", url: "#" },
+    { text: "Urology", url: "#" },
+    { text: "Gynecology", url: "#" },
+    { text: "Plastic and Cosmetic Surgeries", url: "#" },
   ],
-  // followus: [
-  //   { text: 'Facebook', url: '#', img: '/youtube logo.png' },
-  //   { text: 'Instagram', url: '#', img: '/youtube logo.png' },
-  //   { text: 'LinkedIn', url: '#', img: '/youtube logo.png' },
-  //   { text: 'YouTube', url: '#', img: '/youtube logo.png' }
-  // ]
+
   contactus: {
-    address: "Lux hospitals - Plot No. 116, Lumbini Enclave Hitech city main road, Gachibowli, Near IKEA, Hyderabad, 500081.",
+    address:
+      "Lux hospitals - Plot No. 116, Lumbini Enclave Hitech city main road, Gachibowli, Near IKEA, Hyderabad, 500081.",
     phone: "07969084444",
     email: "care@luxhospitals.com",
     website: "www.luxhospitals.com",
-  }
+  },
 };
 
-const FooterComponent = ({footerdesc,footernumber}) => {
-
-
+const FooterComponent = ({ footerdesc, footernumber }) => {
   return (
-    <section id="contact" className="footer bg-white" >
+    <section id="contact" className="footer bg-white">
       <div className="inner_footer">
-       
         <div className="column c_one">
-          <Link href="#" className="footer_logo" >
-            <Image src={data.logo} alt="Logo" width={200} height={60}  className={`logo-fade `}/>
+          <Link href="#" className="footer_logo">
+            <Image
+              src={data.logo}
+              alt="Logo"
+              width={200}
+              height={60}
+              className={`logo-fade `}
+            />
           </Link>
           <p className="text-gray-600 mt-2 footer_description">{footerdesc}</p>
         </div>
 
-       
         <div className="inner_second_footer">
           <div className="column c_three">
             <h3 className="font-semibold mb-2">Center of Excellence</h3>
@@ -64,16 +62,45 @@ const FooterComponent = ({footerdesc,footernumber}) => {
               ))}
             </ul>
           </div>
-           {/* Contact Us Section */}
-           <div className="column c_four">
+          {/* Contact Us Section */}
+          <div className="column c_four">
             <h3 className="font-semibold mb-2">Contact Us</h3>
-            <p className="text-gray-700 mb-[10px]"><Link href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7" className="hover:text-blue-500">{data.contactus.address}</Link></p>
-            <p className="text-gray-700 mb-[10px]">📞 <Link href={`tel:${footernumber}`} className="hover:text-blue-500">{footernumber}</Link></p>
-            <p className="text-gray-700 mb-[10px]">✉️ <Link href={`mailto:${data.contactus.email}`} className="hover:text-blue-500">{data.contactus.email}</Link></p>
-            <p className="text-gray-700 mb-[10px]">🌐 <Link href={`https://luxhospitals.com/`} className="hover:text-blue-500">{data.contactus.website}</Link></p>
+            <p className="text-gray-700 mb-[10px]">
+              <Link
+                href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7"
+                className="hover:text-blue-500"
+              >
+                {data.contactus.address}
+              </Link>
+            </p>
+            <p className="text-gray-700 mb-[10px]">
+              📞{" "}
+              <Link
+                href={`tel:${footernumber}`}
+                className="hover:text-blue-500"
+              >
+                {footernumber}
+              </Link>
+            </p>
+            <p className="text-gray-700 mb-[10px]">
+              ✉{" "}
+              <Link
+                href={`mailto:${data.contactus.email}`}
+                className="hover:text-blue-500"
+              >
+                {data.contactus.email}
+              </Link>
+            </p>
+            <p className="text-gray-700 mb-[10px]">
+              🌐{" "}
+              <Link
+                href="https://luxhospitals.com/"
+                className="hover:text-blue-500"
+              >
+                {data.contactus.website}
+              </Link>
+            </p>
           </div>
-          
-        
         </div>
       </div>
     </section>
