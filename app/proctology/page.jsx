@@ -21,26 +21,16 @@ const PatientTalks = dynamic(() =>
   import("./components/Patienttalks/patients")
 );
 const Luxgpt = dynamic(() => import("./components/luxgpt/luxgpt"));
-// const Footer = dynamic(() => import("./components/footer/footer"));
 
-// const Faqs = dynamic(() => import("./components/faqs/faq"));
 
-export default function Home() {
-  // const pathname = usePathname();
+export default function Proctology() {
 
-  // Fallback hero text based on pathname
+  const proctologyPageContent = { 
+    
+  }
   const heroHeading =
     "Lux Hospitals - Advanced Surgerical hospital in Hyderabad for proctology";
 
-  // if (pathname.includes("piles")) {
-  //   heroHeading = "Get Relief from Piles Today";
-
-  // } else if (pathname.includes("fistula")) {
-  //   heroHeading = "Fistula Treatment at Lux Hospitals";
-
-  // }
-
-  // Dummy content
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
     "Same-day discharge & 30-minute procedures",
