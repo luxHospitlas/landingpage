@@ -3,24 +3,24 @@
 import dynamic from "next/dynamic";
 
 // Static imports
-import Hero from "./components/hero/hero";
-import Second from "./components/second/second";
-import HospitalLocation from "./components/HospitalLocation/hospitallocations";
-import FooterComponent from "./components/footer/footer";
+import Hero from "../components/hero/hero";
+import Second from "../components/second/second";
+import HospitalLocation from "../components/HospitalLocation/hospitallocations";
+import FooterComponent from "../components/footer/footer";
 
 // Dynamic imports
-const DoctorCard = dynamic(() => import("./components/topdoctors/ourdoctors"));
+const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
 const HospitalComparison = dynamic(() =>
-  import("./components/Treatmenttable/Hospitalcomparison")
+  import("../components/Treatmenttable/Hospitalcomparison")
 );
 const Accreditations = dynamic(() =>
-  import("./components/Accreditions/accreditions")
+  import("../components/Accreditions/accreditions")
 );
-const VideoSection = dynamic(() => import("./components/Videosection/videos"));
+const VideoSection = dynamic(() => import("../components/Videosection/videos"));
 const PatientTalks = dynamic(() =>
-  import("./components/Patienttalks/patients")
+  import("../components/Patienttalks/patients")
 );
-const Luxgpt = dynamic(() => import("./components/luxgpt/luxgpt"));
+const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 // const Footer = dynamic(() => import("./components/footer/footer"));
 
 // const Faqs = dynamic(() => import("./components/faqs/faq"));
