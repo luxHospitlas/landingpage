@@ -1,0 +1,11 @@
+.whatwetreat_section {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.content_box {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
