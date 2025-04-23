@@ -26,14 +26,14 @@ const DoctorCard = ({
             <h3 className="text-lg font-bold text-indigo-900 doctor_name">
               {name}
             </h3>
-            <p className="text-sm text-gray-600 mt-1 designation">
+            <p className="text-sm text-gray-600  designation">
               {" "}
               {qualification}
             </p>
-            <p className="text-sm text-gray-600 mt-1 designation">
+            <p className="text-sm text-gray-600  designation">
               {designation}
             </p>
-            <p className="text-sm text-gray-600 mt-1 designation">
+            <p className="text-sm text-gray-600  designation">
               {experience}
             </p>
             {/* <div className="flex items-center justify-center mt-2">
