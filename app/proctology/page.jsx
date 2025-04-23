@@ -7,6 +7,7 @@ import Hero from "../components/hero/hero";
 import Second from "../components/second/second";
 import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
+import ConditionsWeTreat from "../components/whatwetreat/wetreat";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -23,12 +24,8 @@ const PatientTalks = dynamic(() =>
 const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 // const Footer = dynamic(() => import("./components/footer/footer"));
 
-
 export default function Proctology() {
-
-  const proctologyPageContent = { 
-    
-  }
+  const proctologyPageContent = {};
   const heroHeading =
     "Lux Hospitals - Advanced Surgerical hospital in Hyderabad for proctology";
 
@@ -47,6 +44,7 @@ export default function Proctology() {
     <>
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second />
+      <ConditionsWeTreat />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <section
         className="w-[90%]"
