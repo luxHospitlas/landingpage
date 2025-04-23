@@ -12,7 +12,7 @@ export default function Second() {
       arrow: "/Arrow.svg",
     },
     {
-      image: "/Get consultation.avif",
+      image: "/cost extimation.avif",
       title: "Cost Estimation",
       bgColor: "bg-yellow-200",
       arrow: "/Arrow.svg",
