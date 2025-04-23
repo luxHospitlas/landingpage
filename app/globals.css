@@ -168,7 +168,7 @@ table {
 }
 @media (max-width: 470px) {
   .extra_fonts {
-    font-size: 10px;
+    font-size: 11px;
   }
   .hidden_class {
     display: none;
@@ -184,7 +184,7 @@ table {
   }
   .doctor_card {
     width: 100%;
-    height: 290px;
+    height: 280px;
     padding: 0;
     margin: 0 10px 0 0;
   }
@@ -382,7 +382,7 @@ a {
   display: grid;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 765px) {
   /* Desktop view */
   .stickey_footer_container {
     position: fixed;
@@ -437,7 +437,7 @@ a {
     color: #252b61;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .stickey_footer_container {
     display: flex;
   }
