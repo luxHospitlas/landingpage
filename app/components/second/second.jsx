@@ -10,12 +10,14 @@ export default function Second() {
       title: "Book an Appointment",
       bgColor: "bg-green-200",
       arrow: "/Arrow.svg",
+      link: "tel:917969084444",
     },
     {
       image: "/cost extimation.avif",
       title: "Cost Estimation",
       bgColor: "bg-yellow-200",
       arrow: "/Arrow.svg",
+      link: "https://wa.me/917969084444",
     },
     {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
@@ -23,12 +25,14 @@ export default function Second() {
       description: "Essentials At Your Doorstep.",
       bgColor: "bg-pink-200",
       arrow: "/Arrow.svg",
+      link: "https://wa.me/917969084444",
     },
     {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       bgColor: "bg-blue-200",
       arrow: "/Arrow.svg",
+      link: "tel:917969084444",
     },
   ];
 
@@ -53,13 +57,25 @@ export default function Second() {
               <h2 className="service_title font-semibold">{service.title}</h2>
             </div>
             <div>
-              <Image
-                className="arrowimg"
-                src={service.arrow}
-                alt="arrow-buttons"
-                width={30}
-                height={30}
-              />
+            {service.link ? (
+                <a href={service.link} target="_blank" rel="noopener noreferrer">
+                  <Image
+                    className="arrowimg"
+                    src={service.arrow}
+                    alt="arrow-button"
+                    width={30}
+                    height={30}
+                  />
+                </a>
+              ) : (
+                <Image
+                  className="arrowimg"
+                  src={service.arrow}
+                  alt="arrow-button"
+                  width={30}
+                  height={30}
+                />
+              )}
             </div>
           </div>
         </div>
