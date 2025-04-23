@@ -8,6 +8,8 @@ import Second from "../components/second/second";
 import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
 import ConditionsWeTreat from "../components/whatwetreat/wetreat";
+import Faqs from "../components/faqs/faq";
+import Whatare from "../components/what/whatare";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -24,10 +26,12 @@ const PatientTalks = dynamic(() =>
 const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 // const Footer = dynamic(() => import("./components/footer/footer"));
 
+
+
+
 export default function Proctology() {
-  const proctologyPageContent = {};
   const heroHeading =
-    "Advanced Surgerical hospital in Hyderabad for proctology";
+    "Advanced Surgical Hospital in Hyderabad for Proctology";
 
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
@@ -40,18 +44,59 @@ export default function Proctology() {
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
 
+  const whatAreH = "What Are Piles, Fissures, and Fistulas?";
+  const whatAreP =
+    "Proctology deals with disorders of the rectum, anus, and colon. Common conditions include piles (hemorrhoids), fissures, and fistulas. These can cause discomfort, pain, and bleeding, but are highly treatable with advanced procedures available at Lux Hospitals.";
+  const whatHead = "Conditions We Treat";
+  const treatments = [
+    "Laser Treatment for Piles",
+    "Laser Surgery for Fissures",
+    "Minimally Invasive Fistula Treatment",
+    "Stapler Hemorrhoidopexy",
+    "Colorectal Surgeries",
+  ];
+
+  const fheading = "Frequently Asked Questions on Piles and Proctology Treatments";
+  const faqs = [
+    {
+      faqTitle: "What are the common symptoms of piles?",
+      faqAnswer:
+        "Common symptoms include rectal bleeding, itching, pain during bowel movements, and swelling around the anus. If left untreated, symptoms may worsen.",
+    },
+    {
+      faqTitle: "Is laser surgery for piles painful?",
+      faqAnswer:
+        "Laser surgery is minimally invasive and generally painless. Patients typically resume normal activities within 24–48 hours.",
+    },
+    {
+      faqTitle: "How long does it take to recover from fissure surgery?",
+      faqAnswer:
+        "Most patients recover within a week after fissure surgery, especially with laser treatments that promote faster healing.",
+    },
+    {
+      faqTitle: "Can anal fistula heal on its own?",
+      faqAnswer:
+        "No, an anal fistula typically does not heal on its own and requires medical treatment, often surgical intervention, to prevent infection or recurrence.",
+    },
+    {
+      faqTitle: "Are the treatments covered by insurance?",
+      faqAnswer:
+        "Yes, most proctology treatments, including piles, fissures, and fistula procedures, are covered under major health insurance plans. Lux Hospitals also offers cashless insurance services.",
+    },
+    {
+      faqTitle: "Why choose Lux Hospitals for proctology care?",
+      faqAnswer:
+        "Lux Hospitals offers advanced, minimally invasive treatments by expert surgeons with a high success rate. Facilities include cashless insurance, EMI options, and same-day discharge.",
+    },
+  ];
+
   return (
     <>
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second />
       <ConditionsWeTreat />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
-      <section
-        className="w-[90%]"
-        style={{
-          margin: "auto",
-        }}
-      >
+      <section className="w-[90%]" style={{ margin: "auto" }}>
         <h2 className="doctors_heading text-xl font-bold text-center text-indigo-900 mb-4">
           Our Top Doctors
         </h2>
@@ -61,7 +106,7 @@ export default function Proctology() {
             name="Dr. Samhitha Reddy"
             qualification="MBBS, MS, FMAS, FISCP, DMAS"
             designation="Piles Specialist"
-            experience="Experieance:8 years"
+            experience="Experience: 8 years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
           />
           <DoctorCard
@@ -69,7 +114,7 @@ export default function Proctology() {
             name="Dr. Abhishake Katha"
             qualification="MBBS, MS, FMAS, FISCP"
             designation="Piles Specialist"
-            experience="Experieance:9 years"
+            experience="Experience: 9 years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
           />
         </div>
@@ -79,15 +124,35 @@ export default function Proctology() {
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
+
+      {/* Corrected usage of Whatare and Faqs based on prop structure */}
+      {whatAreH && (
+        <Whatare
+          whatAreH={whatAreH}
+          whatAreP={whatAreP}
+          whatHead={whatHead}
+          treatments={treatments.map((treatment) => ({
+            title: treatment,
+          }))}
+        />
+      )}
+
+      {faqs.length > 0 && (
+        <Faqs
+          fheading={fheading}
+          faqs={faqs.map((faq) => ({
+            faqquestion: faq.faqTitle,
+            faqanswer: faq.faqAnswer,
+          }))}
+        />
+      )}
+
       <FooterComponent
-        footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
+        footerdesc="Visit the best Proctology hospital in Hyderabad for painless, advanced treatment and expert care!"
         footernumber="07969084448"
       />
-
-      {/* <Faqs  fheading={"heading"}
-        faqquestion={"title"}
-        faqanswer={"answer"}
-      /> */}
     </>
   );
 }
+
+
