@@ -25,7 +25,7 @@ export default function Luxgpt() {
               placeholder="Enter your enquiry here ..."
               className="bg-transparent text-gray-700 focus:outline-none"
             />
-            <button className="bg-purple-500 hover:bg-purple-700 text-white p-2 rounded-full w-10 h-10">
+            <button className="bg-[#964F9C] hover:bg-purple-700 text-white p-2 rounded-full w-10 h-10">
               ➜
             </button>
           </div>
@@ -33,7 +33,7 @@ export default function Luxgpt() {
 
         <div className="md:w-1/3 mt-6 md:mt-0 second_box">
           <Image
-            src="/Ask me Anything (3).png"
+            src="/AskGPTAnything.png"
             alt="LUXGPT Chat"
             className="w-[300px] h-[320px] rounded-xl object-fill gpt_image"
             width={500}

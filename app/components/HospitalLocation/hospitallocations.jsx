@@ -12,7 +12,7 @@ export default function HospitalLocation({ locationsectionheading }) {
       <div className="border-grey-100 location_card shadow-lg">
         <div className="leftl-right">
           <img
-            src="/location lux.png"
+            src="/mapsgoogle.avif"
             alt="Description"
             className="w-full h-auto"
           />
@@ -67,7 +67,7 @@ export default function HospitalLocation({ locationsectionheading }) {
                 className="border flex gap-2 px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1 justify-center"
               >
                 <img
-                  src="/google icon.avif"
+                  src="/iconG.avif"
                   alt="Google Icon"
                   className="w-7 h-7"
                 />
