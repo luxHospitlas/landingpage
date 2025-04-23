@@ -13,7 +13,7 @@ const Accreditations = () => {
           <div className="lrboxes">
             <div className="flex justify-center p-6">
               <Image
-                src="/NABH 3D.png"
+                src="/nabh.png"
                 alt="NABH Certified"
                 width={200}
                 height={200}
@@ -46,7 +46,7 @@ const Accreditations = () => {
           <div className="lrboxes_ISO">
             <div className="flex justify-center p-4">
               <Image
-                src="/ISO 3D.png"
+                src="/iso.png"
                 alt="ISO Certified"
                 width={150}
                 height={150}
