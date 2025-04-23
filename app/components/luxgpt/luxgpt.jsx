@@ -25,9 +25,15 @@ export default function Luxgpt() {
               placeholder="Enter your enquiry here ..."
               className="bg-transparent text-gray-700 focus:outline-none"
             />
-            <button className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
-              ➜
-            </button>
+            <a
+              href="https://wa.me/917969084444"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
+                ➜
+              </button>
+            </a>
           </div>
         </div>
 

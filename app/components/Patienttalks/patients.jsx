@@ -10,43 +10,43 @@ export default function PatientTalks() {
     {
       id: 1,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/2.webp",
+        "/pati 1.png",
       name: "Sumetha",
     },
     {
       id: 2,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/3-1.webp",
+        "/pati 2.png",
       name: "Sumetha",
     },
     {
       id: 3,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/4.webp",
+        "/pati 3.png",
       name: "Sumetha",
     },
     {
       id: 4,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/6.webp",
+        "/pati 4.png",
       name: "Sumetha",
     },
     {
       id: 5,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/5.webp",
+        "/pati 5.png",
       name: "Sumetha",
     },
     {
       id: 6,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/1.webp",
+        "/pati 6.png",
       name: "Sumetha",
     },
     {
       id: 7,
       imageUrl:
-        "https://luxhospitals.com/wp-content/uploads/2025/04/7.webps",
+        "/pati 7.png",
       name: "Sumetha",
     },
   ];
