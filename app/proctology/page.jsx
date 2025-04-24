@@ -31,7 +31,7 @@ const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 
 export default function Proctology() {
   const heroHeading =
-    "Advanced Surgical Hospital in Hyderabad for Proctology";
+    "Leading Advanced Proctology Surgical Hospital in Hyderabad";
 
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
@@ -42,12 +42,12 @@ export default function Proctology() {
   ];
 
   const defaultLocationHeading =
-    "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
+    "Lux Hospitals - Best Proctology & Advanced Surgical Hospital in Hyderabad | Piles, Fistula, Fissure and more Treatment";
 
-  const whatAreH = "What Are Piles, Fissures, and Fistulas?";
+  const whatAreH = "What Is Proctology?";
   const whatAreP =
-    "Proctology deals with disorders of the rectum, anus, and colon. Common conditions include piles (hemorrhoids), fissures, and fistulas. These can cause discomfort, pain, and bleeding, but are highly treatable with advanced procedures available at Lux Hospitals.";
-  const whatHead = "Conditions We Treat";
+    "Proctology is a branch of medicine that focuses on problems related to the rectum, anus, and colon. If you're experiencing pain while passing stool, bleeding, itching, swelling, or a lump near the anal area, it could be a sign of conditions like piles, fissures, or fistulas. These are more common than you think — and the good news is, they’re treatable with modern, painless procedures at Lux Hospitals.";
+  const whatHead = "Treatment we provide";
   const treatments = [
     "Laser Treatment for Piles",
     "Laser Surgery for Fissures",
@@ -59,19 +59,19 @@ export default function Proctology() {
   const fheading = "Frequently Asked Questions on Piles and Proctology Treatments";
   const faqs = [
     {
-      faqTitle: "What are the common symptoms of piles?",
+      faqTitle: "What are the signs that I need to see a proctologist?",
       faqAnswer:
-        "Common symptoms include rectal bleeding, itching, pain during bowel movements, and swelling around the anus. If left untreated, symptoms may worsen.",
+        "If you're experiencing pain during bowel movements, bleeding, itching, swelling, or notice a lump near the anus, it's important to consult a proctologist. These symptoms may indicate piles, fissures, or fistulas, which are best treated early.",
     },
     {
-      faqTitle: "Is laser surgery for piles painful?",
+      faqTitle: "What conditions are treated in the Proctology department?",
       faqAnswer:
-        "Laser surgery is minimally invasive and generally painless. Patients typically resume normal activities within 24–48 hours.",
+        "We treat piles, fissures, fistulas, rectal prolapse, colon polyps, and other anorectal and colorectal conditions using advanced, minimally invasive procedures.",
     },
     {
-      faqTitle: "How long does it take to recover from fissure surgery?",
+      faqTitle: "How long is the recovery after proctology surgery?",
       faqAnswer:
-        "Most patients recover within a week after fissure surgery, especially with laser treatments that promote faster healing.",
+        "Most procedures offered at Lux Hospitals are day-care surgeries with minimal downtime. Patients typically return to normal activities within 2–5 days, depending on the treatment and individual recovery speed.",
     },
     {
       faqTitle: "Can anal fistula heal on its own?",
