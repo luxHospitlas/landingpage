@@ -1,35 +1,58 @@
+"use client";
 
 import Link from "next/link";
 import "./headerstyles.css";
 
 export default function Header() {
-   
 
-    // const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
+
+    const scrollToSection = (id) => {
+        
+        if (!id) {
+            window.history.pushState(null, '', `#${id}`);
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
+            return;
+        }
+        
+        const element = document.getElementById(id);
+        if (element) {
+            window.history.pushState(null, '', `#${id}`);
+            window.scrollTo({
+                top: element.offsetTop - 175, 
+                behavior: 'smooth',
+            });
+        }
+    };
 
     return (
         <header className="header">
-            
+
             <div className="header__logos" >
-                <a href="#"><img className="logo-fade header__logo" src="/logolux.avif" alt="logo"  width={140} height={60}/></a>
-    <a href="#"><img className="logo-fade header__logotwo" src="https://luxhospitals.com/wp-content/uploads/2025/04/iso-gold-logo-NEW.png" alt="logo" /></a>
-    <a href="#"><img className="logo-fade header__logothree" src="/TRAIL.svg" alt="logo" /></a>
+                <a href="#"><img className="logo-fade header__logo" src="/logolux.avif" alt="logo" width={140} height={60} /></a>
+                <a href="#"><img className="logo-fade header__logotwo" src="/isocer.png" alt="logo" /></a>
+                <a href="#"><img className="logo-fade header__logothree" src="/nabhcer.png" alt="logo" /></a>
             </div>
 
-           
+
             <nav className="header__menu">
                 <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="#doctors">Doctors</Link></li>
-                    <li><Link href="#reviews">Reviews</Link></li>
-                    <li><Link href="#contact">Contact</Link></li>
+                    {[{link:"", value: "Home"}, {link:"doctors", value:"Doctors"}, {link:"reviews", value: "Reviews"}, {link:"faqs", value:"FAQ's"}, {link:"contact", value:"Contact"}].map((item, index) => (
+                        <li key={index} onClick={() => scrollToSection(item.link)} style={{"cursor":"pointer"}}> 
+                          {item.value}
+                        </li>
+                    ))}
                 </ul>
             </nav>
 
-          
+
             <div className="header__cta">
                 <Link href="tel: 07969084448" className="header_cta_type_one"><span className="phone_number ">07969084448</span> <span className="call_now">Call Now</span></Link>
             </div>
         </header>
     );
 }
+
+

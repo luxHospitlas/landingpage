@@ -11,11 +11,13 @@ export default function HospitalLocation({ locationsectionheading }) {
       </h2>
       <div className="border-grey-100 location_card shadow-lg">
         <div className="leftl-right">
+          <a href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7">
           <img
             src="/mapsgoogle.avif"
             alt="Description"
             className="w-full h-auto"
           />
+          </a>
         </div>
         <div className="leftl-lright">
           <div className="p-6 lg:w-[83%]">
