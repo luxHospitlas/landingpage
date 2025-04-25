@@ -44,7 +44,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               className={`logo-fade `}
             />
           </Link>
-          <p className="text-gray-600 mt-2 footer_description">{footerdesc}</p>
+          <p className="text-black-600 mt-2 footer_description">{footerdesc}</p>
         </div>
 
         <div className="inner_second_footer">
@@ -54,7 +54,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               {data.centerofexcellence.map((item, index) => (
                 <li key={index} className="excellence_list">
                   <Link href={item.url}>
-                    <span className="text-gray-700 hover:text-blue-500 cursor-pointer">
+                    <span className="text-gray-700 hover:text-[#99509f] cursor-pointer">
                       {item.text}
                     </span>
                   </Link>
@@ -68,7 +68,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
             <p className="text-gray-700 mb-[10px]">
               <Link
                 href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7"
-                className="hover:text-blue-500"
+                className="hover:text-[#99509f]"
               >
                 {data.contactus.address}
               </Link>
@@ -77,7 +77,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               📞{" "}
               <Link
                 href={`tel:${footernumber}`}
-                className="hover:text-blue-500"
+                className="hover:text-[#99509f]"
               >
                 {footernumber}
               </Link>
@@ -86,7 +86,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               ✉{" "}
               <Link
                 href={`mailto:${data.contactus.email}`}
-                className="hover:text-blue-500"
+                className="hover:text-[#99509f]"
               >
                 {data.contactus.email}
               </Link>
@@ -95,7 +95,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               🌐{" "}
               <Link
                 href="https://luxhospitals.com/"
-                className="hover:text-blue-500"
+                className="hover:text-[#99509f]"
               >
                 {data.contactus.website}
               </Link>

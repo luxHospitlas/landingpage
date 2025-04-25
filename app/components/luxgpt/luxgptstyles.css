@@ -36,7 +36,7 @@
 }
 @media (max-width:768px) {
     .Luxgpt_section{
-        width: 90%;
+        width: 95%;
         height: fit-content;
         min-height: fit-content;
         flex-direction: column;

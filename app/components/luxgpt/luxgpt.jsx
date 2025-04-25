@@ -2,6 +2,14 @@
 import "./luxgptstyles.css";
 import Image from "next/image";
 
+function sendToWhatsApp() {
+  const message = document.getElementById('messageInput').value;
+  const phoneNumber = '917969084444';
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(whatsappURL, '_blank');
+  document.getElementById('messageInput').value = '';
+}
+
 export default function Luxgpt() {
   return (
     <>
@@ -22,18 +30,13 @@ export default function Luxgpt() {
           <div className="mt-6 flex items-center justify-center md:justify-start space-x-2 bg-white rounded-full px-4 py-2 w-fit">
             <input
               type="text"
+              id="messageInput"
               placeholder="Enter your enquiry here ..."
               className="bg-transparent text-gray-700 focus:outline-none"
             />
-            <a
-              href="https://wa.me/917969084444"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
+              <button onClick={sendToWhatsApp} className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
                 ➜
               </button>
-            </a>
           </div>
         </div>
 
