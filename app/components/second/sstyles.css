@@ -66,4 +66,7 @@
         height: 180px;
         min-height: 180px;
     }
+    .second_section{
+        width: 95%;
+    }
 }

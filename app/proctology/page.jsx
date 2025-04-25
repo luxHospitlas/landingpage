@@ -31,7 +31,7 @@ const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 
 export default function Proctology() {
   const heroHeading =
-    "Leading Advanced Proctology Surgical Hospital in Hyderabad";
+    "Advanced Proctology Surgical Hospital in Hyderabad";
 
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
@@ -56,7 +56,7 @@ export default function Proctology() {
     "Colorectal Surgeries",
   ];
 
-  const fheading = "Frequently Asked Questions on Piles and Proctology Treatments";
+  const fheading = "Frequently Asked Questions";
   const faqs = [
     {
       faqTitle: "What are the signs that I need to see a proctologist?",

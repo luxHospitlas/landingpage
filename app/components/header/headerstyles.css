@@ -58,6 +58,9 @@ html {
   .header__logos {
     width: 60%;
   }
+  .header_cta_type_one {
+    height: 40px;
+  }
  
  
 }

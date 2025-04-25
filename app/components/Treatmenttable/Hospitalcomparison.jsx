@@ -5,7 +5,7 @@ import "./tablestyles.css";
 
 export default function HospitalComparison({ theading }) {
   return (
-    <section className={`w-[96%] mx-auto my-10 fade-in `}>
+    <section className="w-[95%] md:w-[96%] mx-auto my-10 fade-in">
       <h2 className="table_heading text-center text-xl font-bold text-indigo-900 ">
         {theading}
       </h2>

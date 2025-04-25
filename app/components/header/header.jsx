@@ -7,7 +7,7 @@ export default function Header() {
 
 
     const scrollToSection = (id) => {
-        
+
         if (!id) {
             window.history.pushState(null, '', `#${id}`);
             window.scrollTo({
@@ -16,12 +16,12 @@ export default function Header() {
             });
             return;
         }
-        
+
         const element = document.getElementById(id);
         if (element) {
             window.history.pushState(null, '', `#${id}`);
             window.scrollTo({
-                top: element.offsetTop - 175, 
+                top: element.offsetTop - 175,
                 behavior: 'smooth',
             });
         }
@@ -39,9 +39,9 @@ export default function Header() {
 
             <nav className="header__menu">
                 <ul>
-                    {[{link:"", value: "Home"}, {link:"doctors", value:"Doctors"}, {link:"reviews", value: "Reviews"}, {link:"faqs", value:"FAQ's"}, {link:"contact", value:"Contact"}].map((item, index) => (
-                        <li key={index} onClick={() => scrollToSection(item.link)} style={{"cursor":"pointer"}}> 
-                          {item.value}
+                    {[{ link: "", value: "Home" }, { link: "doctors", value: "Doctors" }, { link: "reviews", value: "Reviews" }, { link: "faqs", value: "FAQ's" }, { link: "contact", value: "Contact" }].map((item, index) => (
+                        <li key={index} onClick={() => scrollToSection(item.link)} style={{ "cursor": "pointer" }}>
+                            {item.value}
                         </li>
                     ))}
                 </ul>
@@ -49,7 +49,11 @@ export default function Header() {
 
 
             <div className="header__cta">
-                <Link href="tel: 07969084448" className="header_cta_type_one"><span className="phone_number ">07969084448</span> <span className="call_now">Call Now</span></Link>
+                <Link href="tel:07969084448" className="header_cta_type_one flex items-center gap-2">
+                    <img src="/phone-call-icon svg.svg" alt="Call Icon" className="w-4 h-4 md:w-5 md:h-5" />
+                    <span className="phone_number">07969084448</span>
+                    <span className="call_now">Call Now</span>
+                </Link>
             </div>
         </header>
     );

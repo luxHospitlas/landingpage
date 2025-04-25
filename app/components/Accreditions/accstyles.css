@@ -54,6 +54,10 @@
 @media (max-width:476px) {
     .for_nabh{
         margin-top: 0;
+        width: 95%;
+    }
+    .for_ISO{
+        width: 95%;
     }
     .right_b-lg{
         border-radius: 20px 0 0 20px;

@@ -33,6 +33,9 @@
     .patienttalk_heading{
         font-size: 20px;
     }
+    .patient_section{
+        width: 95%;
+    }
 }
 @media (max-width:375) {
     .video_box{

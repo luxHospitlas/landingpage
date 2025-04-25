@@ -9,3 +9,12 @@
   justify-content: center;
   border-radius: 25px;
 }
+@media (max-width:495px) {
+  .whatwetreat_section {
+    width: 100%;
+  }
+  .whatwetreat_section{
+    width: 95%;
+  }
+  
+}
