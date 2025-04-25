@@ -146,7 +146,7 @@ html {
 }
 
 .header__logothree {
-  aspect-ratio: 42 / 30; /* Actual aspect ratio of trail.png: e.g., 42px width x 30px height */
+  aspect-ratio: 30 / 30; /* Actual aspect ratio of trail.png: e.g., 42px width x 30px height */
 }
 .header__logo,
 .header__logotwo,
@@ -209,4 +209,7 @@ html {
   .header__menu ul {
     gap: 30px;
   }
+  .header__logothree {
+    aspect-ratio: 50 / 30;
+}
 }
