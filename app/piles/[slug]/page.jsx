@@ -429,7 +429,7 @@ const contentMap = {
       footernumber: "07969084448",
     },
   },
-  "best-external-hemorrhoids-doctors-in-hyderabad": {
+  "best-external-hemorrhoids-doctors-hyderabad": {
     heading: "Best External Hemorrhoids Doctors in Hyderabad",
     descList: [
       "Top External Hemorrhoids Doctor",
@@ -507,7 +507,7 @@ const contentMap = {
       footernumber: "07969084448",
     },
   },
-  "best-hemorrhoids-laser-surgery-in-hyderabad": {
+  "best-hemorrhoids-laser-surgery-hyderabad": {
     heading: "Best Hemorrhoids Laser Surgery in Hyderabad",
     descList: [
       "Top Doctors for External Hemorrhoids Surgery",
@@ -585,7 +585,7 @@ const contentMap = {
       footernumber: "07969084448",
     },
   },
-  "best-hemorrhoids-laser-treatment-in-hyderabad": {
+  "best-hemorrhoids-laser-treatment-hyderabad": {
     heading: "Best Hemorrhoids Laser Treatment in Hyderabad",
     descList: [
       "Best Treatment for External Hemorrhoids",
@@ -1137,7 +1137,7 @@ const contentMap = {
       footernumber: "07969084448",
     },
   },
-  "hemorrhoids-laser-surgery-cost-in-hyderabad": {
+  "hemorrhoids-laser-surgery-cost-hyderabad": {
     heading: "Hemorrhoids Laser Surgery Cost in Hyderabad",
     descList: [
       "Affordable Laser Treatment for Hemorrhoids",
@@ -1300,7 +1300,7 @@ const contentMap = {
       footernumber: "07969084448",
     },
   },
-  "best-internal-hemorrhoids-surgery-in-hyderabad": {
+  "best-internal-hemorrhoids-surgery-hyderabad": {
     heading: "Best Internal Hemorrhoids Surgery in Hyderabad",
     descList: [
       "Leading Clinic for Effective Internal Hemorrhoids Surgery",
@@ -1380,7 +1380,7 @@ const contentMap = {
       footernumber: "07969084448",
     },
   },
-  "best-internal-hemorrhoids-treatment-in-hyderabad": {
+  "best-internal-hemorrhoids-treatment-hyderabad": {
     heading: "Best Internal Hemorrhoids Treatment in Hyderabad",
     descList: [
       "Leading Clinic for Advanced Internal Hemorrhoids Treatment",
