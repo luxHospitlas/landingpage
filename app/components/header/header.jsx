@@ -33,7 +33,7 @@ export default function Header() {
             <div className="header__logos" >
                 <a href="#"><img className="logo-fade header__logo" src="/logolux.avif" alt="logo" width={140} height={60} /></a>
                 <a href="#"><img className="logo-fade header__logotwo" src="/isocer.png" alt="logo" /></a>
-                <a href="#"><img className="logo-fade header__logothree" src="/nabhcer.png" alt="logo" /></a>
+                <a href="#"><img className="logo-fade header__logothree" src="/nabhcertific.png" alt="logo" /></a>
             </div>
 
 
