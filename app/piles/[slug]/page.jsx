@@ -63,7 +63,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
@@ -141,7 +162,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Treatment | Laser Therapy | Affordable Piles Care | Advanced Minimally Invasive Solutions",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -209,7 +251,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Treatment | Laser Therapy | Hemorrhoids Care | Minimally Invasive Experts",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -286,7 +349,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Surgery | Laser Hemorrhoid Surgery | Painless Piles Removal | Advanced Piles Treatment",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -363,7 +447,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Surgeon | Hemorrhoids Surgeon | Advanced Piles Care | Laser Surgery Experts",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -440,7 +545,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -518,7 +644,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Surgery | Piles Experts | Advanced Care | Hemorrhoids Treatment",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -596,7 +743,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Treatment | Advanced Care | Laser Surgery | Hemorrhoids Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -674,7 +842,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Top Hemorrhoids Clinic | Piles Experts | Advanced Care | Laser Treatment Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -752,7 +941,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Doctor | Piles Specialist | Advanced Care | Laser Treatment Expert",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -832,7 +1042,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Hospital | Piles Experts | Advanced Care | Laser Treatment Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -910,7 +1141,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Operation | Expert Piles Surgery | Advanced Care | Laser Treatment Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -990,7 +1242,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Specialist | Piles Experts | Advanced Care | Laser Treatment Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatments at Lux Hospitals",
@@ -1070,7 +1343,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Top Hemorrhoids Surgeon | Expert Piles Surgeon | Advanced Care | Laser Treatment Specialist",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatments at Lux Hospitals",
@@ -1148,7 +1442,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Laser Surgery | Expert Piles Surgeons | Advanced Care | Affordable Treatment",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatments at Lux Hospitals",
@@ -1233,7 +1548,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Treatment | Expert Piles Specialists | Advanced Care | Laser Treatment Options",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -1311,7 +1647,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Internal Hemorrhoids Surgery | Expert Piles Surgeons | Advanced Care | Laser Treatment",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -1391,7 +1748,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Internal Hemorrhoids Treatment | Expert Piles Specialists | Advanced Care | Laser Treatment Options",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Hemorrhoids Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Hemorrhoids Treatment at Lux Hospitals",
@@ -1471,7 +1849,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals - Piles Clinic | Hemorrhoids Experts | Advanced Care | Laser Treatment Specialists",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -1548,7 +1947,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Doctor | Hemorrhoids Specialist | Laser Piles Treatment | Advanced Proctology Care",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -1627,7 +2047,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Hospital | Hemorrhoids Specialists | Laser Treatment Experts | Advanced Piles Care",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -1705,7 +2146,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Operation | Piles Specialists | Laser Surgery Experts | Advanced Piles Care",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
@@ -1782,7 +2244,28 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Specialist | Hemorrhoids Expert | Advanced Piles Clinic | Laser Treatment Center",
-    doctors: proctologyDoctorsData,
+    // doctors: proctologyDoctorsData,
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishake katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experieance:9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // image: "/doctors/samhitha-reddy.webp",
+      },
+    ],
     tableContent: [
       {
         theading: "Piles Treatment at Lux Hospitals",
