@@ -36,7 +36,7 @@ const MobileStickyFooter = () => {
         {/* Book Appointment CTA */}
         <div className="stickey_appointment flex-1 bg-[#984F9E] text-center py-2 btm_buttton border-l border-white">
           <a
-            href="tel:917969084444"
+            href="tel:917969084448"
             className="flex flex-col items-center text-white text-[12px] font-500"
             style={{
               rowGap: "5px",
