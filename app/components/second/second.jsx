@@ -10,7 +10,7 @@ export default function Second() {
       title: "Book an Appointment",
       bgColor: "bg-green-200",
       arrow: "/Arrow.svg",
-      link: "tel:917969084444",
+      link: "tel:917969084448",
     },
     {
       image: "/cost extimation.avif",
@@ -32,7 +32,7 @@ export default function Second() {
       title: "Insurance Coverage",
       bgColor: "bg-blue-200",
       arrow: "/Arrow.svg",
-      link: "tel:917969084444",
+      link: "tel:917969084448",
     },
   ];
 
