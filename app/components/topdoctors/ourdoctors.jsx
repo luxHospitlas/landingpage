@@ -19,7 +19,7 @@ const DoctorCard = ({
             <img
               src={url}
               alt="Dr. Samhitha Reddy"
-              className={` max-w-[250px] h-auto mb-[-10px] opacity-100 `}
+              className={` max-w-[250px] h-auto mb-[-12px] opacity-100 `}
             />
           </div>
           <div className="p-4 content_cars">

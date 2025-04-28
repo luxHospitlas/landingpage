@@ -1,6 +1,6 @@
 export const proctologyDoctorsData = [
   {
-    url: "/doctor.avif",
+    url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
     name: "Dr. Samhitha Reddy",
     qualification: "MBBS, MS, FMAS, FISCP, DMAS",
     designation: "Piles Specialist",

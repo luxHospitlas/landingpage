@@ -68,7 +68,7 @@ export default function Home() {
         </h2>
         <div className="doctors_container">
           <DoctorCard
-            url="/doctor.avif"
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp"
             name="Dr. Samhitha Reddy"
             qualification="MBBS, MS, FMAS, FISCP, DMAS"
             designation="Piles Specialist"
@@ -77,7 +77,7 @@ export default function Home() {
           />
           <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
-            name="Dr. Abhishake Katha"
+            name="Dr. Abhishek Katha"
             qualification="MBBS, MS, FMAS, FISCP"
             designation="Piles Specialist"
             experience="Experieance:9 years"

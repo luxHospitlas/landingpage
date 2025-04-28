@@ -74,7 +74,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               </Link>
             </p>
             <p className="text-gray-700 mb-[10px]">
-              📞{" "}
+              Call Us: {/* 📞{" "} */}
               <Link
                 href={`tel:${footernumber}`}
                 className="hover:text-[#99509f]"
@@ -83,7 +83,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               </Link>
             </p>
             <p className="text-gray-700 mb-[10px]">
-              ✉{" "}
+              Mail Us: {/* ✉{" "} */}
               <Link
                 href={`mailto:${data.contactus.email}`}
                 className="hover:text-[#99509f]"
@@ -92,7 +92,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               </Link>
             </p>
             <p className="text-gray-700 mb-[10px]">
-              🌐{" "}
+              Website: {/* 🌐{" "} */}
               <Link
                 href="https://luxhospitals.com/"
                 className="hover:text-[#99509f]"
