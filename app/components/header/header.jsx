@@ -32,9 +32,9 @@ export default function Header() {
         <header className="header">
 
             <div className="header__logos" >
-                <a href="#"><img className="logo-fade header__logo" src="/logolux.avif" alt="logo" width={140} height={60} /></a>
-                <a href="#"><img className="logo-fade header__logotwo" src="/isoshod.png" alt="logo" /></a>
-                <a href="#"><img className="logo-fade header__logothree" src="/nabhshod.png" alt="logo" /></a>
+                <a href="#"><img className="logo-fade header__logo" src="/LogoLux.png" alt="logo" width={140} height={60} /></a>
+                <a href="#"><img className="logo-fade header__logotwo" src="/isoshadow.png" alt="logo" /></a>
+                <a href="#"><img className="logo-fade header__logothree" src="/nabhshodow.png" alt="logo" /></a>
             </div>
 
 
