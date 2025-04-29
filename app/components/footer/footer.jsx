@@ -54,9 +54,9 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               {data.centerofexcellence.map((item, index) => (
                 <li key={index} className="excellence_list">
                   {/* <Link href={item.url}> */}
-                    <span className="text-gray-700 hover:text-[#99509f] cursor-pointer">
-                      {item.text}
-                    </span>
+                  <span className="text-gray-700 hover:text-[#99509f] cursor-pointer">
+                    {item.text}
+                  </span>
                   {/* </Link> */}
                 </li>
               ))}
@@ -73,8 +73,11 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
                 {data.contactus.address}
               </Link>
             </p>
-            <p className="text-gray-700 mb-[10px]">
-              Call Us: {/* 📞{" "} */}
+
+            <p className="flex items-center text-gray-700 mb-[10px] gap-2">
+              <span className="w-4 h-4">
+                <img src="/Call Us.svg" alt="phone_icon" />
+              </span>
               <Link
                 href={`tel:${footernumber}`}
                 className="hover:text-[#99509f]"
@@ -82,8 +85,11 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
                 {footernumber}
               </Link>
             </p>
-            <p className="text-gray-700 mb-[10px]">
-              Mail Us: {/* ✉{" "} */}
+
+            <p className="flex items-center text-gray-700 mb-[10px] gap-2">
+              <span className="w-4 h-4">
+                <img src="/Mail Us.svg" alt="mail_icon" />
+              </span>
               <Link
                 href={`mailto:${data.contactus.email}`}
                 className="hover:text-[#99509f]"
@@ -91,8 +97,12 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
                 {data.contactus.email}
               </Link>
             </p>
-            <p className="text-gray-700 mb-[10px]">
-              Website: {/* 🌐{" "} */}
+
+            <p className="flex items-center text-gray-700 mb-[10px] gap-2">
+              <span className="w-4 h-4">
+                {" "}
+                <img src="/website.svg" />
+              </span>
               <Link
                 href="https://luxhospitals.com/"
                 className="hover:text-[#99509f]"
