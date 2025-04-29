@@ -74,7 +74,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               </Link>
             </p>
 
-            <p className="flex items-center text-gray-700 mb-[10px] gap-2">
+            <p className="flex flex-wrap items-center text-gray-700 mb-[10px] gap-2">
               <span className="w-4 h-4">
                 <img src="/Call Us.svg" alt="phone_icon" />
               </span>
@@ -86,7 +86,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               </Link>
             </p>
 
-            <p className="flex items-center text-gray-700 mb-[10px] gap-2">
+            <p className="flex flex-wrap items-center text-gray-700 mb-[10px] gap-2">
               <span className="w-4 h-4">
                 <img src="/Mail Us.svg" alt="mail_icon" />
               </span>
@@ -98,7 +98,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               </Link>
             </p>
 
-            <p className="flex items-center text-gray-700 mb-[10px] gap-2">
+            <p className="flex flex-wrap items-center text-gray-700 mb-[10px] gap-2">
               <span className="w-4 h-4">
                 {" "}
                 <img src="/website.svg" />
