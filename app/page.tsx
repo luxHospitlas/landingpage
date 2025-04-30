@@ -30,7 +30,7 @@ export default function Home() {
 
   // Fallback hero text based on pathname
   const heroHeading =
-    "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
+    "Lux Hospitals - Advanced Surgerical Hospital in Hyderabad";
 
   // if (pathname.includes("piles")) {
   //   heroHeading = "Get Relief from Piles Today";
@@ -85,7 +85,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"hospital"} />
+      <HospitalComparison theading={"Treatment at Lux Hospitals"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />

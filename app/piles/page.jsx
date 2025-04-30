@@ -30,7 +30,7 @@ export default function Home() {
 
   // Fallback hero text based on pathname
   const heroHeading =
-    "Lux Hospitals - Advanced Surgerical hospital in Hyderabad";
+    "Lux Hospitals - Best hospital for Piles in Hyderabad";
 
   // if (pathname.includes("piles")) {
   //   heroHeading = "Get Relief from Piles Today";
@@ -50,7 +50,7 @@ export default function Home() {
   ];
 
   const defaultLocationHeading =
-    "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
+    "Lux Hospitals - Piles Treatment | Expert Proctologists in Hyderabad | Advanced Laser Treatment" ;
 
   return (
     <>
@@ -85,7 +85,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"hospital"} />
+      <HospitalComparison theading={"Piles Treatment at Lux Hospitals"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />
