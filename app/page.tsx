@@ -7,6 +7,8 @@ import Hero from "./components/hero/hero";
 import Second from "./components/second/second";
 import HospitalLocation from "./components/HospitalLocation/hospitallocations";
 import FooterComponent from "./components/footer/footer";
+import Faqs from "./components/faqs/faq";
+// import Whatare from "./components/what/whatare";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("./components/topdoctors/ourdoctors"));
@@ -52,6 +54,52 @@ export default function Home() {
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
 
+    // const whatAreH = "What is Piles?";
+    // const whatAreP =
+    //   "Piles, also known as hemorrhoids, are swollen and inflamed veins in the rectum or anus. They cause discomfort, bleeding, itching, and pain during bowel movements. Piles can be internal or external and range from mild to severe.";
+    // const whatHead = "Treatment we provide";
+    // const treatments = [
+    //   "Laser Treatment",
+    //   "Rubber Band Ligation",
+    //   "Sclerotherapy",
+    //   "Surgical Hemorrhoidectomy",
+    // ];
+  
+    const fheading = "Frequently Asked Questions";
+    const faqs = [
+      {
+        faqTitle: " What medical departments are available at Lux Hospitals?",
+        faqAnswer:
+          "We specialize in Proctology, Laparoscopic Surgery, Urology, Gynecology, ENT, Orthopedics, and Plastic & Cosmetic Surgery, all under one roof.",
+      },
+      {
+        faqTitle: "Can I get same-day consultations and quick appointments?",
+        faqAnswer:
+          "Yes, Lux Hospitals offers fast-track appointments with minimal wait time. Same-day consultations are available for most departments.",
+      },
+      {
+        faqTitle: " Are both male and female doctors available?",
+        faqAnswer:
+          "Yes, we have highly qualified male and female specialists across all departments, including female gynecologists for women-centric care.",
+      },
+      {
+        faqTitle: "How do I book an appointment at Lux Hospitals?",
+        faqAnswer:
+          "You can easily book online, call our helpline, or walk in. Our care team will help you with doctor availability and treatment planning.",
+      },
+      {
+        faqTitle: "Why is Lux Hospitals the best preference for you?",
+        faqAnswer:
+          "Lux Hospitals provides expert care across multiple specialties using advanced equipment. We offer same-day procedures and personalized treatment focused on your comfort and recovery. Patient-first care is always our motto.",
+      },
+      {
+        faqTitle: "Does Lux Hospitals accept health insurance?",
+        faqAnswer:
+          "Yes, we accept most leading insurance plans for departments like Proctology, Urology, ENT, Orthopedics, Gynecology, and Laparoscopy. Cosmetic procedures are not covered.",
+      },
+    ];
+
+    
   return (
     <>
       <Hero heading={heroHeading} descList={defaultDescList} />
@@ -90,6 +138,26 @@ export default function Home() {
       <VideoSection />
       <PatientTalks />
       <Luxgpt />
+            {/* {whatAreH && (
+              <Whatare
+                whatAreH={whatAreH}
+                whatAreP={whatAreP}
+                whatHead={whatHead}
+                treatments={treatments.map((treatment) => ({
+                  title: treatment,
+                }))}
+              />
+            )} */}
+      
+            {faqs.length > 0 && (
+              <Faqs
+                fheading={fheading}
+                faqs={faqs.map((faq) => ({
+                  faqquestion: faq.faqTitle,
+                  faqanswer: faq.faqAnswer,
+                }))}
+              />
+            )}
       <FooterComponent
         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
         footernumber="07969084448"

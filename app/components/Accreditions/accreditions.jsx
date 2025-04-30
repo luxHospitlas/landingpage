@@ -48,8 +48,8 @@ const Accreditations = () => {
               <Image
                 src="/isoshadow.png"
                 alt="ISO Certified"
-                width={150}
-                height={150}
+                width={200}
+                height={200}
                 className="image_certi object-contain"
                 priority
               />

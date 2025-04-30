@@ -31,7 +31,7 @@ export default function Luxgpt() {
             <input
               type="text"
               id="messageInput"
-              placeholder="Enter your enquiry here ..."
+              placeholder="Ask Me Anything"
               className="bg-transparent text-gray-700 focus:outline-none"
             />
               <button onClick={sendToWhatsApp} className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
