@@ -1,72 +1,86 @@
-.second_section{
+.second_section {
     width: 96%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.sessioncards{
+
+.sessioncards {
     width: 100%;
     height: fit-content;
     min-height: 235px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     justify-content: space-between;
     border-radius: 6px;
 }
+
 .image_div_sessioncard {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-  }
-  
-  .image_div_sessioncard:hover {
+}
+
+.image_div_sessioncard:hover {
     transform: scale(1.05);
     /* box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); */
-  }
-.sessioncards:nth-child(1){
+}
+
+.second_section a:nth-child(1) .sessioncards {
     background: #A3DAC2;
 }
-.sessioncards:nth-child(2){
+
+.second_section a:nth-child(2) .sessioncards {
     background: #F0DA69;
 }
-.sessioncards:nth-child(3){
+
+.second_section a:nth-child(3) .sessioncards {
     background: #E7C2D4;
 }
-.sessioncards:nth-child(4){
+
+.second_section a:nth-child(4) .sessioncards {
     background: #92BDF6;
 }
-.service_title{
+
+.service_title {
     font-size: 18px;
-    
+
 }
-.service_description{
+
+.service_description {
     font-size: 12px;
 }
+
 .content_Card {
     justify-content: space-between;
     margin: 5%;
 }
-.service-data{
+
+.service-data {
     align-content: center;
 }
 
 @media (max-width:475px) {
-    .content_Card{
+    .content_Card {
         margin: 0;
         padding: 10px;
     }
-    .service_description{
+
+    .service_description {
         font-size: 10px;
     }
-    .service_title{
+
+    .service_title {
         font-size: 12px;
         margin-bottom: 6px;
     }
-    .sessioncards{
+
+    .sessioncards {
         /* weight: 190px; */
         height: 180px;
         min-height: 180px;
     }
-    .second_section{
+
+    .second_section {
         width: 95%;
     }
 }
