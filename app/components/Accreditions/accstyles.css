@@ -1,7 +1,7 @@
 
 .object-contain{
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
 }
 .lrboxes{
     width: 40%;
@@ -72,10 +72,11 @@
         font-size: 12px;
     }
     .image_certi{
-        width: 100px;
+        width: 130px;
     }
     .Accreditations_heading{
         font-size: 20px;
+        margin-bottom: 24px;
     }
 
 }
@@ -88,7 +89,7 @@
 
 @media (min-width:768px) {
     .for_nabh{
-        margin-top: 20px;
+        margin-top: 24px;
     }
     
 }
