@@ -125,7 +125,7 @@ export default function Home() {
           />
           <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
-            name="Dr. Abhishek Katha"
+            name="Dr Abhishek Katha"
             qualification="MBBS, MS, FMAS, FISCP"
             designation="Piles Specialist"
             experience="Experieance:9 years"
