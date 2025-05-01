@@ -76,7 +76,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -175,7 +175,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -264,7 +264,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -362,7 +362,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -460,7 +460,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -558,7 +558,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -657,7 +657,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -756,7 +756,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -855,7 +855,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -954,7 +954,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1055,7 +1055,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1154,7 +1154,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1255,7 +1255,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1356,7 +1356,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1455,7 +1455,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1561,7 +1561,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1660,7 +1660,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1761,7 +1761,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Hemorrhoids Specialist",
         experience: "Experieance:9 years",
@@ -1862,7 +1862,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -1960,7 +1960,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -2060,7 +2060,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -2159,7 +2159,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
@@ -2257,7 +2257,7 @@ const contentMap = {
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishake katha",
+        name: "Dr Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experieance:9 years",
