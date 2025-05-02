@@ -54,7 +54,7 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               {data.centerofexcellence.map((item, index) => (
                 <li key={index} className="excellence_list">
                   {/* <Link href={item.url}> */}
-                  <span className="text-gray-700 hover:text-[#99509f] cursor-pointer">
+                  <span className="text-black-700 hover:text-[#99509f] cursor-pointer">
                     {item.text}
                   </span>
                   {/* </Link> */}

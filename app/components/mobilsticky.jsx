@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { handleWhatsappConnection } from "../careconsole";
 
 const MobileStickyFooter = () => {
   return (
@@ -12,7 +13,8 @@ const MobileStickyFooter = () => {
         {/* WhatsApp CTA */}
         <div className="stickey_whatsapp flex-1 bg-[#984F9E] text-center py-2 btm_buttton">
           <a
-            href="https://wa.me/917969084444"
+            href="#"
+            onClick={(e) => { e.preventDefault(); handleWhatsappConnection(); }}
             target="_blank"
             className="flex flex-col items-center text-white text-[12px] text-sm font-500"
             style={{
