@@ -26,7 +26,7 @@ export default function Header() {
             });
         }
     };
-    
+
 
     return (
         <header className="header">
@@ -50,11 +50,11 @@ export default function Header() {
 
 
             <div className="header__cta">
-                <Link href="tel:07969084448" className="header_cta_type_one flex items-center gap-2">
+                <a href="tel:07969084448" className="header_cta_type_one flex items-center gap-2">
                     <img src="/phone-call-icon svg.svg" alt="Call Icon" className="w-4 h-4 md:w-5 md:h-5" />
                     <span className="phone_number">07969084448</span>
                     <span className="call_now">Call Now</span>
-                </Link>
+                </a>
             </div>
         </header>
     );
