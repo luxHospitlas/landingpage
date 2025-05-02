@@ -78,12 +78,12 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               <span className="w-4 h-4">
                 <img src="/Call Us.svg" alt="phone_icon" />
               </span>
-              <Link
+              <a
                 href={`tel:${footernumber}`}
                 className="hover:text-[#99509f]"
               >
                 {footernumber}
-              </Link>
+              </a>
             </p>
 
             <p className="flex flex-wrap items-center text-gray-700 mb-[10px] gap-2">

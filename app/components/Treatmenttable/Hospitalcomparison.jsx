@@ -12,7 +12,7 @@ export default function HospitalComparison({ theading }) {
 
       <div className="tablevideo fade-in mt-6 gap-6">
         {/* VIDEO SECTION */}
-        <div className="w-full lg:w-1/2">
+        {/* <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <video
               className="w-full h-[239px] rounded-lg shadow-md"
@@ -25,7 +25,20 @@ export default function HospitalComparison({ theading }) {
               Your browser does not support the video tag.
             </video>
           </div>
+        </div> */}
+        <div className="w-full lg:w-1/2">
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              className="w-full h-[240px] lg:h-[420px] rounded-lg shadow-md"
+              src="https://www.youtube.com/embed/3EsEET0PYdo?autoplay=1&mute=1&loop=1&playlist=3EsEET0PYdo"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
+
 
         {/* TABLE SECTION */}
         <div className="w-full lg:w-1/2 overflow-x-auto">
@@ -102,6 +115,58 @@ export default function HospitalComparison({ theading }) {
                   100% COVERAGE
                 </td>
               </tr>
+              <tr className="hidden lg:table-row border">
+                <td
+                  className="table_head font-semibold text-black-600 text-center"
+                  style={{ background: "#FAF3D2" }}
+                >
+                  Recurrence Chances
+                </td>
+                <td className="table_head text-center" style={{ background: "#F9F0C3" }}>
+                  5-10%
+                </td>
+                <td
+                  className="table_head text-center font-500"
+                  style={{ background: "#F6E8A5" }}
+                >
+                  0-1%
+                </td>
+              </tr>
+              <tr className="hidden lg:table-row border">
+                <td
+                  className="table_head font-semibold text-black-600 text-center"
+                  style={{ background: "#FAF3D2" }}
+                >
+                  Recovery
+                </td>
+                <td className="table_head text-center" style={{ background: "#F9F0C3" }}>
+                  24-48 Hours
+                </td>
+                <td
+                  className="table_head text-center font-500"
+                  style={{ background: "#F6E8A5" }}
+                >
+                  12-24 Hours
+                </td>
+              </tr>
+              <tr className="hidden lg:table-row border">
+                <td
+                  className="table_head font-semibold text-black-600 text-center"
+                  style={{ background: "#FAF3D2" }}
+                >
+                  Rooms
+                </td>
+                <td className="table_head text-center" style={{ background: "#F9F0C3" }}>
+                  Sharing / Single Room
+                </td>
+                <td
+                  className="table_head text-center font-500"
+                  style={{ background: "#F6E8A5" }}
+                >
+                  SUITE ROOM
+                </td>
+              </tr>
+
             </tbody>
           </table>
         </div>
