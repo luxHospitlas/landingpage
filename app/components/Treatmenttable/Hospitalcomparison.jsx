@@ -11,22 +11,38 @@ export default function HospitalComparison({ theading }) {
       </h2>
 
       <div className="tablevideo fade-in mt-6 gap-6">
-        {/* VIDEO SECTION */}
+
         {/* <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <video
-              className="w-full h-[239px] rounded-lg shadow-md"
+              className="w-full h-[240px] lg:h-[420px] rounded-lg shadow-md"
               autoPlay
               muted
               loop
               playsInline
             >
-              <source src="/desktop lp video.mp4" type="video/mp4" />
+              <source src="/tablevideo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
         </div> */}
         <div className="w-full lg:w-1/2">
+          <div className="aspect-w-16 aspect-h-9">
+            <video
+              className="w-full h-[240px] lg:h-[420px] rounded-lg shadow-md"
+              autoPlay
+              muted
+              loop
+              playsInline
+              onMouseEnter={(e) => (e.currentTarget.controls = true)}
+              onMouseLeave={(e) => (e.currentTarget.controls = false)}
+            >
+              <source src="/tablevideo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        {/* <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <iframe
               className="w-full h-[240px] lg:h-[420px] rounded-lg shadow-md"
@@ -37,7 +53,7 @@ export default function HospitalComparison({ theading }) {
               allowFullScreen
             ></iframe>
           </div>
-        </div>
+        </div> */}
 
 
         {/* TABLE SECTION */}
