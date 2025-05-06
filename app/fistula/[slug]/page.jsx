@@ -8,8 +8,9 @@ import FooterComponent from "../../components/footer/footer";
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
 );
-const HospitalComparison = dynamic(() =>
-  import("../../components/Treatmenttable/Hospitalcomparison")
+
+const HospitalComparisond = dynamic(() =>
+  import("../../components/dynamictable/dynamictables")
 );
 const Accreditations = dynamic(() =>
   import("../../components/Accreditions/accreditions")
@@ -53,7 +54,7 @@ const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
 
 const contentMap = {
   "external-hemorrhoids-doctor": {
-    heading: "External Hemorrhoids Doctor",
+    heading: "fistula External Hemorrhoids Doctor",
     descList: [
       "Top External Hemorrhoids Doctor",
       "30-min procedure, same-day discharge",
@@ -68,6 +69,18 @@ const contentMap = {
       {
         theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
       },
+    ],
+    tableData: [
+      { label: "Cost", other: "Variable", lux: "FIXED" },
+      {
+        label: "Sterilization",
+        other: "Autoclave / ETO",
+        lux: "PLASMA STERILIZATION",
+      },
+      { label: "Insurance", other: "80-85% Coverage", lux: "100% COVERAGE" },
+      { label: "Recurrence Chances", other: "5-10%", lux: "0-1%" },
+      { label: "Recovery", other: "24-48 Hours", lux: "12-24 Hours" },
+      { label: "Rooms", other: "Sharing / Single Room", lux: "SUITE ROOM" },
     ],
     whatAreH: "What Are External Hemorrhoids?",
     whatAreP:
@@ -1899,7 +1912,10 @@ export default function ConditionPage({ params }) {
         </section>
       )}
       {content.tableContent?.[0] && (
-        <HospitalComparison theading={content.tableContent[0].theading} />
+        <HospitalComparisond
+          theading={content.tableContent[0].theading}
+          rows={content.tableData}
+        />
       )}
       <Accreditations />
       <VideoSection />

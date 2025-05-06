@@ -1,0 +1,29 @@
+.table_head {
+    height: 60px;
+}
+
+.table_heading {
+    font-size: 30px;
+}
+
+@media (max-width:475px) {
+    .table_heading {
+        font-size: 20px;
+    }
+
+}
+
+.tablevideo {
+    display: flex;
+    flex-direction: column;
+    /* Mobile default */
+    gap: 1rem;
+    /* same as Tailwind's gap-6 */
+}
+
+@media (min-width: 768px) {
+    .tablevideo {
+        flex-direction: row;
+        /* Desktop */
+    }
+}

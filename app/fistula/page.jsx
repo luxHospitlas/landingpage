@@ -10,8 +10,8 @@ import FooterComponent from "../components/footer/footer";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
-const HospitalComparison = dynamic(() =>
-  import("../components/Treatmenttable/Hospitalcomparison")
+const HospitalComparisond = dynamic(() =>
+  import("../components/dynamictable/dynamictables")
 );
 const Accreditations = dynamic(() =>
   import("../components/Accreditions/accreditions")
@@ -49,6 +49,18 @@ export default function Home() {
     "Expert Doctors & State-of-the-Art Facilities",
   ];
 
+  const tableData = [
+    { label: "Cost", other: "Variable", lux: "FIXED" },
+    {
+      label: "Sterilization",
+      other: "Autoclave / ETO",
+      lux: "PLASMA STERILIZATION",
+    },
+    { label: "Insurance", other: "80-85% Coverage", lux: "100% COVERAGE" },
+    { label: "Recurrence Chances", other: "5-10%", lux: "0-1%" },
+    { label: "Recovery", other: "24-48 Hours", lux: "12-24 Hours" },
+    { label: "Rooms", other: "Sharing / Single Room", lux: "SUITE ROOM" },
+  ];
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
 
@@ -85,7 +97,10 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"hospital"} />
+      <HospitalComparisond
+        theading={"hospital dynamic data"}
+        rows={tableData}
+      />
       <Accreditations />
       <VideoSection />
       <PatientTalks />
