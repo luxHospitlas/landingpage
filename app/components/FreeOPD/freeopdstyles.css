@@ -1,0 +1,21 @@
+.freeopd-section {
+    background-image: url('/FreeOPDMobileBack.png');
+}
+
+@media (min-width: 769px) {
+    .freeopd-section {
+        background-image: url('/freeopdback.png');
+    }
+}
+@media (max-width: 350px) {
+    .freeopd-content {
+        font-size: 16px;
+    }
+    .freeopd-heading{
+        font-size: 20px;
+    }
+    .freeopd-btn{
+        font-size: 12px;
+    }
+    
+}
