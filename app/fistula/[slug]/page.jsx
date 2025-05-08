@@ -1,10 +1,12 @@
 "use client"; // Add this since you're using client-side components
 import { use } from "react";
 import dynamic from "next/dynamic";
+import Header from "@/app/components/header/header";
 import Hero from "../../components/hero/hero";
 import Second from "../../components/second/second";
 import HospitalLocation from "../../components/HospitalLocation/hospitallocations";
 import tableData from '../../fistula/fistuladata';
+// import services from "../../piles/pilesdata";
 import FooterComponent from "../../components/footer/footer";
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
@@ -24,7 +26,7 @@ const PatientTalks = dynamic(() =>
 );
 const Luxgpt = dynamic(() => import("../../components/luxgpt/luxgpt"));
 import Faqs from "../../components/faqs/faq";
-import { proctologyDoctorsData } from "../../../public/data";
+// import { proctologyDoctorsData } from "../../../public/data";
 
 // Define Whatare component before using it
 const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
@@ -54,7 +56,7 @@ const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
 };
 
 const contentMap = {
-  "Fistula-Treatment-Hyderabad": {
+  "fistula-Treatment-Hyderabad": {
     heading: "Fistula Treatment in Hyderabad",
     descList: [
       "Top External Hemorrhoids Doctor",
@@ -63,6 +65,7 @@ const contentMap = {
       "Zero-interest EMI available",
       "Advanced Laser & Minimally Invasive Treatment",
     ],
+    // services: services,
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
     doctors: [
@@ -168,7 +171,7 @@ const contentMap = {
   "best-anal-fistula-surgery-hyderabad": {
     heading: "Best Anal Fistula Surgery in Hyderabad",
     descList: [
-      "Advanced, Painless Anal Fistula Surgery for Fast Recovery",
+      // "Advanced, Painless Anal Fistula Surgery for Fast Recovery",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -273,7 +276,7 @@ const contentMap = {
   "top-fistula-clinic-in-hyderabad": {
     heading: "Top Fistula Clinic in Hyderabad",
     descList: [
-      "Leading Clinic for Painless Fistula Care",
+      // "Leading Clinic for Painless Fistula Care",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -379,7 +382,7 @@ const contentMap = {
   "best-fistula-doctor-in-hyderabad": {
     heading: "Best Fistula Doctor in Hyderabad",
     descList: [
-      "Expert Care from Top Fistula Doctor",
+      // "Expert Care from Top Fistula Doctor",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -483,7 +486,7 @@ const contentMap = {
   "best-fistula-hospital-in-hyderabad": {
     heading: "Best Fistula Hospital in Hyderabad",
     descList: [
-      "Trusted Hospital for Fistula Treatment and Care",
+      // "Trusted Hospital for Fistula Treatment and Care",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -587,7 +590,7 @@ const contentMap = {
   "minimally-invasive-fistula-laser-surgery": {
     heading: "Minimally Invasive Fistula Laser Surgery",
     descList: [
-      "Painless Laser Surgery for Fistula Treatment",
+      // "Painless Laser Surgery for Fistula Treatment",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -691,7 +694,7 @@ const contentMap = {
   "best-fistula-operation-in-hyderabad": {
     heading: "Best Fistula Operation in Hyderabad",
     descList: [
-      "Safe and Effective Fistula Surgical Procedures",
+      // "Safe and Effective Fistula Surgical Procedures",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -795,7 +798,7 @@ const contentMap = {
   "best-fistula-treatment-in-hyderabad": {
     heading: "Best Fistula Treatment in Hyderabad",
     descList: [
-      "Expert Fistula Treatment Options for Faster Recovery",
+      // "Expert Fistula Treatment Options for Faster Recovery",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -884,7 +887,7 @@ const contentMap = {
   "top-fistula-surgeon-in-hyderabad": {
     heading: "Top Fistula Surgeon in Hyderabad",
     descList: [
-      "Leading Surgeons Specializing in Fistula Treatment",
+      // "Leading Surgeons Specializing in Fistula Treatment",
       "Top Surgeon for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -988,7 +991,7 @@ const contentMap = {
   "fistuloctomy-surgery-for-fistula-hyderabad": {
     heading: "Fistuloctomy Surgery for Fistula in Hyderabad",
     descList: [
-      "Advanced Fistuloctomy Surgery for Fistula Relief",
+      // "Advanced Fistuloctomy Surgery for Fistula Relief",
       "Top doctor for TROPIS procedure for Fistula",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -1088,7 +1091,7 @@ const contentMap = {
   "top-perianal-abscess-doctor-hyderabad": {
     heading: "Top Perianal Abscess Doctor in Hyderabad",
     descList: [
-      "Leading Perianal Abscess Doctor for Expert Diagnosis and Care",
+      // "Leading Perianal Abscess Doctor for Expert Diagnosis and Care",
       "Top doctor for TROPIS procedure for Perianal Abscess",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -1192,7 +1195,7 @@ const contentMap = {
   "best-perianal-abscess-surgery-hyderabad": {
     heading: "Best Perianal Abscess Surgery in Hyderabad",
     descList: [
-      "Advanced Perianal Abscess Surgery for Fast, Painless Recovery",
+      // "Advanced Perianal Abscess Surgery for Fast, Painless Recovery",
       "Top doctor for TROPIS procedure for Perianal Abscess",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -1291,7 +1294,7 @@ const contentMap = {
   "advanced-perianal-abscess-treatment-hyderabad": {
     heading: "Advanced Perianal Abscess Treatment in Hyderabad",
     descList: [
-      "Effective Treatment for Lasting Relief from Perianal Abscesses",
+      // "Effective Treatment for Lasting Relief from Perianal Abscesses",
       "Top doctor for TROPIS procedure for Perianal Abscess",
       "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
       "30-min procedure, same-day discharge",
@@ -1402,11 +1405,38 @@ export default function ConditionPage({ params }) {
     heading: "Lux Hospitals",
     paragraph: "Trusted care for all specialties.",
   };
+  const services = [
+    {
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
+      title: "Book Free Appointment",
+      arrow: "/Arrow.svg",
+      link: "tel:917969084448",
+    },
+    {
+      image: "/cost extimation.avif",
+      title: "Cost Estimation",
+      arrow: "/Arrow.svg",
+      link: "whatsapp",
+    },
+    {
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
+      title: "Second Opinion",
+      arrow: "/Arrow.svg",
+      link: "whatsapp",
+    },
+    {
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
+      title: "Insurance Coverage",
+      arrow: "/Arrow.svg",
+      link: "tel:917969084448",
+    },
+  ];
 
   return (
     <>
+      <Header PhoneNumber={"Book Free Appointment"}/>
       <Hero heading={content.heading} descList={content.descList} />
-      <Second />
+      <Second services={services} />
       {content.locationsectionheading && (
         <HospitalLocation
           locationsectionheading={content.locationsectionheading}

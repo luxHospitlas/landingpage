@@ -1,10 +1,13 @@
 "use client"; // Add this since you're using client-side components
 import { use } from "react";
 import dynamic from "next/dynamic";
+import Header from "@/app/components/header/header";
 import Hero from "../../components/hero/hero";
 import Second from "../../components/second/second";
 import HospitalLocation from "../../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../../components/footer/footer";
+import services from "../../piles/pilesdata";
+
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
 );
@@ -23,6 +26,7 @@ const PatientTalks = dynamic(() =>
 const Luxgpt = dynamic(() => import("../../components/luxgpt/luxgpt"));
 import Faqs from "../../components/faqs/faq";
 import { proctologyDoctorsData } from "../../../public/data";
+import { ImOpt } from "react-icons/im";
 
 // Define Whatare component before using it
 const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
@@ -54,6 +58,7 @@ const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
 const contentMap = {
   "external-hemorrhoids-doctor": {
     heading: "External Hemorrhoids Doctor",
+
     descList: [
       "Top External Hemorrhoids Doctor",
       "30-min procedure, same-day discharge",
@@ -61,6 +66,8 @@ const contentMap = {
       "Zero-interest EMI available",
       "Advanced Laser & Minimally Invasive Treatment",
     ],
+
+    // services: services,
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
     // doctors: proctologyDoctorsData,
@@ -2348,8 +2355,9 @@ export default function ConditionPage({ params }) {
 
   return (
     <>
+      <Header PhoneNumber={"07969084448"}/>
       <Hero heading={content.heading} descList={content.descList} />
-      <Second />
+      <Second services={services} />
       {content.locationsectionheading && (
         <HospitalLocation
           locationsectionheading={content.locationsectionheading}

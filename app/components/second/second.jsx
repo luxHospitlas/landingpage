@@ -4,33 +4,33 @@ import "./sstyles.css";
 import React from "react";
 import { handleWhatsappConnection } from "../../careconsole"; // adjust path if needed
 
-export default function Second() {
-  const services = [
-    {
-      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
-      title: "Book an Appointment",
-      arrow: "/Arrow.svg",
-      link: "tel:917969084448",
-    },
-    {
-      image: "/cost extimation.avif",
-      title: "Cost Estimation",
-      arrow: "/Arrow.svg",
-      link: "whatsapp", // dynamic link
-    },
-    {
-      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
-      title: "Second Opinion",
-      arrow: "/Arrow.svg",
-      link: "whatsapp", // dynamic link
-    },
-    {
-      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
-      title: "Insurance Coverage",
-      arrow: "/Arrow.svg",
-      link: "tel:917969084448",
-    },
-  ];
+export default function Second({ services }) {
+  // const services = [
+  //   {
+  //     image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
+  //     title: "Book an Appointment",
+  //     arrow: "/Arrow.svg",
+  //     link: "tel:917969084448",
+  //   },
+  //   {
+  //     image: "/cost extimation.avif",
+  //     title: "Cost Estimation",
+  //     arrow: "/Arrow.svg",
+  //     link: "whatsapp", // dynamic link
+  //   },
+  //   {
+  //     image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
+  //     title: "Second Opinion",
+  //     arrow: "/Arrow.svg",
+  //     link: "whatsapp", // dynamic link
+  //   },
+  //   {
+  //     image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
+  //     title: "Insurance Coverage",
+  //     arrow: "/Arrow.svg",
+  //     link: "tel:917969084448",
+  //   },
+  // ];
 
   return (
     <section className="second_section grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
