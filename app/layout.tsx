@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Header from "./components/header/header";
+// import Header from "./components/header/header";
 import ClientLayout from "./ClientLayout";
 import ClientHead from "./ClientHead";
 import Script from "next/script";
@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           ></iframe>
         </noscript>
 
-        <Header />
+        {/* <Header /> */}
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>

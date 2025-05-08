@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 
 // Static imports
+import Header from "../components/header/header";
 import Hero from "../components/hero/hero";
 import Second from "../components/second/second";
 import HospitalLocation from "../components/HospitalLocation/hospitallocations";
@@ -49,6 +50,33 @@ export default function Home() {
     "Cashless Insurance Accepted",
     "0% EMI Options Available",
     "Expert Doctors & State-of-the-Art Facilities",
+  ];
+
+  const services = [
+    {
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
+      title: "Book an Appointment",
+      arrow: "/Arrow.svg",
+      link: "tel:917969084448",
+    },
+    {
+      image: "/cost extimation.avif",
+      title: "Cost Estimation",
+      arrow: "/Arrow.svg",
+      link: "whatsapp",
+    },
+    {
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
+      title: "Second Opinion",
+      arrow: "/Arrow.svg",
+      link: "whatsapp",
+    },
+    {
+      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
+      title: "Insurance Coverage",
+      arrow: "/Arrow.svg",
+      link: "tel:917969084448",
+    },
   ];
 
   const defaultLocationHeading =
@@ -101,8 +129,9 @@ export default function Home() {
 
   return (
     <>
+      <Header PhoneNumber={"07969084448"}/>
       <Hero heading={heroHeading} descList={defaultDescList} />
-      <Second />
+      <Second services={services} />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <section
         className="w-[90%]"
