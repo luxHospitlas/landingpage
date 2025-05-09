@@ -22,7 +22,7 @@ export default function FreeOpdSection() {
                     </h2>
                     <button
                         className=" freeopd-btn mb-4 mt-4 px-8 py-2 md:mb-8 md:mt-8 md:px-8 md:py-4 bg-white text-black text-xl font-medium rounded-full hover:bg-gray-100 transition transition-transform duration-300 hover:-translate-y-1 hover:bg-indigo-900 hover:text-white"
-                        onClick={() => (window.location.href = "tel:917969084448")}
+                        onClick={(e) => { e.preventDefault(); handleWhatsappConnection("FreeOPD"); }}
                     >
                         Book Now
                     </button>
