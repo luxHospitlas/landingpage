@@ -1,7 +1,7 @@
 "use client";
 import "./luxgptstyles.css";
 import Image from "next/image";
-import { handleWhatsappConnection } from '../../careconsole';
+// import { handleWhatsappConnection } from '../../careconsole';
 
 
 function sendToWhatsApp() {
@@ -36,7 +36,7 @@ export default function Luxgpt() {
               placeholder="Ask Me Anything"
               className="bg-transparent text-gray-700 focus:outline-none"
             />
-              <button onClick={(e) => { e.preventDefault(); handleWhatsappConnection("LuxGPT"); }} className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
+              <button onClick={sendToWhatsApp} className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
                 ➜
               </button>
           </div>
