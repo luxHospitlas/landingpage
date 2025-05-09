@@ -66,12 +66,12 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
           <div className="column c_four">
             <h3 className="font-semibold mb-2">Contact Us</h3>
             <p className="text-gray-700 mb-[10px]">
-              <Link
+              <a
                 href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7"
                 className="hover:text-[#99509f]"
               >
                 {data.contactus.address}
-              </Link>
+              </a>
             </p>
 
             <p className="flex flex-wrap items-center text-gray-700 mb-[10px] gap-2">
@@ -90,12 +90,12 @@ const FooterComponent = ({ footerdesc, footernumber }) => {
               <span className="w-4 h-4">
                 <img src="/Mail Us.svg" alt="mail_icon" />
               </span>
-              <Link
+              <a
                 href={`mailto:${data.contactus.email}`}
                 className="hover:text-[#99509f]"
               >
                 {data.contactus.email}
-              </Link>
+              </a>
             </p>
 
             <p className="flex flex-wrap items-center text-gray-700 mb-[10px] gap-2">
