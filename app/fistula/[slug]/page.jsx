@@ -6,6 +6,7 @@ import Hero from "../../components/hero/hero";
 import Second from "../../components/second/second";
 import HospitalLocation from "../../components/HospitalLocation/hospitallocations";
 import tableData from '../../fistula/fistuladata';
+import FreeOpdSection from "@/app/components/FreeOPD/freeopd";
 // import services from "../../piles/pilesdata";
 import FooterComponent from "../../components/footer/footer";
 const DoctorCard = dynamic(() =>
@@ -1468,6 +1469,7 @@ export default function ConditionPage({ params }) {
           </div>
         </section>
       )}
+      <FreeOpdSection/>
       {content.tableContent?.[0] && (
         <HospitalComparisond
           theading={content.tableContent[0].theading}
