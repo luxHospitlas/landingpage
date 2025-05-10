@@ -80,26 +80,27 @@ export default function Home() {
   ];
 
   const tableData = [
-    { label: "Cost", other: "Variable", lux: "FIXED" },
-    {
-      label: "Sterilization",
-      other: "Autoclave / ETO",
-      lux: "PLASMA STERILIZATION",
-    },
-    { label: "Insurance", other: "80-85% Coverage", lux: "100% COVERAGE" },
-    { label: "Recurrence Chances", other: "5-10%", lux: "0-1%" },
-    { label: "Recovery", other: "24-48 Hours", lux: "12-24 Hours" },
-    { label: "Rooms", other: "Sharing / Single Room", lux: "SUITE ROOM" },
+    
+    { label: "Surgical Technique",other: "Conventional / Open",lux: "TROPIS / VAAFT / Laser"},
+    { label: "Hospital Stay", other: "2–3 Days", lux: "Daycare / Same Day" },
+    { label: "Technology Used", other: "Basic Equipment", lux: "USFDA Approved Laser" },
+    { label: "Recurrence Rate", other: "High", lux: "Very Low" },
+    { label: "Sterilization", other: "ETO / Autoclave", lux: "Plasma Sterilization" },
+    { label: "Insurance Support", other: "ot Always Cashless", lux: "Cashless Available" },
   ];
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
 
   return (
     <>
-      <Header PhoneNumber={"Book Free Appointment"}/>
+      <Header 
+      PhoneNumber={"07969084448"}
+      mobilectatext={"Free OPD"}
+      />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
-      <HospitalLocation locationsectionheading={defaultLocationHeading} />
+      <FreeOpdSection/>
+      {/* <HospitalLocation locationsectionheading={defaultLocationHeading} /> */}
       <section
         className="w-[90%]"
         style={{
@@ -128,13 +129,14 @@ export default function Home() {
           />
         </div>
       </section>
-      <FreeOpdSection/>
+      
       <HospitalComparisond
         theading={"hospital dynamic data"}
         rows={tableData}
       />
       <Accreditations />
       <VideoSection />
+      <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <PatientTalks />
       <Luxgpt />
       <FooterComponent

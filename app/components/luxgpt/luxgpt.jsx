@@ -1,11 +1,18 @@
 "use client";
 import "./luxgptstyles.css";
 import Image from "next/image";
-// import { handleWhatsappConnection } from '../../careconsole';
+import { handleWhatsappConnection } from '../../careconsole';
 
 
 function sendToWhatsApp() {
-  const message = document.getElementById('messageInput').value;
+  const message = document.getElementById('messageInput')?.value || '';
+  console.log('Message:', message); // Check if it logs correctly
+
+  if (!message.trim()) {
+    alert('Please enter a message');
+    return;
+  }
+
   const phoneNumber = '917969084444';
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   window.open(whatsappURL, '_blank');
@@ -36,7 +43,7 @@ export default function Luxgpt() {
               placeholder="Ask Me Anything"
               className="bg-transparent text-gray-700 focus:outline-none"
             />
-              <button onClick={sendToWhatsApp} className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
+              <button onClick={() => handleWhatsappConnection("LuxGPT")} className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10">
                 ➜
               </button>
           </div>

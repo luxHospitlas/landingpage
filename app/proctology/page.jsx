@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 
 // Static imports
+import Header from "@/app/components/header/header";
 import Hero from "../components/hero/hero";
 import Second from "../components/second/second";
 import HospitalLocation from "../components/HospitalLocation/hospitallocations";
@@ -118,6 +119,10 @@ export default function Proctology() {
 
   return (
     <>
+      <Header 
+            PhoneNumber={"07969084448"}
+            mobilectatext={"Call Now"}
+            />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
       <ConditionsWeTreat />

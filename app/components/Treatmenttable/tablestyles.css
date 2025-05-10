@@ -21,9 +21,18 @@
     /* same as Tailwind's gap-6 */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .tablevideo {
         flex-direction: row;
         /* Desktop */
     }
 }
+.video-shadow, .table_container {
+    box-shadow: 0px 4px 4px rgba(164, 162, 162, 0.5), 0px -4px 10px rgba(164, 162, 162, 0.5), 4px 0px 10px rgba(164, 162, 162, 0.5), -4px 0px 10px rgba(164, 162, 162, 0.5);
+  }
+
+  .table_container{
+    border-radius: 12px;
+  }
+
+  

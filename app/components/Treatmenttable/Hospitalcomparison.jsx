@@ -29,7 +29,7 @@ export default function HospitalComparison({ theading }) {
         <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <video
-              className="w-full h-[240px] lg:h-[420px] rounded-lg shadow-md"
+              className="w-full h-[240px] lg:h-[420px] rounded-lg video-shadow"
               autoPlay
               muted
               loop
@@ -57,8 +57,8 @@ export default function HospitalComparison({ theading }) {
 
 
         {/* TABLE SECTION */}
-        <div className="w-full lg:w-1/2 overflow-x-auto">
-          <table className="w-full border-collapse border rounded-lg overflow-hidden">
+        <div className="w-full lg:w-1/2 overflow-x-auto table_container m-0 p-0">
+          <table className="w-full border-collapse border rounded-lg overflow-hidden m-0 p-0">
             <thead>
               <tr className="bg-green-300 text-gray-800">
                 <th
@@ -131,7 +131,7 @@ export default function HospitalComparison({ theading }) {
                   100% COVERAGE
                 </td>
               </tr>
-              <tr className="hidden lg:table-row border">
+              <tr className=" border">
                 <td
                   className="table_head font-semibold text-black-600 text-center"
                   style={{ background: "#FAF3D2" }}
@@ -148,7 +148,7 @@ export default function HospitalComparison({ theading }) {
                   0-1%
                 </td>
               </tr>
-              <tr className="hidden lg:table-row border">
+              <tr className=" border">
                 <td
                   className="table_head font-semibold text-black-600 text-center"
                   style={{ background: "#FAF3D2" }}
@@ -165,7 +165,7 @@ export default function HospitalComparison({ theading }) {
                   12-24 Hours
                 </td>
               </tr>
-              <tr className="hidden lg:table-row border">
+              <tr className="border">
                 <td
                   className="table_head font-semibold text-black-600 text-center"
                   style={{ background: "#FAF3D2" }}
