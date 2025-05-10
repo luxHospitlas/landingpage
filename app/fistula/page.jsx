@@ -86,7 +86,7 @@ export default function Home() {
     { label: "Technology Used", other: "Basic Equipment", lux: "USFDA Approved Laser" },
     { label: "Recurrence Rate", other: "High", lux: "Very Low" },
     { label: "Sterilization", other: "ETO / Autoclave", lux: "Plasma Sterilization" },
-    { label: "Insurance Support", other: "ot Always Cashless", lux: "Cashless Available" },
+    { label: "Insurance Support", other: "Not Always Cashless", lux: "Cashless Available" },
   ];
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
