@@ -29,7 +29,7 @@ export default function HospitalComparison({ theading }) {
         <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <video
-              className="w-full h-[240px] lg:h-[420px] rounded-lg video-shadow"
+              className="w-full h-[240px] lg:h-[410px] rounded-lg video-shadow"
               autoPlay
               muted
               loop

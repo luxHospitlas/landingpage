@@ -13,8 +13,11 @@ import Whatare from "../components/what/whatare";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
-const HospitalComparison = dynamic(() =>
-  import("../components/Treatmenttable/Hospitalcomparison")
+// const HospitalComparison = dynamic(() =>
+//   import("../components/Treatmenttable/Hospitalcomparison")
+// );
+const HospitalComparisond = dynamic(() =>
+  import("../components/dynamictable/dynamictables")
 );
 const Accreditations = dynamic(() =>
   import("../components/Accreditions/accreditions")
@@ -126,6 +129,15 @@ export default function Home() {
           "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in piles treatment at Lux Hospitals, known for their expertise in advanced laser procedures and compassionate care.",
       },
     ];
+    const tableData = [
+    
+  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
+  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
+  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
+  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
+  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
+  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
+];
 
   return (
     <>
@@ -164,7 +176,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"Piles Treatment at Lux Hospitals"} />
+      <HospitalComparisond theading={"Piles Treatment at Lux Hospitals"} rows={tableData} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />
