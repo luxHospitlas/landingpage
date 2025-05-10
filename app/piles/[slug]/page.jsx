@@ -11,8 +11,11 @@ import services from "../../piles/pilesdata";
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
 );
-const HospitalComparison = dynamic(() =>
-  import("../../components/Treatmenttable/Hospitalcomparison")
+// const HospitalComparison = dynamic(() =>
+//   import("../../components/Treatmenttable/Hospitalcomparison")
+// );
+const HospitalComparisond = dynamic(() =>
+  import("../../components/dynamictable/dynamictables")
 );
 const Accreditations = dynamic(() =>
   import("../../components/Accreditions/accreditions")
@@ -2352,6 +2355,15 @@ export default function ConditionPage({ params }) {
     heading: "Lux Hospitals",
     paragraph: "Trusted care for all specialties.",
   };
+  const tableData = [
+    
+  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
+  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
+  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
+  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
+  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
+  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
+];
 
   return (
     <>
@@ -2393,7 +2405,7 @@ export default function ConditionPage({ params }) {
         </section>
       )}
       {content.tableContent?.[0] && (
-        <HospitalComparison theading={content.tableContent[0].theading} />
+        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} />
       )}
       <Accreditations />
       <VideoSection />
