@@ -7,12 +7,6 @@ import { handleWhatsappConnection } from '../../careconsole';
 function sendToWhatsApp() {
   const message = document.getElementById('messageInput')?.value || '';
   console.log('Message:', message); // Check if it logs correctly
-
-  if (!message.trim()) {
-    alert('Please enter a message');
-    return;
-  }
-
   const phoneNumber = '917969084444';
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   window.open(whatsappURL, '_blank');
