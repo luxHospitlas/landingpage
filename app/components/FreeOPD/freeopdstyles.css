@@ -1,12 +1,12 @@
 .freeopd-section {
-    background-image: url('/FreeOPDMobileBack.png');
+    background-color: #964F9C;
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
     .freeopd-section {
         background-image: url('/freeopdback.png');
     }
-}
+} */
 @media (max-width: 350px) {
     .freeopd-content {
         font-size: 16px;
@@ -19,3 +19,40 @@
     }
     
 }
+
+@media (min-width: 1000px) and (max-width: 1250px) {
+    .freeopd-content {
+      font-size: 14px !important;
+    }
+  }
+
+  @media (min-width: 426spx) and (max-width: 768px){
+    .freeopd-content {
+        font-size: 12px !important;
+    }
+    .freeopd-heading{
+        font-size: 20px;
+    }
+    .freeopd-btn{
+        font-size: 10px;
+    }
+    .freeoldcontetdiv{
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .freeopd-content {
+        font-size: 14px !important;
+    }
+    .freeopd-heading{
+        font-size: 20px;
+    }
+    .freeopd-btn{
+        font-size: 10px;
+    }
+    .freeoldcontetdiv{
+        width: 90%;
+    }
+    
+  }

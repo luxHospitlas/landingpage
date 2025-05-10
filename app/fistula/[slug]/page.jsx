@@ -1432,17 +1432,17 @@ export default function ConditionPage({ params }) {
       link: "tel:917969084448",
     },
   ];
+  
 
   return (
     <>
-      <Header PhoneNumber={"Book Free Appointment"}/>
+      <Header 
+            PhoneNumber={"07969084448"}
+            mobilectatext={"Free OPD"}
+            />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
-      {content.locationsectionheading && (
-        <HospitalLocation
-          locationsectionheading={content.locationsectionheading}
-        />
-      )}
+      <FreeOpdSection/>
       {content.doctors && (
         <section
           className="w-[90%]"
@@ -1469,7 +1469,7 @@ export default function ConditionPage({ params }) {
           </div>
         </section>
       )}
-      <FreeOpdSection/>
+      
       {content.tableContent?.[0] && (
         <HospitalComparisond
           theading={content.tableContent[0].theading}
@@ -1478,6 +1478,11 @@ export default function ConditionPage({ params }) {
       )}
       <Accreditations />
       <VideoSection />
+      {content.locationsectionheading && (
+        <HospitalLocation
+          locationsectionheading={content.locationsectionheading}
+        />
+      )}
       <PatientTalks />
       <Luxgpt />
       {content.whatAreH && (
