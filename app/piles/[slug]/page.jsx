@@ -63,11 +63,13 @@ const contentMap = {
     heading: "External Hemorrhoids Doctor",
 
     descList: [
-      "Top External Hemorrhoids Doctor",
-      "30-min procedure, same-day discharge",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Doctor for External Hemorrhoids",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
 
     // services: services,
@@ -164,11 +166,13 @@ const contentMap = {
   "piles-laser-treatment-cost-in-hyderabad": {
     heading: "Piles Laser Treatment Cost in Hyderabad",
     descList: [
-      "Affordable and Advanced Laser Treatment for Piles Relief",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Cost-effective Laser Treatment Options",
+      "Top Doctor for Piles Laser Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Treatment | Laser Therapy | Affordable Piles Care | Advanced Minimally Invasive Solutions",
@@ -253,11 +257,13 @@ const contentMap = {
   "best-piles-laser-treatment-in-hyderabad": {
     heading: "Best Piles Laser Treatment in Hyderabad",
     descList: [
-      "Advanced Laser Treatment for Painless Piles Relief",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "USFDA Approved Laser Technology",
+      "Top Doctor for Piles Laser Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Treatment | Laser Therapy | Hemorrhoids Care | Minimally Invasive Experts",
@@ -351,11 +357,13 @@ const contentMap = {
   "best-piles-laser-surgery-in-hyderabad": {
     heading: "Best Piles Laser Surgery in Hyderabad",
     descList: [
-      "Advanced, Painless Laser Surgery by Experts",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Doctor for Piles Laser Surgery",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Surgery | Laser Hemorrhoid Surgery | Painless Piles Removal | Advanced Piles Treatment",
@@ -449,11 +457,13 @@ const contentMap = {
   "top-piles-surgeon-in-hyderabad": {
     heading: "Top Piles Surgeon in Hyderabad",
     descList: [
-      "Leading Piles Surgeon for Advanced Laser Surgery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Surgeon for Piles Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Surgeon | Hemorrhoids Surgeon | Advanced Piles Care | Laser Surgery Experts",
@@ -547,11 +557,13 @@ const contentMap = {
   "best-external-hemorrhoids-doctors-hyderabad": {
     heading: "Best External Hemorrhoids Doctors in Hyderabad",
     descList: [
-      "Top External Hemorrhoids Doctor",
-      "30-min procedure, same-day discharge",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Doctor for External Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
@@ -646,11 +658,13 @@ const contentMap = {
   "best-hemorrhoids-laser-surgery-hyderabad": {
     heading: "Best Hemorrhoids Laser Surgery in Hyderabad",
     descList: [
-      "Top Doctors for External Hemorrhoids Surgery",
-      "30-min procedure, same-day discharge",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available",
-      "Advanced Laser & Minimally Invasive Surgery",
+      "Top Doctor for Hemorrhoids Laser Surgery",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Surgery | Piles Experts | Advanced Care | Hemorrhoids Treatment",
@@ -745,11 +759,13 @@ const contentMap = {
   "best-hemorrhoids-laser-treatment-hyderabad": {
     heading: "Best Hemorrhoids Laser Treatment in Hyderabad",
     descList: [
-      "Best Treatment for External Hemorrhoids",
-      "30-min procedure, same-day discharge",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available",
-      "Advanced Laser & Minimally Invasive Surgery",
+      "Top Doctor for Hemorrhoids Laser Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - External Hemorrhoids Treatment | Advanced Care | Laser Surgery | Hemorrhoids Specialists",
@@ -844,11 +860,13 @@ const contentMap = {
   "top-hemorrhoids-clinic-in-hyderabad": {
     heading: "Top Hemorrhoids Clinic in Hyderabad",
     descList: [
-      "Leading Hemorrhoids Clinic for Painless Recovery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Clinic for Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Top Hemorrhoids Clinic | Piles Experts | Advanced Care | Laser Treatment Specialists",
@@ -943,11 +961,13 @@ const contentMap = {
   "best-hemorrhoids-doctor-in-hyderabad": {
     heading: "Best Hemorrhoids Doctor in Hyderabad",
     descList: [
-      "Leading Specialist for Painless Recovery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Doctor for Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Doctor | Piles Specialist | Advanced Care | Laser Treatment Expert",
@@ -1044,11 +1064,13 @@ const contentMap = {
   "best-hemorrhoids-hospital-in-hyderabad": {
     heading: "Best Hemorrhoids Hospital in Hyderabad",
     descList: [
-      "Leading Hospital for Painless Recovery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Hospital for Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Hospital | Piles Experts | Advanced Care | Laser Treatment Specialists",
@@ -1143,11 +1165,13 @@ const contentMap = {
   "best-hemorrhoids-operation-in-hyderabad": {
     heading: "Best Hemorrhoids Operation in Hyderabad",
     descList: [
-      "Leading Hospital for Painless Hemorrhoid Operation",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Doctor for Hemorrhoids Operation",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Best Hemorrhoids Operation | Expert Piles Surgery | Advanced Care | Laser Treatment Specialists",
@@ -1244,11 +1268,13 @@ const contentMap = {
   "hemorrhoids-specialist-in-hyderabad": {
     heading: "Hemorrhoids Specialist in Hyderabad",
     descList: [
-      "Expert Care by Hemorrhoids Specialist for Painless Recovery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Specialist for Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Specialist | Piles Experts | Advanced Care | Laser Treatment Specialists",
@@ -1345,11 +1371,13 @@ const contentMap = {
   "top-hemorrhoids-surgeon-in-hyderabad": {
     heading: "Top Hemorrhoids Surgeon in Hyderabad",
     descList: [
-      "Leading Surgeon for Painless Hemorrhoid Removal",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Surgeon for Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Top Hemorrhoids Surgeon | Expert Piles Surgeon | Advanced Care | Laser Treatment Specialist",
@@ -1444,11 +1472,13 @@ const contentMap = {
   "hemorrhoids-laser-surgery-cost-hyderabad": {
     heading: "Hemorrhoids Laser Surgery Cost in Hyderabad",
     descList: [
-      "Affordable Laser Treatment for Hemorrhoids",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Doctor for Hemorrhoids Laser Surgery",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Laser Surgery | Expert Piles Surgeons | Advanced Care | Affordable Treatment",
@@ -1550,11 +1580,13 @@ const contentMap = {
   "hemorrhoids-treatment-in-hyderabad": {
     heading: "Hemorrhoids Treatment in Hyderabad",
     descList: [
-      "Leading Clinic for Effective Hemorrhoids Treatment",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Doctor for Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Hemorrhoids Treatment | Expert Piles Specialists | Advanced Care | Laser Treatment Options",
@@ -1649,11 +1681,13 @@ const contentMap = {
   "best-internal-hemorrhoids-surgery-hyderabad": {
     heading: "Best Internal Hemorrhoids Surgery in Hyderabad",
     descList: [
-      "Leading Clinic for Effective Internal Hemorrhoids Surgery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Doctor for Internal Hemorrhoids Surgery",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Internal Hemorrhoids Surgery | Expert Piles Surgeons | Advanced Care | Laser Treatment",
@@ -1750,11 +1784,13 @@ const contentMap = {
   "best-internal-hemorrhoids-treatment-hyderabad": {
     heading: "Best Internal Hemorrhoids Treatment in Hyderabad",
     descList: [
-      "Leading Clinic for Advanced Internal Hemorrhoids Treatment",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Doctor for Internal Hemorrhoids Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Internal Hemorrhoids Treatment | Expert Piles Specialists | Advanced Care | Laser Treatment Options",
@@ -1851,11 +1887,13 @@ const contentMap = {
   "top-piles-clinic-in-hyderabad": {
     heading: "Top Piles Clinic in Hyderabad",
     descList: [
-      "Trusted Piles Clinic for Advanced, Painless Treatment",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Clinic for Piles Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals - Piles Clinic | Hemorrhoids Experts | Advanced Care | Laser Treatment Specialists",
@@ -1949,11 +1987,13 @@ const contentMap = {
   "best-piles-doctor-in-hyderabad": {
     heading: "Best Piles Doctor in Hyderabad",
     descList: [
-      "Expert Care by Leading Piles Doctor for Quick & Painless Recovery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Doctor for Piles Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Doctor | Hemorrhoids Specialist | Laser Piles Treatment | Advanced Proctology Care",
@@ -2049,11 +2089,13 @@ const contentMap = {
   "best-piles-hospital-in-hyderabad": {
     heading: "Best Piles Hospital in Hyderabad",
     descList: [
-      "Top-Rated Hospital for Advanced Piles Treatment in Hyderabad",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatment",
+      "Top Hospital for Piles Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Hospital | Hemorrhoids Specialists | Laser Treatment Experts | Advanced Piles Care",
@@ -2148,11 +2190,13 @@ const contentMap = {
   "best-piles-operation-in-hyderabad": {
     heading: "Best Piles Operation in Hyderabad",
     descList: [
-      "Trusted for Safe & Advanced Piles Surgery",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Surgery",
+      "Top Doctor for Piles Operation",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Operation | Piles Specialists | Laser Surgery Experts | Advanced Piles Care",
@@ -2246,11 +2290,13 @@ const contentMap = {
   "piles-specialist-in-hyderabad": {
     heading: "Piles Specialist in Hyderabad",
     descList: [
-      "Leading Piles Specialist for Safe & Effective Treatment",
-      "30-min Procedure, Same-day Discharge",
-      "All Cashless Insurance Accepted",
-      "Zero-Interest EMI Available",
-      "Advanced Laser & Minimally Invasive Treatments",
+      "Top Specialist for Piles Treatment",
+      "Laser + Harmonic Treatment for Quick Relief",
+      "15-Min Daycare Procedure, No Cuts",
+      "No Pain. No Recurrence",
+      "100% Cure with Advanced Laser",
+      "All Insurances Accepted (Cashless)",
+      "0% EMI | 10,000+ Patients Treated",
     ],
     locationsectionheading:
       "LUX Hospitals – Piles Specialist | Hemorrhoids Expert | Advanced Piles Clinic | Laser Treatment Center",
