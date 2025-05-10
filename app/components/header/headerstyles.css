@@ -51,7 +51,7 @@ html {
   color: #fff;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) {
   .header__menu {
     display: none;
   }

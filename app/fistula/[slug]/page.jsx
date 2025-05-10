@@ -172,13 +172,13 @@ const contentMap = {
   "best-anal-fistula-surgery-hyderabad": {
     heading: "Best Anal Fistula Surgery in Hyderabad",
     descList: [
-      // "Advanced, Painless Anal Fistula Surgery for Fast Recovery",
-      "Top doctor for TROPIS procedure for Fistula",
-      "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
-      "30-min procedure, same-day discharge",
-      "100% Cure with advanced LASERS",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available"
+      "Top Doctor for Anal Fistula Surgery",
+      "Top Surgeon for TROPIS Technique",
+      "Expert in TROPIS, LIFT, VAAFT & Laser",
+      "30-Min Minimally Invasive Procedure",
+      "Advanced Laser for 100% Cure",
+      "All Insurances Accepted (Cashless)",
+      "0% Interest EMI Available"
     ],
     locationsectionheading:
       "LUX Hospitals - Best Anal Fistula Surgery | Fistula Experts | Advanced Care | Laser Treatment Specialists",
@@ -277,13 +277,13 @@ const contentMap = {
   "top-fistula-clinic-in-hyderabad": {
     heading: "Top Fistula Clinic in Hyderabad",
     descList: [
-      // "Leading Clinic for Painless Fistula Care",
-      "Top doctor for TROPIS procedure for Fistula",
-      "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
-      "30-min procedure, same-day discharge",
-      "100% Cure with advanced LASERS",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available"
+      "Top Clinic for Anal Fistula Surgery",
+      "Top Surgeon for TROPIS Technique",
+      "Expert in TROPIS, LIFT, VAAFT & Laser",
+      "30-Min Minimally Invasive Procedure",
+      "Advanced Laser for 100% Cure",
+      "All Insurances Accepted (Cashless)",
+      "0% Interest EMI Available"
     ],
     locationsectionheading:
       "LUX Hospitals - Top Fistula Clinic | Fistula Experts | Advanced Care | Laser Treatment Specialists",
@@ -383,13 +383,13 @@ const contentMap = {
   "best-fistula-doctor-in-hyderabad": {
     heading: "Best Fistula Doctor in Hyderabad",
     descList: [
-      // "Expert Care from Top Fistula Doctor",
-      "Top doctor for TROPIS procedure for Fistula",
-      "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
-      "30-min procedure, same-day discharge",
-      "100% Cure with advanced LASERS",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available"
+      "Top Doctor for Anal Fistula Surgery",
+      "Top Surgeon for TROPIS Technique",
+      "Expert in TROPIS, LIFT, VAAFT & Laser",
+      "30-Min Minimally Invasive Procedure",
+      "Advanced Laser for 100% Cure",
+      "All Insurances Accepted (Cashless)",
+      "0% Interest EMI Available"
     ],
     locationsectionheading:
       "LUX Hospitals - Best Fistula Doctor | Fistula Experts | Advanced Care | Laser Treatment Specialists",
