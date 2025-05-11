@@ -2402,21 +2402,29 @@ export default function ConditionPage({ params }) {
     paragraph: "Trusted care for all specialties.",
   };
   const tableData = [
-    
-  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
-  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
-  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
-  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
-  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
-  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
-];
+    { label: "Treatment Type", other: "Open Surgery", lux: "Laser + Harmonic" },
+    { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
+    {
+      label: "Pain & Bleeding",
+      other: "Painful with Bleeding",
+      lux: "Painless & Bloodless",
+    },
+    {
+      label: "Insurance & EMI",
+      other: "Not Always Cashless",
+      lux: "All Insurances + 0% EMI",
+    },
+    { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
+    {
+      label: "Cost Transparency",
+      other: "Variable & Hidden Costs",
+      lux: "Fixed & Transparent",
+    },
+  ];
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Call Now"}
-            />
+      <Header PhoneNumber={"07969084448"} mobilectatext={"Call Now"} />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
       {content.locationsectionheading && (
@@ -2451,7 +2459,10 @@ export default function ConditionPage({ params }) {
         </section>
       )}
       {content.tableContent?.[0] && (
-        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} />
+        <HospitalComparisond
+          theading={content.tableContent[0].theading}
+          rows={tableData}
+        />
       )}
       <Accreditations />
       <VideoSection />
