@@ -27,12 +27,12 @@
         /* Desktop */
     }
 }
-.video-shadow, .table_container {
+
+.video-shadow,
+.table_container {
     box-shadow: 0px 4px 4px rgba(164, 162, 162, 0.5), 0px -4px 10px rgba(164, 162, 162, 0.5), 4px 0px 10px rgba(164, 162, 162, 0.5), -4px 0px 10px rgba(164, 162, 162, 0.5);
-  }
+}
 
-  .table_container{
+.table_container {
     border-radius: 12px;
-  }
-
-  
+}
