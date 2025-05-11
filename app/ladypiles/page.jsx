@@ -36,7 +36,7 @@ export default function Home() {
 
   // Fallback hero text based on pathname
   const heroHeading =
-    "Lux Hospitals - Best hospital for Piles in Hyderabad";
+    "Lux Hospitals - Best hospital for Piles in Hyderabad ladies";
 
   // if (pathname.includes("piles")) {
   //   heroHeading = "Get Relief from Piles Today";
@@ -48,7 +48,7 @@ export default function Home() {
 
   // Dummy content
   const defaultDescList = [
-    "Advanced Laser & Minimally Invasive Surgeries",
+    "Advanced Laser & Minimally Invasive Surgeries Ladies",
     "Same-day discharge & 30-minute procedures",
     "Cashless Insurance Accepted",
     "0% EMI Options Available",
@@ -57,7 +57,8 @@ export default function Home() {
 
   const services = [
     {
-      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
+      image:
+        "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book an Appointment",
       arrow: "/Arrow.svg",
       link: "tel:917969084448",
@@ -69,13 +70,15 @@ export default function Home() {
       link: "whatsapp",
     },
     {
-      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
+      image:
+        "https://luxhospitals.com/wp-content/uploads/2025/04/converted-2.avif",
       title: "Second Opinion",
       arrow: "/Arrow.svg",
       link: "whatsapp",
     },
     {
-      image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
+      image:
+        "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
       link: "tel:917969084448",
@@ -85,66 +88,74 @@ export default function Home() {
   const defaultLocationHeading =
     "Lux Hospitals - Piles Treatment | Expert Proctologists in Hyderabad | Advanced Laser Treatment";
 
-    const whatAreH = "What is Piles?";
-    const whatAreP =
-      "Piles, also known as hemorrhoids, are swollen and inflamed veins in the rectum or anus. They cause discomfort, bleeding, itching, and pain during bowel movements. Piles can be internal or external and range from mild to severe.";
-    const whatHead = "Treatment we provide";
-    const treatments = [
-      "Laser Treatment",
-      "Rubber Band Ligation",
-      "Sclerotherapy",
-      "Surgical Hemorrhoidectomy",
-    ];
-  
-    const fheading = "Frequently Asked Questions";
-    const faqs = [
-      {
-        faqTitle: "What are the main causes of piles?",
-        faqAnswer:
-          "Piles are commonly caused by chronic constipation, prolonged sitting, obesity, pregnancy, and straining during bowel movements.",
-      },
-      {
-        faqTitle: "Can poor diet contribute to piles?",
-        faqAnswer:
-          "Yes, a low-fiber diet and inadequate water intake can lead to hard stools, increasing the risk of developing piles.",
-      },
-      {
-        faqTitle: "Are piles completely curable?",
-        faqAnswer:
-          "Yes, with the right treatment and lifestyle changes, piles can be effectively treated and cured. Advanced options like laser surgery offer long-term relief with minimal recurrence.",
-      },
-      {
-        faqTitle: "Does insurance cover piles treatment at Lux Hospitals?",
-        faqAnswer:
-          "Yes, Lux Hospitals accept insurance for piles treatment. Most major health insurance policies are accepted, and the hospital provides assistance with claim processing to ensure a smooth experience.",
-      },
-      {
-        faqTitle: "Why choose Lux Hospitals for piles treatment?",
-        faqAnswer:
-          "Lux Hospitals offers advanced, minimally invasive laser treatments, experienced proctologists, personalized care, and fast recovery in a patient-friendly environment.",
-      },
-      {
-        faqTitle: "Who are the doctors for piles at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in piles treatment at Lux Hospitals, known for their expertise in advanced laser procedures and compassionate care.",
-      },
-    ];
-    const tableData = [
-    
-  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
-  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
-  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
-  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
-  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
-  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
-];
+  const whatAreH = "What is Piles?";
+  const whatAreP =
+    "Piles, also known as hemorrhoids, are swollen and inflamed veins in the rectum or anus. They cause discomfort, bleeding, itching, and pain during bowel movements. Piles can be internal or external and range from mild to severe.";
+  const whatHead = "Treatment we provide";
+  const treatments = [
+    "Laser Treatment",
+    "Rubber Band Ligation",
+    "Sclerotherapy",
+    "Surgical Hemorrhoidectomy",
+  ];
+
+  const fheading = "Frequently Asked Questions";
+  const faqs = [
+    {
+      faqTitle: "What are the main causes of piles?",
+      faqAnswer:
+        "Piles are commonly caused by chronic constipation, prolonged sitting, obesity, pregnancy, and straining during bowel movements.",
+    },
+    {
+      faqTitle: "Can poor diet contribute to piles?",
+      faqAnswer:
+        "Yes, a low-fiber diet and inadequate water intake can lead to hard stools, increasing the risk of developing piles.",
+    },
+    {
+      faqTitle: "Are piles completely curable?",
+      faqAnswer:
+        "Yes, with the right treatment and lifestyle changes, piles can be effectively treated and cured. Advanced options like laser surgery offer long-term relief with minimal recurrence.",
+    },
+    {
+      faqTitle: "Does insurance cover piles treatment at Lux Hospitals?",
+      faqAnswer:
+        "Yes, Lux Hospitals accept insurance for piles treatment. Most major health insurance policies are accepted, and the hospital provides assistance with claim processing to ensure a smooth experience.",
+    },
+    {
+      faqTitle: "Why choose Lux Hospitals for piles treatment?",
+      faqAnswer:
+        "Lux Hospitals offers advanced, minimally invasive laser treatments, experienced proctologists, personalized care, and fast recovery in a patient-friendly environment.",
+    },
+    {
+      faqTitle: "Who are the doctors for piles at Lux Hospitals?",
+      faqAnswer:
+        "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in piles treatment at Lux Hospitals, known for their expertise in advanced laser procedures and compassionate care.",
+    },
+  ];
+  const tableData = [
+    { label: "Treatment Type", other: "Open Surgery", lux: "Laser + Harmonic" },
+    { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
+    {
+      label: "Pain & Bleeding",
+      other: "Painful with Bleeding",
+      lux: "Painless & Bloodless",
+    },
+    {
+      label: "Insurance & EMI",
+      other: "Not Always Cashless",
+      lux: "All Insurances + 0% EMI",
+    },
+    { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
+    {
+      label: "Cost Transparency",
+      other: "Variable & Hidden Costs",
+      lux: "Fixed & Transparent",
+    },
+  ];
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Call Now"}
-            />
+      <Header PhoneNumber={"07969084448"} mobilectatext={"Call Now"} />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
@@ -176,7 +187,10 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparisond theading={"Piles Treatment at Lux Hospitals"} rows={tableData} />
+      <HospitalComparisond
+        theading={"Piles Treatment at Lux Hospitals"}
+        rows={tableData}
+      />
       <Accreditations />
       <VideoSection />
       <PatientTalks />
