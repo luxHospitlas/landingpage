@@ -13,7 +13,7 @@ export default function HospitalComparison({ theading, rows }) {
         <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <video
-              className="w-full h-[240px] lg:h-[420px] rounded-lg shadow-md"
+              className="w-full h-[240px] lg:h-[405px] rounded-lg shadow-md video-container"
               autoPlay
               muted
               loop
@@ -28,11 +28,11 @@ export default function HospitalComparison({ theading, rows }) {
         </div>
 
         {/* TABLE SECTION */}
-        <div className="w-full lg:w-1/2 overflow-x-auto">
+        <div className="w-full lg:w-1/2 overflow-x-auto table_container">
           <table className="w-full border-collapse border rounded-lg overflow-hidden">
             <thead>
               <tr className="bg-green-300 text-gray-800">
-                <th style={{ background: "#F0DA69" }}></th>
+                <th style={{ background: "#F0DA69" }}>Features</th>
                 <th
                   style={{ background: "#F0DA69" }}
                   className="text-center font-semibold py-[10px]"
@@ -56,11 +56,11 @@ export default function HospitalComparison({ theading, rows }) {
                   >
                     {label}
                   </td>
-                  <td className="text-center" style={{ background: "#F9F0C3" }}>
+                  <td className="table_others text-center" style={{ background: "#F9F0C3" }}>
                     {other}
                   </td>
                   <td
-                    className="text-center font-medium"
+                    className="table_lux text-center font-medium"
                     style={{ background: "#F6E8A5" }}
                   >
                     {lux}

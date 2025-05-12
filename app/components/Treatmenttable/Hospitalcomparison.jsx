@@ -3,7 +3,7 @@
 import React from "react";
 import "./tablestyles.css";
 
-export default function HospitalComparison({ theading }) {
+export default function HospitalComparison({ theading, ConditionVideo }) {
   return (
     <section className="w-[95%] md:w-[96%] mx-auto my-10 fade-in">
       <h2 className="table_heading text-center text-xl font-bold text-indigo-900">
@@ -29,7 +29,7 @@ export default function HospitalComparison({ theading }) {
         <div className="w-full lg:w-1/2">
           <div className="aspect-w-16 aspect-h-9">
             <video
-              className="w-full h-[240px] lg:h-[410px] rounded-lg video-shadow"
+              className="w-full h-[240px] lg:h-[420px] rounded-lg video-container"
               autoPlay
               muted
               loop
@@ -37,7 +37,7 @@ export default function HospitalComparison({ theading }) {
               onMouseEnter={(e) => (e.currentTarget.controls = true)}
               onMouseLeave={(e) => (e.currentTarget.controls = false)}
             >
-              <source src="/tablevideo.mp4" type="video/mp4" />
+              <source src={ConditionVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -58,13 +58,13 @@ export default function HospitalComparison({ theading }) {
 
         {/* TABLE SECTION */}
         <div className="w-full lg:w-1/2 overflow-x-auto table_container m-0 p-0">
-          <table className="w-full border-collapse border rounded-lg overflow-hidden m-0 p-0">
+          <table className="w-full border-collapse border rounded-lg ">
             <thead>
               <tr className="bg-green-300 text-gray-800">
                 <th
-                  className="table_head text-left py-[10px]"
+                  className="table_head text-center font-semibold py-[10px]"
                   style={{ background: "#F0DA69" }}
-                ></th>
+                >Features</th>
                 <th
                   className="table_head text-center font-semibold py-[10px]"
                   style={{ background: "#F0DA69" }}

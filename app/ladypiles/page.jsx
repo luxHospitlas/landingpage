@@ -10,6 +10,7 @@ import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
 import Faqs from "../components/faqs/faq";
 import Whatare from "../components/what/whatare";
+import LadyTalks from "../components/Ladytalks/ladytalks";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -160,7 +161,7 @@ export default function Home() {
       <Second services={services} />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <section
-        className="w-[90%]"
+        className="w-[60%]"
         style={{
           margin: "auto",
         }}
@@ -177,23 +178,24 @@ export default function Home() {
             experience="Experieance:8 years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
           />
-          <DoctorCard
+          {/* <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
             name="Dr Abhishek Katha"
             qualification="MBBS, MS, FMAS, FISCP"
             designation="Piles Specialist"
             experience="Experieance:9 years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-          />
+          /> */}
         </div>
       </section>
       <HospitalComparisond
         theading={"Piles Treatment at Lux Hospitals"}
         rows={tableData}
+        ConditionVideo={"/tablevideo.mp4"}
       />
       <Accreditations />
       <VideoSection />
-      <PatientTalks />
+      <LadyTalks />
       <Luxgpt />
       {whatAreH && (
         <Whatare

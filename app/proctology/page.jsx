@@ -150,7 +150,7 @@ export default function Proctology() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"Best Proctology Hospital in Hyderabad"} />
+      <HospitalComparison theading={"Best Proctology Hospital in Hyderabad"} ConditionVideo={"/tablevideo.mp4"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />

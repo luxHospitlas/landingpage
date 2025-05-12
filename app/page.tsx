@@ -164,7 +164,9 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"Treatment at Lux Hospitals"} />
+      <HospitalComparison 
+      theading={"Treatment at Lux Hospitals"}
+      ConditionVideo={"/tablevideo.mp4"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />

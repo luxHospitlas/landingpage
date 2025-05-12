@@ -133,6 +133,7 @@ export default function Home() {
       <HospitalComparisond
         theading={"hospital dynamic data"}
         rows={tableData}
+        ConditionVideo={"/tablevideo.mp4"}
       />
       <Accreditations />
       <VideoSection />
