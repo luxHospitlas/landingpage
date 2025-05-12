@@ -229,3 +229,21 @@ html {
   }
   
 }
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+    /* Safari-specific styles here */
+    .header__logo {
+      width: 100%;
+      max-width: 190px;
+    }
+    .header__logotwo {
+      width: 100px;
+      height: 70px;
+    }
+    .header__logothree {
+      width: 100px;
+      height: 70px;
+      aspect-ratio: 30 / 30;
+    }
+  }
+}
