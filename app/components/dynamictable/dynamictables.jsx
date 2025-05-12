@@ -2,7 +2,7 @@
 import React from "react";
 import "./tablestyles.css";
 
-export default function HospitalComparison({ theading, rows }) {
+export default function HospitalComparison({ theading, rows, ConditionVideo }) {
   return (
     <section className="w-[95%] md:w-[96%] mx-auto my-10 fade-in">
       <h2 className="table_heading text-center text-xl font-bold text-indigo-900">
@@ -21,7 +21,7 @@ export default function HospitalComparison({ theading, rows }) {
               onMouseEnter={(e) => (e.currentTarget.controls = true)}
               onMouseLeave={(e) => (e.currentTarget.controls = false)}
             >
-              <source src="/tablevideo.mp4" type="video/mp4" />
+              <source src={ConditionVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
