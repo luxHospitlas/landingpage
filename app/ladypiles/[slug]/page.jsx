@@ -494,8 +494,10 @@ const contentMap = {
       }
     ],
 
-    whatAreH: "External hemorrhoids are swollen veins that form around the anus, often visible and painful. They can cause discomfort while sitting, itching, bleeding, or swelling. Women may be more prone due to pregnancy, straining during bowel movements, or prolonged sitting. At Lux Hospitals, we offer advanced, non-invasive treatments for external hemorrhoids with privacy-focused, compassionate care — ensuring lasting relief and patient comfort.",
+    whatAreH: "What are Hemorrhoids?",
 
+    whatAreP: "External hemorrhoids are swollen veins that form around the anus, often visible and painful. They can cause discomfort while sitting, itching, bleeding, or swelling. Women may be more prone due to pregnancy, straining during bowel movements, or prolonged sitting. At Lux Hospitals, we offer advanced, non-invasive treatments for external hemorrhoids with privacy-focused, compassionate care — ensuring lasting relief and patient comfort.",
+  
     whatHead: "Top 3 Treatments for Hemorrhoids",
 
     treatments: [
@@ -678,7 +680,9 @@ const contentMap = {
       }
     ],
 
-    whatAreP: "Piles, or hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, itching, bleeding, or pain during bowel movements. Women are more likely to develop piles due to pregnancy, hormonal changes, chronic constipation, and long sitting hours. At Lux Hospitals, we offer female-only care with advanced, minimally invasive piles treatment — provided in a private, respectful, and recovery-focused setting.",
+    whatAreH: "What are Piles?",
+    whatAreP:
+      "Piles, or hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, itching, bleeding, or pain during bowel movements. Women are more likely to develop piles due to pregnancy, hormonal changes, chronic constipation, and long sitting hours. At Lux Hospitals, we offer female-only care with advanced, minimally invasive piles treatment — provided in a private, respectful, and recovery-focused setting.",
 
     whatHead: "Top 3 Treatments for Piles",
 
@@ -763,7 +767,9 @@ const contentMap = {
       }
     ],
 
-    whatAreP: "Piles, or hemorrhoids, are swollen veins in the rectum or anus that can lead to pain, bleeding, itching, or discomfort during bowel movements. Women are more prone to piles due to pregnancy, hormonal changes, chronic constipation, or prolonged sitting. At Lux Hospitals, we offer specialized piles treatment for women, led by expert female doctors — in a discreet, safe, and respectful setting designed around women’s needs.",
+    whatAreH: "What are Piles?",
+    whatAreP:
+      "Piles, or hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, itching, bleeding, or pain during bowel movements. Women are more likely to develop piles due to pregnancy, hormonal changes, chronic constipation, and long sitting hours. At Lux Hospitals, we offer female-only care with advanced, minimally invasive piles treatment — provided in a private, respectful, and recovery-focused setting.",
 
     whatHead: "Top 3 Treatments for Piles",
 
@@ -948,8 +954,9 @@ const contentMap = {
         theading: "Hemorrhoids Treatment at Lux Hospitals"
       }
     ],
+    whatAreH: "What are Hemorrhoids?",
 
-    whatAreH: "Hemorrhoids, commonly known as piles, are swollen veins in the anus or rectum that can cause pain, itching, bleeding, or discomfort during bowel movements. Women are more vulnerable due to pregnancy, hormonal changes, chronic constipation, or sitting for extended periods. At Lux Hospitals, we provide specialised female hemorrhoids treatment led by experienced lady doctors — ensuring private, gentle, and effective care for women at every stage of life.",
+    whatAreP: "Hemorrhoids, commonly known as piles, are swollen veins in the anus or rectum that can cause pain, itching, bleeding, or discomfort during bowel movements. Women are more vulnerable due to pregnancy, hormonal changes, chronic constipation, or sitting for extended periods. At Lux Hospitals, we provide specialised female hemorrhoids treatment led by experienced lady doctors — ensuring private, gentle, and effective care for women at every stage of life.",
 
     whatHead: "Top 3 Treatments for Hemorrhoids",
 
@@ -1034,7 +1041,9 @@ const contentMap = {
       }
     ],
 
-    whatAreH: "Piles, or hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, pain, itching, or bleeding during bowel movements. In women, piles are more common due to pregnancy, hormonal changes, chronic constipation, or prolonged sitting. At Lux Hospitals, we provide dedicated piles treatment exclusively for women — led by experienced lady doctors in a respectful, private, and comfortable environment.",
+    whatAreH: "What are Piles?",
+
+    whatAreP: "Piles, or hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, pain, itching, or bleeding during bowel movements. In women, piles are more common due to pregnancy, hormonal changes, chronic constipation, or prolonged sitting. At Lux Hospitals, we provide dedicated piles treatment exclusively for women — led by experienced lady doctors in a respectful, private, and comfortable environment.",
 
     whatHead: "Top 3 Treatments for Piles",
 
@@ -1118,8 +1127,9 @@ const contentMap = {
         theading: "Piles Treatment at Lux Hospitals"
       }
     ],
+    whatAreH: "What are Piles?",
 
-    whatAreH: "Piles, also known as hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, pain, itching, or bleeding during bowel movements. Women are especially prone due to pregnancy, hormonal changes, prolonged sitting, and chronic constipation. At Lux Hospitals, we offer advanced, women-only piles treatment delivered by experienced female doctors — in a discreet, private, and respectful setting designed for your comfort and confidence.",
+    whatArePs: "Piles, also known as hemorrhoids, are swollen veins in the rectum or anus that cause discomfort, pain, itching, or bleeding during bowel movements. Women are especially prone due to pregnancy, hormonal changes, prolonged sitting, and chronic constipation. At Lux Hospitals, we offer advanced, women-only piles treatment delivered by experienced female doctors — in a discreet, private, and respectful setting designed for your comfort and confidence.",
 
     whatHead: "Top 3 Treatments for Piles in Women",
 
