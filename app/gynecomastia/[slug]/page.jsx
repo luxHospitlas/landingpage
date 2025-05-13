@@ -61,109 +61,6 @@ const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
 };
 
 const contentMap = {
-  "external-hemorrhoids-doctor": {
-    heading: "External Hemorrhoids Doctor",
-
-    descList: [
-      "Top Doctor for External Hemorrhoids",
-      "Laser + Harmonic Treatment for Quick Relief",
-      "15-Min Daycare Procedure, No Cuts",
-      "No Pain. No Recurrence",
-      "100% Cure with Advanced Laser",
-      "All Insurances Accepted (Cashless)",
-      "0% EMI | 10,000+ Patients Treated",
-    ],
-
-    // services: services,
-    locationsectionheading:
-      "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    // doctors: proctologyDoctorsData,
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
-      },
-    ],
-    whatAreH: "What Are External Hemorrhoids?",
-    whatAreP:
-      "External hemorrhoids are swollen veins located under the skin around the anus, causing pain, itching, and discomfort. They may form due to prolonged sitting, straining during bowel movements, or chronic constipation.",
-    whatHead:
-      "Top 3 Advanced Treatments for External Hemorrhoids at Lux Hospitals:",
-    treatments: [
-      {
-        title: "Laser Hemorrhoidoplasty (LHP)",
-        description:
-          "A minimally invasive procedure using laser energy to shrink external hemorrhoids, ensuring quicker recovery and minimal pain.",
-      },
-      {
-        title: "Doppler-Guided Hemorrhoidal Artery Ligation (DGHAL)",
-        description:
-          "A non-surgical method that ties off hemorrhoidal arteries, cutting blood supply to external hemorrhoids and reducing discomfort.",
-      },
-      {
-        title: "Hemorrhoidal Artery Ligation with Recto-Anal Repair (HAL-RAR)",
-        description:
-          "A combination of artery ligation and rectal tissue repair, effective for advanced cases while minimizing post-operative pain.",
-      },
-    ],
-    fheading: "FAQs on External Hemorrhoids",
-    faqs: [
-      {
-        faqTitle: "What causes external hemorrhoids?",
-        faqAnswer:
-          "External hemorrhoids develop due to excessive straining, prolonged sitting, chronic constipation, obesity, and pregnancy.",
-      },
-      {
-        faqTitle: "Is surgery necessary for external hemorrhoids?",
-        faqAnswer:
-          "Surgery is only needed for severe cases. Minimally invasive options like laser treatment are highly effective.",
-      },
-      {
-        faqTitle: "When should I see a doctor for external hemorrhoids?",
-        faqAnswer:
-          "If you experience persistent pain, bleeding, or swelling, consult an external hemorrhoids doctor for expert treatment.",
-      },
-      {
-        faqTitle: "Does insurance cover external hemorrhoid treatment?",
-        faqAnswer:
-          "Most health insurance plans cover external hemorrhoid procedures. Check with your provider for details.",
-      },
-      {
-        faqTitle: "Why choose Lux Hospitals for external hemorrhoid treatment?",
-        faqAnswer:
-          "Lux Hospitals offer advanced treatments, expert specialists, and personalized care for effective recovery.",
-      },
-      {
-        faqTitle: "Whom should I consult for external hemorrhoids treatment?",
-        faqAnswer:
-          "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan.",
-      },
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get expert care from the best external hemorrhoids doctor for a pain-free, advanced treatment today!",
-      footernumber: "07969084448",
-    },
-  },
   "best-gynecomastia-doctor-hyderabad": {
     heading: "Best Gynecomastia Doctor in Hyderabad",
     descList: [
@@ -171,8 +68,8 @@ const contentMap = {
       "Laser + Liposuction Specialist",
       "Surgery from ₹50,000 Onwards",
       "No Scars. No Recurrence.",
-      "30-Min Procedure with High Precision",
-      "0% Interest EMI Available | 2,500+ Happy Patients"
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Gynecomastia Doctor | Male Breast Reduction Experts | Liposuction + Excision Specialists | Hyderabad",
@@ -271,11 +168,11 @@ const contentMap = {
     heading: "Gynecomastia Surgery Cost in Hyderabad",
     descList: [
       "Affordable Male Chest Reduction Surgery",
-      "Laser + Liposuction by Expert Surgeons",
+      "Laser + Liposuction Specialist",
       "Surgery from ₹50,000 Onwards",
       "No Scars. No Recurrence.",
-      "30-Min Procedure with High Precision",
-      "0% Interest EMI Available | 2,500+ Patients Treated"
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Affordable Gynecomastia | Male Breast Reduction Experts | Liposuction + Excision Specialists | Hyderabad",
@@ -377,8 +274,8 @@ const contentMap = {
       "Laser + Liposuction Specialist",
       "Surgery from ₹50,000 Onwards",
       "No Scars. No Recurrence.",
-      "30-Min Procedure with High Precision",
-      "0% Interest EMI Available | 2,500+ Happy Patients"
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Man Boobs Treatment | Gynecomastia Doctor | Male Chest Reduction Experts | Hyderabad",
@@ -480,8 +377,8 @@ const contentMap = {
       "Laser + Liposuction Specialist",
       "Surgery from ₹50,000 Onwards",
       "No Scars. No Recurrence.",
-      "30-Min Procedure with High Precision",
-      "0% Interest EMI Available | 2,500+ Happy Patients"
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Man Breasts Treatment | Gynecomastia Surgery Experts | Male Chest Contouring | Hyderabad",
@@ -580,11 +477,11 @@ const contentMap = {
     heading: "Best Doctor for Chest Fat Removal in Hyderabad",
     descList: [
       "Top Surgeon for Male Chest Fat Reduction",
-      "Laser + Liposuction Based Correction",
-      "Precision Surgery for a Sculpted Chest",
-      "No Cuts. No Scars. No Recurrence.",
-      "30-Min Minimally Invasive Procedure",
-      "0% Interest EMI Available | 2,500+ Happy Patients"
+      "Laser + Liposuction Specialist",
+      "Surgery from ₹50,000 Onwards",
+      "No Scars. No Recurrence.",
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Chest Fat Reduction | Male Chest Contouring | Liposuction + Gland Excision Experts | Hyderabad",
@@ -678,11 +575,11 @@ const contentMap = {
     heading: "Best Gynecomastia Surgery in Hyderabad",
     descList: [
       "Top Surgeons for Gynecomastia Surgery",
-      "Laser + Gland Excision + Liposuction",
-      "Minimally Invasive Procedure with Natural Results",
-      "No Scars. No Recurrence. Permanent Results.",
-      "30-Min Daycare Surgery with Quick Recovery",
-      "0% Interest EMI Available | 2,500+ Happy Patients"
+      "Laser + Liposuction Specialist",
+      "Surgery from ₹50,000 Onwards",
+      "No Scars. No Recurrence.",
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Gynecomastia Surgery | Male Breast Reduction | Laser Liposuction + Gland Removal | Hyderabad",
@@ -781,11 +678,11 @@ const contentMap = {
     heading: "Best Gynecomastia Clinic in Hyderabad",
     descList: [
       "Best Clinic for Gynecomastia Treatment",
-      "Laser + Liposuction + Gland Excision Procedures",
-      "Minimal Downtime. Maximum Precision.",
-      "No Cuts. No Scars. No Recurrence.",
-      "30-Min Daycare Procedure",
-      "0% Interest EMI | 2,500+ Happy Patients Treated"
+      "Laser + Liposuction Specialist",
+      "Surgery from ₹50,000 Onwards",
+      "No Scars. No Recurrence.",
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Gynecomastia Clinic | Male Chest Correction Experts | Laser & Excision Specialists | Hyderabad",
@@ -884,10 +781,11 @@ const contentMap = {
     heading: "Best Gynecomastia Treatment in Hyderabad",
     descList: [
       "Best Gynecomastia Treatment",
-      "Laser + Gland Excision + Liposuction Techniques",
-      "No Cuts. No Scars. No Recurrence.",
-      "30-Min Daycare Procedure with High Precision",
-      "0% Interest EMI | 2,500+ Men Treated Successfully"
+      "Laser + Liposuction Specialist",
+      "Surgery from ₹50,000 Onwards",
+      "No Scars. No Recurrence.",
+      "30-Min Procedure, 100% Success",
+      "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading: "LUX Hospitals – Gynecomastia Treatment | Male Chest Correction Experts | Laser Liposuction + Gland Removal | Hyderabad",
     doctors: [
