@@ -1229,7 +1229,7 @@ export default function ConditionPage({ params }) {
       )}
       {content.doctors && (
         <section
-          className="w-[60%]"
+          className="w-[95%] sm:w-[60%]"
           style={{
             margin: "auto",
           }}
