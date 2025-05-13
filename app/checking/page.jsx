@@ -1,32 +1,31 @@
 "use client";
 import { useEffect } from "react";
-import { handleWhatsappConnection } from "../../app/careconsole";
-import $ from "jquery";
 
-export default function CheckingPage() {
+export default function WhatsAppButton() {
   useEffect(() => {
-    const whatsappBtn = document.getElementById("whatsappBtn");
-    if (whatsappBtn) {
-      whatsappBtn.addEventListener("click", function () {
-        handleWhatsappConnection("LuxGPT");
+    const btn = document.getElementById("whatsappBtn");
+    if (btn) {
+      btn.addEventListener("click", function () {
+        alert("Button clicked!");
       });
     }
 
     return () => {
-      if (whatsappBtn) {
-        whatsappBtn.removeEventListener("click", handleWhatsappConnection);
+      if (btn) {
+        btn.removeEventListener("click", () => {});
       }
     };
   }, []);
 
   return (
-    <div
-      className="mt-6 flex items-center justify-center md:justify-start space-x-2 bg-white rounded-full px-4 py-2 w-fit"
-      id="whatsappBtn"
-    >
-      <div className="w-[40px] h-[40px] bg-black">
-        <span>➜</span>
-      </div>
+    <div className="flex justify-center mt-10">
+      <button
+        id="whatsappBtn"
+        type="button"
+        className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10 pointer-events-auto z-50"
+      >
+        ➜
+      </button>
     </div>
   );
 }
