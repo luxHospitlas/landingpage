@@ -161,7 +161,7 @@ export default function Home() {
       <Second services={services} />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <section
-        className="w-[60%]"
+        className="w-[95%] sm:w-[60%]"
         style={{
           margin: "auto",
         }}
