@@ -1,27 +1,20 @@
 "use client";
 import { useEffect } from "react";
 import { handleWhatsappConnection } from "../../app/careconsole";
+import $ from "jquery";
 
 export default function CheckingPage() {
   useEffect(() => {
-    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    $(function () {
+      $("#whatsappBtn").on("click", function () {
+        handleWhatsappConnection("LuxGPT");
+      });
+    });
 
-    if (isSafari) {
-      const btn = document.getElementById("whatsappBtn");
-      if (btn) {
-        btn.addEventListener("click", () => {
-          handleWhatsappConnection("LuxGPT");
-        });
-      }
-
-      return () => {
-        if (btn) {
-          btn.removeEventListener("click", () => {
-            handleWhatsappConnection("LuxGPT");
-          });
-        }
-      };
-    }
+    // Optional cleanup
+    return () => {
+      $("#whatsappBtn").off("click");
+    };
   }, []);
 
   return (
