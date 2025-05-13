@@ -9,6 +9,7 @@ import FooterComponent from "../../components/footer/footer";
 // import services from "../../piles/pilesdata";
 import Gentstalks from "../../components/Gentstalks/gentstalks";
 import FreeOpdSection from "../../components/FreeOPD/freeopd";
+import gynecomastiaDoctorsData from "../../gynecomastia/gynecodata";
 
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
@@ -32,6 +33,7 @@ const Luxgpt = dynamic(() => import("../../components/luxgpt/luxgpt"));
 import Faqs from "../../components/faqs/faq";
 import { proctologyDoctorsData } from "../../../public/data";
 import { ImOpt } from "react-icons/im";
+import { doctors } from "@/app/lib/doctordetailsdata";
 
 // Define Whatare component before using it
 const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
@@ -73,26 +75,27 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Gynecomastia Doctor | Male Breast Reduction Experts | Liposuction + Excision Specialists | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+      doctors: gynecomastiaDoctorsData,
+    // doctors: [
+    //   {
+    //     url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
+    //     name: "Dr. M Ram Prabhu",
+    //     qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
+    //     designation: "Plastic Surgeon",
+    //     experience: "Experience: 15+ years",
+    //     description:
+    //       "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
+    //   },
+    //   {
+    //     url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
+    //     name: "Dr. Chandana Guduru",
+    //     qualification: "MBBS, MS, MCh (Plastic Surgery)",
+    //     designation: "Plastic Surgeon",
+    //     experience: "Experience: 10+ years",
+    //     description:
+    //       "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
+    //   }
+    // ],
     tableContent: [
       {
         theading: "Gynecomastia Treatment at Lux Hospitals"
@@ -176,26 +179,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Affordable Gynecomastia | Male Breast Reduction Experts | Liposuction + Excision Specialists | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         theading: "Gynecomastia Treatment at Lux Hospitals"
@@ -279,26 +263,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Man Boobs Treatment | Gynecomastia Doctor | Male Chest Reduction Experts | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         theading: "Man Boobs Treatment at Lux Hospitals"
@@ -382,26 +347,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Man Breasts Treatment | Gynecomastia Surgery Experts | Male Chest Contouring | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         theading: "Man Breasts Treatment at Lux Hospitals"
@@ -485,26 +431,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Chest Fat Reduction | Male Chest Contouring | Liposuction + Gland Excision Experts | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         theading: "Chest Fat Treatment at Lux Hospitals"
@@ -583,26 +510,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Gynecomastia Surgery | Male Breast Reduction | Laser Liposuction + Gland Removal | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         theading: "Gynecomastia Surgery at Lux Hospitals"
@@ -686,26 +594,7 @@ const contentMap = {
     ],
     locationsectionheading:
       "LUX Hospitals – Gynecomastia Clinic | Male Chest Correction Experts | Laser & Excision Specialists | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         theading: "Gynecomastia Treatment at Lux Hospitals"
@@ -788,26 +677,7 @@ const contentMap = {
       "0% Interest EMI | 2500+ Happy Patients"
     ],
     locationsectionheading: "LUX Hospitals – Gynecomastia Treatment | Male Chest Correction Experts | Laser Liposuction + Gland Removal | Hyderabad",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp",
-        name: "Dr. M Ram Prabhu",
-        qualification: "MBBS, MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 15+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp",
-        name: "Dr. Chandana Guduru",
-        qualification: "MBBS, MS, MCh (Plastic Surgery)",
-        designation: "Plastic Surgeon",
-        experience: "Experience: 10+ years",
-        description:
-          "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
-      }
-    ],
+    doctors: gynecomastiaDoctorsData,
     tableContent: [
       {
         "theading": "Gynecomastia Treatment at Lux Hospitals"
