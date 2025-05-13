@@ -235,11 +235,11 @@ html {
     max-width: 190px;
   }
   .header__logotwo {
-    width: 100px;
+    width: 100%;
     height: 70px;
   }
   .header__logothree {
-    width: 100px;
+    width: 100%;
     height: 70px;
     aspect-ratio: 30 / 30;
   }
