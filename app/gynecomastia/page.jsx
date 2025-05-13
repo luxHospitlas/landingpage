@@ -10,6 +10,8 @@ import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
 import Faqs from "../components/faqs/faq";
 import Whatare from "../components/what/whatare";
+import Gentstalks from "../components/Gentstalks/gentstalks";
+import FreeOpdSection from "../components/FreeOPD/freeopd";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -48,17 +50,18 @@ export default function Home() {
 
   // Dummy content
   const defaultDescList = [
-    "Advanced Laser & Minimally Invasive Surgeries",
-    "Same-day discharge & 30-minute procedures",
-    "Cashless Insurance Accepted",
-    "0% EMI Options Available",
-    "Expert Doctors & State-of-the-Art Facilities",
+      "Leading Surgeon for Gynecomastia Treatment",
+      "Laser + Liposuction Specialist",
+      "Surgery from ₹50,000 Onwards",
+      "No Scars. No Recurrence.",
+      "30-Min Procedure with High Precision",
+      "0% Interest EMI Available | 2,500+ Happy Patients"
   ];
 
   const services = [
     {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
-      title: "Book an Appointment",
+      title: "Book Free Appointment",
       arrow: "/Arrow.svg",
       link: "tel:917969084448",
     },
@@ -83,71 +86,71 @@ export default function Home() {
   ];
 
   const defaultLocationHeading =
-    "Lux Hospitals - Piles Treatment | Expert Proctologists in Hyderabad | Advanced Laser Treatment";
+    "LUX Hospitals – Gynecomastia Doctor | Male Breast Reduction Experts | Liposuction + Excision Specialists | Hyderabad";
 
-    const whatAreH = "What is Piles?";
-    const whatAreP =
-      "Piles, also known as hemorrhoids, are swollen and inflamed veins in the rectum or anus. They cause discomfort, bleeding, itching, and pain during bowel movements. Piles can be internal or external and range from mild to severe.";
-    const whatHead = "Treatment we provide";
-    const treatments = [
-      "Laser Treatment",
-      "Rubber Band Ligation",
-      "Sclerotherapy",
-      "Surgical Hemorrhoidectomy",
-    ];
-  
-    const fheading = "Frequently Asked Questions";
-    const faqs = [
-      {
-        faqTitle: "What are the main causes of piles?",
+  const whatAreH = "What is Gynecomastia?";
+  const whatAreP =
+    "Gynecomastia is the enlargement of breast tissue in men due to hormonal imbalances, excess fat, genetics, or certain medications. It may affect one or both sides of the chest and often leads to emotional discomfort or self-consciousness. At Lux Hospitals, our expert gynecomastia surgeons use minimally invasive procedures to restore a firm, masculine chest with natural-looking results — safely, precisely, and discreetly.";
+  const whatHead = "Top 4 Procedures for Gynecomastia";
+  const treatments = [
+    "Liposuction",
+    "Gland Excision (Mastectomy)",
+    "Excision with Skin Tightening",
+    "Combination Surgery",
+  ];
+
+  const fheading = "FAQs on Gynecomastia Treatment Services";
+  const faqs = [
+    {
+        faqTitle: "What is gynecomastia and how is it treated at Lux Hospitals?",
         faqAnswer:
-          "Piles are commonly caused by chronic constipation, prolonged sitting, obesity, pregnancy, and straining during bowel movements.",
+          "Gynecomastia is a condition where men develop enlarged breast tissue due to hormonal imbalances, excess fat, or genetics. At Lux Hospitals, we offer advanced, minimally invasive treatments like laser-assisted liposuction and gland excision to restore a natural, masculine chest."
       },
       {
-        faqTitle: "Can poor diet contribute to piles?",
+        faqTitle: "How experienced are the surgeons at Lux Hospitals?",
         faqAnswer:
-          "Yes, a low-fiber diet and inadequate water intake can lead to hard stools, increasing the risk of developing piles.",
+          "Our senior Plastic Surgeons — including Dr. M Ram Prabhu and Dr. Chandana Guduru — have over a decade of experience in male chest contouring and have successfully performed hundreds of gynecomastia procedures."
       },
       {
-        faqTitle: "Are piles completely curable?",
+        faqTitle: "What advanced techniques do your surgeons use?",
         faqAnswer:
-          "Yes, with the right treatment and lifestyle changes, piles can be effectively treated and cured. Advanced options like laser surgery offer long-term relief with minimal recurrence.",
+          "We use a combination of laser liposuction, glandular excision, and skin tightening procedures based on each patient’s needs. These techniques ensure minimal scarring, short recovery time, and a sculpted chest with lasting results."
       },
       {
-        faqTitle: "Does insurance cover piles treatment at Lux Hospitals?",
+        faqTitle: "What can I expect during the recovery process?",
         faqAnswer:
-          "Yes, Lux Hospitals accept insurance for piles treatment. Most major health insurance policies are accepted, and the hospital provides assistance with claim processing to ensure a smooth experience.",
+          "Recovery is usually quick — most patients return to work within 2–3 days. Swelling subsides within a few weeks, and results become fully visible in 4–6 weeks. We provide post-op care instructions and follow-ups to support your healing."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for piles treatment?",
+        faqTitle: "How much does gynecomastia surgery cost at Lux Hospitals?",
         faqAnswer:
-          "Lux Hospitals offers advanced, minimally invasive laser treatments, experienced proctologists, personalized care, and fast recovery in a patient-friendly environment.",
+          "Our packages start from ₹50,000 and vary based on the complexity of the procedure. We offer fixed-price packages with no hidden charges, and 0% interest EMI options are available for flexible payments."
       },
       {
-        faqTitle: "Who are the doctors for piles at Lux Hospitals?",
+        faqTitle: "How do I book a consultation with a gynecomastia specialist?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in piles treatment at Lux Hospitals, known for their expertise in advanced laser procedures and compassionate care.",
-      },
-    ];
-    const tableData = [
-    
-  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
-  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
-  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
-  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
-  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
-  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
-];
+          "Booking is simple. Call 07969084446 or chat with us on WhatsApp to schedule a free consultation with one of our gynecomastia experts. You’ll receive a complete evaluation, personalised treatment plan, and a transparent cost estimate."
+      }
+  ];
+  const tableData = [
+
+    { label: "Procedure Type", other: "Traditional Surgery", lux: "Laser + Liposuction" },
+    { label: "Scarring", other: "Visible Scars", lux: "Scarless Finish" },
+    { label: "Anesthesia", other: "General Anesthesia", lux: "Local Anesthesia" },
+    { label: "Recovery Time", other: "1–2 Weeks", lux: "1–2 Days" },
+    { label: "Pricing", other: "Starts ₹1L+", lux: "Starts ₹50,000" },
+    { label: "Financing Options", other: "Rarely Available", lux: "0% EMI | Assured Pricing" },
+  ];
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Call Now"}
-            />
+      <Header
+        PhoneNumber={"07969084448"}
+        mobilectatext={"Free OPD"}
+      />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
-      <HospitalLocation locationsectionheading={defaultLocationHeading} />
+      <FreeOpdSection/>
       <section
         className="w-[90%]"
         style={{
@@ -159,27 +162,29 @@ export default function Home() {
         </h2>
         <div className="doctors_container">
           <DoctorCard
-            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp"
-            name="Dr. Samhitha Reddy"
-            qualification="MBBS, MS, FMAS, FISCP, DMAS"
-            designation="Piles Specialist"
-            experience="Experieance:8 years"
-            description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp"
+            name="Dr. M Ram Prabhu"
+            qualification="MBBS, MBBS, MS, MCh (Plastic Surgery)"
+            designation="Plastic Surgeon"
+            experience="Experience: 15+ years"
+            description="Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
           />
           <DoctorCard
-            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
-            name="Dr Abhishek Katha"
-            qualification="MBBS, MS, FMAS, FISCP"
-            designation="Piles Specialist"
-            experience="Experieance:9 years"
-            description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp"
+            name="Dr. Chandana Guduru"
+            qualification="MBBS, MS, MCh (Plastic Surgery)"
+            designation="Plastic Surgeon"
+            experience="Experience: 10+ years"
+            description=
+            "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
           />
         </div>
       </section>
-      <HospitalComparisond theading={"Piles Treatment at Lux Hospitals"} rows={tableData} />
+      <HospitalComparisond theading={"Gynecomastia Treatment at Lux Hospitals"} rows={tableData} />
       <Accreditations />
       <VideoSection />
-      <PatientTalks />
+      <HospitalLocation locationsectionheading={defaultLocationHeading} />
+      <Gentstalks />
       <Luxgpt />
       {whatAreH && (
         <Whatare
