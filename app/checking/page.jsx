@@ -5,15 +5,17 @@ import $ from "jquery";
 
 export default function CheckingPage() {
   useEffect(() => {
-    $(function () {
-      $("#whatsappBtn").on("click", function () {
+    const whatsappBtn = document.getElementById("whatsappBtn");
+    if (whatsappBtn) {
+      whatsappBtn.addEventListener("click", function () {
         handleWhatsappConnection("LuxGPT");
       });
-    });
+    }
 
-    // Optional cleanup
     return () => {
-      $("#whatsappBtn").off("click");
+      if (whatsappBtn) {
+        whatsappBtn.removeEventListener("click", handleWhatsappConnection);
+      }
     };
   }, []);
 
@@ -25,13 +27,9 @@ export default function CheckingPage() {
         placeholder="Ask Me Anything"
         className="bg-transparent text-gray-700 focus:outline-none"
       />
-      <button
-        type="button"
-        id="whatsappBtn"
-        className="pointer-events-auto bg-[#964F9C] text-white p-2 rounded-full w-10 h-10"
-      >
-        ➜
-      </button>
+      <div>
+        <button id="whatsappBtn">➜</button>
+      </div>
     </div>
   );
 }
