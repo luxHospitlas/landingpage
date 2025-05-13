@@ -2,6 +2,7 @@
 import { useRef, useState } from "react";
 import "./ladytakls.css";
 
+
 export default function LadyTalks() {
   const scrollRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -51,13 +52,13 @@ export default function LadyTalks() {
     // },
   ];
 
-//   const scrollToSlide = (index) => {
-//     setActiveIndex(index);
-//     scrollRef.current?.scrollTo({
-//       left: index * 320, // Adjust width as per your .video_box width
-//       behavior: "smooth",
-//     });
-//   };
+  const scrollToSlide = (index) => {
+    setActiveIndex(index);
+    scrollRef.current?.scrollTo({
+      left: index * 320, // Adjust width as per your .video_box width
+      behavior: "smooth",
+    });
+  };
 
   return (
     <section id="reviews" className="text-center patient_section">
@@ -76,15 +77,15 @@ export default function LadyTalks() {
         </div>
 
         {/* Navigation Dots */}
-        {/* <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-4 block lg:hidden">
           {ladytestimonials.map((_, index) => (
             <span
               key={index}
               className={`dot ${activeIndex === index ? "active" : ""}`}
-            //   onClick={() => scrollToSlide(index)}
+              onClick={() => scrollToSlide(index)}
             ></span>
           ))}
-        </div> */}
+        </div>
       </div>
     </section>
   );s
