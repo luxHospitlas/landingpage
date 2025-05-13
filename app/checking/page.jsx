@@ -4,19 +4,24 @@ import { handleWhatsappConnection } from "../../app/careconsole";
 
 export default function CheckingPage() {
   useEffect(() => {
-    const btn = document.getElementById("whatsappBtn");
-    if (btn) {
-      btn.addEventListener("click", () => {
-        handleWhatsappConnection("LuxGPT");
-      });
-    }
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
-    // Optional cleanup
-    return () => {
+    if (isSafari) {
+      const btn = document.getElementById("whatsappBtn");
       if (btn) {
-        btn.removeEventListener("click", handleWhatsappConnection);
+        btn.addEventListener("click", () => {
+          handleWhatsappConnection("LuxGPT");
+        });
       }
-    };
+
+      return () => {
+        if (btn) {
+          btn.removeEventListener("click", () => {
+            handleWhatsappConnection("LuxGPT");
+          });
+        }
+      };
+    }
   }, []);
 
   return (
