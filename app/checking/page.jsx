@@ -24,13 +24,7 @@ export default function CheckingPage() {
       className="mt-6 flex items-center justify-center md:justify-start space-x-2 bg-white rounded-full px-4 py-2 w-fit"
       id="whatsappBtn"
     >
-      <input
-        type="text"
-        id="messageInput"
-        placeholder="Ask Me Anything"
-        className="bg-transparent text-gray-700 focus:outline-none"
-      />
-      <div>
+      <div className="w-[40px] h-[40px] bg-black">
         <span>➜</span>
       </div>
     </div>
