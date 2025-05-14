@@ -1575,7 +1575,7 @@ const contentMap = {
     ],
     tableContent: [
       {
-        theading: "Perianal Abscess Surgery Cost at Lux Hospitals"
+        theading: "Perianal Abscess Surgery at Lux Hospitals"
       }
     ],
     tableData: tableData,
@@ -1605,7 +1605,7 @@ const contentMap = {
           "In some cases, a hidden fistula may coexist. Diagnostic scans and surgical planning are included in cost estimates if identified during treatment."
       }
     ],
-    fheading: "FAQs on Perianal Abscess Surgery Cost",
+    fheading: "FAQs on Perianal Abscess Surgery",
     faqs: [
       {
         faqTitle: "How much does perianal abscess treatment cost at Lux Hospitals?",
