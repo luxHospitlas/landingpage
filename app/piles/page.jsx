@@ -10,6 +10,7 @@ import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
 import Faqs from "../components/faqs/faq";
 import Whatare from "../components/what/whatare";
+import MobileStickyFooter from "../components/mobilsticky";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -60,7 +61,7 @@ export default function Home() {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book an Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084448",
     },
     {
       image: "/cost extimation.avif",
@@ -78,7 +79,7 @@ export default function Home() {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084448",
     },
   ];
 
@@ -143,6 +144,7 @@ export default function Home() {
       <Header
         PhoneNumber={"07969084448"}
         mobilectatext={"Call Now"}
+        mobileNumberHeader={"tel:07969084448"}
       />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
@@ -164,6 +166,7 @@ export default function Home() {
             designation="Piles Specialist"
             experience="Experieance:8 years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+            mobileNumberDoctor="tel:07969084448"
           />
           <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
@@ -172,6 +175,7 @@ export default function Home() {
             designation="Piles Specialist"
             experience="Experieance:9 years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+            mobileNumberDoctor="tel:07969084448"
           />
         </div>
       </section>
@@ -204,6 +208,7 @@ export default function Home() {
         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
         footernumber="07969084448"
       />
+      <MobileStickyFooter mobileNumber="tel:07969084448"/>
 
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}

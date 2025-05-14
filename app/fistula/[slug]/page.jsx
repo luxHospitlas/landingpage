@@ -9,6 +9,7 @@ import tableData from '../../fistula/fistuladata';
 import FreeOpdSection from "@/app/components/FreeOPD/freeopd";
 // import services from "../../piles/pilesdata";
 import FooterComponent from "../../components/footer/footer";
+import MobileStickyFooter from "../../components/mobilsticky";
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
 );
@@ -75,20 +76,22 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
+        experience: "Experience: 8 years",
         description:
           "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
+        name: "Dr. Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
+        experience: "Experience: 9 years",
         description:
           "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+        mobileNumberDoctor: "07969084448"
+      }
     ],
     tableContent: [
       {
@@ -188,20 +191,22 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
+        experience: "Experience: 8 years",
         description:
           "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
+        name: "Dr. Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
+        experience: "Experience: 9 years",
         description:
           "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+        mobileNumberDoctor: "07969084448"
+      }
     ],
     tableContent: [
       {
@@ -293,20 +298,22 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
+        experience: "Experience: 8 years",
         description:
           "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
+        name: "Dr. Abhishek Katha",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
+        experience: "Experience: 9 years",
         description:
           "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+        mobileNumberDoctor: "07969084448"
+      }
     ],
     tableContent: [
       {
@@ -401,7 +408,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -410,7 +419,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specializes in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -505,7 +515,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -514,7 +526,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specializes in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -609,7 +622,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -618,7 +633,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -713,7 +729,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -722,7 +740,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -817,7 +836,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -826,7 +847,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -906,7 +928,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -915,7 +939,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -1010,7 +1035,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -1019,7 +1046,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -1110,7 +1138,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -1119,7 +1149,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -1131,29 +1162,29 @@ const contentMap = {
     whatAreH: "What is a Perianal Abscess?",
     whatAreP:
       "A perianal abscess is a painful, pus-filled infection that forms near the anus. It usually occurs when small glands around the anal area become blocked and infected, leading to swelling, redness, and severe discomfort. If not treated in time, the abscess can grow, burst, or lead to further complications like an anal fistula. Early medical attention is essential to drain the abscess and prevent recurrence.",
-      whatHead: "Top Treatments Offered by Perianal Abscess Doctors at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "A quick surgical procedure to drain the pus and relieve pain, performed under anaesthesia for patient comfort."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Recommended for patients who develop a fistula following an abscess, ensuring complete healing and preventing recurrence."
-        },
-        {
-          title: "Laser Treatment",
-          description:
-            "Minimally invasive laser techniques that offer quicker recovery, reduced discomfort, and minimal scarring."
-        },
-        {
-          title: "Antibiotic Therapy",
-          description:
-            "Used for mild cases; involves prescribed antibiotics and warm compresses to manage infection and reduce inflammation."
-        }
-      ],
+    whatHead: "Top Treatments Offered by Perianal Abscess Doctors at Lux Hospitals:",
+    treatments: [
+      {
+        title: "Incision and Drainage (I&D)",
+        description:
+          "A quick surgical procedure to drain the pus and relieve pain, performed under anaesthesia for patient comfort."
+      },
+      {
+        title: "Fistula Surgery",
+        description:
+          "Recommended for patients who develop a fistula following an abscess, ensuring complete healing and preventing recurrence."
+      },
+      {
+        title: "Laser Treatment",
+        description:
+          "Minimally invasive laser techniques that offer quicker recovery, reduced discomfort, and minimal scarring."
+      },
+      {
+        title: "Antibiotic Therapy",
+        description:
+          "Used for mild cases; involves prescribed antibiotics and warm compresses to manage infection and reduce inflammation."
+      }
+    ],
     fheading: "FAQs on Perianal Abscess",
     faqs: [
       {
@@ -1214,7 +1245,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -1223,7 +1256,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -1235,29 +1269,29 @@ const contentMap = {
     whatAreH: "What is Perianal Abscess Surgery?",
     whatAreP:
       "Perianal abscess surgery is a surgical procedure performed to treat abscesses that form near the anus due to bacterial infection in the anal glands. This condition can cause severe pain, swelling, and pus formation. If left untreated, the abscess may lead to complications such as a fistula. Surgical intervention is essential to drain the abscess, alleviate pain, and promote healing.\nAt Lux Hospitals, we offer advanced techniques for perianal abscess surgery, including both traditional methods and minimally invasive approaches, ensuring faster recovery and better outcomes for our patients.",
-      whatHead: "Top Treatments for Perianal Abscess Surgery at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "A quick and effective surgical procedure that drains the pus and relieves pressure in the abscess for immediate relief."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Performed when an abscess leads to a fistula, this surgery ensures complete healing and helps prevent future complications."
-        },
-        {
-          title: "Laser Surgery",
-          description:
-            "A minimally invasive technique using advanced laser technology to precisely drain abscesses, resulting in faster recovery and less discomfort."
-        },
-        {
-          title: "Antibiotics and Post-surgery Care",
-          description:
-            "Medications are provided after surgery to treat any residual infection and support optimal healing."
-        }
-      ],      
+    whatHead: "Top Treatments for Perianal Abscess Surgery at Lux Hospitals:",
+    treatments: [
+      {
+        title: "Incision and Drainage (I&D)",
+        description:
+          "A quick and effective surgical procedure that drains the pus and relieves pressure in the abscess for immediate relief."
+      },
+      {
+        title: "Fistula Surgery",
+        description:
+          "Performed when an abscess leads to a fistula, this surgery ensures complete healing and helps prevent future complications."
+      },
+      {
+        title: "Laser Surgery",
+        description:
+          "A minimally invasive technique using advanced laser technology to precisely drain abscesses, resulting in faster recovery and less discomfort."
+      },
+      {
+        title: "Antibiotics and Post-surgery Care",
+        description:
+          "Medications are provided after surgery to treat any residual infection and support optimal healing."
+      }
+    ],
     fheading: "FAQs on Perianal Abscess Surgery",
     faqs: [
       {
@@ -1313,7 +1347,9 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 8 years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
       },
       {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
@@ -1322,7 +1358,8 @@ const contentMap = {
         designation: "Fistula Specialist",
         experience: "Experience: 9 years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
       }
     ],
     tableContent: [
@@ -1334,30 +1371,30 @@ const contentMap = {
     whatAreH: "What is Perianal Abscess Treatment?",
     whatAreP:
       "Perianal abscess treatment involves procedures aimed at draining the infected fluid that accumulates near the anus, typically due to a bacterial infection in the anal glands. Left untreated, this condition can lead to increased pain, pus discharge, and even fistulas. The goal of treatment is to relieve symptoms, prevent further complications, and ensure full recovery.\nAt Lux Hospitals, we provide state-of-the-art treatments for perianal abscesses, combining advanced surgical methods with minimally invasive techniques to ensure quicker recovery and minimal discomfort.",
-      whatHead: "Top Perianal Abscess Treatments Offered at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "The most common treatment where the abscess is surgically opened, drained, and cleaned to promote faster and complete healing."
-        },
-        {
-          title: "Laser Treatment",
-          description:
-            "A minimally invasive laser-based procedure that efficiently drains abscesses, shortens healing time, and reduces discomfort."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Recommended if an untreated abscess leads to a fistula; this surgery repairs the tract and promotes full recovery."
-        },
-        {
-          title: "Antibiotic Therapy",
-          description:
-            "Prescribed after surgery to control infection and accelerate the healing process."
-        }
-      ],
-      
+    whatHead: "Top Perianal Abscess Treatments Offered at Lux Hospitals:",
+    treatments: [
+      {
+        title: "Incision and Drainage (I&D)",
+        description:
+          "The most common treatment where the abscess is surgically opened, drained, and cleaned to promote faster and complete healing."
+      },
+      {
+        title: "Laser Treatment",
+        description:
+          "A minimally invasive laser-based procedure that efficiently drains abscesses, shortens healing time, and reduces discomfort."
+      },
+      {
+        title: "Fistula Surgery",
+        description:
+          "Recommended if an untreated abscess leads to a fistula; this surgery repairs the tract and promotes full recovery."
+      },
+      {
+        title: "Antibiotic Therapy",
+        description:
+          "Prescribed after surgery to control infection and accelerate the healing process."
+      }
+    ],
+
     fheading: "FAQs on Perianal Abscess Treatment",
     faqs: [
       {
@@ -1411,7 +1448,7 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book Free Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084448",
     },
     {
       image: "/cost extimation.avif",
@@ -1429,20 +1466,21 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084448",
     },
   ];
-  
+
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Free OPD"}
-            />
+      <Header
+        PhoneNumber={"07969084448"}
+        mobilectatext={"Free OPD"}
+        mobileNumberHeader={"tel:07969084448"}
+      />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
-      <FreeOpdSection/>
+      <FreeOpdSection />
       {content.doctors && (
         <section
           className="w-[90%]"
@@ -1463,13 +1501,14 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
+                  mobileNumberDoctor={cardData.mobileNumberDoctor}
                 />
               </div>
             ))}
           </div>
         </section>
       )}
-      
+
       {content.tableContent?.[0] && (
         <HospitalComparisond theading={content.tableContent[0].theading} rows={content.tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
       )}
@@ -1505,6 +1544,7 @@ export default function ConditionPage({ params }) {
           footernumber={content.footerComponent.footernumber}
         />
       )}
+      <MobileStickyFooter mobileNumber="tel:07969084448" />
     </>
   );
 }

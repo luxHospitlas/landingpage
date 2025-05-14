@@ -3,7 +3,7 @@
 import Link from "next/link";
 import "./headerstyles.css";
 
-export default function Header( { PhoneNumber, mobilectatext } ) {
+export default function Header( { PhoneNumber, mobilectatext, mobileNumberHeader } ) {
 
 
     const scrollToSection = (id) => {
@@ -50,7 +50,7 @@ export default function Header( { PhoneNumber, mobilectatext } ) {
 
 
             <div className="header__cta">
-                <a href="tel:07969084448" className="header_cta_type_one flex items-center gap-2">
+                <a href={mobileNumberHeader} className="header_cta_type_one flex items-center gap-2">
                     <img src="/phone-call-icon svg.svg" alt="Call Icon" className="w-4 h-4 md:w-5 md:h-5" />
                     <span className="phone_number">{PhoneNumber}</span>
                     <span suppressHydrationWarning className="call_now">{mobilectatext}</span>

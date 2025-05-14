@@ -8,6 +8,7 @@ import HospitalLocation from "../../components/HospitalLocation/hospitallocation
 import FooterComponent from "../../components/footer/footer";
 import services from "../../piles/pilesdata";
 import LadyTalks from "../../components/Ladytalks/ladytalks";
+import MobileStickyFooter from "../../components/mobilsticky";
 
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
@@ -187,9 +188,9 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
-      },
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
+      }
     ],
 
     tableContent: [
@@ -286,9 +287,9 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
-      },
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
+      }
     ],
 
     tableContent: [
@@ -383,11 +384,11 @@ const contentMap = {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Hemorrhoids Specialist",
+        designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
-      },
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
+      }
     ],
 
     tableContent: [
@@ -482,9 +483,10 @@ const contentMap = {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Hemorrhoids Specialist",
+        designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -572,8 +574,8 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -670,7 +672,8 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -757,7 +760,8 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -943,9 +947,10 @@ const contentMap = {
         url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Hemorrhoids Specialist",
+        designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -1031,7 +1036,8 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -1118,7 +1124,8 @@ const contentMap = {
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
         experience: "Experience: 8 years",
-        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
       }
     ],
 
@@ -1219,7 +1226,7 @@ export default function ConditionPage({ params }) {
 
   return (
     <>
-      <Header PhoneNumber={"07969084448"} mobilectatext={"Call Now"} />
+      <Header PhoneNumber={"07969084448"} mobilectatext={"Call Now"} mobileNumberHeader={"tel:07969084448"} />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
       {content.locationsectionheading && (
@@ -1247,6 +1254,7 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
+                  mobileNumberDoctor={cardData.mobileNumberDoctor}
                 />
               </div>
             ))}
@@ -1287,6 +1295,7 @@ export default function ConditionPage({ params }) {
           footernumber={content.footerComponent.footernumber}
         />
       )}
+      <MobileStickyFooter mobileNumber="tel:07969084448"/>
     </>
   );
 }

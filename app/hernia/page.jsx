@@ -96,6 +96,7 @@ export default function Home() {
       <Header 
       PhoneNumber={"07969084448"}
       mobilectatext={"Free OPD"}
+      mobileNumberHeader={"tel:07969084448"}
       />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
