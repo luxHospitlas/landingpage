@@ -45,11 +45,7 @@ async function connectToAWS(data) {
     if (response.ok) {
       return await response.json();
     } else {
-      console.error(
-        "AWS Response Error:",
-        response.status,
-        response.statusText
-      );
+      console.error("AWS Response Error:", response.status, response.statusText);
       return null;
     }
   } catch (error) {
