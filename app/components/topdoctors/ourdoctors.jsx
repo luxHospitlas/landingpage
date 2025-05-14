@@ -7,6 +7,7 @@ const DoctorCard = ({
   designation,
   experience,
   description,
+  mobileNumberDoctor
 }) => {
   return (
     <div
@@ -45,7 +46,7 @@ const DoctorCard = ({
                 />
                 <span className="text-blue-400 text-sm ml-2">(102)</span>
               </div> */}
-            <a href="tel:917969084448">
+            <a href={mobileNumberDoctor}>
               <button className="dbutton mt-4 border border-indigo-900 text-indigo-900 font-bold py-2 px-5 rounded-full transition-all duration-300 hover:bg-indigo-900 hover:text-white">
                 Book an Appointment
               </button>

@@ -132,6 +132,7 @@ export default function Home() {
       <Header 
       PhoneNumber={"07969084448"}
       mobilectatext={"Call Now"}
+      mobileNumberHeader={"tel:07969084448"}
       />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
@@ -153,6 +154,7 @@ export default function Home() {
             designation="Piles Specialist"
             experience="Experieance:8 years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+            mobileNumberDoctor={"tel:917969084448"}
           />
           <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
@@ -161,6 +163,7 @@ export default function Home() {
             designation="Piles Specialist"
             experience="Experieance:9 years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+            mobileNumberDoctor={"tel:917969084448"}
           />
         </div>
       </section>

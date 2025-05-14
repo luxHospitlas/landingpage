@@ -10,6 +10,7 @@ import FooterComponent from "../../components/footer/footer";
 import Gentstalks from "../../components/Gentstalks/gentstalks";
 import FreeOpdSection from "../../components/FreeOPD/freeopd";
 import gynecomastiaDoctorsData from "../../gynecomastia/gynecodata";
+import MobileStickyFooter from "../../components/mobilsticky";
 
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
@@ -794,6 +795,7 @@ export default function ConditionPage({ params }) {
       <Header
         PhoneNumber={"07969084446"}
         mobilectatext={"Free OPD"}
+        mobileNumberHeader={"tel:07969084446"}
       />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
@@ -818,6 +820,7 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
+                  mobileNumberDoctor={cardData.mobileNumberDoctor}
                 />
               </div>
             ))}
@@ -858,7 +861,9 @@ export default function ConditionPage({ params }) {
           footerdesc={content.footerComponent.footerdesc}
           footernumber={content.footerComponent.footernumber}
         />
+        
       )}
+      <MobileStickyFooter mobileNumber="tel:07969084446"/>
     </>
   );
 }

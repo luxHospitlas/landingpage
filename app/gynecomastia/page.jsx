@@ -12,6 +12,7 @@ import Faqs from "../components/faqs/faq";
 import Whatare from "../components/what/whatare";
 import Gentstalks from "../components/Gentstalks/gentstalks";
 import FreeOpdSection from "../components/FreeOPD/freeopd";
+import MobileStickyFooter from "../components/mobilsticky";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -147,6 +148,7 @@ export default function Home() {
       <Header
         PhoneNumber={"07969084446"}
         mobilectatext={"Free OPD"}
+        mobileNumberHeader={"tel:07969084446"}
       />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
@@ -168,6 +170,7 @@ export default function Home() {
             designation="Plastic Surgeon"
             experience="Experience: 15+ years"
             description="Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
+            mobileNumberDoctor="tel:0796908446"
           />
           <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp"
@@ -177,6 +180,7 @@ export default function Home() {
             experience="Experience: 10+ years"
             description=
             "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
+            mobileNumberDoctor="tel:0796908446"
           />
         </div>
       </section>
@@ -210,6 +214,7 @@ export default function Home() {
         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
         footernumber="07969084446"
       />
+      <MobileStickyFooter mobileNumber="tel:07969084446"/>
 
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}

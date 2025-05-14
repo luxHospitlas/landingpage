@@ -13,7 +13,8 @@ export async function handleWhatsappConnection(formType = "WhatsApp") {
     console.log("Received:", whatsappLink);
 
     if (whatsappLink?.link) {
-      openWhatsApp(whatsappLink.link);
+      // openWhatsApp(whatsappLink.link);
+       window.location.href = whatsappLink.link;
     } else {
       console.warn("No link received from AWS.");
     }
