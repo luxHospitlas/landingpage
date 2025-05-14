@@ -1423,9 +1423,224 @@ const contentMap = {
           "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in perianal abscess treatments at Lux Hospitals, offering effective care using advanced techniques."
       }
     ],
+
     footerComponent: {
       footerdesc:
         "Get advanced perianal abscess treatment from top experts at Lux Hospitals in Hyderabad. Book your consultation today!",
+      footernumber: "07969084448"
+    }
+  },
+  "anal-fistula-surgery-cost-in-hyderabad": {
+    heading: "Anal Fistula Surgery Cost in Hyderabad",
+    descList: [
+      "Top Surgeon for Anal Fistula Treatment",
+      "Top Surgeon for TROPIS Technique",
+      "Expert in TROPIS, LIFT, VAAFT & Laser",
+      "30-Min Minimally Invasive Procedure",
+      "Advanced Laser for 100% Cure",
+      "All Insurances Accepted (Cashless)",
+      "0% Interest EMI Available"
+    ],
+    locationsectionheading:
+      "LUX Hospitals – Affordable Fistula Surgery | Advanced Laser Techniques | Cashless Insurance | Hyderabad",
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Fistula Specialist",
+        experience: "Experience: 8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        // mobileNumberDoctor: "07969084448"
+
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishek Katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Fistula Specialist",
+        experience: "Experience: 9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        // mobileNumberDoctor: "07969084448"
+      }
+    ],
+    tableContent: [
+      {
+        theading: "Fistula Surgery Cost at Lux Hospitals"
+      }
+    ],
+    tableData: tableData,
+    whatAreH: "What is the Cost of Fistula Surgery?",
+    whatAreP:
+      "The cost of anal fistula surgery in Hyderabad depends on the type of procedure (Laser, TROPIS, LIFT, VAAFT), complexity of the fistula, and hospital stay. At Lux Hospitals, we provide fixed-cost packages with no hidden charges, covering consultation, surgery, anesthesia, medications, and post-op care. We support cashless insurance approvals for most policies and offer 0% interest EMI options — ensuring affordability without compromising quality.",
+    whatHead: "Top 4 Procedures and Their Cost Considerations",
+    treatments: [
+      {
+        title: "Laser Fistula Surgery",
+        description:
+          "A scarless, day-care procedure with minimal pain and quick recovery. Covered under most insurance policies."
+      },
+      {
+        title: "TROPIS (Transanal Opening of the Intersphincteric Space)",
+        description:
+          "Ideal for complex or high fistulas. Slightly higher cost due to advanced technology, but with low recurrence and high success."
+      },
+      {
+        title: "LIFT (Ligation of Intersphincteric Fistula Tract)",
+        description:
+          "Cost-effective and sphincter-preserving. Often chosen for fistulas near the sphincter muscles."
+      },
+      {
+        title: "VAAFT (Video-Assisted Anal Fistula Treatment)",
+        description:
+          "Technologically advanced procedure using an endoscopic camera. Precision-driven, slightly higher in cost, but very effective."
+      }
+    ],
+    fheading: "FAQs on Fistula Surgery Cost",
+    faqs: [
+      {
+        faqTitle: "How much does anal fistula surgery cost at Lux Hospitals?",
+        faqAnswer:
+          "Our fistula surgery packages are fixed and all-inclusive, starting from basic laser procedures to advanced options like TROPIS or VAAFT. A detailed cost estimate is shared post evaluation."
+      },
+      {
+        faqTitle: "Is the surgery covered under insurance?",
+        faqAnswer:
+          "Yes, Lux Hospitals supports cashless treatment under all major insurance providers. Our team will assist you with approvals and documentation."
+      },
+      {
+        faqTitle: "Do you offer EMI options?",
+        faqAnswer:
+          "Absolutely. We provide 0% interest EMI plans to help you get the treatment you need without financial burden."
+      },
+      {
+        faqTitle: "What’s included in the surgery cost?",
+        faqAnswer:
+          "Our packages cover consultation, surgeon fee, anesthesia, laser or surgical equipment, hospital stay (if any), and follow-up care. No hidden charges."
+      },
+      {
+        faqTitle: "What factors affect the cost of fistula surgery?",
+        faqAnswer:
+          "Complexity of the fistula, choice of surgical technique (laser/TROPIS/LIFT), use of technology, and insurance eligibility all play a role in determining cost."
+      },
+      {
+        faqTitle: "How do I get a detailed estimate before surgery?",
+        faqAnswer:
+          "Call 07969084448 or WhatsApp us. We’ll schedule your free consultation, review your condition, and provide a transparent cost breakdown with or without insurance."
+      }
+    ],
+    footerComponent: {
+      footerdesc:
+        "Get expert anal fistula treatment at Lux Hospitals — advanced technology, experienced surgeons, transparent pricing, and full insurance support. Book your free consultation today!",
+      footernumber: "07969084448"
+    }
+  },
+  "perianal-abscess-surgery-cost-hyderabad": {
+    heading: "Perianal Abscess Surgery Cost in Hyderabad",
+    descList: [
+      "Top Surgeon for Perianal Abscess Treatment",
+      "Top Surgeon for TROPIS Technique",
+      "Expert in TROPIS, LIFT, VAAFT & Laser",
+      "30-Min Minimally Invasive Procedure",
+      "Advanced Laser for 100% Cure",
+      "All Insurances Accepted (Cashless)",
+      "0% Interest EMI Available"
+    ],
+    locationsectionheading:
+      "LUX Hospitals – Perianal Abscess | Expert Proctologists | Daycare Surgical Care | Hyderabad",
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Fistula Specialist",
+        experience: "Experience: 8 years",
+        description:
+          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "07969084448"
+
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
+        name: "Dr. Abhishek Katha",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Fistula Specialist",
+        experience: "Experience: 9 years",
+        description:
+          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
+        mobileNumberDoctor: "07969084448"
+      }
+    ],
+    tableContent: [
+      {
+        theading: "Perianal Abscess Surgery Cost at Lux Hospitals"
+      }
+    ],
+    tableData: tableData,
+    whatAreH: "What is the Cost of Perianal Abscess Surgery?",
+    whatAreP:
+      "The cost of treating a perianal abscess depends on the size of the abscess, severity of infection, procedure type (simple incision & drainage or laser-assisted), and the presence of complications like underlying fistula. At Lux Hospitals, we offer transparent, fixed-price packages that include consultation, surgical procedure, anesthesia, antibiotics, dressings, and follow-ups. We support cashless insurance processing and offer 0% EMI options to make treatment stress-free and accessible.",
+    whatHead: "Top 4 Treatment Options and Cost Considerations",
+    treatments: [
+      {
+        title: "Incision & Drainage (I&D)",
+        description:
+          "A standard, daycare procedure to remove pus and reduce infection. Covered under most insurance plans."
+      },
+      {
+        title: "Laser-Assisted Drainage",
+        description:
+          "A modern technique using controlled laser to sterilise and heal the abscess cavity. Slightly higher in cost but offers faster healing and reduced recurrence."
+      },
+      {
+        title: "Imaging-Guided Drainage",
+        description:
+          "Recommended for deeper or complex abscesses. Requires additional imaging (USG/MRI), factored into cost estimation."
+      },
+      {
+        title: "Combined Fistula Evaluation",
+        description:
+          "In some cases, a hidden fistula may coexist. Diagnostic scans and surgical planning are included in cost estimates if identified during treatment."
+      }
+    ],
+    fheading: "FAQs on Perianal Abscess Surgery Cost",
+    faqs: [
+      {
+        faqTitle: "How much does perianal abscess treatment cost at Lux Hospitals?",
+        faqAnswer:
+          "Costs start from standard daycare drainage procedures and vary based on complexity. We offer fixed-price packages with no hidden charges. Consultations are free."
+      },
+      {
+        faqTitle: "Is the treatment covered by insurance?",
+        faqAnswer:
+          "Yes, we offer cashless insurance support for eligible policies. Our team assists with approval and paperwork."
+      },
+      {
+        faqTitle: "Can I pay through EMI?",
+        faqAnswer:
+          "Yes. We provide 0% interest EMI plans to help you manage expenses comfortably."
+      },
+      {
+        faqTitle: "What’s included in the surgery cost?",
+        faqAnswer:
+          "The cost covers consultation, procedure, anesthesia, dressing materials, antibiotics, and post-op follow-up visits."
+      },
+      {
+        faqTitle: "Does the cost change if a fistula is also found?",
+        faqAnswer:
+          "If a fistula is diagnosed along with the abscess, treatment plans and costs may change. However, you’ll be informed transparently with a detailed breakdown before proceeding."
+      },
+      {
+        faqTitle: "How do I get a cost estimate for my condition?",
+        faqAnswer:
+          "Call 07969084448 or message us on WhatsApp. We’ll schedule your free consultation, assess your case, and provide a full estimate with or without insurance."
+      }
+    ],
+    footerComponent: {
+      footerdesc:
+        "Don't delay treatment — get safe, effective and affordable care for perianal abscess at Lux Hospitals with expert surgeons and transparent pricing. Book your free consultation today!",
       footernumber: "07969084448"
     }
   },
@@ -1501,7 +1716,7 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
-                  mobileNumberDoctor={cardData.mobileNumberDoctor}
+                  mobileNumberDoctor= "tel:07969084448"
                 />
               </div>
             ))}

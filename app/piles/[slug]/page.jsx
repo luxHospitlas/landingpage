@@ -2470,7 +2470,7 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
-                  mobileNumberDoctor={cardData.mobileNumberDoctor}
+                  mobileNumberDoctor="tel:07969084448"
                 />
               </div>
             ))}

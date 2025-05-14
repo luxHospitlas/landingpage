@@ -23,14 +23,14 @@ export async function handleWhatsappConnection(formType = "WhatsApp") {
   }
 }
 
-function openWhatsApp(link) {
-  const tempAnchor = document.createElement("a");
-  tempAnchor.href = link;
-  tempAnchor.target = "_blank";
-  document.body.appendChild(tempAnchor);
-  tempAnchor.click();
-  document.body.removeChild(tempAnchor);
-}
+// function openWhatsApp(link) {
+//   const tempAnchor = document.createElement("a");
+//   tempAnchor.href = link;
+//   tempAnchor.target = "_blank";
+//   document.body.appendChild(tempAnchor);
+//   tempAnchor.click();
+//   document.body.removeChild(tempAnchor);
+// }
 
 async function connectToAWS(data) {
   try {
