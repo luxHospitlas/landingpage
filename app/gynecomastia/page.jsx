@@ -210,7 +210,6 @@ export default function Home() {
         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
         footernumber="07969084446"
       />
-      <MobileStickyFooter />
 
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}
