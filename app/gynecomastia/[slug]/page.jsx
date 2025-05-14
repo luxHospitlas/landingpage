@@ -767,7 +767,7 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book Free Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084446",
     },
     {
       image: "/cost extimation.avif",
@@ -785,14 +785,14 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084446",
     },
   ];
 
   return (
     <>
       <Header
-        PhoneNumber={"07969084448"}
+        PhoneNumber={"07969084446"}
         mobilectatext={"Free OPD"}
       />
       <Hero heading={content.heading} descList={content.descList} />

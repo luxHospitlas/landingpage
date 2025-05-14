@@ -4,14 +4,14 @@ import Image from "next/image";
 import { handleWhatsappConnection } from '../../careconsole';
 
 
-function sendToWhatsApp() {
-  const message = document.getElementById('messageInput')?.value || '';
-  console.log('Message:', message); // Check if it logs correctly
-  const phoneNumber = '917969084444';
-  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-  window.open(whatsappURL, '_blank');
-  document.getElementById('messageInput').value = '';
-}
+// function sendToWhatsApp() {
+//   const message = document.getElementById('messageInput')?.value || '';
+//   console.log('Message:', message); // Check if it logs correctly
+//   const phoneNumber = '917969084444';
+//   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+//   window.open(whatsappURL, '_blank');
+//   document.getElementById('messageInput').value = '';
+// }
 
 export default function Luxgpt() {
   return (

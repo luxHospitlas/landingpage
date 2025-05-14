@@ -63,7 +63,7 @@ export default function Home() {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book Free Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084446",
     },
     {
       image: "/cost extimation.avif",
@@ -81,7 +81,7 @@ export default function Home() {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084446",
     },
   ];
 
@@ -145,7 +145,7 @@ export default function Home() {
   return (
     <>
       <Header
-        PhoneNumber={"07969084448"}
+        PhoneNumber={"07969084446"}
         mobilectatext={"Free OPD"}
       />
       <Hero heading={heroHeading} descList={defaultDescList} />
@@ -208,8 +208,9 @@ export default function Home() {
       )}
       <FooterComponent
         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
-        footernumber="07969084448"
+        footernumber="07969084446"
       />
+      <MobileStickyFooter />
 
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}
