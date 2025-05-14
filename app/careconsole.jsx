@@ -1,8 +1,38 @@
 "use client";
 
-export async function handleWhatsappConnection(formType = "WhatsApp") {
+import { useEffect } from "react";
+
+export default function WhatsAppButton() {
+  useEffect(() => {
+    const btn = document.getElementById("whatsappBtn");
+    if (btn) {
+      btn.addEventListener("click", handleWhatsappConnection);
+    }
+
+    return () => {
+      if (btn) {
+        btn.removeEventListener("click", handleWhatsappConnection);
+      }
+    };
+  }, []);
+
+  return (
+    <div className="flex justify-center mt-10">
+      <button
+        id="whatsappBtn"
+        type="button"
+        className="bg-[#964F9C] text-white p-2 rounded-full w-10 h-10 pointer-events-auto z-50"
+      >
+        ➜
+      </button>
+    </div>
+  );
+}
+
+// ✅ Handles the click, sends data to AWS, and opens WhatsApp
+async function handleWhatsappConnection() {
   const data = {
-    Form_Type: formType,
+    Form_Type: "WhatsApp",
     Website: typeof window !== "undefined" ? window.location.href : "",
   };
 
@@ -22,15 +52,18 @@ export async function handleWhatsappConnection(formType = "WhatsApp") {
   }
 }
 
+// ✅ Safely opens WhatsApp link in a new tab (Safari-friendly)
 function openWhatsApp(link) {
   const tempAnchor = document.createElement("a");
   tempAnchor.href = link;
   tempAnchor.target = "_blank";
+  tempAnchor.rel = "noopener noreferrer"; // security best practice
   document.body.appendChild(tempAnchor);
   tempAnchor.click();
   document.body.removeChild(tempAnchor);
 }
 
+// ✅ Sends POST request to your AWS API
 async function connectToAWS(data) {
   try {
     const response = await fetch(
@@ -45,7 +78,11 @@ async function connectToAWS(data) {
     if (response.ok) {
       return await response.json();
     } else {
-      console.error("AWS Response Error:", response.status, response.statusText);
+      console.error(
+        "AWS Response Error:",
+        response.status,
+        response.statusText
+      );
       return null;
     }
   } catch (error) {
