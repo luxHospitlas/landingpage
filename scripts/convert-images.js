@@ -20,13 +20,13 @@ fs.readdirSync(inputDir).forEach((file) => {
       .toFormat("webp")
       .toFile(`${outputDir}/${fileName}.webp`)
       .then(() => console.log(`✅ ${file} → ${fileName}.webp`))
-      .catch((err) => console.error(`❌ WebP failed for ${file}`, err));
+      .catch((err) => console.error(` WebP failed for ${file}`, err));
 
     // Convert to AVIF
     sharp(inputPath)
       .toFormat("avif")
       .toFile(`${outputDir}/${fileName}.avif`)
       .then(() => console.log(`✅ ${file} → ${fileName}.avif`))
-      .catch((err) => console.error(`❌ AVIF failed for ${file}`, err));
+      .catch((err) => console.error(` AVIF failed for ${file}`, err));
   }
 });
