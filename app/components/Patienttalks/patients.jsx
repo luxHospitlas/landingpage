@@ -1,49 +1,63 @@
-import { useEffect, useRef, useState } from "react";
+"use client";
+import { useRef, useState } from "react";
 import "./patistyles.css";
 
 export default function PatientTalks() {
   const scrollRef = useRef(null);
-  const [progresses, setProgresses] = useState([]);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const testimonials = [
-    { id: 1, imageUrl: "/pati 1.png", name: "Sumetha" },
-    { id: 2, imageUrl: "/pati 2.png", name: "Sumetha" },
-    { id: 3, imageUrl: "/pati 3.png", name: "Sumetha" },
-    { id: 4, imageUrl: "/pati 4.png", name: "Sumetha" },
-    { id: 5, imageUrl: "/pati 5.png", name: "Sumetha" },
-    { id: 6, imageUrl: "/pati 6.png", name: "Sumetha" },
-    { id: 7, imageUrl: "/pati 7.png", name: "Sumetha" },
+    {
+      id: 1,
+      imageUrl:
+        "/pati 1.png",
+      name: "Sumetha",
+    },
+    {
+      id: 2,
+      imageUrl:
+        "/pati 2.png",
+      name: "Sumetha",
+    },
+    {
+      id: 3,
+      imageUrl:
+        "/pati 3.png",
+      name: "Sumetha",
+    },
+    {
+      id: 4,
+      imageUrl:
+        "/pati 4.png",
+      name: "Sumetha",
+    },
+    {
+      id: 5,
+      imageUrl:
+        "/pati 5.png",
+      name: "Sumetha",
+    },
+    {
+      id: 6,
+      imageUrl:
+        "/pati 6.png",
+      name: "Sumetha",
+    },
+    {
+      id: 7,
+      imageUrl:
+        "/pati 7.png",
+      name: "Sumetha",
+    },
   ];
 
-  useEffect(() => {
-    const container = scrollRef.current;
-    const handleScroll = () => {
-      const scrollLeft = container.scrollLeft;
-      const cardWidth = 320; // Adjust if different
-      const totalCards = testimonials.length;
-
-      const newProgress = Array(totalCards).fill(0);
-
-      testimonials.forEach((_, index) => {
-        const start = index * cardWidth;
-        const end = start + cardWidth;
-
-        if (scrollLeft >= end) {
-          newProgress[index] = 100;
-        } else if (scrollLeft >= start && scrollLeft < end) {
-          const visiblePercent = ((scrollLeft - start) / cardWidth) * 100;
-          newProgress[index] = Math.min(Math.max(visiblePercent, 0), 100);
-        }
-      });
-
-      setProgresses(newProgress);
-    };
-
-    container.addEventListener("scroll", handleScroll);
-    handleScroll(); // initialize
-
-    return () => container.removeEventListener("scroll", handleScroll);
-  }, [testimonials]);
+  const scrollToSlide = (index) => {
+    setActiveIndex(index);
+    scrollRef.current?.scrollTo({
+      left: index * 320, // Adjust width as per your .video_box width
+      behavior: "smooth",
+    });
+  };
 
   return (
     <section id="reviews" className="text-center patient_section">
@@ -56,20 +70,19 @@ export default function PatientTalks() {
           ref={scrollRef}
           className="flex space-x-4 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide videos_boxex"
         >
-          {testimonials.map((testimonial) => (
+          {testimonials.map((testimonial, index) => (
             <VideoCard key={testimonial.id} testimonial={testimonial} />
           ))}
         </div>
 
-        {/* Custom Progress Navigation */}
-        <div className="progress-container">
+        {/* Navigation Dots */}
+        <div className="flex justify-center mt-4">
           {testimonials.map((_, index) => (
-            <div key={index} className="progress-bar">
-              <div
-                className="progress-fill"
-                style={{ width: `${progresses[index] || 0}%` }}
-              ></div>
-            </div>
+            <span
+              key={index}
+              className={`dot ${activeIndex === index ? "active" : ""}`}
+              onClick={() => scrollToSlide(index)}
+            ></span>
           ))}
         </div>
       </div>
@@ -77,12 +90,17 @@ export default function PatientTalks() {
   );
 }
 
-const VideoCard = ({ testimonial }) => (
-  <div className="snap-center w-80 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden shadow-lg video_box">
-    <img
-      src={testimonial.imageUrl}
-      alt={testimonial.name}
-      className="object-cover w-full h-full"
-    />
-  </div>
-);
+const VideoCard = ({ testimonial }) => {
+  return (
+    <div className="snap-center w-64 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden shadow-lg video_box">
+      <img
+        src={testimonial.imageUrl}
+        alt="Testimonial"
+        className="object-cover w-full h-full"
+      />
+      {/* <div className="p-4 text-center">
+        <p className="text-gray-900 font-bold">{testimonial.name}</p>
+      </div> */}
+    </div>
+  );
+};
