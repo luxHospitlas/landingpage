@@ -184,7 +184,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparisond theading={"Gynecomastia Treatment at Lux Hospitals"} rows={tableData} />
+      <HospitalComparisond theading={"Gynecomastia Treatment at Lux Hospitals"} rows={tableData} ConditionVideo="/dr ram prabhu gyncomastia final version.webm"  />
       <Accreditations />
       <VideoSection />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />

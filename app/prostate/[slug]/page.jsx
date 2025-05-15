@@ -7,8 +7,10 @@ import Second from "../../components/second/second";
 import HospitalLocation from "../../components/HospitalLocation/hospitallocations";
 import tableData from '../../fistula/fistuladata';
 import FreeOpdSection from "@/app/components/FreeOPD/freeopd";
+import Gentstalks from "../../components/Gentstalks/gentstalks";
 // import services from "../../piles/pilesdata";
 import FooterComponent from "../../components/footer/footer";
+import MobileStickyFooter from "../../components/mobilsticky";
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
 );
@@ -57,1339 +59,868 @@ const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
 };
 
 const contentMap = {
-  "fistula-Treatment-Hyderabad": {
-    heading: "Fistula Treatment in Hyderabad",
+  "best-prostate-treatment-in-hyderabad": {
+    heading: "Best Prostate Treatment in Hyderabad",
     descList: [
-      "Top External Hemorrhoids Doctor",
-      "30-min procedure, same-day discharge",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available",
-      "Advanced Laser & Minimally Invasive Treatment",
-    ],
-    // services: services,
-    locationsectionheading:
-      "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
-    ],
-    tableContent: [
-      {
-        theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
-      },
-    ],
-    // tableData: [
-    //   { label: "Cost", other: "Variable", lux: "FIXED" },
-    //   {
-    //     label: "Sterilization",
-    //     other: "Autoclave / ETO",
-    //     lux: "PLASMA STERILIZATION",
-    //   },
-    //   { label: "Insurance", other: "80-85% Coverage", lux: "100% COVERAGE" },
-    //   { label: "Recurrence Chances", other: "5-10%", lux: "0-1%" },
-    //   { label: "Recovery", other: "24-48 Hours", lux: "12-24 Hours" },
-    //   { label: "Rooms", other: "Sharing / Single Room", lux: "SUITE ROOM" },
-    // ],
-    tableData: tableData,
-    whatAreH: "What Are External Hemorrhoids?",
-    whatAreP:
-      "External hemorrhoids are swollen veins located under the skin around the anus, causing pain, itching, and discomfort. They may form due to prolonged sitting, straining during bowel movements, or chronic constipation.",
-    whatHead:
-      "Top 3 Advanced Treatments for External Hemorrhoids at Lux Hospitals:",
-    treatments: [
-      {
-        title: "Laser Hemorrhoidoplasty (LHP)",
-        description:
-          "A minimally invasive procedure using laser energy to shrink external hemorrhoids, ensuring quicker recovery and minimal pain.",
-      },
-      {
-        title: "Doppler-Guided Hemorrhoidal Artery Ligation (DGHAL)",
-        description:
-          "A non-surgical method that ties off hemorrhoidal arteries, cutting blood supply to external hemorrhoids and reducing discomfort.",
-      },
-      {
-        title: "Hemorrhoidal Artery Ligation with Recto-Anal Repair (HAL-RAR)",
-        description:
-          "A combination of artery ligation and rectal tissue repair, effective for advanced cases while minimizing post-operative pain.",
-      },
-    ],
-    fheading: "FAQs on External Hemorrhoids",
-    faqs: [
-      {
-        faqTitle: "What causes external hemorrhoids?",
-        faqAnswer:
-          "External hemorrhoids develop due to excessive straining, prolonged sitting, chronic constipation, obesity, and pregnancy.",
-      },
-      {
-        faqTitle: "Is surgery necessary for external hemorrhoids?",
-        faqAnswer:
-          "Surgery is only needed for severe cases. Minimally invasive options like laser treatment are highly effective.",
-      },
-      {
-        faqTitle: "When should I see a doctor for external hemorrhoids?",
-        faqAnswer:
-          "If you experience persistent pain, bleeding, or swelling, consult an external hemorrhoids doctor for expert treatment.",
-      },
-      {
-        faqTitle: "Does insurance cover external hemorrhoid treatment?",
-        faqAnswer:
-          "Most health insurance plans cover external hemorrhoid procedures. Check with your provider for details.",
-      },
-      {
-        faqTitle: "Why choose Lux Hospitals for external hemorrhoid treatment?",
-        faqAnswer:
-          "Lux Hospitals offer advanced treatments, expert specialists, and personalized care for effective recovery.",
-      },
-      {
-        faqTitle: "Whom should I consult for external hemorrhoids treatment?",
-        faqAnswer:
-          "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan.",
-      },
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get expert care from the best external hemorrhoids doctor for a pain-free, advanced treatment today!",
-      footernumber: "07969084448",
-    },
-  },
-  "best-anal-fistula-surgery-hyderabad": {
-    heading: "Best Anal Fistula Surgery in Hyderabad",
-    descList: [
-      "Top Doctor for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Doctor for Prostate Treatment",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals - Best Anal Fistula Surgery | Fistula Experts | Advanced Care | Laser Treatment Specialists",
+      "LUX Hospitals – Prostate Treatment | Advanced Urology & Laser Surgery | Best Urologist | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
+        description: "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 5+ Years",
+        description: "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
+      }
     ],
     tableContent: [
       {
-        theading: "Anal Fistula Surgery at Lux Hospitals"
+        theading: "Prostate Treatment at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is Anal Fistula Surgery?",
+    whatAreH: "What is Prostate Enlargement (BPH)?",
     whatAreP:
-      "An anal fistula is a small, infected tunnel that connects the skin near the anus to the inside of the rectum. It usually develops after an anal abscess that did not heal properly. Left untreated, it can lead to persistent pain, swelling, pus discharge, and repeated infections. At Lux Hospitals, we offer advanced Anal Fistula Surgery options that ensure quick recovery, minimal discomfort, and reduced chances of recurrence.",
-    whatHead: "Top 4 Treatments for Anal Fistula at Lux Hospitals:",
+      "Benign Prostatic Hyperplasia (BPH) is a non-cancerous enlargement of the prostate gland that commonly affects men over 50. It causes urinary symptoms like frequent urination, weak flow, urgency, and difficulty emptying the bladder. At Lux Hospitals, we use advanced laser and endoscopic technologies for painless, stitch-less treatments with faster recovery and long-term relief.",
+    whatHead: "Top 2 Treatments for Enlarged Prostate",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "A minimally invasive treatment that uses laser energy to seal the fistula tract. It offers painless recovery, quicker healing, and minimal recurrence rates."
+          "The gold standard in prostate surgery. It removes obstructive prostate tissue using a high-powered laser, offering long-term results with minimal bleeding, no external cuts, and quick recovery."
       },
       {
-        title: "Fistulotomy",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "A traditional surgical method where the entire fistula tract is opened and cleaned, allowing it to heal from the inside out."
-      },
-      {
-        title: "Seton Placement",
-        description:
-          "A specialized treatment for complex fistulas, where a surgical thread (seton) is placed to help drain infection and promote gradual healing."
-      },
-      {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
-        description:
-          "An advanced technique that treats fistulas while preserving the anal sphincter muscles, minimizing the risk of incontinence."
+          "This traditional method involves the removal of excess prostate tissue using an endoscope. It’s an effective solution for larger prostate glands and offers a safe recovery."
       }
     ],
-    fheading: "FAQs on Anal Fistula",
+    fheading: "FAQs on Prostate Treatment",
     faqs: [
       {
-        faqTitle: "What causes an anal fistula?",
+        faqTitle: "What causes prostate enlargement?",
         faqAnswer:
-          "Anal fistulas usually result from an untreated anal abscess that creates a tunnel between the skin and rectum. Conditions like Crohn’s disease, infections, and trauma can also cause fistulas."
+          "Age-related hormonal changes are the most common cause, often starting after the age of 50."
       },
       {
-        faqTitle: "Is surgery necessary for treating anal fistula?",
+        faqTitle: "Why choose Lux Hospitals for prostate treatment in Hyderabad?",
         faqAnswer:
-          "Yes, most anal fistulas require surgical intervention for permanent healing. At Lux Hospitals, we offer minimally invasive options like laser surgery for faster and painless recovery."
+          "Our expert urologists perform advanced laser procedures like HoLEP for faster, safer, and more effective results."
       },
       {
-        faqTitle: "When should I undergo anal fistula surgery?",
+        faqTitle: "Is prostate surgery necessary for BPH?",
         faqAnswer:
-          "If you experience persistent pain, swelling, pus discharge, or recurrent infections near the anus, you should consider undergoing anal fistula surgery promptly to avoid complications."
+          "Not always. But when symptoms are severe or medications fail, minimally invasive surgery like HoLEP is highly effective."
       },
       {
-        faqTitle: "Is insurance accepted for anal fistula treatment at Lux Hospitals?",
+        faqTitle: "Is the procedure painful?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for anal fistula surgeries. Please check with your insurer for eligibility."
+          "No. HoLEP and laser surgeries are performed under anesthesia and are designed for maximum comfort and minimal recovery time."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for anal fistula surgery?",
+        faqTitle: "Is prostate treatment covered under insurance?",
         faqAnswer:
-          "Lux Hospitals provides expert treatment from top specialists, advanced laser technologies, and personalized care plans, ensuring the best outcomes for patients."
+          "Yes, Lux Hospitals provides 100% cashless insurance coverage with all major health insurance providers."
       },
       {
-        faqTitle: "Whom should I consult for anal fistula surgery?",
+        faqTitle: "Whom should I consult for prostate treatment?",
         faqAnswer:
-          "You should consult Dr. Samhitha Reddy and Dr. Abhishek Katha, one of the best fistula specialists at Lux Hospitals, who will guide you through the most effective and minimally invasive treatment options."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get expert care for anal fistula surgery in Hyderabad with advanced treatments at Lux Hospitals today!",
-      footernumber: "07969084448"
+        "Regain control of your life with advanced prostate treatment in Hyderabad at Lux Hospitals – fast, safe, and effective.",
+      footernumber: "07969084442"
     }
   },
-  "top-fistula-clinic-in-hyderabad": {
-    heading: "Top Fistula Clinic in Hyderabad",
+  "advanced-prostate-surgery-in-hyderabad": {
+    heading: "Advanced Prostate Surgery Hospital in Hyderabad",
     descList: [
-      "Top Clinic for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Doctor for Prostate Surgery",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals - Top Fistula Clinic | Fistula Experts | Advanced Care | Laser Treatment Specialists",
+      "LUX Hospitals – Prostate Surgery Specialists | Advanced Urology & Laser Care | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 5+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+          "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
+      }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Prostate Surgery at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Populate this as needed
+    whatAreH: "What is Prostate Surgery?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top 4 Treatments for Fistula at Lux Hospitals:",
+      "Prostate surgery is a medical procedure performed to remove or reduce enlarged prostate tissue that is blocking urine flow. It's often recommended for patients with severe urinary symptoms due to Benign Prostatic Hyperplasia (BPH). At Lux Hospitals, we specialize in advanced laser-based procedures like HoLEP that are bloodless, stitch-free, and offer rapid recovery with minimal pain.",
+    whatHead: "Top 2 Surgical Options for Enlarged Prostate",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "A cutting-edge procedure using laser energy to close the fistula tract with minimal pain and faster healing."
+          "A cutting-edge laser procedure that removes obstructive prostate tissue through the urinary passage. It ensures complete tissue removal, minimal bleeding, and long-lasting results."
       },
       {
-        title: "Fistulotomy",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "A traditional technique where the fistula tract is surgically opened, cleaned, and left to heal naturally."
-      },
-      {
-        title: "Seton Placement",
-        description:
-          "Ideal for complex fistulas, a surgical thread (seton) is inserted to help drain infection and promote gradual healing."
-      },
-      {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
-        description:
-          "An advanced method that closes the fistula while preserving the anal muscles, reducing the risk of incontinence."
+          "A traditional but effective endoscopic surgery where excess tissue is removed using an electrical loop. Suitable for patients not eligible for laser options."
       }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on Prostate Surgery",
     faqs: [
       {
-        faqTitle: "What causes a fistula near the anus?",
+        faqTitle: "What are the causes of prostate enlargement requiring surgery?",
         faqAnswer:
-          "Fistulas usually develop due to an untreated anal abscess. Conditions like infections, Crohn's disease, or trauma can also lead to fistula formation."
+          "Age-related hormonal changes lead to BPH, which can worsen over time and require surgical intervention if untreated."
       },
       {
-        faqTitle: "Is surgery necessary for treating a fistula?",
+        faqTitle: "Why choose Lux Hospitals for prostate surgery in Hyderabad?",
         faqAnswer:
-          "Yes, most fistulas require surgical management for complete healing. Our Fistula Clinic offers minimally invasive options like laser surgery for quicker, pain-free recovery."
+          "We offer the latest laser and endoscopic surgeries performed by experienced urologists with a strong track record in BPH treatment."
       },
       {
-        faqTitle: "When should I visit a fistula clinic?",
+        faqTitle: "Is prostate surgery necessary?",
         faqAnswer:
-          "If you notice persistent pain, swelling, pus discharge, or recurrent abscesses around the anus, you should visit a fistula clinic promptly for evaluation and treatment."
+          "If medications fail and symptoms impact your lifestyle, surgery like HoLEP provides permanent relief with minimal downtime."
       },
       {
-        faqTitle: "Is insurance accepted for fistula treatment at Lux Hospitals?",
+        faqTitle: "Is prostate surgery painful?",
         faqAnswer:
-          "Yes, we accept all major cashless insurance plans. You can check with your provider or our team for your plan's eligibility."
+          "No. Procedures like HoLEP are done under anesthesia, are minimally invasive, and offer quick post-op recovery."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for fistula treatment?",
+        faqTitle: "Is prostate surgery covered under insurance?",
         faqAnswer:
-          "Lux Hospitals provides expert care from top specialists, the latest laser technologies, personalized treatment plans, and a patient-centric approach for the best outcomes."
+          "Yes, Lux Hospitals supports 100% cashless treatment with all major health insurance providers."
       },
       {
-        faqTitle: "Whom should I consult for fistula treatment?",
+        faqTitle: "Whom should I consult for prostate surgery?",
         faqAnswer:
-          "You should consult Dr. Samhitha Reddy and Dr. Abhishek Katha, two of the best fistula specialists at Lux Hospitals, who will guide you through the most effective treatment options."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get expert care at the top fistula clinic in Hyderabad with advanced, minimally invasive treatments today!",
-      footernumber: "07969084448"
+        "Get expert prostate surgery in Hyderabad with advanced laser techniques and same-day recovery at Lux Hospitals.",
+      footernumber: "07969084442"
+    }
+  },
+  "best-prostate-laser-surgery-hyderabad": {
+    heading: "Best Prostate Laser Surgery in Hyderabad",
+    descList: [
+      "Top Doctor for Prostate Laser Treatment",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
+      "All Insurances Accepted (Cashless)",
+      "0% Interest EMI | 5,000+ Patients Treated"
+    ],
+    locationsectionheading:
+      "LUX Hospitals – Prostate Laser Treatment | Advanced Urology & Laser Surgery | Best Urologists | Hyderabad",
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
+        description:
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
+      },
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 5+ Years",
+        description:
+          "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
+      }
+    ],
+    tableContent: [
+      {
+        theading: "Prostate Treatment at Lux Hospitals"
+      }
+    ],
+    tableData: tableData, // Add actual table data as needed
+    whatAreH: "What is Prostate Laser Treatment?",
+    whatAreP:
+      "Prostate Laser Treatment is a modern, minimally invasive method used to treat Benign Prostatic Hyperplasia (BPH) by removing excess prostate tissue with high-powered laser energy. At Lux Hospitals, we specialize in HoLEP, the most advanced laser technique that provides long-term relief without external cuts, stitches, or prolonged hospital stay.",
+    whatHead: "Top 2 Laser Treatments for Enlarged Prostate",
+    treatments: [
+      {
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
+        description:
+          "A highly precise laser procedure that removes the inner core of the prostate causing obstruction. It’s painless, bloodless, and offers same-day recovery with durable results."
+      },
+      {
+        title: "TURP (Transurethral Resection of the Prostate)",
+        description:
+          "This traditional method involves the removal of excess prostate tissue using an endoscope. It’s an effective solution for larger prostate glands and offers a safe recovery."
+      }
+    ],
+    fheading: "FAQs on Prostate Laser Treatment",
+    faqs: [
+      {
+        faqTitle: "What causes the need for prostate laser treatment?",
+        faqAnswer:
+          "BPH, an age-related enlargement of the prostate, leads to urine flow problems and often requires laser intervention."
+      },
+      {
+        faqTitle: "Why choose Lux Hospitals for prostate laser treatment in Hyderabad?",
+        faqAnswer:
+          "Our expert urologists specialize in advanced HoLEP laser surgeries that are pain-free, safe, and highly effective."
+      },
+      {
+        faqTitle: "Is prostate laser treatment better than traditional surgery?",
+        faqAnswer:
+          "Yes. Laser options like HoLEP offer less bleeding, no stitches, and faster recovery compared to TURP."
+      },
+      {
+        faqTitle: "Is the laser procedure painful?",
+        faqAnswer:
+          "No. It’s done under anesthesia and designed for maximum comfort with minimal post-operative discomfort."
+      },
+      {
+        faqTitle: "Is prostate laser treatment covered under insurance?",
+        faqAnswer:
+          "Yes. We offer 100% cashless insurance acceptance with all major health plans."
+      },
+      {
+        faqTitle: "Whom should I consult for prostate laser treatment?",
+        faqAnswer:
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+      }
+    ],
+    footerComponent: {
+      footerdesc:
+        "Experience painless and precise prostate laser treatment in Hyderabad at Lux Hospitals with trusted specialists.",
+      footernumber: "07969084442"
     }
   },
 
-  "best-fistula-doctor-in-hyderabad": {
-    heading: "Best Fistula Doctor in Hyderabad",
+  "best-prostate-doctor-in-hyderabad": {
+    heading: "Best Prostate Doctor in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Best Prostate Doctor in Hyderabad",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals - Best Fistula Doctor | Fistula Experts | Advanced Care | Laser Treatment Specialists",
+      "LUX Hospitals – Prostate Doctor | Advanced Urology & Laser Surgery | Top Urologist | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 5+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specializes in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Prostate Treatment by Top Doctors at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Populate actual treatment table data as needed
+    whatAreH: "What is the Prostate?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top Treatments Offered by Fistula Doctors at Lux Hospitals:",
+      "The prostate is a small, walnut-shaped gland located below the bladder in men. It surrounds the urethra and produces seminal fluid, which nourishes and transports sperm. As part of the male reproductive system, it also helps control urine flow. Prostate health is vital, especially as men age. At Lux Hospitals, our expert prostate doctors use the latest laser technologies like HoLEP to offer painless, stitch-free, and same-day treatments for prostate-related issues.",
+    whatHead: "Top 2 Treatments For Prostate",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "A highly effective, minimally invasive laser procedure for painless recovery and quicker healing."
+          "A cutting-edge laser procedure that removes obstructive prostate tissue through the urinary passage. It ensures complete tissue removal, minimal bleeding, and long-lasting results."
       },
       {
-        title: "Fistulotomy",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "A conventional surgical method where the fistula tract is opened and cleaned to heal naturally."
-      },
-      {
-        title: "Seton Placement",
-        description:
-          "Used for complex fistulas, involving a surgical thread to maintain drainage and promote gradual healing."
-      },
-      {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
-        description:
-          "An advanced surgery that closes the fistula while preserving the anal muscles, reducing the risk of incontinence."
+          "A traditional but effective endoscopic surgery where excess tissue is removed using an electrical loop. Suitable for patients not eligible for laser options."
       }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on Prostate Treatment",
     faqs: [
       {
-        faqTitle: "How long does fistula laser surgery take?",
+        faqTitle: "What symptoms indicate I should see a prostate doctor?",
         faqAnswer:
-          "The procedure takes approximately 30 minutes and is usually done as a daycare surgery with same-day discharge."
+          "If you experience frequent urination, weak stream, difficulty urinating, or night-time urgency, it’s time to consult a prostate doctor."
       },
       {
-        faqTitle: "Is it necessary to see a specialist for fistula treatment?",
+        faqTitle: "Why choose Lux Hospitals for prostate treatment in Hyderabad?",
         faqAnswer:
-          "Yes, anal fistulas require specialized care to prevent complications. At Lux Hospitals, our fistula doctors use advanced technologies for better outcomes."
+          "Our prostate doctors are laser specialists with thousands of successful surgeries and years of focused experience in prostate care."
       },
       {
-        faqTitle: "When should I consult a fistula doctor?",
+        faqTitle: "Is prostate surgery necessary?",
         faqAnswer:
-          "If you notice continuous pain, pus discharge, swelling, or recurring abscesses near your anus, consult a fistula doctor immediately."
+          "If medications fail and symptoms impact your lifestyle, surgery like HoLEP provides permanent relief with minimal downtime."
       },
       {
-        faqTitle: "Is insurance accepted for fistula surgery at Lux Hospitals?",
+        faqTitle: "Is treatment for prostate painful?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for fistula treatments."
+          "No. Most treatments are minimally invasive, done under anesthesia, and ensure a smooth, pain-free recovery."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for fistula care?",
+        faqTitle: "Is prostate surgery covered under insurance?",
         faqAnswer:
-          "We offer specialized care by experienced fistula doctors, state-of-the-art laser treatments, and personalized recovery plans, ensuring the best possible outcomes."
+          "Yes, Lux Hospitals supports 100% cashless treatment with all major health insurance providers."
       },
       {
-        faqTitle: "Who are the best fistula doctors at Lux Hospitals?",
+        faqTitle: "Whom should I consult for prostate treatment in Hyderabad?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are among the leading fistula doctors at Lux Hospitals, providing expert care with advanced minimally invasive procedures."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get treated by the best fistula doctors in Hyderabad at Lux Hospitals. Book your consultation today!",
-      footernumber: "07969084448"
+        "Consult the best prostate doctor in Hyderabad today at Lux Hospitals for expert care and fast recovery.",
+      footernumber: "07969084442"
     }
   },
-  "best-fistula-hospital-in-hyderabad": {
-    heading: "Best Fistula Hospital in Hyderabad",
+  "advanced-prostate-treatment-hospital-hyderabad": {
+    heading: "Advanced Prostate Treatment Hospital in Hyderabad",
     descList: [
-      "Top Hospital for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Best Prostate Hospital in Hyderabad",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals - Best Fistula Hospital | Laser Fistula Surgery | Trusted Experts | Advanced Facilities",
+      "LUX Hospitals – Prostate Hospital | Advanced Urology & Laser Surgery | Top Urologists | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specializes in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Prostate Treatment at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Populate actual treatment table data as needed
+    whatAreH: "What is Prostate Treatment?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top Fistula Treatments Offered at Lux Hospitals:",
+      "Prostate treatment refers to medical or surgical care provided for conditions like Benign Prostatic Hyperplasia (BPH), prostatitis, and prostate cancer. At Lux Hospitals – a leading prostate hospital in Hyderabad – we use cutting-edge laser and endoscopic techniques such as HoLEP to ensure painless, scar-free treatment with faster recovery, minimal complications, and same-day discharge.",
+    whatHead: "Top 2 Treatments for Prostate Conditions",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "A painless and precise treatment using laser energy to close the fistula tract with minimal tissue damage."
+          "The most advanced laser surgery for BPH. It precisely removes excess prostate tissue using laser energy, offering long-term relief with no cuts or stitches."
       },
       {
-        title: "Fistulotomy",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "A traditional method where the fistula tract is surgically opened and cleaned, allowing natural healing."
-      },
-      {
-        title: "Seton Placement",
-        description:
-          "Used for complex or deep fistulas to drain infection gradually and encourage healing without cutting."
-      },
-      {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
-        description:
-          "An advanced technique preserving sphincter muscles, offering a safer and highly effective solution for fistulas."
+          "A conventional but effective surgical method using a resectoscope to trim prostate tissue. Ideal for patients who may not be suited for laser surgery."
       }
     ],
-    fheading: "FAQs on Fistula Hospital Services",
+    fheading: "FAQs on Prostate Treatment",
     faqs: [
       {
-        faqTitle: "What makes Lux Hospitals the best fistula hospital?",
+        faqTitle: "What are the common causes of prostate problems?",
         faqAnswer:
-          "We provide expert care through highly experienced proctologists, advanced laser treatments, personalized care plans, and excellent post-surgery recovery support."
+          "Prostate enlargement (BPH) is mostly age-related, typically affecting men over 50 due to hormonal changes. Infections and inflammation can also cause issues."
       },
       {
-        faqTitle: "Is hospitalization needed for fistula surgery?",
+        faqTitle: "Why is Lux Hospitals considered a top prostate hospital?",
         faqAnswer:
-          "At Lux Hospitals, most fistula surgeries, including laser treatments, are performed as day-care procedures with same-day discharge."
+          "We combine expert doctors, advanced laser technology, and same-day discharge to provide superior prostate care and faster recovery."
       },
       {
-        faqTitle: "Are laser treatments available for fistula at Lux Hospitals?",
+        faqTitle: "What type of surgery is done at a prostate hospital?",
         faqAnswer:
-          "Yes, Lux Hospitals specializes in laser fistula treatments for faster, painless recovery and minimal risk of recurrence."
+          "At Lux Hospitals, we offer laser-based HoLEP surgery and traditional TURP – both are minimally invasive and safe."
       },
       {
-        faqTitle: "Does Lux Hospitals accept insurance for fistula surgeries?",
+        faqTitle: "When should I visit a hospital for prostate treatment?",
         faqAnswer:
-          "Yes, we accept all major cashless insurance plans for fistula surgery and treatment procedures."
+          "If you experience frequent urination, a weak stream, or urinary retention, you should consult a prostate hospital for timely treatment."
       },
       {
-        faqTitle: "When should I visit a fistula hospital?",
+        faqTitle: "Is prostate treatment at Lux Hospitals covered by insurance?",
         faqAnswer:
-          "If you experience persistent anal pain, swelling, pus discharge, or repeated abscesses, you should consult a fistula hospital immediately."
+          "Yes, we offer 100% cashless insurance options with all major health insurance companies."
       },
       {
-        faqTitle: "Which doctors treat fistulas at Lux Hospitals?",
+        faqTitle: "Whom should I consult for prostate treatment?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading fistula specialists at Lux Hospitals, offering personalized treatment plans using the latest techniques."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Experience expert fistula care at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
+        "Find complete care at Hyderabad’s trusted prostate hospital — Lux Hospitals, where laser precision meets expert urology.",
+      footernumber: "07969084442"
     }
   },
-  "minimally-invasive-fistula-laser-surgery": {
-    heading: "Minimally Invasive Fistula Laser Surgery",
+  "affordable-prostate-treatment-hyderabad": {
+    heading: "Affordable Prostate Treatment in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Affordable Prostate Treatment in Hyderabad",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals – Fistula Laser Surgery Experts | Top Fistula Hospital | Painless Recovery | Advanced Facilities",
+      "LUX Hospitals – Affordable Prostate Treatment | Advanced Urology & Laser Surgery | Top Urologists | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Surgery at Lux Hospitals"
+        theading: "Prostate Treatment at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Laser Surgery?",
+    tableData: tableData, // Populate actual treatment table data as needed
+    whatAreH: "What is Prostate Treatment?",
     whatAreP:
-      "Fistula Laser Surgery is a minimally invasive technique that uses focused laser energy to close the abnormal fistula tract from the inside — without any cuts, stitches, or major wounds. It is highly effective, causes very little pain, and offers faster healing compared to traditional surgery. At Lux Hospitals, we specialize in laser-assisted treatments that ensure quicker recovery, minimal bleeding, and excellent long-term results. A laser fiber is gently inserted into the fistula, sealing it while preserving the surrounding healthy tissues.",
-    whatHead: "Benefits of Laser Surgery for Fistula:",
+      "Prostate treatment involves medical interventions for conditions such as Benign Prostatic Hyperplasia (BPH), prostatitis, or prostate cancer. At Lux Hospitals, we offer advanced laser surgeries like HoLEP, which are highly effective and minimally invasive, providing long-term relief without external cuts or stitches.",
+    whatHead: "Top 2 Treatments for Prostate Conditions",
     treatments: [
       {
-        title: "Painless and Bloodless Procedure",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "Laser surgery minimizes tissue damage, making the procedure almost painless with very little or no bleeding."
+          "HoLEP is a cutting-edge laser procedure that removes excess prostate tissue with minimal bleeding and no need for incisions. This provides long-term symptom relief and ensures a quick recovery."
       },
       {
-        title: "Minimal Downtime – Resume Work in 1–2 Days",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "Most patients recover quickly and are able to return to their normal routine within 24 to 48 hours."
-      },
-      {
-        title: "Lower Risk of Incontinence or Complications",
-        description:
-          "Because the laser targets only the fistula tract without affecting the anal muscles, there is a very low risk of bowel control issues."
-      },
-      {
-        title: "Same-day Discharge with Higher Success Rates",
-        description:
-          "The procedure usually takes 30 minutes and patients are discharged the same day, with higher chances of permanent healing compared to traditional methods."
+          "This traditional method involves the removal of excess prostate tissue using an endoscope. It’s an effective solution for larger prostate glands and offers a safe recovery."
       }
     ],
-    fheading: "FAQs on Fistula Laser Surgery",
+    fheading: "FAQs on Prostate Treatment",
     faqs: [
       {
-        faqTitle: "Is laser surgery better than traditional fistula surgery?",
+        faqTitle: "What are the causes of prostate enlargement?",
         faqAnswer:
-          "Yes, laser surgery offers a minimally invasive alternative with faster healing, less pain, and a reduced risk of recurrence or complications."
+          "Age-related hormonal changes are the most common cause of prostate enlargement, particularly in men over 50, though other factors like inflammation or infections can also contribute."
       },
       {
-        faqTitle: "How long does fistula laser surgery take?",
+        faqTitle: "Why is Lux Hospitals the preferred choice for prostate treatment?",
         faqAnswer:
-          "The procedure takes approximately 30 minutes and is usually done as a daycare surgery with same-day discharge."
+          "Lux Hospitals combines advanced technology, experienced urologists, and affordable treatment options, making it one of the best places for prostate care in Hyderabad."
       },
       {
-        faqTitle: "Is laser fistula surgery painful?",
+        faqTitle: "What type of surgery is done for prostate issues?",
         faqAnswer:
-          "No, laser surgery is nearly painless. Most patients report minimal discomfort and quick recovery."
+          "At Lux Hospitals, we offer minimally invasive laser surgeries like HoLEP and TURP, both of which are effective in treating prostate enlargement and providing long-term relief."
       },
       {
-        faqTitle: "Will insurance cover laser fistula surgery at Lux Hospitals?",
+        faqTitle: "Is the treatment affordable at Lux Hospitals?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans. Our team will assist you with the claim process."
+          "Yes, we offer affordable prostate treatment options using the latest technology, ensuring high-quality care at the lowest cost possible."
       },
       {
-        faqTitle: "How soon can I resume normal activities after surgery?",
+        faqTitle: "Is prostate treatment covered under insurance?",
         faqAnswer:
-          "Most patients can return to normal activities within 1–2 days after the procedure."
+          "Yes, we accept all leading insurance providers and offer 100% cashless treatment, ensuring ease of access for all patients."
       },
       {
-        faqTitle: "Who performs laser surgery at Lux Hospitals?",
+        faqTitle: "Whom should I consult for prostate treatment?",
         faqAnswer:
-          "Our experienced specialists, Dr. Samhitha Reddy and Dr. Abhishek Katha, are trained in advanced laser techniques for safe and effective fistula treatment."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Book your painless and quick fistula laser surgery at Lux Hospitals today!",
-      footernumber: "07969084448"
+        "Affordable prostate treatment is now accessible at Lux Hospitals, providing expert care without compromising on quality.",
+      footernumber: "07969084442"
     }
   },
-  "best-fistula-operation-in-hyderabad": {
-    heading: "Best Fistula Operation in Hyderabad",
+  "best-prostate-bph-treatment-hyderabad": {
+    heading: "Best BPH Treatment for Prostate in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Operation",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Leading Experts in BPH Treatment",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals – Best Fistula Operation | Laser Surgery Experts | Fast & Safe Recovery | Advanced Facilities",
+      "LUX Hospitals – Best BPH Treatment | Advanced Urology & Laser Surgery | Top Urologists | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Operation at Lux Hospitals"
+        theading: "BPH Treatment at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Operation?",
+    tableData: tableData, // Populate actual treatment table data as needed
+    whatAreH: "What is BPH Treatment?",
     whatAreP:
-      "A fistula operation is a surgical procedure to treat an abnormal tunnel (fistula) that forms between the rectum and the skin around the anus. If left untreated, it can cause pus discharge, swelling, severe pain, and recurring infections. At Lux Hospitals, we use cutting-edge laser technology for fistula operations that are minimally invasive, almost painless, and ensure quicker recovery.",
-    whatHead: "Top 4 Fistula Treatments at Lux Hospitals:",
+      "BPH (Benign Prostatic Hyperplasia) refers to the non-cancerous enlargement of the prostate gland, often causing urinary difficulties. At Lux Hospitals, we offer the best BPH treatment through advanced laser surgeries like HoLEP (Holmium Laser Enucleation of the Prostate), which ensures quick relief from symptoms and minimal recovery time.",
+    whatHead: "Top 2 Treatments for BPH",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "A precision laser closes the fistula tract with minimal pain, blood loss, and tissue damage."
+          "A minimally invasive procedure that uses laser energy to remove excess prostate tissue, relieving symptoms like frequent urination and weak urine flow. It’s a bloodless, stitch-free procedure with long-lasting results."
       },
       {
-        title: "Fistulotomy",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "Traditional surgery that opens the tract completely to allow it to heal from within."
-      },
-      {
-        title: "Seton Placement",
-        description:
-          "Used for complex fistulas, where a medical thread drains the infection over time for gradual healing."
-      },
-      {
-        title: "LIFT Procedure",
-        description:
-          "Preserves anal muscles while sealing the fistula, reducing the risk of incontinence."
+          "This traditional method involves the removal of excess prostate tissue using an endoscope. It’s an effective solution for larger prostate glands and offers a safe recovery."
       }
     ],
-    fheading: "FAQs on Fistula Operation",
+    fheading: "FAQs on BPH Treatment",
     faqs: [
       {
-        faqTitle: "Is fistula operation necessary?",
+        faqTitle: "What causes BPH (Benign Prostatic Hyperplasia)?",
         faqAnswer:
-          "Yes, a fistula usually does not heal on its own and requires surgical treatment to prevent infections and complications."
+          "BPH is primarily caused by hormonal changes that occur as men age. It is common in men over 50 and can lead to urinary problems due to the prostate pressing against the urethra."
       },
       {
-        faqTitle: "How long does a fistula operation take?",
+        faqTitle: "Why choose Lux Hospitals for BPH treatment?",
         faqAnswer:
-          "The surgery typically takes around 30 minutes and is performed as a daycare procedure with same-day discharge."
+          "Lux Hospitals provides cutting-edge technology, experienced doctors, and a patient-centered approach to offer the best BPH treatments in Hyderabad with minimal recovery times."
       },
       {
-        faqTitle: "Is fistula operation painful?",
+        faqTitle: "What kind of surgery is involved in BPH treatment?",
         faqAnswer:
-          "No, the procedure is performed under anesthesia, and minimally invasive techniques like laser surgery ensure minimal pain and discomfort."
+          "At Lux Hospitals, we offer minimally invasive surgeries like HoLEP and laser vaporization, which are highly effective and cause minimal discomfort and fast recovery."
       },
       {
-        faqTitle: "Will insurance cover my fistula operation at Lux Hospitals?",
+        faqTitle: "Why should I seek treatment for BPH?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans, and our team will assist you with the claim process."
+          "If BPH symptoms like frequent urination, weak flow, or difficulty emptying the bladder are affecting your daily life, seeking treatment is important for long-term relief and better quality of life."
       },
       {
-        faqTitle: "How soon can I resume normal activities after surgery?",
+        faqTitle: "Is BPH treatment covered under insurance?",
         faqAnswer:
-          "Most patients recover within 1–2 days and can return to daily activities with minimal restrictions."
+          "Yes, we provide 100% cashless insurance services, accepting all major health insurance providers."
       },
       {
-        faqTitle: "Who performs fistula operations at Lux Hospitals?",
+        faqTitle: "Whom should I consult for BPH treatment?",
         faqAnswer:
-          "Our experienced specialists, Dr. Samhitha Reddy and Dr. Abhishek Katha, are experts in advanced laser and minimally invasive fistula surgeries for safe and effective treatment."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get a fast, painless fistula operation at Lux Hospitals in Hyderabad. Book now!",
-      footernumber: "07969084448"
-    }
-  },
-  "best-fistula-treatment-in-hyderabad": {
-    heading: "Best Fistula Treatment in Hyderabad",
-    descList: [
-      "Top Doctor for Anal Fistula Treatment",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
-      "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals – Best Fistula Treatment | Laser Surgery Experts | Advanced Care | Quick and Painless Recovery",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Fistula Treatment at Lux Hospitals"
-      }
-    ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
-    whatAreP:
-      "Fistula treatment focuses on healing anorectal fistulas, which are abnormal channels connecting the anus and skin. These conditions, if untreated, can lead to severe infections and discomfort.\nAt Lux Hospitals, we offer comprehensive treatment options, including advanced laser surgery and traditional methods, to effectively close the fistula tract with minimal pain and fast recovery.",
-    topTreatmentsH: "Top Fistula Treatments at Lux Hospitals:",
-    topTreatments: [
-      "Laser Fistula Surgery: A minimally invasive laser procedure offering precise treatment with quicker recovery times and reduced risk of complications.",
-      "Fistulotomy: A traditional approach that involves surgically opening the fistula tract to allow for natural healing.",
-      "Seton Placement: A technique used for complex fistulas, where a surgical thread is placed to promote gradual healing without cutting.",
-      "LIFT Procedure (Ligation of Intersphincteric Fistula Tract): A surgical procedure that preserves the anal muscles while treating the fistula, reducing the risk of incontinence."
-    ],
-    fheading: "FAQs on Fistula Treatment",
-    faqs: [
-      {
-        faqTitle: "What is the best treatment for fistula?",
-        faqAnswer:
-          "Laser Fistula Surgery is considered one of the best treatments due to its precision, minimal recovery time, and low recurrence rate."
-      },
-      {
-        faqTitle: "How long does fistula treatment take?",
-        faqAnswer:
-          "Laser treatment takes approximately 30 minutes, and patients are typically discharged on the same day."
-      },
-      {
-        faqTitle: "Is fistula treatment painful?",
-        faqAnswer:
-          "No, laser treatments are nearly painless and offer quick healing with minimal post-surgical discomfort."
-      },
-      {
-        faqTitle: "Is fistula treatment covered by insurance?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans to cover your fistula treatment."
-      },
-      {
-        faqTitle: "How soon can I get back to work after fistula surgery?",
-        faqAnswer:
-          "Most patients resume normal activities within 1–2 days after laser surgery."
-      },
-      {
-        faqTitle: "Who are the leading fistula specialists at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are experts in providing personalized, advanced fistula treatments."
-      }
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get the best fistula treatment in Hyderabad at Lux Hospitals. Book your consultation now!",
-      footernumber: "07969084448"
+        "Choose Lux Hospitals for the best BPH treatment in Hyderabad and get back to enjoying a healthy life.",
+      footernumber: "07969084442"
     }
   },
 
-  "top-fistula-surgeon-in-hyderabad": {
-    heading: "Top Fistula Surgeon in Hyderabad",
+  "best-prostate-enlargement-treatment-hyderabad": {
+    heading: "Best Prostate Enlargement Treatment in Hyderabad",
     descList: [
-      "Top Surgeon for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Doctors in Prostate Enlargement Treatment",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals – Best Fistula Surgeon | Fistula Experts | Advanced Technologies | Advanced Care",
+      "LUX Hospitals – Best Prostate Enlargement Treatment | Advanced Urology & Laser Surgery | Top Urologists | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Prostate Enlargement Treatment at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Populate actual treatment table data as needed
+    whatAreH: "What is Prostate Enlargement?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top Treatments Offered by Fistula Doctors at Lux Hospitals:",
+      "Prostate enlargement, also known as Benign Prostatic Hyperplasia (BPH), is a common condition in men, especially after the age of 50. The prostate gland grows larger, often leading to urinary difficulties like frequent urination, weak urine flow, and the feeling of incomplete bladder emptying. At Lux Hospitals, we specialize in offering Prostate Enlargement treatment using advanced laser techniques such as HoLEP, providing long-term relief with minimal discomfort and quick recovery.",
+    whatHead: "Top 2 Treatments for Prostate Enlargement",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "A highly effective, minimally invasive laser procedure for painless recovery and quicker healing."
+          "HoLEP is the gold-standard treatment for prostate enlargement. It uses laser technology to precisely remove excess prostate tissue, offering long-term symptom relief with no cuts or stitches and minimal downtime."
       },
       {
-        title: "Fistulotomy",
+        title: "TURP (Transurethral Resection of the Prostate)",
         description:
-          "A conventional surgical method where the fistula tract is opened and cleaned to heal naturally."
-      },
-      {
-        title: "Seton Placement",
-        description:
-          "Used for complex fistulas, involving a surgical thread to maintain drainage and promote gradual healing."
-      },
-      {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
-        description:
-          "An advanced surgery that closes the fistula while preserving the anal muscles, reducing the risk of incontinence."
+          "This traditional method involves the removal of excess prostate tissue using an endoscope. It’s an effective solution for larger prostate glands and offers a safe recovery."
       }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on Prostate Enlargement Treatment",
     faqs: [
       {
-        faqTitle: "How long does fistula laser surgery take?",
+        faqTitle: "What causes prostate enlargement?",
         faqAnswer:
-          "The procedure takes approximately 30 minutes and is usually done as a daycare surgery with same-day discharge."
+          "Prostate enlargement is primarily caused by hormonal changes that occur as men age. This results in the growth of prostate tissue, which can cause urinary issues."
       },
       {
-        faqTitle: "Is laser fistula surgery painful?",
+        faqTitle: "Why choose Lux Hospitals for prostate enlargement treatment?",
         faqAnswer:
-          "No, laser surgery is nearly painless. Most patients report minimal discomfort and quick recovery."
+          "Lux Hospitals is known for its advanced technology, experienced doctors, and a patient-centered approach to providing the best prostate enlargement treatment with no cuts or stitches."
       },
       {
-        faqTitle: "When should I consult a fistula Surgeon?",
+        faqTitle: "What kind of surgery is involved in prostate enlargement treatment?",
         faqAnswer:
-          "If you notice continuous pain, pus discharge, swelling, or recurring abscesses near your anus, consult a fistula doctor immediately."
+          "At Lux Hospitals, we use HoLEP and laser vaporization, which are advanced, minimally invasive techniques that provide excellent results with faster recovery times compared to traditional surgeries."
       },
       {
-        faqTitle: "Is insurance accepted for fistula surgery at Lux Hospitals?",
+        faqTitle: "Is the procedure painful?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for fistula treatments."
+          "No. HoLEP and laser surgeries are performed under anesthesia and are designed for maximum comfort and minimal recovery time."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for fistula care?",
+        faqTitle: "Is prostate enlargement treatment covered under insurance?",
         faqAnswer:
-          "We offer specialized care by experienced fistula doctors, state-of-the-art laser treatments, and personalized recovery plans, ensuring the best possible outcomes."
+          "Yes, we offer 100% cashless insurance coverage, working with all major health insurance providers to make your treatment hassle-free."
       },
       {
-        faqTitle: "Who are the best fistula Surgeon at Lux Hospitals?",
+        faqTitle: "Whom should I consult for prostate enlargement treatment?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are among the leading fistula doctors at Lux Hospitals, providing expert care with advanced minimally invasive procedures."
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get treated by the best fistula Surgeon in Hyderabad at Lux Hospitals. Book your consultation today!",
-      footernumber: "07969084448"
+        "Get the best care for prostate enlargement at Lux Hospitals with advanced, minimally invasive treatments.",
+      footernumber: "07969084442"
     }
   },
-  "fistuloctomy-surgery-for-fistula-hyderabad": {
-    heading: "Fistuloctomy Surgery for Fistula in Hyderabad",
+  "best-prostate-turp-treatment-hyderabad": {
+    heading: "Best TURP Treatment for Prostate in Hyderabad",
     descList: [
-      "Top Doctor for Fistuloctomy Surgery for Fistula",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Leading Experts in TURP Surgery",
+      "Leading Urologist for HoLEP & TURP",
+      "Advanced Laser Surgery (HoLEP)",
+      "30-Min Procedure, Quick Recovery",
+      "100% Success Rate",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% Interest EMI | 5,000+ Patients Treated"
     ],
     locationsectionheading:
-      "LUX Hospitals – Fistuloctomy Surgery Experts | Trusted Fistula Care | Laser & Traditional Treatments | Quick and Painless Recovery",
+      "LUX Hospitals – Best TURP Surgery Center | Advanced Urology & Laser Surgery | Top Urologists | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        // mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Prostate Expert",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        // mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistuloctomy Surgery at Lux Hospitals"
+        theading: "TURP Surgery at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistuloctomy Surgery?",
+    tableData: tableData, // Populate actual treatment table data as needed
+    whatAreH: "What is TURP Surgery?",
     whatAreP:
-      "Fistuloctomy surgery is a traditional procedure used to treat anal fistulas. It involves surgically opening and cleaning the fistula tract, allowing it to heal naturally. This method is often used when laser treatments are not suitable for complex or deeper fistulas. Fistuloctomy ensures a thorough treatment, promoting long-term healing with minimal risk of recurrence.",
-    whatHead: "Key Benefits of Fistulotomy Surgery:",
+      "TURP (Transurethral Resection of the Prostate) is a surgical procedure used to treat Benign Prostatic Hyperplasia (BPH), a condition where the prostate gland becomes enlarged and obstructs the flow of urine. TURP involves the removal of excess prostate tissue through the urethra, using a resectoscope, to restore normal urine flow. At Lux Hospitals, we offer advanced TURP surgery that is minimally invasive, resulting in less pain, quicker recovery, and no need for external cuts or stitches.",
+    whatHead: "Top 2 Treatments for TURP Surgery",
     treatments: [
       {
-        title: "Complete Removal of Fistula Tract",
+        title: "Laser TURP (Transurethral Resection of the Prostate)",
         description:
-          "A thorough cleaning of the fistula ensures complete removal of the infected tissue for effective healing."
+          "A modern variation of TURP, Laser TURP uses laser technology to vaporize excess prostate tissue. It offers a minimally invasive approach with less bleeding, faster recovery, and reduced risk of complications."
       },
       {
-        title: "Proven Long-term Results",
+        title: "HoLEP (Holmium Laser Enucleation of the Prostate)",
         description:
-          "Especially suitable for complex fistulas that may not respond well to minimally invasive methods like laser surgery."
-      },
-      {
-        title: "Prevents Recurrence",
-        description:
-          "Significantly lowers the risk of future fistula formation or infection by fully addressing the root cause."
-      },
-      {
-        title: "Experienced Surgeons",
-        description:
-          "Performed by highly skilled surgeons using advanced techniques to ensure safety and minimize complications."
+          "HoLEP is the gold-standard treatment for prostate enlargement. It uses laser technology to precisely remove excess prostate tissue, offering long-term symptom relief with no cuts or stitches and minimal downtime."
       }
     ],
-
-    fheading: "FAQs on Fistuloctomy Surgery for Fistula",
+    fheading: "FAQs on TURP Surgery",
     faqs: [
       {
-        faqTitle: "How long does fistuloctomy surgery take?",
+        faqTitle: "What causes the need for TURP surgery?",
         faqAnswer:
-          "The procedure typically takes around 30–60 minutes, and patients can be discharged the same day."
+          "TURP surgery is typically recommended for men with Benign Prostatic Hyperplasia (BPH), a condition in which the prostate enlarges and obstructs the urethra, causing urinary issues like frequent urination, weak stream, and retention."
       },
       {
-        faqTitle: "Is fistuloctomy surgery painful?",
+        faqTitle: "Why choose Lux Hospitals for TURP surgery?",
         faqAnswer:
-          "While there may be some post-surgical discomfort, the procedure itself is performed under anesthesia, making it virtually painless."
+          "Lux Hospitals is known for its advanced TURP surgery techniques, including both traditional and laser options. Our expert urologists ensure the best possible care with minimal recovery time."
       },
       {
-        faqTitle: "Is fistuloctomy surgery covered by insurance?",
+        faqTitle: "How is TURP surgery performed?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for fistuloctomy surgery."
+          "TURP surgery involves inserting a resectoscope into the urethra to remove the excess prostate tissue that is blocking the urine flow. The procedure is minimally invasive, with no external incisions required."
       },
       {
-        faqTitle: "How long does it take to recover from fistuloctomy surgery?",
+        faqTitle: "Is TURP surgery an affordable treatment option?",
         faqAnswer:
-          "Patients can expect to return to normal activities within 1–2 weeks, though recovery time may vary based on the complexity of the fistula."
+          "Yes, TURP surgery at Lux Hospitals is an affordable treatment option, offering high-quality care with advanced technology at the lowest cost possible."
       },
       {
-        faqTitle: "Who performs fistuloctomy surgery at Lux Hospitals?",
+        faqTitle: "Is TURP surgery covered by insurance?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha, leading fistula surgeons, perform fistuloctomy surgeries using advanced techniques for better outcomes."
+          "Yes, we provide 100% cashless insurance coverage for TURP surgery with all major health insurance providers."
+      },
+      {
+        faqTitle: "Whom should I consult for TURP surgery?",
+        faqAnswer:
+          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get expert fistuloctomy surgery for fistulas at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
-    }
-  },
-  "top-perianal-abscess-doctor-hyderabad": {
-    heading: "Top Perianal Abscess Doctor in Hyderabad",
-    descList: [
-      "Top Doctor for Perianal Abscess",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
-      "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals – Leading Perianal Abscess Doctors | Trusted Specialists | Advanced Treatments | Perianal Abscess Specialists",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Perianal Abscess Treatment at Lux Hospitals"
-      }
-    ],
-    tableData: tableData,
-    whatAreH: "What is a Perianal Abscess?",
-    whatAreP:
-      "A perianal abscess is a painful, pus-filled infection that forms near the anus. It usually occurs when small glands around the anal area become blocked and infected, leading to swelling, redness, and severe discomfort. If not treated in time, the abscess can grow, burst, or lead to further complications like an anal fistula. Early medical attention is essential to drain the abscess and prevent recurrence.",
-      whatHead: "Top Treatments Offered by Perianal Abscess Doctors at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "A quick surgical procedure to drain the pus and relieve pain, performed under anaesthesia for patient comfort."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Recommended for patients who develop a fistula following an abscess, ensuring complete healing and preventing recurrence."
-        },
-        {
-          title: "Laser Treatment",
-          description:
-            "Minimally invasive laser techniques that offer quicker recovery, reduced discomfort, and minimal scarring."
-        },
-        {
-          title: "Antibiotic Therapy",
-          description:
-            "Used for mild cases; involves prescribed antibiotics and warm compresses to manage infection and reduce inflammation."
-        }
-      ],
-    fheading: "FAQs on Perianal Abscess",
-    faqs: [
-      {
-        faqTitle: "What does a perianal abscess doctor treat?",
-        faqAnswer:
-          "A perianal abscess doctor specialises in treating infections and abscesses around the anus, providing both surgical and non-surgical treatments for quick recovery."
-      },
-      {
-        faqTitle: "When should I consult a perianal abscess doctor?",
-        faqAnswer:
-          "If you experience symptoms such as anal pain, swelling, fever, or pus discharge near the anus, you should consult a specialist immediately."
-      },
-      {
-        faqTitle: "Is perianal abscess treatment painful?",
-        faqAnswer:
-          "Treatment, including drainage or surgery, is performed under anaesthesia, making it virtually painless during the procedure. Post-surgical discomfort is manageable with pain medication."
-      },
-      {
-        faqTitle: "How long does it take to recover from perianal abscess treatment?",
-        faqAnswer:
-          "Most patients recover within 1–2 weeks, with minimal downtime and same-day discharge."
-      },
-      {
-        faqTitle: "Is insurance accepted for perianal abscess treatment?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans, ensuring hassle-free treatment."
-      },
-      {
-        faqTitle: "Who are the top perianal abscess doctors at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are expert perianal abscess doctors at Lux Hospitals, offering advanced care and treatments for the best outcomes."
-      }
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get expert care for perianal abscess treatment at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
-    }
-  },
-  "best-perianal-abscess-surgery-hyderabad": {
-    heading: "Best Perianal Abscess Surgery in Hyderabad",
-    descList: [
-      "Top Doctor for Perianal Abscess Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
-      "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals – Top Perianal Abscess Surgery | Trusted Surgeons | Advanced Treatment Options | Expert Surgeons",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Perianal Abscess Surgery at Lux Hospitals"
-      }
-    ],
-    tableData: tableData,
-    whatAreH: "What is Perianal Abscess Surgery?",
-    whatAreP:
-      "Perianal abscess surgery is a surgical procedure performed to treat abscesses that form near the anus due to bacterial infection in the anal glands. This condition can cause severe pain, swelling, and pus formation. If left untreated, the abscess may lead to complications such as a fistula. Surgical intervention is essential to drain the abscess, alleviate pain, and promote healing.\nAt Lux Hospitals, we offer advanced techniques for perianal abscess surgery, including both traditional methods and minimally invasive approaches, ensuring faster recovery and better outcomes for our patients.",
-      whatHead: "Top Treatments for Perianal Abscess Surgery at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "A quick and effective surgical procedure that drains the pus and relieves pressure in the abscess for immediate relief."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Performed when an abscess leads to a fistula, this surgery ensures complete healing and helps prevent future complications."
-        },
-        {
-          title: "Laser Surgery",
-          description:
-            "A minimally invasive technique using advanced laser technology to precisely drain abscesses, resulting in faster recovery and less discomfort."
-        },
-        {
-          title: "Antibiotics and Post-surgery Care",
-          description:
-            "Medications are provided after surgery to treat any residual infection and support optimal healing."
-        }
-      ],      
-    fheading: "FAQs on Perianal Abscess Surgery",
-    faqs: [
-      {
-        faqTitle: "Is perianal abscess surgery painful?",
-        faqAnswer:
-          "The procedure is performed under anaesthesia, making it pain-free during surgery. Post-surgery pain is typically manageable with prescribed medications."
-      },
-      {
-        faqTitle: "How long does perianal abscess surgery take?",
-        faqAnswer:
-          "Most surgeries take about 30–45 minutes, and many can be performed as daycare procedures with same-day discharge."
-      },
-      {
-        faqTitle: "What is the recovery time for perianal abscess surgery?",
-        faqAnswer:
-          "Most patients recover within 1–2 weeks, with minimal discomfort. You can return to your normal activities in just a few days."
-      },
-      {
-        faqTitle: "Is insurance accepted for perianal abscess surgery at Lux Hospitals?",
-        faqAnswer:
-          "Yes, we accept all major cashless insurance plans, ensuring a hassle-free experience for our patients."
-      },
-      {
-        faqTitle: "Who performs perianal abscess surgeries at Lux Hospitals?",
-        faqAnswer:
-          "Our experienced surgeons, Dr. Samhitha Reddy and Dr. Abhishek Katha, are specialists in perianal abscess surgery, providing safe and effective treatments."
-      }
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get expert care and the best perianal abscess surgery at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
-    }
-  },
-  "advanced-perianal-abscess-treatment-hyderabad": {
-    heading: "Advanced Perianal Abscess Treatment in Hyderabad",
-    descList: [
-      // "Effective Treatment for Lasting Relief from Perianal Abscesses",
-      "Top doctor for TROPIS procedure for Perianal Abscess",
-      "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
-      "30-min procedure, same-day discharge",
-      "100% Cure with advanced LASERS",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals – Leading Perianal Abscess Treatment | Advanced Care | Trusted Experts | Advanced Facilities",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Perianal Abscess Treatment at Lux Hospitals"
-      }
-    ],
-    tableData: tableData,
-    whatAreH: "What is Perianal Abscess Treatment?",
-    whatAreP:
-      "Perianal abscess treatment involves procedures aimed at draining the infected fluid that accumulates near the anus, typically due to a bacterial infection in the anal glands. Left untreated, this condition can lead to increased pain, pus discharge, and even fistulas. The goal of treatment is to relieve symptoms, prevent further complications, and ensure full recovery.\nAt Lux Hospitals, we provide state-of-the-art treatments for perianal abscesses, combining advanced surgical methods with minimally invasive techniques to ensure quicker recovery and minimal discomfort.",
-      whatHead: "Top Perianal Abscess Treatments Offered at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "The most common treatment where the abscess is surgically opened, drained, and cleaned to promote faster and complete healing."
-        },
-        {
-          title: "Laser Treatment",
-          description:
-            "A minimally invasive laser-based procedure that efficiently drains abscesses, shortens healing time, and reduces discomfort."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Recommended if an untreated abscess leads to a fistula; this surgery repairs the tract and promotes full recovery."
-        },
-        {
-          title: "Antibiotic Therapy",
-          description:
-            "Prescribed after surgery to control infection and accelerate the healing process."
-        }
-      ],
-      
-    fheading: "FAQs on Perianal Abscess Treatment",
-    faqs: [
-      {
-        faqTitle: "How is a perianal abscess treated?",
-        faqAnswer:
-          "The treatment typically involves incision and drainage, laser therapy, or fistula surgery depending on the severity of the abscess and any related conditions."
-      },
-      {
-        faqTitle: "Is perianal abscess treatment painful?",
-        faqAnswer:
-          "The procedure is generally performed under local or general anaesthesia, ensuring that the surgery itself is painless. Post-surgery discomfort is minimal and manageable."
-      },
-      {
-        faqTitle: "What is the recovery time for perianal abscess treatment?",
-        faqAnswer:
-          "Recovery usually takes about 1-2 weeks. Many patients can return to their regular activities in just a few days with minimal downtime."
-      },
-      {
-        faqTitle: "Does Lux Hospitals accept insurance for perianal abscess treatment?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans, making the treatment process easier for patients."
-      },
-      {
-        faqTitle: "Who are the specialists for perianal abscess treatment at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in perianal abscess treatments at Lux Hospitals, offering effective care using advanced techniques."
-      }
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get advanced perianal abscess treatment from top experts at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
+        "Get the best care for TURP surgery at Lux Hospitals, where advanced techniques meet expert care for faster recovery.",
+      footernumber: "07969084442"
     }
   },
 
@@ -1411,7 +942,7 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book Free Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084442",
     },
     {
       image: "/cost extimation.avif",
@@ -1429,21 +960,30 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084442",
     },
   ];
-  
+  const tableData = [
+    
+    { label: "Treatment Method",other: "TURP / Open",lux: "HoLEP Laser"},
+    { label: "Hospital Stay", other: "3-5 Days", lux: "Same / Next Day" },
+    { label: "Recovery Time", other: "10 Days", lux: "3–5 Days" },
+    { label: "Laser Type", other: "Standard TURP", lux: "Advanced HoLEP Laser" },
+    { label: "Pricing", other: "Variable", lux: "Fixed Package" },
+    { label: "Insurance", other: "May Not Support Cashless", lux: "All Insurances Accepted" },
+  ];
+
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Free OPD"}
-            mobileNumberHeader={"tel:07969084448"}
-            />
+      <Header
+        PhoneNumber={"07969084442"}
+        mobilectatext={"Free OPD"}
+        mobileNumberHeader={"tel:07969084442"}
+      />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
-      <FreeOpdSection/>
+      <FreeOpdSection />
       {content.doctors && (
         <section
           className="w-[90%]"
@@ -1464,13 +1004,14 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
+                  mobileNumberDoctor="tel:07969084442"
                 />
               </div>
             ))}
           </div>
         </section>
       )}
-      
+
       {content.tableContent?.[0] && (
         <HospitalComparisond theading={content.tableContent[0].theading} rows={content.tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
       )}
@@ -1481,7 +1022,7 @@ export default function ConditionPage({ params }) {
           locationsectionheading={content.locationsectionheading}
         />
       )}
-      <PatientTalks />
+      <Gentstalks />
       <Luxgpt />
       {content.whatAreH && (
         <Whatare
@@ -1506,6 +1047,7 @@ export default function ConditionPage({ params }) {
           footernumber={content.footerComponent.footernumber}
         />
       )}
+      <MobileStickyFooter mobileNumber="tel:07969084442" />
     </>
   );
 }

@@ -179,7 +179,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <HospitalComparisond theading={"Piles Treatment at Lux Hospitals"} rows={tableData} ConditionVideo={"/tablevideo.mp4"} />
+      <HospitalComparisond theading={"Piles Treatment at Lux Hospitals"} rows={tableData} ConditionVideo={"/piles final dr sam.webm"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />

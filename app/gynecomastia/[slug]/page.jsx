@@ -828,7 +828,7 @@ export default function ConditionPage({ params }) {
         </section>
       )}
       {content.tableContent?.[0] && (
-        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} />
+        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} ConditionVideo="/dr ram prabhu gyncomastia final version.webm" />
       )}
       <Accreditations />
       <VideoSection />
