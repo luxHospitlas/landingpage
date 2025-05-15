@@ -2,12 +2,12 @@
 
 const tableData = [
     
-  { label: "Surgical Technique",other: "Conventional / Open",lux: "TROPIS / VAAFT / Laser"},
-  { label: "Hospital Stay", other: "2–3 Days", lux: "Daycare / Same Day" },
-  { label: "Technology Used", other: "Basic Equipment", lux: "USFDA Approved Laser" },
-  { label: "Recurrence Rate", other: "High", lux: "Very Low" },
-  { label: "Sterilization", other: "ETO / Autoclave", lux: "Plasma Sterilization" },
-  { label: "Insurance Support", other: "Not Always Cashless", lux: "Cashless Available" },
+  { label: "Treatment Method",other: "TURP / Open",lux: "HoLEP Laser"},
+    { label: "Hospital Stay", other: "3-5 Days", lux: "Same / Next Day" },
+    { label: "Recovery Time", other: "10 Days", lux: "3–5 Days" },
+    { label: "Laser Type", other: "Standard TURP", lux: "Advanced HoLEP Laser" },
+    { label: "Pricing", other: "Variable", lux: "Fixed Package" },
+    { label: "Insurance", other: "May Not Support Cashless", lux: "All Insurances Accepted" },
 ];
   
   export default tableData;

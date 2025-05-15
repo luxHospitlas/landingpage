@@ -2478,7 +2478,7 @@ export default function ConditionPage({ params }) {
         </section>
       )}
       {content.tableContent?.[0] && (
-        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} ConditionVideo={"/tablevideo.mp4"}/>
+        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} ConditionVideo={"/piles final dr sam.webm"}/>
       )}
       <Accreditations />
       <VideoSection />

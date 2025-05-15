@@ -9,6 +9,7 @@ import tableData from '../../fistula/fistuladata';
 import FreeOpdSection from "@/app/components/FreeOPD/freeopd";
 // import services from "../../piles/pilesdata";
 import FooterComponent from "../../components/footer/footer";
+import MobileStickyFooter from "../../components/mobilsticky";
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
 );
@@ -57,1339 +58,1008 @@ const Whatare = ({ whatAreH, whatAreP, whatHead, treatments = [] }) => {
 };
 
 const contentMap = {
-  "fistula-Treatment-Hyderabad": {
-    heading: "Fistula Treatment in Hyderabad",
-    descList: [
-      "Top External Hemorrhoids Doctor",
-      "30-min procedure, same-day discharge",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available",
-      "Advanced Laser & Minimally Invasive Treatment",
-    ],
-    // services: services,
-    locationsectionheading:
-      "LUX Hospitals - External Hemorrhoids Doctor | Piles Experts | Advanced Care | Hemorrhoids Specialists",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
-    ],
-    tableContent: [
-      {
-        theading: "Best External Hemorrhoids Treatment at Lux Hospitals",
-      },
-    ],
-    // tableData: [
-    //   { label: "Cost", other: "Variable", lux: "FIXED" },
-    //   {
-    //     label: "Sterilization",
-    //     other: "Autoclave / ETO",
-    //     lux: "PLASMA STERILIZATION",
-    //   },
-    //   { label: "Insurance", other: "80-85% Coverage", lux: "100% COVERAGE" },
-    //   { label: "Recurrence Chances", other: "5-10%", lux: "0-1%" },
-    //   { label: "Recovery", other: "24-48 Hours", lux: "12-24 Hours" },
-    //   { label: "Rooms", other: "Sharing / Single Room", lux: "SUITE ROOM" },
-    // ],
-    tableData: tableData,
-    whatAreH: "What Are External Hemorrhoids?",
-    whatAreP:
-      "External hemorrhoids are swollen veins located under the skin around the anus, causing pain, itching, and discomfort. They may form due to prolonged sitting, straining during bowel movements, or chronic constipation.",
-    whatHead:
-      "Top 3 Advanced Treatments for External Hemorrhoids at Lux Hospitals:",
-    treatments: [
-      {
-        title: "Laser Hemorrhoidoplasty (LHP)",
-        description:
-          "A minimally invasive procedure using laser energy to shrink external hemorrhoids, ensuring quicker recovery and minimal pain.",
-      },
-      {
-        title: "Doppler-Guided Hemorrhoidal Artery Ligation (DGHAL)",
-        description:
-          "A non-surgical method that ties off hemorrhoidal arteries, cutting blood supply to external hemorrhoids and reducing discomfort.",
-      },
-      {
-        title: "Hemorrhoidal Artery Ligation with Recto-Anal Repair (HAL-RAR)",
-        description:
-          "A combination of artery ligation and rectal tissue repair, effective for advanced cases while minimizing post-operative pain.",
-      },
-    ],
-    fheading: "FAQs on External Hemorrhoids",
-    faqs: [
-      {
-        faqTitle: "What causes external hemorrhoids?",
-        faqAnswer:
-          "External hemorrhoids develop due to excessive straining, prolonged sitting, chronic constipation, obesity, and pregnancy.",
-      },
-      {
-        faqTitle: "Is surgery necessary for external hemorrhoids?",
-        faqAnswer:
-          "Surgery is only needed for severe cases. Minimally invasive options like laser treatment are highly effective.",
-      },
-      {
-        faqTitle: "When should I see a doctor for external hemorrhoids?",
-        faqAnswer:
-          "If you experience persistent pain, bleeding, or swelling, consult an external hemorrhoids doctor for expert treatment.",
-      },
-      {
-        faqTitle: "Does insurance cover external hemorrhoid treatment?",
-        faqAnswer:
-          "Most health insurance plans cover external hemorrhoid procedures. Check with your provider for details.",
-      },
-      {
-        faqTitle: "Why choose Lux Hospitals for external hemorrhoid treatment?",
-        faqAnswer:
-          "Lux Hospitals offer advanced treatments, expert specialists, and personalized care for effective recovery.",
-      },
-      {
-        faqTitle: "Whom should I consult for external hemorrhoids treatment?",
-        faqAnswer:
-          "For the best care, consult Dr. Samhitha Reddy, a leading External Hemorrhoids Doctor at Lux Hospitals with 8 years of experience. She will guide you through the most effective treatment plan.",
-      },
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get expert care from the best external hemorrhoids doctor for a pain-free, advanced treatment today!",
-      footernumber: "07969084448",
+  "best-kidney-stone-treatment-hyderabad": {
+    heading: "Best Kidney Stone Treatment in Hyderabad",
+    heroSection: {
+      title: "Leading Hospital for Kidney Stone Treatment",
+      descList: [
+        "Laser + Laparoscopic Specialist Procedures",
+        "NABH & ISO 9001 Certified Facility",
+        "No Cuts. No Recurrence.",
+        "30-Min Procedure with High Precision",
+        "0% Interest EMI Available | 20,000+ Patients Treated"
+      ]
     },
-  },
-  "best-anal-fistula-surgery-hyderabad": {
-    heading: "Best Anal Fistula Surgery in Hyderabad",
-    descList: [
-      "Top Doctor for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
-      "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals - Best Anal Fistula Surgery | Fistula Experts | Advanced Care | Laser Treatment Specialists",
+    locationSectionHeading:
+      "LUX Hospitals – Kidney Stone Treatment | Laser + Laparoscopic Stone Removal Experts | 100% Insurance Coverage | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+          "Urologist and Andrologist with over 10 years of experience in treating kidney stones, prostate issues, and other urological conditions using advanced techniques. Specializes in minimally invasive treatments with no cuts and faster recovery. Treated over 7,000 patients with successful outcomes.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+          "Urologist and Andrologist with 9 years of experience in kidney stone management and urological health. Specializes in advanced laser techniques and laparoscopic surgery, ensuring minimal pain and quick recovery for patients. He has successfully treated 4,000+ kidney stone patients.",
+        mobileNumberDoctor: "07969084442"
+      }
     ],
     tableContent: [
       {
-        theading: "Anal Fistula Surgery at Lux Hospitals"
+        theading: "Kidney Stone Treatment at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is Anal Fistula Surgery?",
+    whatAreH: "What is Kidney Stone?",
     whatAreP:
-      "An anal fistula is a small, infected tunnel that connects the skin near the anus to the inside of the rectum. It usually develops after an anal abscess that did not heal properly. Left untreated, it can lead to persistent pain, swelling, pus discharge, and repeated infections. At Lux Hospitals, we offer advanced Anal Fistula Surgery options that ensure quick recovery, minimal discomfort, and reduced chances of recurrence.",
-    whatHead: "Top 4 Treatments for Anal Fistula at Lux Hospitals:",
+      "Kidney stones are hard, crystal-like deposits that form inside the kidneys due to excess minerals and salts in the urine. They can block urine flow, cause severe back or abdominal pain, and may lead to infections if untreated. At Lux Hospitals, our urology experts use advanced laser and laparoscopic procedures to remove kidney stones safely, with no visible cuts and minimal downtime. We personalise every treatment to ensure fast relief and complete stone clearance.",
+    whatHead: "Top 4 Procedures for Kidney Stones",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "Laser Lithotripsy",
         description:
-          "A minimally invasive treatment that uses laser energy to seal the fistula tract. It offers painless recovery, quicker healing, and minimal recurrence rates."
+          "A minimally invasive procedure that uses Holmium Laser to break kidney stones into tiny fragments, allowing them to pass naturally. No cuts, no stitches."
       },
       {
-        title: "Fistulotomy",
+        title: "Retrograde Intrarenal Surgery (RIRS)",
         description:
-          "A traditional surgical method where the entire fistula tract is opened and cleaned, allowing it to heal from the inside out."
+          "A thin, flexible scope is inserted through the urinary tract to access the kidney. The stone is fragmented with a laser and removed. Ideal for small to medium stones."
       },
       {
-        title: "Seton Placement",
+        title: "Percutaneous Nephrolithotomy (PCNL)",
         description:
-          "A specialized treatment for complex fistulas, where a surgical thread (seton) is placed to help drain infection and promote gradual healing."
+          "Suitable for large or complex stones. A small incision is made in the back to directly access and remove the stone using specialised tools."
       },
       {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
+        title: "Combination Approach",
         description:
-          "An advanced technique that treats fistulas while preserving the anal sphincter muscles, minimizing the risk of incontinence."
+          "In certain cases, a mix of laser lithotripsy and surgical techniques is used to ensure complete clearance, especially when multiple or large stones are present."
       }
     ],
-    fheading: "FAQs on Anal Fistula",
+    fheading: "FAQs on Kidney Stone Treatment",
     faqs: [
       {
-        faqTitle: "What causes an anal fistula?",
+        faqTitle: "What is kidney stone and how is it treated at Lux Hospitals?",
         faqAnswer:
-          "Anal fistulas usually result from an untreated anal abscess that creates a tunnel between the skin and rectum. Conditions like Crohn’s disease, infections, and trauma can also cause fistulas."
+          "Kidney stones are mineral deposits that form inside the kidney and can cause severe pain or blockages. At Lux Hospitals, we use advanced laser-based and keyhole procedures like Lithotripsy, RIRS, and PCNL for scarless, effective removal."
       },
       {
-        faqTitle: "Is surgery necessary for treating anal fistula?",
+        faqTitle: "How experienced are the urologists at Lux Hospitals?",
         faqAnswer:
-          "Yes, most anal fistulas require surgical intervention for permanent healing. At Lux Hospitals, we offer minimally invasive options like laser surgery for faster and painless recovery."
+          "Our Urology team — including Dr. Priyank Ashokkumar Salecha and Dr. Aditya Potla — bring 9–10 years of specialised experience in treating kidney stones with advanced minimally invasive methods."
       },
       {
-        faqTitle: "When should I undergo anal fistula surgery?",
+        faqTitle: "What advanced techniques are used in your treatments?",
         faqAnswer:
-          "If you experience persistent pain, swelling, pus discharge, or recurrent infections near the anus, you should consider undergoing anal fistula surgery promptly to avoid complications."
+          "We use the latest in Holmium Laser, RIRS, and PCNL, tailored to stone size, location, and complexity. These ensure faster recovery, minimal pain, and complete removal of stones."
       },
       {
-        faqTitle: "Is insurance accepted for anal fistula treatment at Lux Hospitals?",
+        faqTitle: "What can I expect during the recovery process?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for anal fistula surgeries. Please check with your insurer for eligibility."
+          "Most patients can go home the same day or the next. Recovery is quick, with minimal restrictions. Our team provides complete post-op care and follow-up to ensure smooth healing."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for anal fistula surgery?",
+        faqTitle: "How much does kidney stone treatment cost at Lux Hospitals?",
         faqAnswer:
-          "Lux Hospitals provides expert treatment from top specialists, advanced laser technologies, and personalized care plans, ensuring the best outcomes for patients."
+          "Treatment costs depend on the procedure and complexity. We offer fixed-price packages, 100% insurance support, and 0% interest EMI to ensure affordability with no hidden charges."
       },
       {
-        faqTitle: "Whom should I consult for anal fistula surgery?",
+        faqTitle: "How do I book a consultation for kidney stone treatment?",
         faqAnswer:
-          "You should consult Dr. Samhitha Reddy and Dr. Abhishek Katha, one of the best fistula specialists at Lux Hospitals, who will guide you through the most effective and minimally invasive treatment options."
+          "Just call 07969084442 or connect with us on WhatsApp. You’ll get a free consultation, treatment options tailored to your case, and a full explanation of the procedure and costs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get expert care for anal fistula surgery in Hyderabad with advanced treatments at Lux Hospitals today!",
-      footernumber: "07969084448"
+        "Get expert, scarless Kidney Stone Treatment at Lux Hospitals — with advanced care, experienced doctors, and full insurance coverage.",
+      footernumber: "07969084442"
     }
   },
-  "top-fistula-clinic-in-hyderabad": {
-    heading: "Top Fistula Clinic in Hyderabad",
+  "best-kidney-stone-surgery-hospital-hyderabad": {
+    heading: "Best Hospital for Kidney Stone Surgery in Hyderabad",
     descList: [
-      "Top Clinic for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for Kidney Stone Surgery",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
     locationsectionheading:
-      "LUX Hospitals - Top Fistula Clinic | Fistula Experts | Advanced Care | Laser Treatment Specialists",
+      "LUX Hospitals – Kidney Stone Surgery | Laser & Laparoscopic Stone Removal Experts | Advanced Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experieance:9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care.",
-        // image: "/doctors/samhitha-reddy.webp",
-      },
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
+      }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Kidney Stone Surgery at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Add appropriate structured treatment comparison data here
+    whatAreH: "What is Kidney Stone Surgery?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top 4 Treatments for Fistula at Lux Hospitals:",
+      "Kidney stone surgery refers to procedures used to remove stones that are too large, painful, or stuck to pass on their own. These stones can block urine flow and cause intense pain, infection, or kidney damage. At Lux Hospitals, our expert urologists perform minimally invasive surgeries such as RIRS, PCNL, and URSL, using advanced laser and endoscopic techniques that eliminate the need for large incisions — ensuring faster recovery, less pain, and excellent outcomes.",
+    whatHead: "Top 4 Procedures for Kidney Stone Surgery",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "RIRS (Retrograde Intrarenal Surgery)",
         description:
-          "A cutting-edge procedure using laser energy to close the fistula tract with minimal pain and faster healing."
+          "A flexible scope is inserted through the urinary tract to reach the kidney. Laser energy breaks the stone into dust, which is flushed out. No cuts. High precision."
       },
       {
-        title: "Fistulotomy",
+        title: "PCNL (Percutaneous Nephrolithotomy)",
         description:
-          "A traditional technique where the fistula tract is surgically opened, cleaned, and left to heal naturally."
+          "Ideal for large or complex stones. A small puncture is made in the back to access and remove the stone directly. High clearance rate with short hospital stay."
       },
       {
-        title: "Seton Placement",
+        title: "URSL (Ureteroscopic Lithotripsy)",
         description:
-          "Ideal for complex fistulas, a surgical thread (seton) is inserted to help drain infection and promote gradual healing."
+          "Targets stones lodged in the ureter. A thin scope is inserted via the urethra to reach and break the stone using laser. Minimal pain, quick discharge."
       },
       {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
+        title: "Laser Lithotripsy",
         description:
-          "An advanced method that closes the fistula while preserving the anal muscles, reducing the risk of incontinence."
+          "Uses Holmium Laser to precisely break down kidney stones into passable fragments. Suitable for most small to medium stones. Completely non-invasive."
       }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on Kidney Stone Surgery",
     faqs: [
       {
-        faqTitle: "What causes a fistula near the anus?",
+        faqTitle: "What is kidney stone surgery and how is it done at Lux Hospitals?",
         faqAnswer:
-          "Fistulas usually develop due to an untreated anal abscess. Conditions like infections, Crohn's disease, or trauma can also lead to fistula formation."
+          "Kidney stone surgery is used to remove stones that can’t pass naturally. At Lux Hospitals, we perform surgeries like RIRS, PCNL, and URSL using advanced lasers and minimally invasive tools to ensure safe, scarless stone removal."
       },
       {
-        faqTitle: "Is surgery necessary for treating a fistula?",
+        faqTitle: "How experienced are the urologists at Lux Hospitals?",
         faqAnswer:
-          "Yes, most fistulas require surgical management for complete healing. Our Fistula Clinic offers minimally invasive options like laser surgery for quicker, pain-free recovery."
+          "Our urology team — including Dr. Priyank Ashok kumar Salecha and Dr. Aditya Potla — has over a decade of combined experience and has performed thousands of successful stone surgeries using endoscopic and laser methods."
       },
       {
-        faqTitle: "When should I visit a fistula clinic?",
+        faqTitle: "What are the benefits of laser and keyhole kidney stone surgery?",
         faqAnswer:
-          "If you notice persistent pain, swelling, pus discharge, or recurrent abscesses around the anus, you should visit a fistula clinic promptly for evaluation and treatment."
+          "These procedures offer faster recovery, minimal or no scarring, reduced risk of complications, and shorter hospital stays compared to traditional open surgeries."
       },
       {
-        faqTitle: "Is insurance accepted for fistula treatment at Lux Hospitals?",
+        faqTitle: "How long is the recovery time after kidney stone surgery?",
         faqAnswer:
-          "Yes, we accept all major cashless insurance plans. You can check with your provider or our team for your plan's eligibility."
+          "Most patients are discharged the same day or next day. Full recovery takes about 2–5 days, depending on the procedure. We provide complete aftercare and guidance."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for fistula treatment?",
+        faqTitle: "What is the cost of kidney stone surgery at Lux Hospitals?",
         faqAnswer:
-          "Lux Hospitals provides expert care from top specialists, the latest laser technologies, personalized treatment plans, and a patient-centric approach for the best outcomes."
+          "Surgery costs vary based on the stone size and procedure type. We offer fixed-cost packages, full cashless insurance support, and 0% EMI options to make treatment affordable."
       },
       {
-        faqTitle: "Whom should I consult for fistula treatment?",
+        faqTitle: "How do I book a consultation for kidney stone surgery?",
         faqAnswer:
-          "You should consult Dr. Samhitha Reddy and Dr. Abhishek Katha, two of the best fistula specialists at Lux Hospitals, who will guide you through the most effective treatment options."
+          "Simply call 07969084442 or message us on WhatsApp. We’ll schedule a free consultation, review your scan reports, and recommend the best surgical option with a detailed cost estimate."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get expert care at the top fistula clinic in Hyderabad with advanced, minimally invasive treatments today!",
-      footernumber: "07969084448"
+        "Get permanent relief from kidney stones with expert surgical care at Lux Hospitals.",
+      footernumber: "07969084442"
     }
   },
 
-  "best-fistula-doctor-in-hyderabad": {
-    heading: "Best Fistula Doctor in Hyderabad",
+  "best-kidney-stone-removal-treatment-hyderabad": {
+    heading: "Best Kidney Stone Removal Treatment in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for Kidney Stone Treatment",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
     locationsectionheading:
-      "LUX Hospitals - Best Fistula Doctor | Fistula Experts | Advanced Care | Laser Treatment Specialists",
+      "LUX Hospitals – Kidney Stone Treatment | Laser & Laparoscopic Stone Removal Experts | Advanced Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specializes in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Kidney Stone Treatment at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Add comparison data here if needed
+    whatAreH: "What is Kidney Stone Treatment?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top Treatments Offered by Fistula Doctors at Lux Hospitals:",
+      "Kidney stones are solid mineral deposits that form inside the kidneys and may cause intense pain, nausea, and urinary blockage. While small stones may pass on their own, larger or stubborn stones need specialised treatment. At Lux Hospitals, we offer scarless, precision-based kidney stone treatments like RIRS, PCNL, and URSL — performed by expert urologists using advanced laser and endoscopic techniques for fast relief and complete stone clearance.",
+    whatHead: "Top 4 Procedures for Kidney Stone Treatment",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "RIRS (Retrograde Intrarenal Surgery)",
         description:
-          "A highly effective, minimally invasive laser procedure for painless recovery and quicker healing."
+          "A minimally invasive procedure where a flexible scope is passed through the urinary tract to access the kidney. The stone is broken using laser and removed without any incisions."
       },
       {
-        title: "Fistulotomy",
+        title: "PCNL (Percutaneous Nephrolithotomy)",
         description:
-          "A conventional surgical method where the fistula tract is opened and cleaned to heal naturally."
+          "Recommended for large or multiple stones. A small incision is made in the back to directly extract the stone using specialised instruments. High success rate, short recovery."
       },
       {
-        title: "Seton Placement",
+        title: "URSL (Ureteroscopic Lithotripsy)",
         description:
-          "Used for complex fistulas, involving a surgical thread to maintain drainage and promote gradual healing."
+          "Ideal for stones in the ureter. A thin scope is inserted via the urethra, and laser energy is used to break the stone. The fragments are removed with precision."
       },
       {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
+        title: "Laser Lithotripsy",
         description:
-          "An advanced surgery that closes the fistula while preserving the anal muscles, reducing the risk of incontinence."
+          "Uses Holmium Laser to target and break stones into fine particles, which then pass naturally through urine. No cuts, no scars, and minimal discomfort."
       }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on Kidney Stone Treatment",
     faqs: [
       {
-        faqTitle: "How long does fistula laser surgery take?",
+        faqTitle: "What is kidney stone treatment and how is it done at Lux Hospitals?",
         faqAnswer:
-          "The procedure takes approximately 30 minutes and is usually done as a daycare surgery with same-day discharge."
+          "Kidney stone treatment involves breaking or removing stones using non-invasive methods. At Lux Hospitals, we use advanced techniques like RIRS, PCNL, and URSL to ensure complete, scarless stone clearance."
       },
       {
-        faqTitle: "Is it necessary to see a specialist for fistula treatment?",
+        faqTitle: "How experienced are the urologists at Lux Hospitals?",
         faqAnswer:
-          "Yes, anal fistulas require specialized care to prevent complications. At Lux Hospitals, our fistula doctors use advanced technologies for better outcomes."
+          "Our expert urologists — including Dr. Priyank Ashokkumar Salecha and Dr. Aditya Potla — bring 9–10 years of experience and have treated thousands of patients with modern, minimally invasive stone removal methods."
       },
       {
-        faqTitle: "When should I consult a fistula doctor?",
+        faqTitle: "What technologies are used for kidney stone treatment?",
         faqAnswer:
-          "If you notice continuous pain, pus discharge, swelling, or recurring abscesses near your anus, consult a fistula doctor immediately."
+          "We use Holmium Laser, high-definition endoscopes, and keyhole surgical tools. These techniques allow us to perform treatment with high precision, minimal pain, and quick recovery."
       },
       {
-        faqTitle: "Is insurance accepted for fistula surgery at Lux Hospitals?",
+        faqTitle: "What is the typical recovery time after kidney stone treatment?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for fistula treatments."
+          "Most procedures are daycare or involve a short hospital stay. Patients resume normal activities in 2–3 days. Our team ensures complete follow-up and care during the recovery phase."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for fistula care?",
+        faqTitle: "What is the cost of kidney stone treatment at Lux Hospitals?",
         faqAnswer:
-          "We offer specialized care by experienced fistula doctors, state-of-the-art laser treatments, and personalized recovery plans, ensuring the best possible outcomes."
+          "Costs depend on the procedure and stone complexity. We offer fixed-price packages, cashless insurance, and 0% EMI options to ensure affordability and transparency."
       },
       {
-        faqTitle: "Who are the best fistula doctors at Lux Hospitals?",
+        faqTitle: "How do I book a consultation for kidney stone treatment?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are among the leading fistula doctors at Lux Hospitals, providing expert care with advanced minimally invasive procedures."
+          "Booking is easy. Call 07969084442 or message us on WhatsApp. Our team will schedule your free consultation, assess your reports, and guide you through the right treatment plan."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get treated by the best fistula doctors in Hyderabad at Lux Hospitals. Book your consultation today!",
-      footernumber: "07969084448"
+        "Don’t let kidney pain slow you down. Get expert, scar-free Kidney Stone Treatment at Lux Hospitals.",
+      footernumber: "07969084442"
     }
   },
-  "best-fistula-hospital-in-hyderabad": {
-    heading: "Best Fistula Hospital in Hyderabad",
+  "best-kidney-stone-doctor-hyderabad": {
+    heading: "Best Kidney Stone Doctor in Hyderabad",
     descList: [
-      "Top Hospital for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for Kidney Stone Treatment",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
     locationsectionheading:
-      "LUX Hospitals - Best Fistula Hospital | Laser Fistula Surgery | Trusted Experts | Advanced Facilities",
+      "LUX Hospitals – Kidney Stone Doctor | Laser & Laparoscopic Stone Removal Experts | Endoscopic Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specializes in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "Kidney Stone Treatment at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
+    tableData: tableData, // Optional structured treatment comparison data
+    whatAreH: "What is Kidney Stone?",
     whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top Fistula Treatments Offered at Lux Hospitals:",
+      "Kidney stones are small, hard mineral deposits that form in the kidneys due to excess calcium, oxalate, or other substances in the urine. They can cause intense pain, difficulty passing urine, or infections if not treated. At Lux Hospitals, our expert kidney stone doctors offer precise, scarless solutions using RIRS, PCNL, and URSL — all performed with high-end laser and endoscopic technology for fast relief, minimal discomfort, and no visible cuts.",
+    whatHead: "Top 4 Procedures for Kidney Stone Treatment",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "RIRS (Retrograde Intrarenal Surgery)",
         description:
-          "A painless and precise treatment using laser energy to close the fistula tract with minimal tissue damage."
+          "A thin flexible scope is inserted through the urinary tract to reach the kidney. The stone is broken into dust using a laser and cleared without incisions."
       },
       {
-        title: "Fistulotomy",
+        title: "PCNL (Percutaneous Nephrolithotomy)",
         description:
-          "A traditional method where the fistula tract is surgically opened and cleaned, allowing natural healing."
+          "Ideal for large or multiple stones. A small puncture in the back allows direct access for stone removal. Short hospital stay. High success rate."
       },
       {
-        title: "Seton Placement",
+        title: "URSL (Ureteroscopic Lithotripsy)",
         description:
-          "Used for complex or deep fistulas to drain infection gradually and encourage healing without cutting."
+          "Suitable for stones located in the ureter. A scope is inserted via the urethra, and the stone is broken and extracted using laser technology."
       },
       {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
+        title: "Laser Lithotripsy",
         description:
-          "An advanced technique preserving sphincter muscles, offering a safer and highly effective solution for fistulas."
+          "Uses Holmium Laser to precisely break stones into tiny particles. Non-invasive, fast, and effective — with excellent outcomes."
       }
     ],
-    fheading: "FAQs on Fistula Hospital Services",
+    fheading: "FAQs on Kidney Stone Doctors and Treatment",
     faqs: [
       {
-        faqTitle: "What makes Lux Hospitals the best fistula hospital?",
+        faqTitle: "Who is the best kidney stone doctor at Lux Hospitals?",
         faqAnswer:
-          "We provide expert care through highly experienced proctologists, advanced laser treatments, personalized care plans, and excellent post-surgery recovery support."
+          "Our leading urologists — Dr. Priyank Ashokkumar Salecha and Dr. Aditya Potla — are experienced in endoscopic and laser-based stone treatments, having helped thousands of patients become stone-free."
       },
       {
-        faqTitle: "Is hospitalization needed for fistula surgery?",
+        faqTitle: "What makes Lux Hospitals a preferred choice for kidney stone care?",
         faqAnswer:
-          "At Lux Hospitals, most fistula surgeries, including laser treatments, are performed as day-care procedures with same-day discharge."
+          "We offer cutting-edge procedures like RIRS and PCNL, expert doctors, plasma sterilisation, cashless insurance, and fixed-cost packages — all under one NABH & ISO-accredited roof."
       },
       {
-        faqTitle: "Are laser treatments available for fistula at Lux Hospitals?",
+        faqTitle: "What procedures are offered by your kidney stone doctors?",
         faqAnswer:
-          "Yes, Lux Hospitals specializes in laser fistula treatments for faster, painless recovery and minimal risk of recurrence."
+          "Our doctors specialise in RIRS, PCNL, URSL, and Laser Lithotripsy, selecting the best approach based on the size, location, and type of stone."
       },
       {
-        faqTitle: "Does Lux Hospitals accept insurance for fistula surgeries?",
+        faqTitle: "How long is the recovery after seeing a kidney stone doctor?",
         faqAnswer:
-          "Yes, we accept all major cashless insurance plans for fistula surgery and treatment procedures."
+          "Most treatments are daycare with same-day discharge. Patients typically resume routine activities within 2–3 days. We provide complete post-op guidance and care."
       },
       {
-        faqTitle: "When should I visit a fistula hospital?",
+        faqTitle: "What is the consultation process for kidney stone treatment?",
         faqAnswer:
-          "If you experience persistent anal pain, swelling, pus discharge, or repeated abscesses, you should consult a fistula hospital immediately."
+          "Call 07969084442 or connect via WhatsApp to schedule your free consultation. Our doctors will review your reports and provide a tailored treatment plan and cost estimate."
       },
       {
-        faqTitle: "Which doctors treat fistulas at Lux Hospitals?",
+        faqTitle: "Is the treatment covered by insurance?",
         faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading fistula specialists at Lux Hospitals, offering personalized treatment plans using the latest techniques."
+          "Yes. We accept all major insurance policies, offer 0% EMI, and ensure 100% cashless approval wherever possible."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Experience expert fistula care at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
+        "Meet the best kidney stone doctors in Hyderabad — and get treated with advanced, scarless laser procedures at Lux Hospitals.",
+      footernumber: "07969084442"
     }
   },
-  "minimally-invasive-fistula-laser-surgery": {
-    heading: "Minimally Invasive Fistula Laser Surgery",
+  "kidney-stone-surgery-cost-hyderabad": {
+    heading: "Kidney Stone Surgery Cost in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for Kidney Stone Treatment",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
     locationsectionheading:
-      "LUX Hospitals – Fistula Laser Surgery Experts | Top Fistula Hospital | Painless Recovery | Advanced Facilities",
+      "LUX Hospitals – Affordable Kidney Stone Surgery | Cashless Insurance | Fixed Cost Packages | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Surgery at Lux Hospitals"
+        theading: "Kidney Stone Surgery Cost at Lux Hospitals"
       }
     ],
-    tableData: tableData,
-    whatAreH: "What is Fistula Laser Surgery?",
+    tableData: tableData, // Add cost-related structured data here if available
+    whatAreH: "What is the Cost of Kidney Stone Treatment?",
     whatAreP:
-      "Fistula Laser Surgery is a minimally invasive technique that uses focused laser energy to close the abnormal fistula tract from the inside — without any cuts, stitches, or major wounds. It is highly effective, causes very little pain, and offers faster healing compared to traditional surgery. At Lux Hospitals, we specialize in laser-assisted treatments that ensure quicker recovery, minimal bleeding, and excellent long-term results. A laser fiber is gently inserted into the fistula, sealing it while preserving the surrounding healthy tissues.",
-    whatHead: "Benefits of Laser Surgery for Fistula:",
+      "The cost of kidney stone treatment can vary depending on the size, location, and number of stones, as well as the technique used (RIRS, PCNL, URSL). At Lux Hospitals, we offer transparent, fixed-cost packages with no hidden charges. Our pricing includes hospital stay, procedure, surgeon fees, post-op care, and consultation. We also support cashless insurance and provide 0% interest EMI to make treatment financially stress-free.",
+    whatHead: "Top 4 Procedures and Cost Considerations",
     treatments: [
       {
-        title: "Painless and Bloodless Procedure",
+        title: "RIRS (Retrograde Intrarenal Surgery)",
         description:
-          "Laser surgery minimizes tissue damage, making the procedure almost painless with very little or no bleeding."
+          "Minimally invasive laser procedure. Cost depends on the number and size of stones. Covered by most insurances."
       },
       {
-        title: "Minimal Downtime – Resume Work in 1–2 Days",
+        title: "PCNL (Percutaneous Nephrolithotomy)",
         description:
-          "Most patients recover quickly and are able to return to their normal routine within 24 to 48 hours."
+          "Recommended for large or multiple stones. Slightly higher cost due to equipment and hospital stay. EMI and insurance options available."
       },
       {
-        title: "Lower Risk of Incontinence or Complications",
+        title: "URSL (Ureteroscopic Lithotripsy)",
         description:
-          "Because the laser targets only the fistula tract without affecting the anal muscles, there is a very low risk of bowel control issues."
+          "Used for ureteric stones. Short procedure time and lower recovery cost. Usually done as a day-care surgery."
       },
       {
-        title: "Same-day Discharge with Higher Success Rates",
+        title: "Laser Lithotripsy",
         description:
-          "The procedure usually takes 30 minutes and patients are discharged the same day, with higher chances of permanent healing compared to traditional methods."
+          "Suitable for small to mid-sized stones. Cost-effective and covered by most insurance plans."
       }
     ],
-    fheading: "FAQs on Fistula Laser Surgery",
+    // notes:
+    //   "Note: Pricing starts from a base cost and is customised after a consultation and scan. Call for a detailed estimate.",
+    fheading: "FAQs on Kidney Stone Surgery Cost",
     faqs: [
       {
-        faqTitle: "Is laser surgery better than traditional fistula surgery?",
+        faqTitle: "What is the average cost of kidney stone surgery at Lux Hospitals?",
         faqAnswer:
-          "Yes, laser surgery offers a minimally invasive alternative with faster healing, less pain, and a reduced risk of recurrence or complications."
+          "Our kidney stone surgery packages are fixed and start from a basic range depending on the procedure type. All charges — including consultation, surgery, room, and post-op — are included with no hidden costs."
       },
       {
-        faqTitle: "How long does fistula laser surgery take?",
+        faqTitle: "Is the treatment cost covered by insurance?",
         faqAnswer:
-          "The procedure takes approximately 30 minutes and is usually done as a daycare surgery with same-day discharge."
+          "Yes. We accept all major insurance policies and offer full cashless processing. Our team will help you with pre-approvals and documentation."
       },
       {
-        faqTitle: "Is laser fistula surgery painful?",
+        faqTitle: "Can I pay for the treatment in EMI?",
         faqAnswer:
-          "No, laser surgery is nearly painless. Most patients report minimal discomfort and quick recovery."
+          "Absolutely. We offer 0% interest EMI plans to make high-quality care accessible without financial burden."
       },
       {
-        faqTitle: "Will insurance cover laser fistula surgery at Lux Hospitals?",
+        faqTitle: "What factors affect the cost of kidney stone treatment?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans. Our team will assist you with the claim process."
+          "Stone size, location, number of stones, technique used (RIRS/PCNL/URSL), hospital stay duration, and insurance eligibility all contribute to the total cost."
       },
       {
-        faqTitle: "How soon can I resume normal activities after surgery?",
+        faqTitle: "How do I get a cost estimate before surgery?",
         faqAnswer:
-          "Most patients can return to normal activities within 1–2 days after the procedure."
+          "Call 07969084442 or chat on WhatsApp. After reviewing your scan and reports, our team will share a complete treatment plan with a clear cost estimate — with or without insurance."
       },
       {
-        faqTitle: "Who performs laser surgery at Lux Hospitals?",
+        faqTitle: "Are there any hidden or additional charges?",
         faqAnswer:
-          "Our experienced specialists, Dr. Samhitha Reddy and Dr. Abhishek Katha, are trained in advanced laser techniques for safe and effective fistula treatment."
+          "No. All our packages are transparent and inclusive. You’ll receive a written estimate after consultation with zero surprise costs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Book your painless and quick fistula laser surgery at Lux Hospitals today!",
-      footernumber: "07969084448"
+        "Get advanced, affordable kidney stone surgery at Lux Hospitals — with fixed pricing, full insurance support, and EMI options.",
+      footernumber: "07969084442"
     }
   },
-  "best-fistula-operation-in-hyderabad": {
-    heading: "Best Fistula Operation in Hyderabad",
+  "best-kidney-stone-treatment-hyderabad": {
+    heading: "Best Kidney Stone Treatment in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Operation",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for Kidney Stone Treatment",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
-    locationsectionheading:
-      "LUX Hospitals – Best Fistula Operation | Laser Surgery Experts | Fast & Safe Recovery | Advanced Facilities",
+    locationSectionHeading:
+      "LUX Hospitals – Kidney Stone Treatment | Laser + Laparoscopic Stone Removal Experts | 100% Insurance Coverage | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with over 10 years of experience in treating kidney stones, prostate issues, and other urological conditions using advanced techniques. Specializes in minimally invasive treatments with no cuts and faster recovery. Treated over 7,000 patients with successful outcomes.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist and Andrologist with 9 years of experience in kidney stone management and urological health. Specializes in advanced laser techniques and laparoscopic surgery, ensuring minimal pain and quick recovery for patients. He has successfully treated 4,000+ kidney stone patients.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Operation at Lux Hospitals"
+        theading: "Kidney Stone Treatment at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is Fistula Operation?",
+    whatAreH: "What is Kidney Stone?",
     whatAreP:
-      "A fistula operation is a surgical procedure to treat an abnormal tunnel (fistula) that forms between the rectum and the skin around the anus. If left untreated, it can cause pus discharge, swelling, severe pain, and recurring infections. At Lux Hospitals, we use cutting-edge laser technology for fistula operations that are minimally invasive, almost painless, and ensure quicker recovery.",
-    whatHead: "Top 4 Fistula Treatments at Lux Hospitals:",
+      "Kidney stones are hard, crystal-like deposits that form inside the kidneys due to excess minerals and salts in the urine. They can block urine flow, cause severe back or abdominal pain, and may lead to infections if untreated. At Lux Hospitals, our urology experts use advanced laser and laparoscopic procedures to remove kidney stones safely, with no visible cuts and minimal downtime. We personalise every treatment to ensure fast relief and complete stone clearance.",
+    whatHead: "Top 4 Procedures for Kidney Stones",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
+        title: "Laser Lithotripsy",
         description:
-          "A precision laser closes the fistula tract with minimal pain, blood loss, and tissue damage."
+          "A minimally invasive procedure that uses Holmium Laser to break kidney stones into tiny fragments, allowing them to pass naturally. No cuts, no stitches."
       },
       {
-        title: "Fistulotomy",
+        title: "Retrograde Intrarenal Surgery (RIRS)",
         description:
-          "Traditional surgery that opens the tract completely to allow it to heal from within."
+          "A thin, flexible scope is inserted through the urinary tract to access the kidney. The stone is fragmented with a laser and removed. Ideal for small to medium stones."
       },
       {
-        title: "Seton Placement",
+        title: "Percutaneous Nephrolithotomy (PCNL)",
         description:
-          "Used for complex fistulas, where a medical thread drains the infection over time for gradual healing."
+          "Suitable for large or complex stones. A small incision is made in the back to directly access and remove the stone using specialised tools."
       },
       {
-        title: "LIFT Procedure",
+        title: "Combination Approach",
         description:
-          "Preserves anal muscles while sealing the fistula, reducing the risk of incontinence."
+          "In certain cases, a mix of laser lithotripsy and surgical techniques is used to ensure complete clearance, especially when multiple or large stones are present."
       }
     ],
-    fheading: "FAQs on Fistula Operation",
+    fheading: "FAQs on Kidney Stone Treatment",
     faqs: [
       {
-        faqTitle: "Is fistula operation necessary?",
+        faqTitle: "What is kidney stone and how is it treated at Lux Hospitals?",
         faqAnswer:
-          "Yes, a fistula usually does not heal on its own and requires surgical treatment to prevent infections and complications."
+          "Kidney stones are mineral deposits that form inside the kidney and can cause severe pain or blockages. At Lux Hospitals, we use advanced laser-based and keyhole procedures like Lithotripsy, RIRS, and PCNL for scarless, effective removal."
       },
       {
-        faqTitle: "How long does a fistula operation take?",
+        faqTitle: "How experienced are the urologists at Lux Hospitals?",
         faqAnswer:
-          "The surgery typically takes around 30 minutes and is performed as a daycare procedure with same-day discharge."
+          "Our Urology team — including Dr. Priyank Ashokkumar Salecha and Dr. Aditya Potla — bring 9–10 years of specialised experience in treating kidney stones with advanced minimally invasive methods."
       },
       {
-        faqTitle: "Is fistula operation painful?",
+        faqTitle: "What advanced techniques are used in your treatments?",
         faqAnswer:
-          "No, the procedure is performed under anesthesia, and minimally invasive techniques like laser surgery ensure minimal pain and discomfort."
+          "We use the latest in Holmium Laser, RIRS, and PCNL, tailored to stone size, location, and complexity. These ensure faster recovery, minimal pain, and complete removal of stones."
       },
       {
-        faqTitle: "Will insurance cover my fistula operation at Lux Hospitals?",
+        faqTitle: "What can I expect during the recovery process?",
         faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans, and our team will assist you with the claim process."
+          "Most patients can go home the same day or the next. Recovery is quick, with minimal restrictions. Our team provides complete post-op care and follow-up to ensure smooth healing."
       },
       {
-        faqTitle: "How soon can I resume normal activities after surgery?",
+        faqTitle: "How much does kidney stone treatment cost at Lux Hospitals?",
         faqAnswer:
-          "Most patients recover within 1–2 days and can return to daily activities with minimal restrictions."
+          "Treatment costs depend on the procedure and complexity. We offer fixed-price packages, 100% insurance support, and 0% interest EMI to ensure affordability with no hidden charges."
       },
       {
-        faqTitle: "Who performs fistula operations at Lux Hospitals?",
+        faqTitle: "How do I book a consultation for kidney stone treatment?",
         faqAnswer:
-          "Our experienced specialists, Dr. Samhitha Reddy and Dr. Abhishek Katha, are experts in advanced laser and minimally invasive fistula surgeries for safe and effective treatment."
+          "Just call 07969084442 or connect with us on WhatsApp. You’ll get a free consultation, treatment options tailored to your case, and a full explanation of the procedure and costs."
       }
     ],
     footerComponent: {
       footerdesc:
-        "Get a fast, painless fistula operation at Lux Hospitals in Hyderabad. Book now!",
-      footernumber: "07969084448"
+        "Get expert, scarless Kidney Stone Treatment at Lux Hospitals — with advanced care, experienced doctors, and full insurance coverage.",
+      footernumber: "07969084442"
     }
   },
-  "best-fistula-treatment-in-hyderabad": {
-    heading: "Best Fistula Treatment in Hyderabad",
+  "best-rirs-surgery-in-hyderabad": {
+    heading: "Best RIRS Surgery in Hyderabad",
     descList: [
-      "Top Doctor for Anal Fistula Treatment",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for RIRS Surgery",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
-    locationsectionheading:
-      "LUX Hospitals – Best Fistula Treatment | Laser Surgery Experts | Advanced Care | Quick and Painless Recovery",
+    locationSectionHeading: "LUX Hospitals – RIRS Surgery | Scarless Kidney Stone Removal | Advanced Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with over 10 years of experience in treating kidney stones, prostate issues, and other urological conditions using advanced techniques. Specializes in minimally invasive treatments with no cuts and faster recovery. Treated over 7,000 patients with successful outcomes.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ Years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist and Andrologist with 9 years of experience in kidney stone management and urological health. Specializes in advanced laser techniques and laparoscopic surgery, ensuring minimal pain and quick recovery for patients. He has successfully treated 4,000+ kidney stone patients.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "RIRS Surgery at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
-    whatAreP:
-      "Fistula treatment focuses on healing anorectal fistulas, which are abnormal channels connecting the anus and skin. These conditions, if untreated, can lead to severe infections and discomfort.\nAt Lux Hospitals, we offer comprehensive treatment options, including advanced laser surgery and traditional methods, to effectively close the fistula tract with minimal pain and fast recovery.",
-    topTreatmentsH: "Top Fistula Treatments at Lux Hospitals:",
-    topTreatments: [
-      "Laser Fistula Surgery: A minimally invasive laser procedure offering precise treatment with quicker recovery times and reduced risk of complications.",
-      "Fistulotomy: A traditional approach that involves surgically opening the fistula tract to allow for natural healing.",
-      "Seton Placement: A technique used for complex fistulas, where a surgical thread is placed to promote gradual healing without cutting.",
-      "LIFT Procedure (Ligation of Intersphincteric Fistula Tract): A surgical procedure that preserves the anal muscles while treating the fistula, reducing the risk of incontinence."
+    whatAreH: "What is RIRS Surgery?",
+    whatAreP: "RIRS (Retrograde Intrarenal Surgery) is a modern, minimally invasive procedure used to treat kidney stones. A flexible scope is inserted through the urinary tract (without any cuts) to reach the kidney. Once the stone is located, a laser is used to break it into dust-like particles, which are then flushed out naturally.\nAt Lux Hospitals, our expert urologists perform RIRS using advanced Holmium laser systems — offering a scarless, pain-free experience with quick recovery and high success rates.",
+    whatHead: "Top 4 Benefits of RIRS Surgery",
+    treatments: [
+      {
+        title: "No Cuts or Stitches",
+        description: "RIRS is performed entirely through natural urinary pathways — there’s no external incision, resulting in zero scars and faster healing."
+      },
+      {
+        title: "Suitable for Small to Mid-sized Stones",
+        description: "Perfect for stones located in hard-to-reach areas of the kidney that aren’t easily treated by conventional methods."
+      },
+      {
+        title: "Quick Recovery & Daycare Procedure",
+        description: "Most patients are discharged within 24 hours and return to normal activities in 2–3 days."
+      },
+      {
+        title: "Safe for High-Risk or Recurrent Cases",
+        description: "RIRS is ideal for patients who are not candidates for open or complex surgeries, and for those with recurring stones."
+      }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on RIRS Surgery",
     faqs: [
       {
-        faqTitle: "What is the best treatment for fistula?",
-        faqAnswer:
-          "Laser Fistula Surgery is considered one of the best treatments due to its precision, minimal recovery time, and low recurrence rate."
+        faqTitle: "What is RIRS surgery and how is it done at Lux Hospitals?",
+        faqAnswer: "RIRS is a laser-based procedure that removes kidney stones through a flexible scope inserted via the urinary tract. At Lux Hospitals, our urologists use advanced Holmium lasers for precise and scarless treatment."
       },
       {
-        faqTitle: "How long does fistula treatment take?",
-        faqAnswer:
-          "Laser treatment takes approximately 30 minutes, and patients are typically discharged on the same day."
+        faqTitle: "How is RIRS different from other kidney stone procedures?",
+        faqAnswer: "Unlike PCNL or open surgery, RIRS involves no incisions. It is completely endoscopic, making it safer, less painful, and quicker in terms of recovery."
       },
       {
-        faqTitle: "Is fistula treatment painful?",
-        faqAnswer:
-          "No, laser treatments are nearly painless and offer quick healing with minimal post-surgical discomfort."
+        faqTitle: "Who is the right candidate for RIRS surgery?",
+        faqAnswer: "RIRS is suitable for stones up to 2 cm in size, especially those in the kidney or upper ureter. It’s also ideal for patients looking for a daycare, scarless option."
       },
       {
-        faqTitle: "Is fistula treatment covered by insurance?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans to cover your fistula treatment."
+        faqTitle: "What is the recovery process after RIRS?",
+        faqAnswer: "Most patients are discharged the same day or next. There may be mild discomfort for 1–2 days, and you’ll be advised to stay hydrated. We offer complete post-op care and follow-up."
       },
       {
-        faqTitle: "How soon can I get back to work after fistula surgery?",
-        faqAnswer:
-          "Most patients resume normal activities within 1–2 days after laser surgery."
+        faqTitle: "What is the cost of RIRS surgery at Lux Hospitals?",
+        faqAnswer: "Costs vary depending on the size and location of the stone. We offer fixed-price packages, full insurance support, and 0% EMI options."
       },
       {
-        faqTitle: "Who are the leading fistula specialists at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are experts in providing personalized, advanced fistula treatments."
+        faqTitle: "How do I book a consultation for RIRS?",
+        faqAnswer: "Just call 07969084442 or message us on WhatsApp. Our team will arrange a free consultation, review your scan reports, and explain your treatment plan in detail."
       }
     ],
     footerComponent: {
-      footerdesc:
-        "Get the best fistula treatment in Hyderabad at Lux Hospitals. Book your consultation now!",
-      footernumber: "07969084448"
+      footerdesc: "Experience scar-free, advanced RIRS surgery at Lux Hospitals — with expert care, quick recovery, and complete insurance support.\n\nBook your free consultation today!",
+      footernumber: "07969084442"
     }
   },
 
-  "top-fistula-surgeon-in-hyderabad": {
-    heading: "Top Fistula Surgeon in Hyderabad",
+  "best-pcnl-procedure-in-hyderabad": {
+    heading: "Best PCNL Procedure in Hyderabad",
     descList: [
-      "Top Surgeon for Anal Fistula Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for PCNL Surgery",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
-    locationsectionheading:
-      "LUX Hospitals – Best Fistula Surgeon | Fistula Experts | Advanced Technologies | Advanced Care",
+    locationSectionHeading: "LUX Hospitals – PCNL Procedure | Advanced Kidney Stone Removal | High-Precision Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistula Treatment at Lux Hospitals"
+        theading: "PCNL Procedure at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is Fistula Treatment?",
-    whatAreP:
-      "A fistula is a small, infected tunnel that forms between the skin and the rectum, typically caused by an abscess that didn’t heal properly. Left untreated, it can lead to pain, swelling, recurrent infections, and pus discharge. At Lux Hospitals' specialized Fistula Clinic, we provide advanced, minimally invasive treatments designed for faster recovery, minimal discomfort, and reduced recurrence risk.",
-    whatHead: "Top Treatments Offered by Fistula Doctors at Lux Hospitals:",
+    whatAreH: "What is PCNL Procedure?",
+    whatAreP: "PCNL (Percutaneous Nephrolithotomy) is a minimally invasive surgery used to remove large or complex kidney stones. A small incision is made in the back to create a direct channel into the kidney. Through this access, a nephroscope is used to locate and extract the stones using advanced instruments.\nAt Lux Hospitals, our experienced urologists perform PCNL with high precision, ensuring maximum stone clearance, minimal discomfort, and quicker recovery, all while maintaining the highest standards of safety and care.",
+    whatHead: "Top 4 Benefits of PCNL Procedure",
     treatments: [
       {
-        title: "Laser Fistula Surgery",
-        description:
-          "A highly effective, minimally invasive laser procedure for painless recovery and quicker healing."
+        title: "Ideal for Large & Complex Stones",
+        description: "PCNL is the preferred treatment for stones larger than 2 cm or multiple stones that can’t be managed with laser alone."
       },
       {
-        title: "Fistulotomy",
-        description:
-          "A conventional surgical method where the fistula tract is opened and cleaned to heal naturally."
+        title: "Small Incision, Big Results",
+        description: "Although it's a surgical procedure, the incision is only about 1 cm — allowing targeted removal with minimal trauma."
       },
       {
-        title: "Seton Placement",
-        description:
-          "Used for complex fistulas, involving a surgical thread to maintain drainage and promote gradual healing."
+        title: "High Stone Clearance Rate",
+        description: "Direct access to the kidney enables full removal in a single sitting, reducing the chance of recurrence."
       },
       {
-        title: "LIFT Procedure (Ligation of Intersphincteric Fistula Tract)",
-        description:
-          "An advanced surgery that closes the fistula while preserving the anal muscles, reducing the risk of incontinence."
+        title: "Faster Recovery Compared to Open Surgery",
+        description: "Most patients recover within a few days and experience significantly less pain than traditional methods."
       }
     ],
-    fheading: "FAQs on Fistula Treatment",
+    fheading: "FAQs on PCNL Procedure",
     faqs: [
       {
-        faqTitle: "How long does fistula laser surgery take?",
-        faqAnswer:
-          "The procedure takes approximately 30 minutes and is usually done as a daycare surgery with same-day discharge."
+        faqTitle: "What is PCNL and when is it needed?",
+        faqAnswer: "PCNL is a keyhole surgery used to remove large or deep-seated kidney stones. It’s recommended when stones are too big or hard for laser treatment (RIRS or URSL) to handle effectively."
       },
       {
-        faqTitle: "Is laser fistula surgery painful?",
-        faqAnswer:
-          "No, laser surgery is nearly painless. Most patients report minimal discomfort and quick recovery."
+        faqTitle: "Is PCNL a safe procedure?",
+        faqAnswer: "Yes. At Lux Hospitals, PCNL is performed using the latest imaging, endoscopy, and surgical equipment. Our team ensures complete pre-op evaluation and post-op support for a safe, smooth experience."
       },
       {
-        faqTitle: "When should I consult a fistula Surgeon?",
-        faqAnswer:
-          "If you notice continuous pain, pus discharge, swelling, or recurring abscesses near your anus, consult a fistula doctor immediately."
+        faqTitle: "How is PCNL different from laser procedures like RIRS?",
+        faqAnswer: "While laser procedures are done via the natural urinary tract, PCNL creates a direct path to the kidney for removing stones. It’s more effective for larger, multiple, or harder stones."
       },
       {
-        faqTitle: "Is insurance accepted for fistula surgery at Lux Hospitals?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for fistula treatments."
+        faqTitle: "What’s the recovery time after PCNL?",
+        faqAnswer: "Patients typically stay for 1–2 days and recover fully in about a week. Our doctors provide step-by-step post-surgery care and follow-up to ensure quick healing."
       },
       {
-        faqTitle: "Why choose Lux Hospitals for fistula care?",
-        faqAnswer:
-          "We offer specialized care by experienced fistula doctors, state-of-the-art laser treatments, and personalized recovery plans, ensuring the best possible outcomes."
+        faqTitle: "What is the cost of PCNL at Lux Hospitals?",
+        faqAnswer: "PCNL costs depend on the case complexity but are offered under fixed-cost packages with cashless insurance and 0% EMI options. You’ll get a complete cost estimate after consultation."
       },
       {
-        faqTitle: "Who are the best fistula Surgeon at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are among the leading fistula doctors at Lux Hospitals, providing expert care with advanced minimally invasive procedures."
+        faqTitle: "How do I book a consultation for PCNL?",
+        faqAnswer: "Call 07969084442 or send us a message on WhatsApp. We’ll schedule your free consultation, review your reports, and guide you through the safest, most effective treatment plan."
       }
     ],
     footerComponent: {
-      footerdesc:
-        "Get treated by the best fistula Surgeon in Hyderabad at Lux Hospitals. Book your consultation today!",
-      footernumber: "07969084448"
+      footerdesc: "Get expert care for complex kidney stones with advanced PCNL Procedure at Lux Hospitals — safe, effective, and fully covered by insurance.\n\nBook your free consultation today!",
+      footernumber: "07969084442"
     }
   },
-  "fistuloctomy-surgery-for-fistula-hyderabad": {
-    heading: "Fistuloctomy Surgery for Fistula in Hyderabad",
+  "best-ursl-treatment-in-hyderabad": {
+    heading: "Best URSL Treatment in Hyderabad",
     descList: [
-      "Top Doctor for Fistuloctomy Surgery for Fistula",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for URSL Procedure",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
-    locationsectionheading:
-      "LUX Hospitals – Fistuloctomy Surgery Experts | Trusted Fistula Care | Laser & Traditional Treatments | Quick and Painless Recovery",
+    locationSectionHeading: "LUX Hospitals – URSL Treatment | Advanced Ureter Stone Removal | Endoscopic Urology Specialists | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Fistuloctomy Surgery at Lux Hospitals"
+        theading: "URSL Treatment at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is Fistuloctomy Surgery?",
-    whatAreP:
-      "Fistuloctomy surgery is a traditional procedure used to treat anal fistulas. It involves surgically opening and cleaning the fistula tract, allowing it to heal naturally. This method is often used when laser treatments are not suitable for complex or deeper fistulas. Fistuloctomy ensures a thorough treatment, promoting long-term healing with minimal risk of recurrence.",
-    whatHead: "Key Benefits of Fistulotomy Surgery:",
+    whatAreH: "What is URSL Treatment?",
+    whatAreP: "URSL (Ureteroscopic Lithotripsy) is a minimally invasive, endoscopic procedure used to treat stones located in the ureter — the tube connecting the kidney to the bladder. A thin scope is inserted through the natural urinary passage to reach the stone. Laser energy is then used to break it into fine pieces that are either removed or flushed out naturally.\nAt Lux Hospitals, our urologists perform URSL using high-precision Holmium laser systems, ensuring scarless, painless stone removal with rapid recovery.",
+    whatHead: "Top 4 Benefits of URSL Treatment",
     treatments: [
       {
-        title: "Complete Removal of Fistula Tract",
-        description:
-          "A thorough cleaning of the fistula ensures complete removal of the infected tissue for effective healing."
+        title: "No Cuts, No Scars",
+        description: "The entire procedure is done through the urethra — no incisions or stitches are needed."
       },
       {
-        title: "Proven Long-term Results",
-        description:
-          "Especially suitable for complex fistulas that may not respond well to minimally invasive methods like laser surgery."
+        title: "Perfect for Ureter Stones",
+        description: "URSL is the gold standard for stones stuck in the mid or lower ureter causing pain or obstruction."
       },
       {
-        title: "Prevents Recurrence",
-        description:
-          "Significantly lowers the risk of future fistula formation or infection by fully addressing the root cause."
+        title: "Short Procedure, Quick Discharge",
+        description: "The surgery takes about 30 minutes. Most patients are discharged the same day or the next morning."
       },
       {
-        title: "Experienced Surgeons",
-        description:
-          "Performed by highly skilled surgeons using advanced techniques to ensure safety and minimize complications."
+        title: "High Success with Minimal Complications",
+        description: "URSL is highly effective with minimal risk, making it one of the safest treatment options for ureteric stones."
       }
     ],
-
-    fheading: "FAQs on Fistuloctomy Surgery for Fistula",
+    fheading: "FAQs on URSL Treatment",
     faqs: [
       {
-        faqTitle: "How long does fistuloctomy surgery take?",
-        faqAnswer:
-          "The procedure typically takes around 30–60 minutes, and patients can be discharged the same day."
+        faqTitle: "What is URSL and how is it performed at Lux Hospitals?",
+        faqAnswer: "URSL is a laser-based procedure where a small scope is passed through the urethra to reach the ureter. Stones are broken using Holmium laser and removed safely. It’s completely scarless and performed under anaesthesia."
       },
       {
-        faqTitle: "Is fistuloctomy surgery painful?",
-        faqAnswer:
-          "While there may be some post-surgical discomfort, the procedure itself is performed under anesthesia, making it virtually painless."
+        faqTitle: "Who is the right candidate for URSL treatment?",
+        faqAnswer: "URSL is ideal for patients with ureteric stones, especially when the stone is causing pain, blockage, or infection. It’s also suited for patients who prefer non-surgical, daycare options."
       },
       {
-        faqTitle: "Is fistuloctomy surgery covered by insurance?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans for fistuloctomy surgery."
+        faqTitle: "What’s the recovery like after URSL?",
+        faqAnswer: "Patients usually recover within 2–3 days. Mild burning or urinary frequency may occur briefly. Complete post-procedure instructions and follow-up support are provided."
       },
       {
-        faqTitle: "How long does it take to recover from fistuloctomy surgery?",
-        faqAnswer:
-          "Patients can expect to return to normal activities within 1–2 weeks, though recovery time may vary based on the complexity of the fistula."
+        faqTitle: "How much does URSL treatment cost at Lux Hospitals?",
+        faqAnswer: "The cost depends on the stone size and location. Lux Hospitals offers fixed-cost packages, cashless insurance coverage, and 0% EMI plans."
       },
       {
-        faqTitle: "Who performs fistuloctomy surgery at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha, leading fistula surgeons, perform fistuloctomy surgeries using advanced techniques for better outcomes."
+        faqTitle: "Are there any risks or complications with URSL?",
+        faqAnswer: "URSL is a low-risk procedure when performed by experienced urologists. Rarely, mild discomfort or temporary stent placement may be needed. Our team ensures thorough pre-op evaluation and post-op care."
+      },
+      {
+        faqTitle: "How can I book a consultation for URSL?",
+        faqAnswer: "Call 07969084442 or send us a WhatsApp message. We’ll schedule your free consultation, review your reports, and help you understand your best treatment option."
       }
     ],
     footerComponent: {
-      footerdesc:
-        "Get expert fistuloctomy surgery for fistulas at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
+      footerdesc: "Get safe, scarless relief from ureteric stones with advanced URSL Treatment at Lux Hospitals.\n\nBook your free consultation today!",
+      footernumber: "07969084442"
     }
   },
-  "top-perianal-abscess-doctor-hyderabad": {
-    heading: "Top Perianal Abscess Doctor in Hyderabad",
+  "best-lithotripsy-treatment-hyderabad": {
+    heading: "Best Lithotripsy Treatment in Hyderabad",
     descList: [
-      "Top Doctor for Perianal Abscess",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
+      "Top Urologist for Lithotripsy Procedure",
+      "Expert in RIRS, PCNL & URSL",
+      "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
+      "0% EMI Option Available",
+      "5,000+ Stone-Free Patients"
     ],
-    locationsectionheading:
-      "LUX Hospitals – Leading Perianal Abscess Doctors | Trusted Specialists | Advanced Treatments | Perianal Abscess Specialists",
+    locationSectionHeading: "LUX Hospitals – Lithotripsy Treatment | Non-Invasive Kidney Stone Removal | Advanced Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
+        name: "Dr. Priyank Salecha",
+        qualification: "MBBS, MS, Mch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 10+ years",
         description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
+        name: "Dr. Aditya Potla",
+        qualification: "MBBS, MS, M.Ch (Urology)",
+        designation: "Urologist & Andrologist",
+        experience: "Experience: 9+ years",
         description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        mobileNumberDoctor: "07969084442"
       }
     ],
     tableContent: [
       {
-        theading: "Perianal Abscess Treatment at Lux Hospitals"
+        theading: "Lithotripsy Treatment at Lux Hospitals"
       }
     ],
     tableData: tableData,
-    whatAreH: "What is a Perianal Abscess?",
-    whatAreP:
-      "A perianal abscess is a painful, pus-filled infection that forms near the anus. It usually occurs when small glands around the anal area become blocked and infected, leading to swelling, redness, and severe discomfort. If not treated in time, the abscess can grow, burst, or lead to further complications like an anal fistula. Early medical attention is essential to drain the abscess and prevent recurrence.",
-      whatHead: "Top Treatments Offered by Perianal Abscess Doctors at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "A quick surgical procedure to drain the pus and relieve pain, performed under anaesthesia for patient comfort."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Recommended for patients who develop a fistula following an abscess, ensuring complete healing and preventing recurrence."
-        },
-        {
-          title: "Laser Treatment",
-          description:
-            "Minimally invasive laser techniques that offer quicker recovery, reduced discomfort, and minimal scarring."
-        },
-        {
-          title: "Antibiotic Therapy",
-          description:
-            "Used for mild cases; involves prescribed antibiotics and warm compresses to manage infection and reduce inflammation."
-        }
-      ],
-    fheading: "FAQs on Perianal Abscess",
+    whatAreH: "What is Lithotripsy?",
+    whatAreP: "Lithotripsy is a non-invasive or minimally invasive procedure used to break kidney or ureteric stones into smaller fragments, allowing them to pass naturally through urine. It can be performed using laser (laser lithotripsy) or shock wave energy (ESWL – Extracorporeal Shock Wave Lithotripsy) depending on the stone’s size and location.\nAt Lux Hospitals, our expert urologists use advanced Holmium laser systems to safely and precisely break down stones without surgery — offering quick, scarless recovery and long-term relief.",
+    whatHead: "Top 4 Benefits of Lithotripsy Treatment",
+    treatments: [
+      {
+        title: "Scarless & Painless",
+        description: "Lithotripsy is either completely non-invasive (ESWL) or done through natural urinary pathways (laser) — no cuts, no stitches, minimal discomfort."
+      },
+      {
+        title: "Quick & Effective",
+        description: "The procedure usually takes under 30 minutes. Stone fragments pass through urine in the following days."
+      },
+      {
+        title: "Outpatient or Daycare Option",
+        description: "Most patients are discharged on the same day, with minimal post-procedure downtime."
+      },
+      {
+        title: "Safe for Most Stone Types",
+        description: "Lithotripsy works well for stones up to 2 cm in size and is suitable for patients who are unfit for surgery."
+      }
+    ],
+    fheading: "FAQs on Lithotripsy Treatment",
     faqs: [
       {
-        faqTitle: "What does a perianal abscess doctor treat?",
-        faqAnswer:
-          "A perianal abscess doctor specialises in treating infections and abscesses around the anus, providing both surgical and non-surgical treatments for quick recovery."
+        faqTitle: "What is lithotripsy and how is it done at Lux Hospitals?",
+        faqAnswer: "Lithotripsy is a technique to break kidney stones into tiny pieces using laser or shock waves. At Lux Hospitals, we use Holmium laser lithotripsy as well as shock wave therapy (ESWL) based on the patient’s needs."
       },
       {
-        faqTitle: "When should I consult a perianal abscess doctor?",
-        faqAnswer:
-          "If you experience symptoms such as anal pain, swelling, fever, or pus discharge near the anus, you should consult a specialist immediately."
+        faqTitle: "Is lithotripsy a painful procedure?",
+        faqAnswer: "No. It is either completely painless or involves only mild sedation. Laser lithotripsy is done under anaesthesia, while ESWL doesn’t require any cuts or scopes."
       },
       {
-        faqTitle: "Is perianal abscess treatment painful?",
-        faqAnswer:
-          "Treatment, including drainage or surgery, is performed under anaesthesia, making it virtually painless during the procedure. Post-surgical discomfort is manageable with pain medication."
+        faqTitle: "Who is the right candidate for lithotripsy?",
+        faqAnswer: "It’s ideal for patients with small to medium stones (less than 2 cm), especially those looking for a non-surgical treatment option with fast recovery."
       },
       {
-        faqTitle: "How long does it take to recover from perianal abscess treatment?",
-        faqAnswer:
-          "Most patients recover within 1–2 weeks, with minimal downtime and same-day discharge."
+        faqTitle: "How much does lithotripsy cost at Lux Hospitals?",
+        faqAnswer: "The cost depends on the stone size and method used. We offer fixed-price packages, full insurance support, and 0% EMI options for affordability and transparency."
       },
       {
-        faqTitle: "Is insurance accepted for perianal abscess treatment?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans, ensuring hassle-free treatment."
+        faqTitle: "What’s the recovery like after lithotripsy?",
+        faqAnswer: "Recovery is usually quick. Some mild discomfort may occur as the stone fragments pass through urine. We provide hydration guidance and follow-up support to ensure smooth passage."
       },
       {
-        faqTitle: "Who are the top perianal abscess doctors at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are expert perianal abscess doctors at Lux Hospitals, offering advanced care and treatments for the best outcomes."
+        faqTitle: "How do I book a consultation for lithotripsy?",
+        faqAnswer: "Just call 07969084442 or connect with us on WhatsApp. We’ll arrange your free consultation, evaluate your reports, and suggest the most suitable treatment plan."
       }
     ],
     footerComponent: {
-      footerdesc:
-        "Get expert care for perianal abscess treatment at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
-    }
-  },
-  "best-perianal-abscess-surgery-hyderabad": {
-    heading: "Best Perianal Abscess Surgery in Hyderabad",
-    descList: [
-      "Top Doctor for Perianal Abscess Surgery",
-      "Top Surgeon for TROPIS Technique",
-      "Expert in TROPIS, LIFT, VAAFT & Laser",
-      "30-Min Minimally Invasive Procedure",
-      "Advanced Laser for 100% Cure",
-      "All Insurances Accepted (Cashless)",
-      "0% Interest EMI Available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals – Top Perianal Abscess Surgery | Trusted Surgeons | Advanced Treatment Options | Expert Surgeons",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Perianal Abscess Surgery at Lux Hospitals"
-      }
-    ],
-    tableData: tableData,
-    whatAreH: "What is Perianal Abscess Surgery?",
-    whatAreP:
-      "Perianal abscess surgery is a surgical procedure performed to treat abscesses that form near the anus due to bacterial infection in the anal glands. This condition can cause severe pain, swelling, and pus formation. If left untreated, the abscess may lead to complications such as a fistula. Surgical intervention is essential to drain the abscess, alleviate pain, and promote healing.\nAt Lux Hospitals, we offer advanced techniques for perianal abscess surgery, including both traditional methods and minimally invasive approaches, ensuring faster recovery and better outcomes for our patients.",
-      whatHead: "Top Treatments for Perianal Abscess Surgery at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "A quick and effective surgical procedure that drains the pus and relieves pressure in the abscess for immediate relief."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Performed when an abscess leads to a fistula, this surgery ensures complete healing and helps prevent future complications."
-        },
-        {
-          title: "Laser Surgery",
-          description:
-            "A minimally invasive technique using advanced laser technology to precisely drain abscesses, resulting in faster recovery and less discomfort."
-        },
-        {
-          title: "Antibiotics and Post-surgery Care",
-          description:
-            "Medications are provided after surgery to treat any residual infection and support optimal healing."
-        }
-      ],      
-    fheading: "FAQs on Perianal Abscess Surgery",
-    faqs: [
-      {
-        faqTitle: "Is perianal abscess surgery painful?",
-        faqAnswer:
-          "The procedure is performed under anaesthesia, making it pain-free during surgery. Post-surgery pain is typically manageable with prescribed medications."
-      },
-      {
-        faqTitle: "How long does perianal abscess surgery take?",
-        faqAnswer:
-          "Most surgeries take about 30–45 minutes, and many can be performed as daycare procedures with same-day discharge."
-      },
-      {
-        faqTitle: "What is the recovery time for perianal abscess surgery?",
-        faqAnswer:
-          "Most patients recover within 1–2 weeks, with minimal discomfort. You can return to your normal activities in just a few days."
-      },
-      {
-        faqTitle: "Is insurance accepted for perianal abscess surgery at Lux Hospitals?",
-        faqAnswer:
-          "Yes, we accept all major cashless insurance plans, ensuring a hassle-free experience for our patients."
-      },
-      {
-        faqTitle: "Who performs perianal abscess surgeries at Lux Hospitals?",
-        faqAnswer:
-          "Our experienced surgeons, Dr. Samhitha Reddy and Dr. Abhishek Katha, are specialists in perianal abscess surgery, providing safe and effective treatments."
-      }
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get expert care and the best perianal abscess surgery at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
-    }
-  },
-  "advanced-perianal-abscess-treatment-hyderabad": {
-    heading: "Advanced Perianal Abscess Treatment in Hyderabad",
-    descList: [
-      // "Effective Treatment for Lasting Relief from Perianal Abscesses",
-      "Top doctor for TROPIS procedure for Perianal Abscess",
-      "Expert in TROPIS, LIFT, VAAFT & LASER Surgery",
-      "30-min procedure, same-day discharge",
-      "100% Cure with advanced LASERS",
-      "All Cashless Insurance accepted",
-      "Zero-interest EMI available"
-    ],
-    locationsectionheading:
-      "LUX Hospitals – Leading Perianal Abscess Treatment | Advanced Care | Trusted Experts | Advanced Facilities",
-    doctors: [
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
-        name: "Dr. Samhitha Reddy",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 8 years",
-        description:
-          "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-      },
-      {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp",
-        name: "Dr. Abhishek Katha",
-        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
-        designation: "Fistula Specialist",
-        experience: "Experience: 9 years",
-        description:
-          "Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-      }
-    ],
-    tableContent: [
-      {
-        theading: "Perianal Abscess Treatment at Lux Hospitals"
-      }
-    ],
-    tableData: tableData,
-    whatAreH: "What is Perianal Abscess Treatment?",
-    whatAreP:
-      "Perianal abscess treatment involves procedures aimed at draining the infected fluid that accumulates near the anus, typically due to a bacterial infection in the anal glands. Left untreated, this condition can lead to increased pain, pus discharge, and even fistulas. The goal of treatment is to relieve symptoms, prevent further complications, and ensure full recovery.\nAt Lux Hospitals, we provide state-of-the-art treatments for perianal abscesses, combining advanced surgical methods with minimally invasive techniques to ensure quicker recovery and minimal discomfort.",
-      whatHead: "Top Perianal Abscess Treatments Offered at Lux Hospitals:",
-      treatments: [
-        {
-          title: "Incision and Drainage (I&D)",
-          description:
-            "The most common treatment where the abscess is surgically opened, drained, and cleaned to promote faster and complete healing."
-        },
-        {
-          title: "Laser Treatment",
-          description:
-            "A minimally invasive laser-based procedure that efficiently drains abscesses, shortens healing time, and reduces discomfort."
-        },
-        {
-          title: "Fistula Surgery",
-          description:
-            "Recommended if an untreated abscess leads to a fistula; this surgery repairs the tract and promotes full recovery."
-        },
-        {
-          title: "Antibiotic Therapy",
-          description:
-            "Prescribed after surgery to control infection and accelerate the healing process."
-        }
-      ],
-      
-    fheading: "FAQs on Perianal Abscess Treatment",
-    faqs: [
-      {
-        faqTitle: "How is a perianal abscess treated?",
-        faqAnswer:
-          "The treatment typically involves incision and drainage, laser therapy, or fistula surgery depending on the severity of the abscess and any related conditions."
-      },
-      {
-        faqTitle: "Is perianal abscess treatment painful?",
-        faqAnswer:
-          "The procedure is generally performed under local or general anaesthesia, ensuring that the surgery itself is painless. Post-surgery discomfort is minimal and manageable."
-      },
-      {
-        faqTitle: "What is the recovery time for perianal abscess treatment?",
-        faqAnswer:
-          "Recovery usually takes about 1-2 weeks. Many patients can return to their regular activities in just a few days with minimal downtime."
-      },
-      {
-        faqTitle: "Does Lux Hospitals accept insurance for perianal abscess treatment?",
-        faqAnswer:
-          "Yes, Lux Hospitals accepts all major cashless insurance plans, making the treatment process easier for patients."
-      },
-      {
-        faqTitle: "Who are the specialists for perianal abscess treatment at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in perianal abscess treatments at Lux Hospitals, offering effective care using advanced techniques."
-      }
-    ],
-    footerComponent: {
-      footerdesc:
-        "Get advanced perianal abscess treatment from top experts at Lux Hospitals in Hyderabad. Book your consultation today!",
-      footernumber: "07969084448"
+      footerdesc: "Break free from kidney stones — safely and painlessly — with expert Lithotripsy Treatment at Lux Hospitals.\n\nBook your free consultation today!",
+      footernumber: "07969084442"
     }
   },
 
@@ -1411,7 +1081,7 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book Free Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084442",
     },
     {
       image: "/cost extimation.avif",
@@ -1429,21 +1099,30 @@ export default function ConditionPage({ params }) {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084442",
     },
   ];
-  
+  const tableData = [
+    
+    { label: "Surgery Type",other: "Open / PCNL",lux: "RIRS / URSL / Laser"},
+    { label: "Hospital Stay", other: "3–5 Days", lux: "Same Day Discharge" },
+    { label: "Pain & Recovery", other: "Painful & Slow", lux: "Painless & Quick" },
+    { label: "Stone Clearance Rate", other: "75–80%", lux: "98%+" },
+    { label: "Technology", other: "Old Gen Laser / None", lux: "Latest Laser Tech" },
+    { label: "Insurance Coverage", other: "May Not Support Cashless", lux: "All Major Insurances" },
+  ];
+
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Free OPD"}
-            mobileNumberHeader={"tel:07969084448"}
-            />
+      <Header
+        PhoneNumber={"07969084442"}
+        mobilectatext={"Free OPD"}
+        mobileNumberHeader={"tel:07969084442"}
+      />
       <Hero heading={content.heading} descList={content.descList} />
       <Second services={services} />
-      <FreeOpdSection/>
+      <FreeOpdSection />
       {content.doctors && (
         <section
           className="w-[90%]"
@@ -1464,15 +1143,16 @@ export default function ConditionPage({ params }) {
                   designation={cardData.designation}
                   experience={cardData.experience}
                   description={cardData.description}
+                  mobileNumberDoctor="tel:07969084442"
                 />
               </div>
             ))}
           </div>
         </section>
       )}
-      
+
       {content.tableContent?.[0] && (
-        <HospitalComparisond theading={content.tableContent[0].theading} rows={content.tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
+        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
       )}
       <Accreditations />
       <VideoSection />
@@ -1506,6 +1186,7 @@ export default function ConditionPage({ params }) {
           footernumber={content.footerComponent.footernumber}
         />
       )}
+      <MobileStickyFooter mobileNumber="tel:07969084442" />
     </>
   );
 }

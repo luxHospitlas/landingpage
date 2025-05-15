@@ -1725,7 +1725,7 @@ export default function ConditionPage({ params }) {
       )}
 
       {content.tableContent?.[0] && (
-        <HospitalComparisond theading={content.tableContent[0].theading} rows={content.tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
+        <HospitalComparisond theading={content.tableContent[0].theading} rows={content.tableData} ConditionVideo={"/fistula.webm"} />
       )}
       <Accreditations />
       <VideoSection />

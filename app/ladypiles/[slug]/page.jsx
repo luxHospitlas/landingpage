@@ -1265,7 +1265,7 @@ export default function ConditionPage({ params }) {
         <HospitalComparisond
           theading={content.tableContent[0].theading}
           rows={tableData}
-          ConditionVideo={"/tablevideo.mp4"}
+          ConditionVideo={"/piles final dr sam.webm"}
         />
       )}
       <Accreditations />

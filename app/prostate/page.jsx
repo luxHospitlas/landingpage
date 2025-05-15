@@ -9,6 +9,8 @@ import Second from "../components/second/second";
 import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
 import FreeOpdSection from "../components/FreeOPD/freeopd";
+import Gentstalks from "../components/Gentstalks/gentstalks";
+import MobileStickyFooter from "../components/mobilsticky";
 
 
 // Dynamic imports
@@ -81,12 +83,12 @@ export default function Home() {
 
   const tableData = [
     
-    { label: "Surgical Technique",other: "Conventional / Open",lux: "TROPIS / VAAFT / Laser"},
-    { label: "Hospital Stay", other: "2–3 Days", lux: "Daycare / Same Day" },
-    { label: "Technology Used", other: "Basic Equipment", lux: "USFDA Approved Laser" },
-    { label: "Recurrence Rate", other: "High", lux: "Very Low" },
-    { label: "Sterilization", other: "ETO / Autoclave", lux: "Plasma Sterilization" },
-    { label: "Insurance Support", other: "Not Always Cashless", lux: "Cashless Available" },
+    { label: "Treatment Method",other: "TURP / Open",lux: "HoLEP Laser"},
+    { label: "Hospital Stay", other: "3-5 Days", lux: "Same / Next Day" },
+    { label: "Recovery Time", other: "10 Days", lux: "3–5 Days" },
+    { label: "Laser Type", other: "Standard TURP", lux: "Advanced HoLEP Laser" },
+    { label: "Pricing", other: "Variable", lux: "Fixed Package" },
+    { label: "Insurance", other: "May Not Support Cashless", lux: "All Insurances Accepted" },
   ];
   const defaultLocationHeading =
     "Lux Hospitals - Leading Center for Proctology & Advanced Surgery";
@@ -135,12 +137,13 @@ export default function Home() {
       <Accreditations />
       <VideoSection />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
-      <PatientTalks />
+      <Gentstalks />
       <Luxgpt />
       <FooterComponent
         footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
         footernumber="07969084448"
       />
+      <MobileStickyFooter mobileNumber="tel:07969084442" />
 
       {/* <Faqs  fheading={"heading"}
         faqquestion={"title"}

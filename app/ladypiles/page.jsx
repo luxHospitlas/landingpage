@@ -193,7 +193,7 @@ export default function Home() {
       <HospitalComparisond
         theading={"Piles Treatment at Lux Hospitals"}
         rows={tableData}
-        ConditionVideo={"/tablevideo.mp4"}
+        ConditionVideo={"/piles final dr sam.webm"}
       />
       <Accreditations />
       <VideoSection />
