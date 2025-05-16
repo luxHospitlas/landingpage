@@ -30,7 +30,7 @@ export default function HospitalLocation({ locationsectionheading }) {
               {/* Google Icon and Text */}
               <div className="flex items-center gap-2">
                 <div className="flex items-center">
-                  <span className="text-lg font-bold">4.5</span>
+                  <span className="text-lg font-bold">4.8</span>
                   <div className="flex text-yellow-500 ml-2">
                     {[...Array(5)].map((_, index) => (
                       <FaStar key={index} />
@@ -41,7 +41,7 @@ export default function HospitalLocation({ locationsectionheading }) {
 
               {/* Review Count */}
               <span className="font-medium review_count">
-                634 Google Reviews
+                672 Google Reviews
               </span>
             </div>
 
@@ -66,7 +66,7 @@ export default function HospitalLocation({ locationsectionheading }) {
                 href="https://maps.app.goo.gl/evEJmyVJqMArfBoG7"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border flex gap-2 px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1 justify-center"
+                className="google-btn border flex gap-2 px-6 py-4 rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:bg-gray-100 flex-1 justify-center"
               >
                 <img
                   src="/iconG.avif"

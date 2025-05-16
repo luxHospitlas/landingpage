@@ -10,6 +10,7 @@ import HospitalLocation from "../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../components/footer/footer";
 import Faqs from "../components/faqs/faq";
 import Whatare from "../components/what/whatare";
+import ConditionsWeTreat from "../components/whatwetreat/wetreat";
 
 // Dynamic imports
 const DoctorCard = dynamic(() => import("../components/topdoctors/ourdoctors"));
@@ -36,7 +37,7 @@ export default function Home() {
 
   // Fallback hero text based on pathname
   const heroHeading =
-    "Lux Hospitals - Best hospital for Piles in Hyderabad";
+    "Lux Hospitals – Best Hospital for Plastic & Cosmetic Surgery in Hyderabad";
 
   // if (pathname.includes("piles")) {
   //   heroHeading = "Get Relief from Piles Today";
@@ -48,11 +49,11 @@ export default function Home() {
 
   // Dummy content
   const defaultDescList = [
-    "Advanced Laser & Minimally Invasive Surgeries",
-    "Same-day discharge & 30-minute procedures",
-    "Cashless Insurance Accepted",
+    "Advanced Cosmetic & Reconstructive Procedures",
+    "Minimal Scars & Quick Recovery Techniques",
+    "Cashless Insurance Accepted (where applicable)",
     "0% EMI Options Available",
-    "Expert Doctors & State-of-the-Art Facilities",
+    "Expert Surgeons & State-of-the-Art Facilities",
   ];
 
   const services = [
@@ -60,7 +61,7 @@ export default function Home() {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-3.avif",
       title: "Book an Appointment",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084446",
     },
     {
       image: "/cost extimation.avif",
@@ -78,76 +79,104 @@ export default function Home() {
       image: "https://luxhospitals.com/wp-content/uploads/2025/04/converted-5.avif",
       title: "Insurance Coverage",
       arrow: "/Arrow.svg",
-      link: "tel:917969084448",
+      link: "tel:07969084446",
     },
   ];
 
   const defaultLocationHeading =
-    "Lux Hospitals - Piles Treatment | Expert Proctologists in Hyderabad | Advanced Laser Treatment";
+    "Lux Hospitals – Plastic & Cosmetic Surgery | Expert Surgeons in Hyderabad | Advanced Aesthetic Procedures";
 
-    const whatAreH = "What is Piles?";
-    const whatAreP =
-      "Piles, also known as hemorrhoids, are swollen and inflamed veins in the rectum or anus. They cause discomfort, bleeding, itching, and pain during bowel movements. Piles can be internal or external and range from mild to severe.";
-    const whatHead = "Treatment we provide";
-    const treatments = [
-      "Laser Treatment",
-      "Rubber Band Ligation",
-      "Sclerotherapy",
-      "Surgical Hemorrhoidectomy",
-    ];
-  
-    const fheading = "Frequently Asked Questions";
-    const faqs = [
-      {
-        faqTitle: "What are the main causes of piles?",
-        faqAnswer:
-          "Piles are commonly caused by chronic constipation, prolonged sitting, obesity, pregnancy, and straining during bowel movements.",
-      },
-      {
-        faqTitle: "Can poor diet contribute to piles?",
-        faqAnswer:
-          "Yes, a low-fiber diet and inadequate water intake can lead to hard stools, increasing the risk of developing piles.",
-      },
-      {
-        faqTitle: "Are piles completely curable?",
-        faqAnswer:
-          "Yes, with the right treatment and lifestyle changes, piles can be effectively treated and cured. Advanced options like laser surgery offer long-term relief with minimal recurrence.",
-      },
-      {
-        faqTitle: "Does insurance cover piles treatment at Lux Hospitals?",
-        faqAnswer:
-          "Yes, Lux Hospitals accept insurance for piles treatment. Most major health insurance policies are accepted, and the hospital provides assistance with claim processing to ensure a smooth experience.",
-      },
-      {
-        faqTitle: "Why choose Lux Hospitals for piles treatment?",
-        faqAnswer:
-          "Lux Hospitals offers advanced, minimally invasive laser treatments, experienced proctologists, personalized care, and fast recovery in a patient-friendly environment.",
-      },
-      {
-        faqTitle: "Who are the doctors for piles at Lux Hospitals?",
-        faqAnswer:
-          "Dr. Samhitha Reddy and Dr. Abhishek Katha are leading specialists in piles treatment at Lux Hospitals, known for their expertise in advanced laser procedures and compassionate care.",
-      },
-    ];
-    const tableData = [
-    
-  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
-  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
-  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
-  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
-  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
-  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
+  const whatAreH = "What is Plastic & Cosmetic Surgery?";
+  const whatAreP =
+    "Plastic and cosmetic surgery involves surgical and non-surgical procedures aimed at enhancing appearance or restoring function. It includes treatments for aesthetic enhancement, trauma reconstruction, burns, congenital deformities, and more.";
+
+  const whatHead = "Treatments We Provide";
+  const treatments = [
+    "Liposuction & Body Contouring",
+    "Gynecomastia Surgery",
+    "Breast Augmentation/Reduction",
+    "Tummy Tuck (Abdominoplasty)",
+    "Rhinoplasty (Nose Reshaping)",
+    "Facelift & Eyelid Surgery",
+  ];
+
+  const fheading = "Frequently Asked Questions";
+const faqs = [
+  {
+    faqTitle: "What procedures are offered in the Plastic & Cosmetic Surgery department?",
+    faqAnswer:
+      "We offer a wide range of procedures including rhinoplasty, liposuction, hair transplant, facelift, tummy tuck, gynecomastia surgery, and breast augmentation/reduction.",
+  },
+  {
+    faqTitle: "Are minimally invasive techniques available for cosmetic procedures?",
+    faqAnswer:
+      "Yes, many of our cosmetic surgeries utilize minimally invasive and advanced laser techniques to reduce scarring and recovery time.",
+  },
+  {
+    faqTitle: "Is plastic surgery safe and effective?",
+    faqAnswer:
+      "Plastic surgery is safe when performed by experienced surgeons using modern techniques. We prioritize patient safety and personalized treatment plans for the best outcomes.",
+  },
+  {
+    faqTitle: "Does insurance cover cosmetic or reconstructive surgery at Lux Hospitals?",
+    faqAnswer:
+      "Coverage varies depending on the procedure and insurance policy. Reconstructive surgeries are often covered, while purely cosmetic procedures may not be. Our team assists with insurance queries and claims.",
+  },
+  {
+    faqTitle: "Why choose Lux Hospitals for Plastic & Cosmetic Surgery?",
+    faqAnswer:
+      "Lux Hospitals offers expert surgeons, state-of-the-art facilities, advanced technology, and personalized care to ensure the best results and patient satisfaction.",
+  },
+  {
+    faqTitle: "Who are the surgeons for Plastic & Cosmetic Surgery at Lux Hospitals?",
+    faqAnswer:
+      "Our team includes highly qualified and experienced plastic surgeons who specialize in both cosmetic and reconstructive procedures, providing compassionate care throughout your treatment journey.",
+  },
+];
+  const tableData = [
+
+    { label: "Treatment Type", other: "Open Surgery", lux: "Laser + Harmonic" },
+    { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
+    { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
+    { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
+    { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
+    { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
+  ];
+  const conditionsData = [
+  {
+    src: "/piles 1.png",
+    alt: "Gynecomastia",
+    label: "Gynecomastia",
+  },
+  {
+    src: "/anal fistula 1.png",
+    alt: "Liposuction Surgery",
+    label: "Liposuction Surgery",
+  },
+  {
+    src: "/Anal Fissures 1.png",
+    alt: "Tummy Tuck",
+    label: "Tummy Tuck",
+  },
+  {
+    src: "/perianal abscess 1.png",
+    alt: "Breast Augmentation",
+    label: "Breast Augmentation",
+  },
+  // Add more as needed
 ];
 
   return (
     <>
-      <Header 
-            PhoneNumber={"07969084448"}
-            mobilectatext={"Call Now"}
-            mobileNumberHeader={"tel:07969084448"}
-            />
+      <Header
+        PhoneNumber={"07969084446"}
+        mobilectatext={"Call Now"}
+        mobileNumberHeader={"tel:07969084446"}
+      />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
+      {/* <ConditionsWeTreat /> */}
+      <ConditionsWeTreat conditions={conditionsData} />;
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <section
         className="w-[90%]"
@@ -160,20 +189,23 @@ export default function Home() {
         </h2>
         <div className="doctors_container">
           <DoctorCard
-            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp"
-            name="Dr. Samhitha Reddy"
-            qualification="MBBS, MS, FMAS, FISCP, DMAS"
-            designation="Piles Specialist"
-            experience="Experieance:8 years"
-            description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Ram-Prabhu-1.webp"
+            name="Dr. M Ram Prabhu"
+            qualification="MBBS, MBBS, MS, MCh (Plastic Surgery)"
+            designation="Plastic Surgeon"
+            experience="Experience: 15+ years"
+            description="Plastic & Cosmetic Surgeon with 15+ years of experience. Specialises in gynecomastia, breast augmentation, liposuction, and tummy tuck. Has treated 6,000+ patients with a 99% success rate, offering customised solutions and consistent, natural results in aesthetic and reconstructive surgery."
+            mobileNumberDoctor="tel:0796908446"
           />
           <DoctorCard
-            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Abhishek-Katha-2.webp"
-            name="Dr Abhishek Katha"
-            qualification="MBBS, MS, FMAS, FISCP"
-            designation="Piles Specialist"
-            experience="Experieance:9 years"
-            description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Chandana-Guduru.webp"
+            name="Dr. Chandana Guduru"
+            qualification="MBBS, MS, MCh (Plastic Surgery)"
+            designation="Plastic Surgeon"
+            experience="Experience: 10+ years"
+            description=
+            "Plastic & Cosmetic Surgeon with 10+ years of experience. Specialises in breast augmentation, liposuction, tummy tuck, and gynecomastia. Holds a fellowship in Cosmetic Surgery (Dubai). Has performed 4,000+ procedures with a 99% success rate, known for natural-looking results."
+            mobileNumberDoctor="tel:0796908446"
           />
         </div>
       </section>
@@ -203,8 +235,8 @@ export default function Home() {
         />
       )}
       <FooterComponent
-        footerdesc="Visit the best piles hospital in Hyderabad for painless, advanced treatment and expert care!"
-        footernumber="07969084448"
+        footerdesc="Visit the best plastic and cosmetic surgery hospital in Hyderabad for advanced, safe procedures and expert aesthetic care!"
+        footernumber="07969084446"
       />
 
       {/* <Faqs  fheading={"heading"}

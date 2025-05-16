@@ -42,3 +42,8 @@
 .table_container {
     border-radius: 12px;
 }
+@media (min-width: 475px) and (max-width: 768px){
+    .tablevideo {
+        display: grid;
+    }
+}

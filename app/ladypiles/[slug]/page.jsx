@@ -187,7 +187,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -286,7 +286,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -385,7 +385,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -484,7 +484,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -499,7 +499,7 @@ const contentMap = {
     whatAreH: "What are Hemorrhoids?",
 
     whatAreP: "External hemorrhoids are swollen veins that form around the anus, often visible and painful. They can cause discomfort while sitting, itching, bleeding, or swelling. Women may be more prone due to pregnancy, straining during bowel movements, or prolonged sitting. At Lux Hospitals, we offer advanced, non-invasive treatments for external hemorrhoids with privacy-focused, compassionate care — ensuring lasting relief and patient comfort.",
-  
+
     whatHead: "Top 3 Treatments for Hemorrhoids",
 
     treatments: [
@@ -573,7 +573,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -671,7 +671,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -759,7 +759,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -948,7 +948,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -1035,7 +1035,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -1123,7 +1123,7 @@ const contentMap = {
         name: "Dr. Samhitha Reddy",
         qualification: "MBBS, MS, FMAS, FISCP, DMAS",
         designation: "Piles Specialist",
-        experience: "Experience: 8 years",
+        experience: "Experience: 7+ years",
         description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
         mobileNumberDoctor: "tel:07969084448"
       }
@@ -1189,6 +1189,96 @@ const contentMap = {
       footernumber: "07969084448"
     }
   },
+  "affordable-piles-treatment-females-hyderabad": {
+    heading: "Affordable Piles Treatment for Females in Hyderabad",
+
+    descList: [
+      "Piles Treatment by Female Doctor",
+      "Laser + Harmonic Procedure for Quick Relief",
+      "15-Min Daycare Treatment, No Cuts",
+      "No Pain. No Recurrence.",
+      "100% Cure with Modern Laser Technology",
+      "All Major Insurance Plans Accepted (Cashless)",
+      "0% EMI | 10,000+ Women Treated"
+    ],
+
+    locationsectionheading:
+      "LUX Hospitals – Piles Treatment for Women | Laser Piles Surgery | Female Anorectal Experts | Hyderabad",
+
+    doctors: [
+      {
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp",
+        name: "Dr. Samhitha Reddy",
+        qualification: "MBBS, MS, FMAS, FISCP, DMAS",
+        designation: "Piles Specialist",
+        experience: "Experience: 7+ years",
+        description: "Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS.",
+        mobileNumberDoctor: "tel:07969084448"
+      }
+    ],
+
+    tableContent: [
+      {
+        theading: "Piles Treatment at Lux Hospitals"
+      }
+    ],
+
+    whatAreH: "What is the Cost of Piles Treatment for Women?",
+    whatAreP:
+      "Piles, or hemorrhoids, are swollen veins in the anal region that can cause pain, itching, bleeding, or discomfort — especially during bowel movements. In women, factors like pregnancy, hormonal changes, and constipation increase the risk. At Lux Hospitals, we offer cost-effective laser-based treatments performed exclusively by female doctors. With transparent pricing, no hidden charges, and insurance support, we ensure that you receive high-quality care with complete cost clarity.",
+
+    whatHead: "Top 3 Treatments for Piles",
+
+    treatments: [
+      {
+        title: "Laser Hemorrhoidoplasty (LHP)",
+        description: "A stitch-free, minimally invasive laser procedure. Quick recovery, minimal pain, and same-day discharge."
+      },
+      {
+        title: "Doppler-Guided Hemorrhoidal Artery Ligation (DGHAL)",
+        description: "Uses ultrasound to block blood supply to piles. No cuts or stitches, minimal downtime."
+      },
+      {
+        title: "Hemorrhoidal Artery Ligation with Recto-Anal Repair (HAL-RAR)",
+        description: "Suitable for advanced or recurring piles. Improves anal tone and long-term relief."
+      }
+    ],
+
+    fheading: "FAQs on Piles",
+
+    faqs: [
+      {
+        faqTitle: "How much does piles treatment cost for women in Hyderabad?",
+        faqAnswer: "Cost ranges from ₹45,000 to ₹90,000, depending on the procedure and case complexity."
+      },
+      {
+        faqTitle: "Is laser piles surgery more expensive than traditional surgery?",
+        faqAnswer: "Initially yes, but laser offers faster recovery, fewer complications, and less hospital time — making it cost-effective overall."
+      },
+      {
+        faqTitle: "Is insurance accepted for piles surgery?",
+        faqAnswer: "Yes. We accept all major insurance plans and offer cashless claims support for eligible patients."
+      },
+      {
+        faqTitle: "Can I get EMI for piles treatment?",
+        faqAnswer: "Absolutely. We provide 0% Interest Free EMI options to make your treatment financially easier."
+      },
+      {
+        faqTitle: "Is there a free cost estimate available?",
+        faqAnswer: "Yes. After your consultation, our team will share a personalised, transparent cost estimate based on your treatment plan."
+      },
+      {
+        faqTitle: "Are female doctors available for consultation and surgery?",
+        faqAnswer: "Yes. All our consultations and procedures for women are handled by expert female surgeons in a private and respectful environment."
+      }
+    ],
+
+    footerComponent: {
+      footerdesc: "Get expert care and complete clarity on Piles Treatment Costs for Females at Lux Hospitals. Book your consultation today and receive a personalised cost estimate.",
+      footernumber: "07969084448"
+    }
+  },
+
 
   piles: {
     heading: "Get Relief from Piles Today",
@@ -1204,25 +1294,14 @@ export default function ConditionPage({ params }) {
     paragraph: "Trusted care for all specialties.",
   };
   const tableData = [
-    { label: "Treatment Type", other: "Open Surgery", lux: "Laser + Harmonic" },
-    { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
-    {
-      label: "Pain & Bleeding",
-      other: "Painful with Bleeding",
-      lux: "Painless & Bloodless",
-    },
-    {
-      label: "Insurance & EMI",
-      other: "Not Always Cashless",
-      lux: "All Insurances + 0% EMI",
-    },
-    { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
-    {
-      label: "Cost Transparency",
-      other: "Variable & Hidden Costs",
-      lux: "Fixed & Transparent",
-    },
-  ];
+    
+  { label: "Treatment Type",other: "Open Surgery",lux: "Laser + Harmonic"},
+  { label: "Recovery Time", other: "7–10 Days", lux: "Same Day" },
+  { label: "Pain & Bleeding", other: "Painful with Bleeding", lux: "Painless & Bloodless" },
+  { label: "Insurance & EMI", other: "Not Always Cashless", lux: "All Insurances + 0% EMI" },
+  { label: "Room Type", other: "General / Shared", lux: "Private Suite" },
+  { label: "Cost Transparency", other: "Variable & Hidden Costs", lux: "Fixed & Transparent" },
+];
 
   return (
     <>
@@ -1295,7 +1374,7 @@ export default function ConditionPage({ params }) {
           footernumber={content.footerComponent.footernumber}
         />
       )}
-      <MobileStickyFooter mobileNumber="tel:07969084448"/>
+      <MobileStickyFooter mobileNumber="tel:07969084448" />
     </>
   );
 }

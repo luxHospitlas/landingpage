@@ -117,13 +117,36 @@ export default function Proctology() {
         "Lux Hospitals offers advanced, minimally invasive treatments by expert surgeons with a high success rate. Facilities include cashless insurance, EMI options, and same-day discharge.",
     },
   ];
+  const conditionsData = [
+  {
+    src: "/piles 1.png",
+    alt: "Piles / Hemorrhoids",
+    label: "Piles / Hemorrhoids",
+  },
+  {
+    src: "/anal fistula 1.png",
+    alt: "Anal Fistula",
+    label: "Anal Fistula",
+  },
+  {
+    src: "/Anal Fissures 1.png",
+    alt: "Anal Fissures",
+    label: "Anal Fissures",
+  },
+  {
+    src: "/perianal abscess 1.png",
+    alt: "Perianal Abscess",
+    label: "Perianal Abscess",
+  },
+  // Add more as needed
+];
 
   return (
     <>
       <Header PhoneNumber={"07969084448"} mobilectatext={"Call Now"} mobileNumberHeader={"tel:07969084448"} />
       <Hero heading={heroHeading} descList={defaultDescList} />
       <Second services={services} />
-      <ConditionsWeTreat />
+      <ConditionsWeTreat conditions={conditionsData} />;
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
       <section className="w-[90%]" style={{ margin: "auto" }}>
         <h2 className="doctors_heading text-xl font-bold text-center text-indigo-900 mb-4">
@@ -135,7 +158,7 @@ export default function Proctology() {
             name="Dr. Samhitha Reddy"
             qualification="MBBS, MS, FMAS, FISCP, DMAS"
             designation="Piles Specialist"
-            experience="Experience: 8 years"
+            experience="Experience: 7+ years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
             mobileNumberDoctor="tel:07969084448"
           />
@@ -144,7 +167,7 @@ export default function Proctology() {
             name="Dr Abhishek Katha"
             qualification="MBBS, MS, FMAS, FISCP"
             designation="Piles Specialist"
-            experience="Experience: 9 years"
+            experience="Experience: 15+ years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
             mobileNumberDoctor="tel:07969084448"
           />
