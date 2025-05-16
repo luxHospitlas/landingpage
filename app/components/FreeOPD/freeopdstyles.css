@@ -56,3 +56,18 @@
     }
     
   }
+  @media (min-width: 475px) and (max-width: 768px){
+    .freeopd-heading{
+        font-size: 18px;
+    }
+    .freeopd-content{
+        font-size: 14px;
+    }
+    .freeopd-btn{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .freeoldcontetdiv {
+        padding: 10px;
+    }
+  }

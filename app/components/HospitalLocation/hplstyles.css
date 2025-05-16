@@ -126,3 +126,20 @@
     }
     
  }
+ @media (min-width: 475px) and (max-width: 768px){
+    .review_button {
+        padding: 20px 12px;
+    }
+    .google-btn{
+        padding: 10px 12px;
+    }
+ }
+ @media (min-width:425) {
+    .review_button {
+        padding: 10px 12px;
+    }
+    .google-btn{
+        padding: 10px 12px;
+    }
+    
+ }
