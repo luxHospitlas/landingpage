@@ -794,7 +794,7 @@ export default function ConditionPage({ params }) {
     <>
       <Header
         PhoneNumber={"07969084446"}
-        mobilectatext={"Free OPD"}
+        mobilectatext={"Call Now"}
         mobileNumberHeader={"tel:07969084446"}
       />
       <Hero heading={content.heading} descList={content.descList} />
