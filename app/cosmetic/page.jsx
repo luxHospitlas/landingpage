@@ -144,22 +144,22 @@ const faqs = [
   ];
   const conditionsData = [
   {
-    src: "/piles 1.png",
+    src: "/gynecomastia .webp",
     alt: "Gynecomastia",
     label: "Gynecomastia",
   },
   {
-    src: "/anal fistula 1.png",
+    src: "/liposuction .webp",
     alt: "Liposuction Surgery",
     label: "Liposuction Surgery",
   },
   {
-    src: "/Anal Fissures 1.png",
+    src: "/tummy tuck ΓÇï.webp",
     alt: "Tummy Tuck",
     label: "Tummy Tuck",
   },
   {
-    src: "/perianal abscess 1.png",
+    src: "/breast-augmentation.webp",
     alt: "Breast Augmentation",
     label: "Breast Augmentation",
   },

@@ -27,15 +27,16 @@ export default function HospitalComparison({ theading, ConditionVideo }) {
           </div>
         </div> */}
         <div className="w-full lg:w-1/2">
-          <div className="aspect-w-16 aspect-h-9">
+          <div>
             <video
               className="w-full h-[240px] lg:h-[420px] rounded-lg video-container"
               autoPlay
               muted
               loop
               playsInline
-              onMouseEnter={(e) => (e.currentTarget.controls = true)}
-              onMouseLeave={(e) => (e.currentTarget.controls = false)}
+              controls
+              // onMouseEnter={(e) => (e.currentTarget.controls = true)}
+              // onMouseLeave={(e) => (e.currentTarget.controls = false)}
             >
               <source src={ConditionVideo} type="video/mp4" />
               Your browser does not support the video tag.

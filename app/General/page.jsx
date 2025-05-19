@@ -132,7 +132,7 @@ export default function GeneralLaparoscopic() {
       label: "Gallbladder Stones",
     },
     {
-      src: "/Anal Fissures 1.png",
+      src: "/Appendix.webp",
       alt: "Appendix",
       label: "Appendix",
     },
