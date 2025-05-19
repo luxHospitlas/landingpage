@@ -132,7 +132,7 @@ export default function Home() {
         </div>
       </section>
       
-      <HospitalComparisond theading={"hospital dynamic data"} rows={tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
+      <HospitalComparisond theading={"hospital dynamic data"} rows={tableData} ConditionVideo={"/KIDNEY STONE PAGES.mp4"} />
       <Accreditations />
       <VideoSection />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />

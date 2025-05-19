@@ -177,7 +177,7 @@ export default function Proctology() {
           />
         </div>
       </section>
-      <HospitalComparison theading={"Best Urology Hospital in Hyderabad"} ConditionVideo={"/tablevideo.mp4"} />
+      <HospitalComparison theading={"Best Urology Hospital in Hyderabad"} ConditionVideo={"/KIDNEY STONE PAGES.mp4"} />
       <Accreditations />
       <VideoSection />
       <PatientTalks />
