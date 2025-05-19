@@ -173,7 +173,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Kidney Stone Surgery | Laser & Laparoscopic Stone Removal Experts | Advanced Urology Centre | Hyderabad",
@@ -185,7 +185,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -195,7 +195,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -279,7 +279,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Kidney Stone Treatment | Laser & Laparoscopic Stone Removal Experts | Advanced Urology Centre | Hyderabad",
@@ -291,7 +291,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -301,7 +301,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -384,7 +384,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Kidney Stone Doctor | Laser & Laparoscopic Stone Removal Experts | Endoscopic Urology Centre | Hyderabad",
@@ -396,7 +396,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -406,7 +406,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -489,7 +489,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationsectionheading:
       "LUX Hospitals – Affordable Kidney Stone Surgery | Cashless Insurance | Fixed Cost Packages | Hyderabad",
@@ -501,7 +501,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -511,7 +511,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -596,29 +596,29 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationSectionHeading:
       "LUX Hospitals – Kidney Stone Treatment | Laser + Laparoscopic Stone Removal Experts | 100% Insurance Coverage | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
         name: "Dr. Priyank Salecha",
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with over 10 years of experience in treating kidney stones, prostate issues, and other urological conditions using advanced techniques. Specializes in minimally invasive treatments with no cuts and faster recovery. Treated over 7,000 patients with successful outcomes.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Andrologist",
-        experience: "Experience: 9+ Years",
+        experience: "Experience: 9+ years",
         description:
-          "Urologist and Andrologist with 9 years of experience in kidney stone management and urological health. Specializes in advanced laser techniques and laparoscopic surgery, ensuring minimal pain and quick recovery for patients. He has successfully treated 4,000+ kidney stone patients.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -701,28 +701,28 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationSectionHeading: "LUX Hospitals – RIRS Surgery | Scarless Kidney Stone Removal | Advanced Urology Centre | Hyderabad",
     doctors: [
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp", // Image to be added
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Priyank-Ashokkumar-Salecha.webp",
         name: "Dr. Priyank Salecha",
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with over 10 years of experience in treating kidney stones, prostate issues, and other urological conditions using advanced techniques. Specializes in minimally invasive treatments with no cuts and faster recovery. Treated over 7,000 patients with successful outcomes.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
-        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp", // Image to be added
+        url: "https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Aditya-Rao-1.webp",
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Andrologist",
-        experience: "Experience: 9+ Years",
+        experience: "Experience: 9+ years",
         description:
-          "Urologist and Andrologist with 9 years of experience in kidney stone management and urological health. Specializes in advanced laser techniques and laparoscopic surgery, ensuring minimal pain and quick recovery for patients. He has successfully treated 4,000+ kidney stone patients.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -794,7 +794,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationSectionHeading: "LUX Hospitals – PCNL Procedure | Advanced Kidney Stone Removal | High-Precision Urology Centre | Hyderabad",
     doctors: [
@@ -805,7 +805,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -815,7 +815,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -886,7 +886,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationSectionHeading: "LUX Hospitals – URSL Treatment | Advanced Ureter Stone Removal | Endoscopic Urology Specialists | Hyderabad",
     doctors: [
@@ -897,7 +897,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -907,7 +907,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -978,7 +978,7 @@ const contentMap = {
       "30-Min Laser Procedure, No Cuts",
       "All Insurances Accepted (Cashless)",
       "0% EMI Option Available",
-      "5,000+ Stone-Free Patients"
+      "10,000+ Stone-Free Patients"
     ],
     locationSectionHeading: "LUX Hospitals – Lithotripsy Treatment | Non-Invasive Kidney Stone Removal | Advanced Urology Centre | Hyderabad",
     doctors: [
@@ -989,7 +989,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 10+ years",
         description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+          "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         mobileNumberDoctor: "07969084442"
       },
       {
@@ -999,7 +999,7 @@ const contentMap = {
         designation: "Urologist & Andrologist",
         experience: "Experience: 9+ years",
         description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+          "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         mobileNumberDoctor: "07969084442"
       }
     ],
@@ -1152,7 +1152,7 @@ export default function ConditionPage({ params }) {
       )}
 
       {content.tableContent?.[0] && (
-        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} ConditionVideo={"/fistulatablevideo.mp4"} />
+        <HospitalComparisond theading={content.tableContent[0].theading} rows={tableData} ConditionVideo={"/KIDNEY STONE PAGES.mp4"} />
       )}
       <Accreditations />
       <VideoSection />
