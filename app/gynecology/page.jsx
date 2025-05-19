@@ -144,22 +144,22 @@ export default function Home() {
   ];
   const conditionsData = [
   {
-    src: "/piles 1.png",
+    src: "/Endometriosis Treatment .webp",
     alt: "Endometriosis ",
     label: "Endometriosis ",
   },
   {
-    src: "/anal fistula 1.png",
+    src: "/Medical Termination of Pregnancy.webp",
     alt: "Medical Termination of Pregnancy",
-    label: "Medical Termination of Pregnancy",
+    label: "Pregnancy Termination",
   },
   {
-    src: "/Anal Fissures 1.png",
+    src: "/sexual dysfunction treatment .webp",
     alt: "Sexual Dysfunction",
     label: "Sexual Dysfunction",
   },
   {
-    src: "/perianal abscess 1.png",
+    src: "/uterine polyp removal .webp",
     alt: "Uterine Polyp Removal",
     label: "Uterine Polyp Removal",
   },

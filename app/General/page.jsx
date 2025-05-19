@@ -122,12 +122,12 @@ export default function GeneralLaparoscopic() {
   ];
   const conditionsData = [
     {
-      src: "/piles 1.png",
+      src: "/Hernia.webp",
       alt: "Hernia",
       label: "Hernia",
     },
     {
-      src: "/anal fistula 1.png",
+      src: "/Gallblader V1.webp",
       alt: "Gallbladder Stones",
       label: "Gallbladder Stones",
     },
@@ -137,7 +137,7 @@ export default function GeneralLaparoscopic() {
       label: "Appendix",
     },
     {
-      src: "/perianal abscess 1.png",
+      src: "/Lipoma.webp",
       alt: "Lipoma",
       label: "Lipoma",
     },
