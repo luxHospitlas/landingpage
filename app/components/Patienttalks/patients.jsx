@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import "./patistyles.css";
 
 export default function PatientTalks() {
@@ -9,52 +9,74 @@ export default function PatientTalks() {
   const testimonials = [
     {
       id: 1,
-      imageUrl:
-        "/pati 1.png",
+      imageUrl: "/pati 1.png",
       name: "Sumetha",
     },
     {
       id: 2,
-      imageUrl:
-        "/pati 2.png",
+      imageUrl: "/pati 2.png",
       name: "Sumetha",
     },
     {
       id: 3,
-      imageUrl:
-        "/pati 3.png",
+      imageUrl: "/pati 3.png",
       name: "Sumetha",
     },
     {
       id: 4,
-      imageUrl:
-        "/pati 4.png",
+      imageUrl: "/pati 4.png",
       name: "Sumetha",
     },
     {
       id: 5,
-      imageUrl:
-        "/pati 5.png",
+      imageUrl: "/pati 5.png",
       name: "Sumetha",
     },
     {
       id: 6,
-      imageUrl:
-        "/pati 6.png",
+      imageUrl: "/pati 6.png",
       name: "Sumetha",
     },
     {
       id: 7,
-      imageUrl:
-        "/pati 7.png",
+      imageUrl: "/pati 7.png",
       name: "Sumetha",
     },
   ];
+  // Update activeIndex on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!scrollRef.current) return;
+      const scrollLeft = scrollRef.current.scrollLeft;
+      const containerWidth = scrollRef.current.offsetWidth;
+      const scrollWidth = scrollRef.current.scrollWidth;
+      const cardWidth = 320; // .video_box width
+      const maxIndex = testimonials.length - 1;
+
+      // If scrolled to (or past) the end, set to last index
+      if (scrollLeft + containerWidth >= scrollWidth - 2) {
+        setActiveIndex(maxIndex);
+      } else {
+        const index = Math.round(scrollLeft / cardWidth);
+        setActiveIndex(index);
+      }
+    };
+
+    const ref = scrollRef.current;
+    if (ref) {
+      ref.addEventListener("scroll", handleScroll);
+    }
+    return () => {
+      if (ref) {
+        ref.removeEventListener("scroll", handleScroll);
+      }
+    };
+  }, [testimonials.length]);
 
   const scrollToSlide = (index) => {
     setActiveIndex(index);
     scrollRef.current?.scrollTo({
-      left: index * 320, // Adjust width as per your .video_box width
+      left: index * 320,
       behavior: "smooth",
     });
   };
@@ -76,13 +98,18 @@ export default function PatientTalks() {
         </div>
 
         {/* Navigation Dots */}
-        <div className="flex justify-center mt-4">
+        {/* absolute bottom-6 left-1/2 -translate-x-1/2 */}
+        <div className=" flex items-center justify-center gap-2 z-10">
           {testimonials.map((_, index) => (
-            <span
+            <button
               key={index}
-              className={`dot ${activeIndex === index ? "active" : ""}`}
+              className={`h-2 w-2 rounded-full transition-all ${
+                index === activeIndex
+                  ? "bg-black w-6"
+                  : "bg-black/30 hover:bg-black/50"
+              }`}
               onClick={() => scrollToSlide(index)}
-            ></span>
+            />
           ))}
         </div>
       </div>

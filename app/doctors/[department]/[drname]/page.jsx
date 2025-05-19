@@ -84,11 +84,34 @@ export default function DoctorDetail({ params }) {
         "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
     },
   ];
+  const conditionsData = [
+  {
+    src: "/piles 1.png",
+    alt: "Piles / Hemorrhoids",
+    label: "Piles / Hemorrhoids",
+  },
+  {
+    src: "/anal fistula 1.png",
+    alt: "Anal Fistula",
+    label: "Anal Fistula",
+  },
+  {
+    src: "/Anal Fissures 1.png",
+    alt: "Anal Fissures",
+    label: "Anal Fissures",
+  },
+  {
+    src: "/perianal abscess 1.png",
+    alt: "Perianal Abscess",
+    label: "Perianal Abscess",
+  },
+  // Add more as needed
+];
 
   return (
     <>
       <Doctordetailspagehero doctor={doctor} />
-      <ConditionsWeTreat />
+      <ConditionsWeTreat conditions={conditionsData}/>
       <HospitalComparison />
       <Dpatientloveuse testimonials={testimonials} StarRating={StarRating} />
       <Faqs
