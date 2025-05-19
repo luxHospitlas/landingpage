@@ -123,22 +123,22 @@ export default function Proctology() {
 
   const conditionsData = [
     {
-      src: "/piles 1.png",
+      src: "/Cirummsion.webp",
       alt: "Circumcision",
       label: "Circumcision",
     },
     {
-      src: "/anal fistula 1.png",
+      src: "/Enlarged prostate.webp",
       alt: "Enlarged Prostate",
       label: "Enlarged Prostate",
     },
     {
-      src: "/Anal Fissures 1.png",
+      src: "/kidney-stone.webp",
       alt: "Kidney Stones",
       label: "Kidney Stones",
     },
     {
-      src: "/perianal abscess 1.png",
+      src: "/Urethral stricture Treatment.webp",
       alt: "Urethral Stricture",
       label: "Urethral Stricture",
     },
