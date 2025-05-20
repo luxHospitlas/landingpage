@@ -188,7 +188,7 @@ export default function Home() {
       <Accreditations />
       <VideoSection />
       <HospitalLocation locationsectionheading={defaultLocationHeading} />
-      <Gentstalks />
+      <PatientTalks />
       <Luxgpt />
       {whatAreH && (
         <Whatare
