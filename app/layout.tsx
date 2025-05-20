@@ -84,7 +84,7 @@
 //     </html>
 //   );
 // }
-
+"use client";
 import type { Metadata } from "next";
 import ClientLayout from "./ClientLayout";
 import ClientHead from "./ClientHead";
