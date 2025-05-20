@@ -1,5 +1,5 @@
 "use client";
-import Script from "next/script";
+
 // import dynamic from "next/dynamic";
 
 // const FooterComponent = dynamic(() => import("./components/footer/footer"), { ssr: false });
