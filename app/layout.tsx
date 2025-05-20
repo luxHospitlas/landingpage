@@ -88,6 +88,7 @@
 import type { Metadata } from "next";
 import ClientLayout from "./ClientLayout";
 import ClientHead from "./ClientHead";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -102,7 +103,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* GTM HEAD SCRIPT */}
-        <script
+        <Script
+          id="gtm-init"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -110,7 +113,6 @@ export default function RootLayout({
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-5BCR427Z');
-              console.log('tags loading');
             `,
           }}
         />
