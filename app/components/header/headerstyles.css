@@ -178,6 +178,10 @@ html {
   opacity: 0;
   transform: translateY(10px);
   animation: fadeInUp 1s ease-in-out forwards;
+  display: block;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 @keyframes fadeInUp {
@@ -296,6 +300,17 @@ html {
     width: 100px;
     height: 70px;
     /* aspect-ratio: 1 / 1; */
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .header__logotwo,
+  .header__logothree {
+    /* max-width: 100px; */
+    width: auto;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
   }
 }
 
