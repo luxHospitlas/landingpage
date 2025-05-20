@@ -84,12 +84,11 @@
 //     </html>
 //   );
 // }
-
 import type { Metadata } from "next";
 import ClientLayout from "./ClientLayout";
 import ClientHead from "./ClientHead";
-import Script from "next/script";
 import "./globals.css";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Lux LP",
@@ -101,22 +100,8 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-5BCR427Z" />
       <head>
-        {/* GTM HEAD SCRIPT */}
-        <Script
-          id="gtm-init"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5BCR427Z');
-            `,
-          }}
-        />
-
         {/* Fonts and Preloads */}
         <link rel="preload" href="/globals.css" as="style" />
         <link rel="stylesheet" href="/globals.css" media="print" />
@@ -152,19 +137,6 @@ export default function RootLayout({
         <ClientHead />
       </head>
       <body>
-        {/* GTM NOSCRIPT */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-5BCR427Z"
-            height="0"
-            width="0"
-            style={{
-              display: "none",
-              visibility: "hidden",
-            }}
-          ></iframe>
-        </noscript>
-
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
