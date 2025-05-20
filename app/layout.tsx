@@ -84,6 +84,7 @@
 //     </html>
 //   );
 // }
+
 import type { Metadata } from "next";
 import ClientLayout from "./ClientLayout";
 import ClientHead from "./ClientHead";
@@ -100,7 +101,6 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-5BCR427Z" />
       <head>
         {/* Fonts and Preloads */}
         <link rel="preload" href="/globals.css" as="style" />
@@ -137,6 +137,8 @@ export default function RootLayout({
         <ClientHead />
       </head>
       <body>
+        {/* Move GoogleTagManager here */}
+        <GoogleTagManager gtmId="GTM-5BCR427Z" />
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
