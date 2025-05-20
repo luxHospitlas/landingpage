@@ -430,6 +430,77 @@ const contentMap = {
       footernumber: "07969084446"
     }
   },
+  "abdominoplasty-tummy-tuck-hyderabad": {
+  heading: "Best Abdominoplasty (Tummy Tuck) Surgery in Hyderabad",
+  descList: [
+    "Expert in Body Contouring Surgery",
+    "Top Surgeons for Abdominoplasty",
+    "Advanced Tummy Tuck Specialist",
+    "Starts at ₹1,50,000 Only",
+    "2-3 Hour Procedure. Quick Recovery",
+    "Minimal Scars. Natural-Looking Results",
+    "0% Interest EMI | 1500+ Patients Transformed"
+  ],
+  locationsectionheading: "LUX Hospitals – Abdominoplasty | Tummy Tuck Surgery | Body Contouring | Hyderabad",
+  doctors: gynecomastiaDoctorsData, 
+  tableContent: [
+    {
+      theading: "Abdominoplasty at Lux Hospitals"
+    }
+  ],
+  whatAreH: "What is Abdominoplasty?",
+  whatAreP: "Abdominoplasty, commonly known as a tummy tuck, is a cosmetic surgical procedure designed to remove excess skin and fat from the abdominal area and tighten the underlying muscles to create a firmer and flatter abdomen. This procedure is ideal for patients with loose skin due to pregnancy, weight loss, or aging. At Lux Hospitals, our expert surgeons use advanced techniques to minimize scarring and improve abdominal contour with natural-looking results. The surgery is performed under general anesthesia and typically takes 2 to 3 hours, with a short hospital stay and guided recovery plan.",
+  whatHead: "Top 4 Abdominoplasty Procedures",
+  treatments: [
+    {
+      title: "Full Abdominoplasty",
+      description: "Complete removal of excess skin and fat, along with muscle tightening from the lower ribs to the pubic area. Ideal for significant skin laxity and muscle separation."
+    },
+    {
+      title: "Mini Abdominoplasty",
+      description: "Focused removal of fat and skin below the navel, with limited muscle tightening — suitable for patients with minor abdominal laxity."
+    },
+    {
+      title: "Extended Abdominoplasty",
+      description: "Includes removal of excess skin from the abdomen as well as the flanks (love handles) for a more comprehensive contouring."
+    },
+    {
+      title: "Circumferential Tummy Tuck",
+      description: "Combines abdominoplasty with back liposuction and skin removal to sculpt the entire midsection and waistline."
+    }
+  ],
+  fheading: "FAQs on Abdominoplasty",
+  faqs: [
+    {
+      faqTitle: "What causes the need for abdominoplasty?",
+      faqAnswer: "Pregnancy, weight loss, aging, genetics, and previous surgeries cause loose skin, weakened muscles, and stubborn fat in the abdomen."
+    },
+    {
+      faqTitle: "Is abdominoplasty painful?",
+      faqAnswer: "Postoperative discomfort is managed with medications. Most patients experience mild to moderate pain that subsides within the first week."
+    },
+    {
+      faqTitle: "How long does the surgery take?",
+      faqAnswer: "The procedure typically takes 2 to 3 hours under general anesthesia."
+    },
+    {
+      faqTitle: "What is the abdominoplasty procedure like?",
+      faqAnswer: "The surgery involves removing excess skin and fat, tightening muscles, and reshaping the abdomen, typically under general anesthesia lasting 2–3 hours."
+    },
+    {
+      faqTitle: "Are scars visible?",
+      faqAnswer: "Incisions are made in discreet locations, usually hidden along the bikini line. Scars fade significantly over time with proper care."
+    },
+    {
+      faqTitle: "What is the cost of abdominoplasty at Lux Hospitals?",
+      faqAnswer: "Starts at ₹60,000. Final price depends on fat volume and technique. 0% EMI options available."
+    }
+  ],
+  footerComponent: {
+    footerdesc: "Transform your abdomen with expert abdominoplasty at Lux Hospitals. Safe, precise, and long-lasting results by experienced plastic surgeons.",
+    footernumber: "07969084446"
+  }
+},
   "best-double-chin-surgery-hyderabad": {
     heading: "Best Double Chin Surgery in Hyderabad",
     descList: [
@@ -574,78 +645,77 @@ const contentMap = {
       footernumber: "07969084446"
     }
   },
-  // "best-double-chin-removal-hyderabad": {
-  //   heading: "Best Double Chin Removal in Hyderabad",
-  //   descList: [
-  //     "Expert in Body Contouring Surgery",
-  //     "Top Surgeons for Double Chin Removal",
-  //     "Laser + Liposuction Specialist",
-  //     "Starts at ₹60,000 Only",
-  //     "30-Min Procedure. No Downtime",
-  //     "No Scars. Visible Results",
-  //     "0% Interest EMI | 2500+ Patients Transformed"
-  //   ],
-  //   locationsectionheading: "LUX Hospitals – Double Chin Removal | Chin Liposuction | Laser Fat Reduction | Hyderabad",
-  //   doctors: gynecomastiaDoctorsData,
-  //   tableContent: [
-  //     {
-  //       theading: "Double Chin Removal at Lux Hospitals"
-  //     }
-  //   ],
-  //   // tableData: tableData,
-  //   whatAreH: "What is Double Chin Removal?",
-  //   whatAreP: "Double chin removal is a cosmetic procedure that eliminates excess fat below the chin to create a sharper jawline and more balanced facial profile. At Lux Hospitals, we perform this treatment using advanced Laser and VASER liposuction techniques. These are minimally invasive, require no stitches, and offer fast recovery without visible scars. The procedure is ideal for people who want to get rid of stubborn fat under the chin and achieve long-lasting, natural-looking results.",
-  //   whatHead: "Top 4 Double Chin Removal Procedures",
-  //   treatments: [
-  //     {
-  //       title: "Laser Chin Liposuction",
-  //       description: "Laser energy is used to break down fat and tighten skin under the chin for a more defined look."
-  //     },
-  //     {
-  //       title: "VASER Chin Contouring",
-  //       description: "Uses ultrasound energy to precisely remove fat and sculpt the lower face and jawline."
-  //     },
-  //     {
-  //       title: "Mini Liposuction (Chin Focused)",
-  //       description: "Targets small fat pockets under the chin with minimal recovery and visible results."
-  //     },
-  //     {
-  //       title: "Chin + Neck Combo Removal",
-  //       description: "Fat is removed from both chin and neck areas in a single session for full lower face contouring."
-  //     }
-  //   ],
-  //   fheading: "FAQs on Double Chin Removal",
-  //   faqs: [
-  //     {
-  //       faqTitle: "What is the difference between double chin removal and regular liposuction?",
-  //       faqAnswer: "Double chin removal is a targeted liposuction done under the chin using finer tools to remove fat precisely and tighten the area."
-  //     },
-  //     {
-  //       faqTitle: "Is it painful or risky?",
-  //       faqAnswer: "No. It is done under anesthesia. Mild swelling may occur, but it goes away within a few days."
-  //     },
-  //     {
-  //       faqTitle: "How long does the treatment take?",
-  //       faqAnswer: "It takes 30–45 minutes. It’s a daycare procedure and you can go home the same day."
-  //     },
-  //     {
-  //       faqTitle: "How soon will I see results?",
-  //       faqAnswer: "Results are visible within 7–10 days. Full results appear in 3–4 weeks once swelling subsides."
-  //     },
-  //     {
-  //       faqTitle: "Will there be scars or cuts?",
-  //       faqAnswer: "No. The procedure involves very small incisions under the chin that heal naturally without visible marks."
-  //     },
-  //     {
-  //       faqTitle: "What is the cost for double chin removal?",
-  //       faqAnswer: "Starts at ₹60,000. Final cost depends on fat volume and method used. EMI available at 0% interest."
-  //     }
-  //   ],
-  //   footerComponent: {
-  //     footerdesc: "Say goodbye to your double chin with advanced removal techniques at Lux Hospitals. Natural look. Long-lasting results. Trusted surgeons.",
-  //     footernumber: "07969084446"
-  //   }
-  // },
+  "double-chin-liposuction-hyderabad": {
+    heading: "Best Double Chin Liposuction in Hyderabad",
+    descList: [
+      "Expert in Body Contouring Surgery",
+      "Top Surgeons for Double Chin Liposuction",
+      "Laser + Liposuction Specialist",
+      "Starts at ₹60,000 Only",
+      "30-Min Procedure. No Downtime",
+      "No Scars. Visible Results",
+      "0% Interest EMI | 2500+ Patients Transformed"
+    ],
+    locationsectionheading: "LUX Hospitals – Double Chin Liposuction | Laser Chin Fat Removal | Jawline Contouring | Hyderabad",
+    doctors: gynecomastiaDoctorsData,
+    tableContent: [
+      {
+        theading: "Double Chin Liposuction at Lux Hospitals"
+      }
+    ],
+    whatAreH: "What is Double Chin Liposuction?",
+    whatAreP: "Double chin liposuction is a minimally invasive procedure that removes fat under the chin using a fine suction tool. It improves your jawline and gives the face a slimmer, more sculpted look. At Lux Hospitals, we use the latest Laser and VASER liposuction technologies to melt and remove fat with precision — without visible scars, cuts, or stitches. The treatment is performed under anesthesia and takes about 30–45 minutes, with same-day discharge and quick recovery.",
+    whatHead: "Top 4 Double Chin Liposuction Procedures",
+    treatments: [
+      {
+        title: "Laser Liposuction (Chin Focused)",
+        description: "Uses laser energy to melt fat and stimulate skin tightening under the chin."
+      },
+      {
+        title: "VASER Chin Liposuction",
+        description: "Ultrasound-assisted technique to remove fat with accuracy and improve chin definition."
+      },
+      {
+        title: "Mini Chin Liposuction",
+        description: "Targeted fat removal for small areas under the chin — ideal for early-stage double chin."
+      },
+      {
+        title: "Chin + Neck Liposuction Combo",
+        description: "Removes fat from chin and neck in one session to enhance jawline and neck contour together."
+      }
+    ],
+    fheading: "FAQs on Double Chin Liposuction",
+    faqs: [
+      {
+        faqTitle: "How is double chin liposuction different from other treatments?",
+        faqAnswer: "This is a surgical fat-removal technique that gives faster, more defined results than non-surgical methods."
+      },
+      {
+        faqTitle: "Will there be pain or side effects?",
+        faqAnswer: "The procedure is done under anesthesia. There might be minor swelling which settles in a few days."
+      },
+      {
+        faqTitle: "Is it safe?",
+        faqAnswer: "Yes. Our surgeons are highly experienced, and we follow strict medical protocols."
+      },
+      {
+        faqTitle: "How long does the procedure take?",
+        faqAnswer: "It takes about 30–45 minutes. You can return home the same day."
+      },
+      {
+        faqTitle: "What is the recovery time?",
+        faqAnswer: "Most people return to regular activities within 1–2 days. Full results appear in 2–3 weeks."
+      },
+      {
+        faqTitle: "What is the cost of double chin liposuction?",
+        faqAnswer: "Starts at ₹60,000. Final price depends on fat volume and technique. 0% EMI options available."
+      }
+    ],
+    footerComponent: {
+      footerdesc: "Define your jawline with advanced double chin liposuction at Lux Hospitals. Safe, quick, and long-lasting results from expert surgeons.",
+      footernumber: "07969084446"
+    }
+  },
   "best-tummy-tuck-surgery-hyderabad": {
     heading: "Best Tummy Tuck Surgery in Hyderabad",
     descList: [
@@ -1236,7 +1306,7 @@ export default function ConditionPage({ params }) {
     heading: "Lux Hospitals",
     paragraph: "Trusted care for all specialties.",
   };
-  const tableData  = [
+  const tableData = [
 
     { label: "Fat Removal Technique", other: "Surgical Liposuction", lux: "Laser-Assisted Liposuctionn" },
     { label: "Downtime", other: "7–10 Days", lux: "Back to Work in 1–2 Days" },
