@@ -7,11 +7,12 @@ import Second from "../../components/second/second";
 import HospitalLocation from "../../components/HospitalLocation/hospitallocations";
 import FooterComponent from "../../components/footer/footer";
 // import services from "../../piles/pilesdata";
-import Gentstalks from "../../components/Gentstalks/gentstalks";
+// import Gentstalks from "../../components/Gentstalks/gentstalks";
 import FreeOpdSection from "../../components/FreeOPD/freeopd";
 import gynecomastiaDoctorsData from "../../gynecomastia/gynecodata";
 import MobileStickyFooter from "../../components/mobilsticky";
 // import tableData from '../../fistula/fistuladata';
+// import PatientTalks from "../../components/Patienttalks/patients";
 
 const DoctorCard = dynamic(() =>
   import("../../components/topdoctors/ourdoctors")
@@ -1318,7 +1319,7 @@ export default function ConditionPage({ params }) {
           locationsectionheading={content.locationsectionheading}
         />
       )}
-      <Gentstalks />
+      <PatientTalks />
       <Luxgpt />
       {content.whatAreH && (
         <Whatare
