@@ -34,10 +34,9 @@ export default function HospitalComparison({ theading, rows, ConditionVideo }) {
               autoPlay
               muted
               loop
-              playsInline
               controls
-              // onMouseEnter={(e) => (e.currentTarget.controls = true)}
-              // onMouseLeave={(e) => (e.currentTarget.controls = false)}
+              playsInline
+              playsinline
             >
               <source src={ConditionVideo} type="video/mp4" />
               Your browser does not support the video tag.

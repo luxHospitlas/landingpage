@@ -9,6 +9,8 @@ export default function DoctorDetail({ params }) {
   const { department, drname } = params;
 
   const doctor = doctors.find(
+    // slug: "dr-abhishek",
+    // department: "general-surgery",
     (doc) => doc.department === department && doc.slug === drname
   );
 
