@@ -36,7 +36,6 @@ export default function HospitalComparison({ theading, rows, ConditionVideo }) {
               loop
               controls
               playsInline
-              playsinline
             >
               <source src={ConditionVideo} type="video/mp4" />
               Your browser does not support the video tag.

@@ -33,7 +33,7 @@ const Luxgpt = dynamic(() => import("../components/luxgpt/luxgpt"));
 
 export default function Proctology() {
   const heroHeading =
-    "Advanced Proctology Surgical Hospital in Hyderabad";
+    "Advanced Proctology Surgical Hospital in Hyderabad - testing";
 
   const defaultDescList = [
     "Advanced Laser & Minimally Invasive Surgeries",
