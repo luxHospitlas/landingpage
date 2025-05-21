@@ -38,7 +38,7 @@ export default function HospitalComparison({ theading, ConditionVideo }) {
               // onMouseEnter={(e) => (e.currentTarget.controls = true)}
               // onMouseLeave={(e) => (e.currentTarget.controls = false)}
             >
-              <source src={ConditionVideo} type="video/webm" />
+              <source src={ConditionVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
