@@ -46,7 +46,7 @@ export default function FreeOpdSection() {
 
                         {/* Mobile Image */}
                         <img
-                            src="/freeopdmobile.png"
+                            src="/happy patient.avif"
                             alt="Free OPD Mobile"
                             className="block sm:hidden w-full max-w-sm"
                         />
