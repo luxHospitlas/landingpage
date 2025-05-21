@@ -9,8 +9,6 @@ export default function DoctorDetail({ params }) {
   const { department, drname } = params;
 
   const doctor = doctors.find(
-    // slug: "dr-abhishek",
-    // department: "general-surgery",
     (doc) => doc.department === department && doc.slug === drname
   );
 
@@ -51,74 +49,75 @@ export default function DoctorDetail({ params }) {
           "Dr. Bennett specializes in root canal treatments, retreatments, and other endodontic procedures.",
       },
     ],
+    
   };
-  const testimonials = [
-    {
-      name: "John D.",
-      role: "Company CEO",
-      image: "https://img.heroui.chat/avatar?w=200&h=200&u=john",
-      rating: 4,
-      review:
-        "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
-    },
-    {
-      name: "Ava A.",
-      role: "Marketing Manager",
-      image: "https://img.heroui.chat/avatar?w=200&h=200&u=ava",
-      rating: 4,
-      review:
-        "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
-    },
-    {
-      name: "James D.",
-      role: "Small Business Owner",
-      image: "https://img.heroui.chat/avatar?w=200&h=200&u=james",
-      rating: 4,
-      review:
-        "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
-    },
-    {
-      name: "Olivia I.",
-      role: "Software Engineer",
-      image: "https://img.heroui.chat/avatar?w=200&h=200&u=olivia",
-      rating: 4,
-      review:
-        "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
-    },
-  ];
-  const conditionsData = [
-  {
-    src: "/piles 1.png",
-    alt: "Piles / Hemorrhoids",
-    label: "Piles / Hemorrhoids",
-  },
-  {
-    src: "/anal fistula 1.png",
-    alt: "Anal Fistula",
-    label: "Anal Fistula",
-  },
-  {
-    src: "/Anal Fissures 1.png",
-    alt: "Anal Fissures",
-    label: "Anal Fissures",
-  },
-  {
-    src: "/perianal abscess 1.png",
-    alt: "Perianal Abscess",
-    label: "Perianal Abscess",
-  },
-  // Add more as needed
-];
+  // const testimonials = [
+  //   {
+  //     name: "John D.",
+  //     role: "Company CEO",
+  //     image: "https://img.heroui.chat/avatar?w=200&h=200&u=john",
+  //     rating: 4,
+  //     review:
+  //       "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
+  //   },
+  //   {
+  //     name: "Ava A.",
+  //     role: "Marketing Manager",
+  //     image: "https://img.heroui.chat/avatar?w=200&h=200&u=ava",
+  //     rating: 4,
+  //     review:
+  //       "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
+  //   },
+  //   {
+  //     name: "James D.",
+  //     role: "Small Business Owner",
+  //     image: "https://img.heroui.chat/avatar?w=200&h=200&u=james",
+  //     rating: 4,
+  //     review:
+  //       "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
+  //   },
+  //   {
+  //     name: "Olivia I.",
+  //     role: "Software Engineer",
+  //     image: "https://img.heroui.chat/avatar?w=200&h=200&u=olivia",
+  //     rating: 4,
+  //     review:
+  //       "I've been consistently impressed with the quality of service provided by this website. They have exceeded my expectations and delivered exceptional results. Highly recommended!",
+  //   },
+  // ];
+//   const conditionsData = [
+//   {
+//     src: "/piles 1.png",
+//     alt: "Piles / Hemorrhoids",
+//     label: "Piles / Hemorrhoids",
+//   },
+//   {
+//     src: "/anal fistula 1.png",
+//     alt: "Anal Fistula",
+//     label: "Anal Fistula",
+//   },
+//   {
+//     src: "/Anal Fissures 1.png",
+//     alt: "Anal Fissures",
+//     label: "Anal Fissures",
+//   },
+//   {
+//     src: "/perianal abscess 1.png",
+//     alt: "Perianal Abscess",
+//     label: "Perianal Abscess",
+//   },
+//   // Add more as needed
+// ];
 
   return (
     <>
       <Doctordetailspagehero doctor={doctor} />
-      <ConditionsWeTreat conditions={conditionsData}/>
+      <ConditionsWeTreat conditions={doctor.conditionsData}/>
       <HospitalComparison />
-      <Dpatientloveuse testimonials={testimonials} StarRating={StarRating} />
+      <Dpatientloveuse testimonials={doctor.testimonials} StarRating={StarRating} />
       <Faqs
-        fheading={content.fheading}
-        faqs={content.faqs.map((faq) => ({
+        fheading={doctor.fheading}
+        faqs={doctor.faqs.map((faq) => ({
           faqquestion: faq.faqTitle,
           faqanswer: faq.faqAnswer,
         }))}
