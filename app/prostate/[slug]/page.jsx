@@ -240,7 +240,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for prostate surgery?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla  at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -336,7 +336,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for prostate laser treatment?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -433,7 +433,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for prostate treatment in Hyderabad?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -529,7 +529,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for prostate treatment?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -625,7 +625,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for prostate treatment?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -721,7 +721,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for BPH treatment?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -818,7 +818,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for prostate enlargement treatment?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
@@ -914,7 +914,7 @@ const contentMap = {
       {
         faqTitle: "Whom should I consult for TURP surgery?",
         faqAnswer:
-          "Consult Dr. Aditya Potla or Dr. Priyank Ashokkumar Salecha at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
+          "Consult Dr. Priyank Salecha or Dr. Aditya Potla at Lux Hospitals — trusted specialists known for their precision, experience, and personalised surgical solutions tailored to your needs."
       }
     ],
     footerComponent: {
