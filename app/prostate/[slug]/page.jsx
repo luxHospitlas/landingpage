@@ -79,7 +79,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description: "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -88,7 +88,7 @@ const contentMap = {
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 5+ Years",
-        description: "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -173,8 +173,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -183,8 +182,7 @@ const contentMap = {
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 5+ Years",
-        description:
-          "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -269,8 +267,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -279,8 +276,7 @@ const contentMap = {
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 5+ Years",
-        description:
-          "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -366,8 +362,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -376,8 +371,7 @@ const contentMap = {
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 5+ Years",
-        description:
-          "Urologist with 5+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 3,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -462,8 +456,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -471,9 +464,8 @@ const contentMap = {
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
-        experience: "Experience: 9+ Years",
-        description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        experience: "Experience: 5+ Years",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -558,8 +550,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -567,9 +558,8 @@ const contentMap = {
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
-        experience: "Experience: 9+ Years",
-        description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        experience: "Experience: 5+ Years",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -654,8 +644,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -663,9 +652,8 @@ const contentMap = {
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
-        experience: "Experience: 9+ Years",
-        description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        experience: "Experience: 5+ Years",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -751,8 +739,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -760,9 +747,8 @@ const contentMap = {
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
-        experience: "Experience: 9+ Years",
-        description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        experience: "Experience: 5+ Years",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],
@@ -847,8 +833,7 @@ const contentMap = {
         qualification: "MBBS, MS, Mch (Urology)",
         designation: "Urologist & Prostate Expert",
         experience: "Experience: 10+ years",
-        description:
-          "Urologist and Andrologist with 10+ years of expertise in kidney stones, prostate conditions, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health procedures. Treated over 7,000 patients with successful outcomes using advanced techniques and personalised treatment plans.",
+        description: "Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care.",
         // mobileNumberDoctor: "07969084442"
       },
       {
@@ -856,9 +841,8 @@ const contentMap = {
         name: "Dr. Aditya Potla",
         qualification: "MBBS, MS, M.Ch (Urology)",
         designation: "Urologist & Prostate Expert",
-        experience: "Experience: 9+ Years",
-        description:
-          "Urologist with 9+ years of experience. Skilled in managing kidney stones, prostate issues, circumcision, and varicocele. Focuses on minimally invasive surgery and personalised care. Treated 4,000+ patients through safe, outcome-focused interventions for quicker recovery and long-term urological health.",
+        experience: "Experience: 5+ Years",
+        description: "Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health.",
         // mobileNumberDoctor: "07969084442"
       }
     ],

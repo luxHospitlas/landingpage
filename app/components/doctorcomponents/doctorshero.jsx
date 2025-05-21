@@ -46,11 +46,12 @@ export default function Doctordetailspagehero({ doctor }) {
                 Introduction:
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Dr. Noah Bennett is an experienced endodontist who specializes
+                {/* Dr. Noah Bennett is an experienced endodontist who specializes
                 in saving teeth through root canal treatments and other advanced
                 procedures. With a calm demeanor and a focus on patient comfort,
                 Dr. Bennett has built a reputation for delivering precise and
-                pain-free care.
+                pain-free care. */}
+                {doctor.intro}
               </p>
             </section>
 
@@ -64,7 +65,7 @@ export default function Doctordetailspagehero({ doctor }) {
                 gentle approach make him a trusted choice for patients needing
                 advanced care.
               </p>
-              <ul className="space-y-3 text-gray-600">
+              {/* <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center gap-2">
                   <Icon
                     icon="lucide:check"
@@ -100,6 +101,14 @@ export default function Doctordetailspagehero({ doctor }) {
                   />
                   Recognized for excellence in patient-centered care
                 </li>
+              </ul> */}
+              <ul className="space-y-3 text-gray-600">
+                {doctor.highlights?.map((highlight, index) => (
+                  <li key={index} className="flex items-center gap-2">
+                    <Icon icon="lucide:check" className="w-5 h-5 text-purple-600" />
+                    {highlight}
+                  </li>
+                ))}
               </ul>
             </section>
           </div>
