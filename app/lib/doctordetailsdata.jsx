@@ -64,24 +64,24 @@ export const doctors = [
     ],
     conditionsData: [
       {
-        src: "/Endometriosis Treatment .webp",
-        alt: "Endometriosis",
-        label: "Endometriosis",
+        src: "/piles 1.png",
+        alt: "Piles / Hemorrhoids",
+        label: "Piles / Hemorrhoids",
       },
       {
-        src: "/Medical Termination of Pregnancy.webp",
-        alt: "Medical Termination of Pregnancy",
-        label: "Pregnancy Termination",
+        src: "/anal fistula 1.png",
+        alt: "Anal Fistula",
+        label: "Anal Fistula",
       },
       {
-        src: "/sexual dysfunction treatment .webp",
-        alt: "Sexual Dysfunction",
-        label: "Sexual Dysfunction",
+        src: "/Anal Fissures 1.png",
+        alt: "Anal Fissures",
+        label: "Anal Fissures",
       },
       {
-        src: "/uterine polyp removal .webp",
-        alt: "Uterine Polyp Removal",
-        label: "Uterine Polyp Removal",
+        src: "/perianal abscess 1.png",
+        alt: "Perianal Abscess",
+        label: "Perianal Abscess",
       },
     ],
     testimonials: [
