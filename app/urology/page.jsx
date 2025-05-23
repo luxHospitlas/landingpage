@@ -163,7 +163,7 @@ export default function Proctology() {
             qualification="MBBS, MS, Mch (Urology)"
             designation="Urologist & Andrologist"
             experience="Experience: 10+ years"
-            description="Urologist and Andrologist with over 10 years of experience in treating kidney stones, prostate issues, and other urological conditions using advanced techniques. Specializes in minimally invasive treatments with no cuts and faster recovery. Treated over 7,000 patients with successful outcomes."
+            description="Urologist and Andrologist with 10+ years' expertise in kidney stones, prostate issues, varicocele, and circumcision. Specialises in microsurgery, penile prosthesis, and men’s health. Treated 7,000+ patients using advanced techniques and personalised care."
             mobileNumberDoctor="tel:07969084442"
           />
           <DoctorCard
@@ -172,7 +172,7 @@ export default function Proctology() {
             qualification="MBBS, MS, M.Ch (Urology)"
             designation="Urologist & Andrologist"
             experience="Experience: 9+ years"
-            description="Urologist and Andrologist with 9 years of experience in kidney stone management and urological health. Specializes in advanced laser techniques and laparoscopic surgery, ensuring minimal pain and quick recovery for patients. He has successfully treated 4,000+ kidney stone patients."
+            description="Urologist with 9+ years’ experience. Expert in kidney stones, prostate issues, circumcision, and varicocele. Focused on minimally invasive surgery and personalised care. Treated 4,000+ patients for faster recovery and long-term urological health."
             mobileNumberDoctor="tel:07969084442"
           />
         </div>
