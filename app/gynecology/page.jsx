@@ -194,6 +194,7 @@ export default function Home() {
             designation="Gynecology Specialist"
             experience="Experieance:10+ years"
             description="Gynaecologist and Gynae Oncologist with 10+ years of experience. Holds MD, MS, and MCH from PGIMER and Kidwai. Expert in laparoscopic, robotic, and preventive oncology surgeries. Actively involved in research, publications, and national and international medical associations and forums."
+            mobileNumberDoctor="tel:07969084443"
           />
           <DoctorCard
             url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Harshitha-Kakarla-1.webp"
@@ -202,6 +203,7 @@ export default function Home() {
             designation="Gynecology Specialist"
             experience="Experieance:10+ years"
             description="FMAS-certified gynaecologist and advanced laparoscopic surgeon with 10+ years’ experience. Specialises in hysteroscopy, laparoscopy, fertility treatments, IUGR, eclampsia, and has treated 7,000+ patients with exceptional success."
+            mobileNumberDoctor="tel:07969084443"          
           />
         </div>
       </section>

@@ -163,16 +163,16 @@ export default function GeneralLaparoscopic() {
             designation="Piles Specialist"
             experience="Experience: 15+ years"
             description="Dr. Abhishek Katha, an experienced General and Laparoscopic Surgeon, specialises in hernia, gallbladder, appendix, cyst, lipoma, and corn surgeries using minimally invasive methods. A former Apollo surgeon, he holds an FMAS fellowship in laparoscopic care."
-            mobileNumberDoctor="tel:07969084448"
+            mobileNumberDoctor="tel:07969084449"
           />
           <DoctorCard
-            url="/doctor.avif"
+            url="https://test.luxhospitals.com/wp-content/uploads/2025/04/Dr.-Samhitha-Reddy-2.webp"
             name="Dr. Samhitha Reddy"
             qualification="MBBS, MS, FMAS, FISCP, DMAS"
             designation="Piles Specialist"
             experience="Experience: 7+ years"
             description="Dr. Samhitha Reddy is a skilled Proctologist and Laparoscopic Surgeon experienced in treating colorectal and anorectal conditions. Trained at Osmania Hospital, she worked with top surgeons in India. She treated 5,000+ patients with 99% success and holds fellowships in FMAS, Colorectal, and MIS."
-            mobileNumberDoctor="tel:07969084448"
+            mobileNumberDoctor="tel:07969084449"
           />
         </div>
       </section>
@@ -206,9 +206,9 @@ export default function GeneralLaparoscopic() {
 
       <FooterComponent
         footerdesc="Visit the best General & Laparoscopic Surgery hospital in Hyderabad for advanced, minimally invasive treatment and expert surgical care!"
-        footernumber="07969084448"
+        footernumber="07969084449"
       />
-      <MobileStickyFooter mobileNumber="tel:07969084448" />
+      <MobileStickyFooter mobileNumber="tel:07969084449" />
     </>
   );
 }
