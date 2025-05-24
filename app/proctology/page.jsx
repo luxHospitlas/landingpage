@@ -78,8 +78,8 @@ export default function Proctology() {
   const whatHead = "Treatment we provide";
   const treatments = [
     "Laser Treatment for Piles",
-    "Laser Surgery for Fissures",
     "Minimally Invasive Fistula Treatment",
+    "Laser Surgery for Fissures",
     "Stapler Hemorrhoidopexy",
     "Colorectal Surgeries",
   ];
